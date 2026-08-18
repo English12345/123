@@ -1,62 +1,83 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<title>Belajar Kata</title>
-<link rel="stylesheet" href="css/style.css">
-</head>
-<body class="layar-tunggal">
-  <div class="blob-decor">
-    <div class="blob blob-1"></div>
-    <div class="blob blob-2"></div>
-  </div>
-  <div class="app-shell">
-    <div class="topbar">
-      <div class="brand">
-        <div class="brand-mark">🦉</div>
-        <div class="brand-text">
-          <strong>Belajar Kata</strong>
-          <span>ENGLISH FOR KIDS</span>
-        </div>
-      </div>
-      <div class="user-chip">
-        <span id="namaPengguna">...</span>
-        <a href="dashboard.html" id="backBtn" class="btn-kembali">← Kembali</a>
-      </div>
-    </div>
-    <div class="flash-header">
-      <h2 id="judulKategori" class="section-title">Memuat...</h2>
-    </div>
-    <div class="flash-header" style="margin-top:-14px;">
-      <span class="progress-label" id="progressLabel">1 / 10</span>
-      <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:10%"></div></div>
-      <a href="#" id="quizLink" class="btn-secondary" style="text-decoration:none; padding:9px 18px; font-size:13px;">Uji Aku →</a>
-    </div>
-    <div class="card-stage">
-      <div class="flip-card" id="flipCard">
-        <div class="flip-card-inner" id="flipCardInner">
-          <div class="flip-face flip-front">
-            <div class="flip-emoji" id="emojiFront">🎨</div>
-            <div class="flip-word-id" id="kataIndo">...</div>
-            <div class="flip-tap-hint">👆 Tap kartu untuk lihat jawaban</div>
-          </div>
-          <div class="flip-face flip-back">
-            <div class="flip-emoji" id="emojiBack">🎨</div>
-            <div class="flip-word-en" id="kataInggris">...</div>
-            <div class="flip-tap-hint on-back">👆 Tap lagi untuk kembali</div>
-          </div>
-        </div>
-      </div>
-      <button class="speak-btn" id="speakBtn" title="Dengarkan pengucapan" aria-label="Dengarkan pengucapan">🔊</button>
-      <div class="nav-row">
-        <button class="nav-btn" id="prevBtn" aria-label="Kata sebelumnya">←</button>
-        <button class="nav-btn" id="nextBtn" aria-label="Kata berikutnya">→</button>
-      </div>
-    </div>
-  </div>
-  <script src="js/shared.js"></script>
-  <script src="js/sound.js"></script>
-  <script src="js/flashcard.js"></script>
-</body>
-</html>
+(async function initFlashcard() {
+  const user = pastikanLogin();
+  if (!user) return;
+
+  const kategoriId = ambilParam('kategori');
+  if (!kategoriId) {
+    window.location.href = 'dashboard.html';
+    return;
+  }
+
+  const judulEl = document.getElementById('judulKategori');
+  const progressLabel = document.getElementById('progressLabel');
+  const progressFill = document.getElementById('progressFill');
+  const flipCard = document.getElementById('flipCard');
+  const emojiFront = document.getElementById('emojiFront');
+  const emojiBack = document.getElementById('emojiBack');
+  const kataIndo = document.getElementById('kataIndo');
+  const kataInggris = document.getElementById('kataInggris');
+  const speakBtn = document.getElementById('speakBtn');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const quizLink = document.getElementById('quizLink');
+
+  let kataList = [];
+  let index = 0;
+
+  function tampilkanKartu() {
+    const item = kataList[index];
+    flipCard.classList.remove('flipped');
+    emojiFront.textContent = item.emoji || '📚';
+    emojiBack.textContent = item.emoji || '📚';
+    kataIndo.textContent = item.id;
+    kataInggris.textContent = item.en;
+
+    progressLabel.textContent = `${index + 1} / ${kataList.length}`;
+    progressFill.style.width = `${((index + 1) / kataList.length) * 100}%`;
+
+    prevBtn.disabled = index === 0;
+    nextBtn.disabled = index === kataList.length - 1;
+  }
+
+  try {
+    const data = await muatDetailKategori(kategoriId);
+
+    judulEl.textContent = `${data.iconEmoji || '📚'} ${data.nama}`;
+    kataList = data.kata || [];
+    quizLink.href = `quiz.html?kategori=${encodeURIComponent(kategoriId)}`;
+
+    if (!kataList.length) {
+      judulEl.textContent = 'Belum ada kata di kelompok ini';
+      return;
+    }
+    tampilkanKartu();
+  } catch (err) {
+    judulEl.textContent = 'Gagal memuat kategori';
+    return;
+  }
+
+  flipCard.addEventListener('click', () => {
+    if (typeof bunyiKlik === 'function') bunyiKlik();
+    flipCard.classList.toggle('flipped');
+    // Setiap kartu dibalik ke sisi Bahasa Inggris, langsung ucapkan katanya.
+    if (flipCard.classList.contains('flipped')) {
+      ucapkanKata(kataList[index].en);
+    }
+  });
+
+  speakBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (typeof bunyiKlik === 'function') bunyiKlik();
+    ucapkanKata(kataList[index].en);
+  });
+
+  prevBtn.addEventListener('click', () => {
+    if (typeof bunyiKlik === 'function') bunyiKlik();
+    if (index > 0) { index--; tampilkanKartu(); }
+  });
+
+  nextBtn.addEventListener('click', () => {
+    if (typeof bunyiKlik === 'function') bunyiKlik();
+    if (index < kataList.length - 1) { index++; tampilkanKartu(); }
+  });
+})();

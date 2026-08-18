@@ -21,23 +21,14 @@
   let kataList = [];
   let index = 0;
 
-  // ==== Voice over dua-bahasa: ID (laki-laki) -> jeda 0.7s -> EN (perempuan) ====
-  // Fungsi ini LOKAL untuk halaman flashcard saja, tidak menimpa ucapkanKata()
-  // global di shared.js, supaya tidak mempengaruhi halaman lain (mis. quiz.js).
-  let suaraTersedia = [];
-  function muatDaftarSuara() { suaraTersedia = window.speechSynthesis.getVoices(); }
-  if ('speechSynthesis' in window) {
-    muatDaftarSuara();
-    window.speechSynthesis.onvoiceschanged = muatDaftarSuara;
+  // ==== Voice over dari file audio hasil Piper TTS (bukan API browser) ====
+  // GANTI USERNAME/NAMA_REPO sesuai repo GitHub kamu sebelum dipakai.
+  const BASE_URL_AUDIO = 'https://cdn.jsdelivr.net/gh/USERNAME/NAMA_REPO@main/audio';
+
+  function slugKata(teks) {
+    return teks.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   }
-  function pilihSuara(kodeLang, kataKunciPrioritas) {
-    const kandidat = suaraTersedia.filter(v => v.lang.toLowerCase().startsWith(kodeLang));
-    for (const kw of kataKunciPrioritas) {
-      const cocok = kandidat.find(v => new RegExp(kw, 'i').test(v.name));
-      if (cocok) return cocok;
-    }
-    return kandidat[0] || null;
-  }
+
   let musikSudahDimulai = false;
   function pastikanMusikJalan() {
     if (!musikSudahDimulai && typeof mulaiMusikLatar === 'function') {
@@ -45,33 +36,29 @@
       musikSudahDimulai = true;
     }
   }
+
   function ucapkanDwiBahasa(teksId, teksEn) {
-  if (!('speechSynthesis' in window)) return;
-  window.speechSynthesis.cancel(); // langsung motong suara sebelumnya, biar responsif
-  if (typeof redupkanMusikLatar === 'function') redupkanMusikLatar();
+    const slug = slugKata(teksEn);
+    const audioId = new Audio(`${BASE_URL_AUDIO}/id/${slug}.mp3`);
+    const audioEn = new Audio(`${BASE_URL_AUDIO}/en/${slug}.mp3`);
+    audioEn.preload = 'auto';
 
-  const utterId = new SpeechSynthesisUtterance(teksId);
-  utterId.lang = 'id-ID';
-  utterId.pitch = 1.15;
-  utterId.rate = 1.0;
-  const suaraId = pilihSuara('id', ['male', 'pria', 'laki']);
-  if (suaraId) utterId.voice = suaraId;
+    if (typeof redupkanMusikLatar === 'function') redupkanMusikLatar();
 
-  utterId.onend = () => {
-    // langsung diucapkan, tanpa jeda buatan
-    const utterEn = new SpeechSynthesisUtterance(teksEn);
-    utterEn.lang = 'en-US';
-    utterEn.pitch = 1.15;
-    utterEn.rate = 1.0;
-    const suaraEn = pilihSuara('en', ['female', 'zira', 'samantha', 'woman']);
-    if (suaraEn) utterEn.voice = suaraEn;
-    utterEn.onend = () => {
+    audioId.addEventListener('ended', () => {
+      audioEn.play().catch(() => {});
+    });
+    audioEn.addEventListener('ended', () => {
       if (typeof pulihkanMusikLatar === 'function') pulihkanMusikLatar();
-    };
-    window.speechSynthesis.speak(utterEn);
-  };
-  window.speechSynthesis.speak(utterId);
-}
+    });
+    audioId.addEventListener('error', () => {
+      console.warn('File audio ID belum ada di CDN:', `${BASE_URL_AUDIO}/id/${slug}.mp3`);
+      if (typeof pulihkanMusikLatar === 'function') pulihkanMusikLatar();
+    });
+
+    audioId.play().catch(() => {});
+  }
+
   function tampilkanKartu() {
     const item = kataList[index];
     flipCard.classList.remove('flipped');

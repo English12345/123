@@ -16,7 +16,6 @@
   --white: #FFFFFF;
   --danger: #E8594B;
   --success: #34B27B;
-  /* Aksen tambahan supaya lebih ceria & ramai, dipakai sebagai "percikan warna" */
   --coral: #FF6B6B;
   --coral-100: #FFE8E8;
   --violet: #8B7FE8;
@@ -57,6 +56,10 @@
   0%, 100% { filter: brightness(1); }
   50% { filter: brightness(1.35); }
 }
+@keyframes flip-emoji-mengambang {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-6px) scale(1.02); }
+}
 
 * { box-sizing: border-box; }
 
@@ -93,7 +96,6 @@ a { color: inherit; }
   outline-offset: 3px;
 }
 
-/* ---------- Blob decorations (signature element) ---------- */
 .blob-decor {
   position: fixed;
   inset: 0;
@@ -113,7 +115,6 @@ a { color: inherit; }
 .blob-4 { width: 120px; height: 120px; background: var(--violet); top: 12%; right: 22%; opacity: .14; animation: mengambang 10s ease-in-out infinite reverse; }
 .blob-5 { width: 160px; height: 160px; background: var(--coral); bottom: 10%; left: 8%; opacity: .12; animation: mengambang 12s ease-in-out infinite; }
 
-/* Bintang-bintang kecil yang berkelip pelan, aksen "ramai" tapi tetap halus */
 .sparkle {
   position: absolute;
   font-size: 20px;
@@ -122,7 +123,6 @@ a { color: inherit; }
   pointer-events: none;
 }
 
-/* ---------- Layout shells ---------- */
 .center-shell {
   position: relative;
   z-index: 1;
@@ -141,7 +141,6 @@ a { color: inherit; }
   padding: 20px 20px 64px;
 }
 
-/* ---------- Top bar ---------- */
 .topbar {
   display: flex;
   align-items: center;
@@ -192,7 +191,6 @@ a { color: inherit; }
 }
 .user-chip button:hover { background: var(--kuning-600); transform: translateY(-1px); }
 
-/* Tombol "Kembali" pengganti tombol Keluar di halaman flashcard & quiz */
 .user-chip .btn-kembali {
   display: inline-flex;
   align-items: center;
@@ -210,7 +208,6 @@ a { color: inherit; }
 }
 .user-chip .btn-kembali:hover { background: var(--kuning-600); transform: translateY(-1px); }
 
-/* ---------- Login card ---------- */
 .login-card {
   position: relative;
   z-index: 1;
@@ -299,7 +296,6 @@ a { color: inherit; }
   font-weight: 700;
 }
 
-/* ---------- Dashboard: category grid ---------- */
 .section-title { margin-bottom: 4px; font-size: 24px; }
 .section-sub { color: var(--ink-soft); font-weight: 700; margin-bottom: 22px; font-size: 14.5px; }
 
@@ -398,7 +394,6 @@ a { color: inherit; }
   font-weight: 700;
 }
 
-/* ---------- Flashcard viewer ---------- */
 .back-link {
   display: inline-flex; align-items: center; gap: 6px;
   font-weight: 800; color: var(--tosca-900);
@@ -482,7 +477,12 @@ a { color: inherit; }
   font-size: 20px;
   opacity: .8;
 }
-.flip-emoji { font-size: 96px; line-height: 1; filter: drop-shadow(0 6px 10px rgba(11,94,88,0.18)); }
+.flip-emoji {
+  font-size: 96px;
+  line-height: 1;
+  filter: drop-shadow(0 6px 10px rgba(11,94,88,0.18));
+  animation: flip-emoji-mengambang 3.6s ease-in-out infinite;
+}
 .flip-word-id { font-family: var(--font-display); font-size: 22px; color: var(--ink-soft); font-weight: 700;}
 .flip-word-en { font-family: var(--font-display); font-size: 34px; color: var(--white); }
 .flip-tap-hint { font-size: 12px; font-weight: 800; color: var(--ink-soft); opacity: .8; }
@@ -541,7 +541,6 @@ a { color: inherit; }
 }
 .btn-secondary:hover { background: var(--tosca-100); }
 
-/* ---------- Quiz ---------- */
 .quiz-card {
   background: var(--white);
   border-radius: var(--radius-lg);
@@ -555,7 +554,6 @@ a { color: inherit; }
 .quiz-question { font-weight: 800; color: var(--ink-soft); font-size: 14px; margin-bottom: 4px; }
 .quiz-prompt { font-family: var(--font-display); font-size: 24px; margin-bottom: 24px; }
 
-/* Baris bintang skor: 1 bintang per soal, terisi emas (benar) atau merah (salah) */
 .stars-row {
   display: flex;
   flex-wrap: wrap;
@@ -583,7 +581,6 @@ a { color: inherit; }
   animation: bintang-pop .45s ease, bintang-kilau 1.6s ease-in-out infinite 0.45s;
 }
 
-/* Kotak feedback emoji + teks setelah menjawab */
 .feedback-box { min-height: 10px; margin-top: 4px; }
 .feedback-emoji { font-size: 58px; line-height: 1; animation: bintang-pop .4s ease; }
 .feedback-text { font-family: var(--font-display); font-weight: 800; font-size: 17px; margin-top: 2px; }
@@ -635,11 +632,6 @@ a { color: inherit; }
 .result-sub { color: var(--ink-soft); font-weight: 700; margin-bottom: 26px; }
 .result-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
 
-/* =====================================================================
-   HALAMAN LAYAR-TUNGGAL (flashcard.html & quiz.html)
-   Semua konten dipaksa muat pas 1 layar, tanpa scroll ke arah manapun.
-   Beri class="layar-tunggal" pada <body> di halaman terkait.
-   ===================================================================== */
 body.layar-tunggal {
   height: 100vh;
   height: 100dvh;
@@ -656,12 +648,10 @@ body.layar-tunggal .app-shell {
   overflow: hidden;
 }
 
-/* Topbar & judul jadi lebih ringkas supaya sisa ruang cukup untuk konten utama */
 body.layar-tunggal .topbar { margin-bottom: clamp(8px, 2vh, 16px); flex-shrink: 0; }
 body.layar-tunggal .flash-header { margin-bottom: clamp(10px, 2vh, 16px); flex-shrink: 0; }
 body.layar-tunggal .flash-header .section-title { font-size: clamp(18px, 3vh, 22px); }
 
-/* --- Flashcard: area kartu mengisi sisa tinggi layar --- */
 body.layar-tunggal .card-stage {
   flex: 1;
   min-height: 0;
@@ -680,9 +670,6 @@ body.layar-tunggal .speak-btn { width: clamp(44px, 8vh, 54px); height: clamp(44p
 body.layar-tunggal .nav-row { gap: clamp(20px, 5vw, 32px); }
 body.layar-tunggal .nav-btn { width: clamp(52px, 9vh, 70px); height: clamp(52px, 9vh, 70px); font-size: clamp(22px, 3.5vh, 28px); }
 
-/* --- Quiz: #quizArea diisi quiz.js dengan beberapa elemen bertumpuk
-   (judul, subjudul, baris bintang, lalu .quiz-card) ATAU cuma .result-card
-   saat layar hasil. Jadi wajib flex-direction: column, bukan row. --- */
 body.layar-tunggal #quizArea {
   flex: 1;
   min-height: 0;
@@ -738,13 +725,10 @@ body.layar-tunggal .result-score { font-size: clamp(28px, 5.5vh, 38px); margin: 
 body.layar-tunggal .result-sub { margin-bottom: clamp(12px, 2.2vh, 20px); }
 body.layar-tunggal .result-actions { flex-wrap: wrap; }
 
-/* Kartu hasil (result-card) tampil sendirian tanpa judul/subjudul/bintang
-   di atasnya — jangan dipaksa flex:1 penuh, cukup center alami & rapi. */
 body.layar-tunggal #quizArea > .result-card {
   flex: 0 1 auto;
 }
 
-/* ---------- Responsive ---------- */
 @media (max-width: 480px) {
   .app-shell { padding: 16px 14px 48px; }
   .category-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }

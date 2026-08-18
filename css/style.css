@@ -192,6 +192,24 @@ a { color: inherit; }
 }
 .user-chip button:hover { background: var(--kuning-600); transform: translateY(-1px); }
 
+/* Tombol "Kembali" pengganti tombol Keluar di halaman flashcard & quiz */
+.user-chip .btn-kembali {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--kuning-500);
+  color: var(--tosca-900);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: var(--font-body);
+  transition: transform .15s ease, background .15s ease;
+}
+.user-chip .btn-kembali:hover { background: var(--kuning-600); transform: translateY(-1px); }
+
 /* ---------- Login card ---------- */
 .login-card {
   position: relative;
@@ -616,6 +634,81 @@ a { color: inherit; }
 }
 .result-sub { color: var(--ink-soft); font-weight: 700; margin-bottom: 26px; }
 .result-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+/* =====================================================================
+   HALAMAN LAYAR-TUNGGAL (flashcard.html & quiz.html)
+   Semua konten dipaksa muat pas 1 layar, tanpa scroll ke arah manapun.
+   Beri class="layar-tunggal" pada <body> di halaman terkait.
+   ===================================================================== */
+body.layar-tunggal {
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+}
+body.layar-tunggal .app-shell {
+  height: 100vh;
+  height: 100dvh;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: clamp(12px, 2.5vh, 20px) clamp(14px, 4vw, 28px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Topbar & judul jadi lebih ringkas supaya sisa ruang cukup untuk konten utama */
+body.layar-tunggal .topbar { margin-bottom: clamp(8px, 2vh, 16px); flex-shrink: 0; }
+body.layar-tunggal .flash-header { margin-bottom: clamp(10px, 2vh, 16px); flex-shrink: 0; }
+body.layar-tunggal .flash-header .section-title { font-size: clamp(18px, 3vh, 22px); }
+
+/* --- Flashcard: area kartu mengisi sisa tinggi layar --- */
+body.layar-tunggal .card-stage {
+  flex: 1;
+  min-height: 0;
+  justify-content: center;
+  gap: clamp(10px, 2vh, 20px);
+}
+body.layar-tunggal .flip-card {
+  width: min(320px, 78vw);
+  height: clamp(190px, 44vh, 340px);
+}
+body.layar-tunggal .flip-emoji { font-size: clamp(52px, 9vh, 88px); }
+body.layar-tunggal .flip-word-id { font-size: clamp(17px, 3vh, 20px); }
+body.layar-tunggal .flip-word-en { font-size: clamp(24px, 4.5vh, 32px); }
+body.layar-tunggal .flip-face { padding: clamp(14px, 3vh, 22px); gap: clamp(8px, 1.6vh, 12px); }
+body.layar-tunggal .speak-btn { width: clamp(44px, 8vh, 54px); height: clamp(44px, 8vh, 54px); font-size: clamp(18px, 3vh, 22px); }
+body.layar-tunggal .nav-row { gap: clamp(20px, 5vw, 32px); }
+body.layar-tunggal .nav-btn { width: clamp(52px, 9vh, 70px); height: clamp(52px, 9vh, 70px); font-size: clamp(22px, 3.5vh, 28px); }
+
+/* --- Quiz: area soal mengisi sisa tinggi layar, otomatis menengahkan kartu --- */
+body.layar-tunggal #quizArea {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+body.layar-tunggal .quiz-card,
+body.layar-tunggal .result-card {
+  width: 100%;
+  max-height: 100%;
+  padding: clamp(16px, 3vh, 28px) clamp(16px, 4vw, 24px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body.layar-tunggal .quiz-emoji,
+body.layar-tunggal .result-emoji { font-size: clamp(46px, 8vh, 72px); margin-bottom: 4px; }
+body.layar-tunggal .quiz-prompt { font-size: clamp(17px, 3vh, 22px); margin-bottom: clamp(10px, 2vh, 18px); }
+body.layar-tunggal .stars-row { margin: 4px auto clamp(8px, 1.6vh, 14px); }
+body.layar-tunggal .options-grid { gap: clamp(8px, 1.4vh, 12px); }
+body.layar-tunggal .option-btn { padding: clamp(10px, 2vh, 14px) 10px; font-size: clamp(13px, 2vh, 15px); }
+body.layar-tunggal .feedback-emoji { font-size: clamp(36px, 6vh, 52px); }
+body.layar-tunggal .feedback-text { font-size: clamp(14px, 2.4vh, 16px); }
+body.layar-tunggal .result-score { font-size: clamp(30px, 6vh, 40px); }
+body.layar-tunggal .result-sub { margin-bottom: clamp(14px, 2.4vh, 22px); }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 480px) {

@@ -6,12 +6,11 @@
 <title>Kuis — Belajar Bahasa Inggris</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="layar-tunggal">
   <div class="blob-decor">
     <div class="blob blob-1"></div>
     <div class="blob blob-2"></div>
   </div>
-
   <div class="app-shell">
     <div class="topbar">
       <div class="brand">
@@ -23,15 +22,11 @@
       </div>
       <div class="user-chip">
         <span id="namaPengguna">...</span>
-        <button id="logoutBtn">Keluar</button>
+        <a href="dashboard.html" id="backBtn" class="btn-kembali">← Kembali</a>
       </div>
     </div>
-
-    <a href="dashboard.html" class="back-link">← Kembali ke Kelompok Kata</a>
-
     <div id="quizArea"></div>
   </div>
-
   <script src="js/shared.js"></script>
   <script src="js/sound.js"></script>
   <script src="js/quiz.js"></script>

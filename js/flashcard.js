@@ -69,7 +69,7 @@
           if (typeof pulihkanMusikLatar === 'function') pulihkanMusikLatar();
         };
         window.speechSynthesis.speak(utterEn);
-      }, 700); // jeda 0.7 detik antar bahasa
+      }, 100); // jeda 0.7 detik antar bahasa
     };
     window.speechSynthesis.speak(utterId); // dipanggil langsung di dalam handler klik = responsif
   }

@@ -680,35 +680,69 @@ body.layar-tunggal .speak-btn { width: clamp(44px, 8vh, 54px); height: clamp(44p
 body.layar-tunggal .nav-row { gap: clamp(20px, 5vw, 32px); }
 body.layar-tunggal .nav-btn { width: clamp(52px, 9vh, 70px); height: clamp(52px, 9vh, 70px); font-size: clamp(22px, 3.5vh, 28px); }
 
-/* --- Quiz: area soal mengisi sisa tinggi layar, otomatis menengahkan kartu --- */
+/* --- Quiz: #quizArea diisi quiz.js dengan beberapa elemen bertumpuk
+   (judul, subjudul, baris bintang, lalu .quiz-card) ATAU cuma .result-card
+   saat layar hasil. Jadi wajib flex-direction: column, bukan row. --- */
 body.layar-tunggal #quizArea {
   flex: 1;
   min-height: 0;
+  width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: clamp(4px, 1vh, 10px);
   overflow: hidden;
+}
+body.layar-tunggal #quizArea > .section-title {
+  font-size: clamp(16px, 2.6vh, 21px);
+  text-align: center;
+  flex-shrink: 0;
+}
+body.layar-tunggal #quizArea > .section-sub {
+  font-size: clamp(12px, 2vh, 14px);
+  text-align: center;
+  flex-shrink: 0;
+  margin-bottom: 0;
+}
+body.layar-tunggal #quizArea > .stars-row {
+  margin: 0;
+  flex-shrink: 0;
 }
 body.layar-tunggal .quiz-card,
 body.layar-tunggal .result-card {
   width: 100%;
+  max-width: 480px;
+  flex: 1;
+  min-height: 0;
   max-height: 100%;
-  padding: clamp(16px, 3vh, 28px) clamp(16px, 4vw, 24px);
+  padding: clamp(14px, 2.6vh, 26px) clamp(16px, 4vw, 24px);
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: clamp(4px, 1vh, 8px);
 }
 body.layar-tunggal .quiz-emoji,
-body.layar-tunggal .result-emoji { font-size: clamp(46px, 8vh, 72px); margin-bottom: 4px; }
-body.layar-tunggal .quiz-prompt { font-size: clamp(17px, 3vh, 22px); margin-bottom: clamp(10px, 2vh, 18px); }
-body.layar-tunggal .stars-row { margin: 4px auto clamp(8px, 1.6vh, 14px); }
-body.layar-tunggal .options-grid { gap: clamp(8px, 1.4vh, 12px); }
-body.layar-tunggal .option-btn { padding: clamp(10px, 2vh, 14px) 10px; font-size: clamp(13px, 2vh, 15px); }
-body.layar-tunggal .feedback-emoji { font-size: clamp(36px, 6vh, 52px); }
-body.layar-tunggal .feedback-text { font-size: clamp(14px, 2.4vh, 16px); }
-body.layar-tunggal .result-score { font-size: clamp(30px, 6vh, 40px); }
-body.layar-tunggal .result-sub { margin-bottom: clamp(14px, 2.4vh, 22px); }
+body.layar-tunggal .result-emoji { font-size: clamp(40px, 7vh, 68px); margin-bottom: 0; line-height: 1; }
+body.layar-tunggal .quiz-question { margin-bottom: 0; }
+body.layar-tunggal .quiz-prompt { font-size: clamp(16px, 2.8vh, 22px); margin-bottom: clamp(6px, 1.4vh, 14px); }
+body.layar-tunggal .options-grid { width: 100%; gap: clamp(8px, 1.4vh, 12px); }
+body.layar-tunggal .option-btn { padding: clamp(9px, 1.8vh, 14px) 10px; font-size: clamp(12.5px, 1.9vh, 15px); }
+body.layar-tunggal .feedback-box { margin-top: 0; }
+body.layar-tunggal .feedback-emoji { font-size: clamp(30px, 5vh, 48px); }
+body.layar-tunggal .feedback-text { font-size: clamp(13px, 2.2vh, 16px); }
+body.layar-tunggal .quiz-footer { margin-top: clamp(4px, 1vh, 8px); }
+body.layar-tunggal .result-score { font-size: clamp(28px, 5.5vh, 38px); margin: clamp(2px,0.6vh,6px) 0; }
+body.layar-tunggal .result-sub { margin-bottom: clamp(12px, 2.2vh, 20px); }
+body.layar-tunggal .result-actions { flex-wrap: wrap; }
+
+/* Kartu hasil (result-card) tampil sendirian tanpa judul/subjudul/bintang
+   di atasnya — jangan dipaksa flex:1 penuh, cukup center alami & rapi. */
+body.layar-tunggal #quizArea > .result-card {
+  flex: 0 1 auto;
+}
 
 /* ---------- Responsive ---------- */
 @media (max-width: 480px) {

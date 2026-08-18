@@ -1,1 +1,38 @@
-
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>Belajar Bahasa Inggris Anak — Masuk</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="blob-decor">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+  <div class="center-shell">
+    <div class="login-card">
+      <div class="login-mascot">🦉</div>
+      <h1>Belajar Kata!</h1>
+      <p class="sub">Yuk masuk untuk mulai belajar Bahasa Inggris</p>
+      <div class="error-msg" id="errorMsg"></div>
+      <form id="loginForm">
+        <div class="field">
+          <label for="username">Nama Pengguna</label>
+          <input type="text" id="username" name="username" autocomplete="username" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="Masukkan nama pengguna" required>
+        </div>
+        <div class="field">
+          <label for="password">Kata Sandi</label>
+          <input type="password" id="password" name="password" autocomplete="current-password" placeholder="Masukkan kata sandi" required>
+        </div>
+        <button type="submit" class="btn-primary" id="submitBtn">Masuk & Mulai Belajar</button>
+      </form>
+    </div>
+  </div>
+  <script src="js/config.js"></script>
+  <script src="js/shared.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>

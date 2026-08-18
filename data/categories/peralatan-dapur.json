@@ -1,0 +1,21 @@
+{
+  "id": "peralatan-dapur",
+  "nama": "Peralatan Dapur",
+  "iconEmoji": "🍳",
+  "warnaTema": "#0B5E58",
+  "urutan": 20,
+  "kata": [
+    { "en": "Spoon",       "id": "Sendok",     "emoji": "🥄" },
+    { "en": "Fork",        "id": "Garpu",      "emoji": "🍴" },
+    { "en": "Knife",       "id": "Pisau",      "emoji": "🔪" },
+    { "en": "Plate",       "id": "Piring",     "emoji": "🍽️" },
+    { "en": "Bowl",        "id": "Mangkuk",    "emoji": "🥣" },
+    { "en": "Cup",         "id": "Cangkir",    "emoji": "☕" },
+    { "en": "Pot",         "id": "Panci",      "emoji": "🍲" },
+    { "en": "Pan",         "id": "Wajan",      "emoji": "🍳" },
+    { "en": "Chopsticks",  "id": "Sumpit",     "emoji": "🥢" },
+    { "en": "Basket",      "id": "Keranjang",  "emoji": "🧺" },
+    { "en": "Jar",         "id": "Toples",     "emoji": "🫙" },
+    { "en": "Teapot",      "id": "Teko",       "emoji": "🫖" }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "alat-musik",
+  "nama": "Alat Musik",
+  "iconEmoji": "🎸",
+  "warnaTema": "#D9534F",
+  "urutan": 16,
+  "kata": [
+    { "en": "Guitar",      "id": "Gitar",     "emoji": "🎸" },
+    { "en": "Piano",       "id": "Piano",     "emoji": "🎹" },
+    { "en": "Drum",        "id": "Drum",      "emoji": "🥁" },
+    { "en": "Violin",      "id": "Biola",     "emoji": "🎻" },
+    { "en": "Trumpet",     "id": "Terompet",  "emoji": "🎺" },
+    { "en": "Saxophone",   "id": "Saksofon",  "emoji": "🎷" },
+    { "en": "Flute",       "id": "Suling",    "emoji": "🪈" },
+    { "en": "Banjo",       "id": "Banjo",     "emoji": "🪕" },
+    { "en": "Accordion",   "id": "Akordeon",  "emoji": "🪗" },
+    { "en": "Microphone",  "id": "Mikrofon",  "emoji": "🎤" },
+    { "en": "Bell",        "id": "Lonceng",   "emoji": "🔔" },
+    { "en": "Maracas",     "id": "Marakas",   "emoji": "🪇" }
+  ]
+}

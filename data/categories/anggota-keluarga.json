@@ -1,0 +1,20 @@
+{
+  "id": "anggota-keluarga",
+  "nama": "Anggota Keluarga",
+  "iconEmoji": "👪",
+  "warnaTema": "#8B7FE8",
+  "urutan": 8,
+  "kata": [
+    { "en": "Father",       "id": "Ayah",            "emoji": "👨" },
+    { "en": "Mother",       "id": "Ibu",             "emoji": "👩" },
+    { "en": "Grandfather",  "id": "Kakek",           "emoji": "👴" },
+    { "en": "Grandmother",  "id": "Nenek",           "emoji": "👵" },
+    { "en": "Son",          "id": "Anak Laki-laki",  "emoji": "👦" },
+    { "en": "Daughter",     "id": "Anak Perempuan",  "emoji": "👧" },
+    { "en": "Uncle",        "id": "Paman",           "emoji": "🧔" },
+    { "en": "Aunt",         "id": "Bibi",            "emoji": "👩" },
+    { "en": "Cousin",       "id": "Sepupu",          "emoji": "🧑" },
+    { "en": "Baby",         "id": "Bayi",            "emoji": "👶" },
+    { "en": "Family",       "id": "Keluarga",        "emoji": "👪" }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "alat-transportasi",
+  "nama": "Alat Transportasi",
+  "iconEmoji": "🚗",
+  "warnaTema": "#4A90D9",
+  "urutan": 6,
+  "kata": [
+    { "en": "Car",         "id": "Mobil",               "emoji": "🚗" },
+    { "en": "Bus",         "id": "Bis",                 "emoji": "🚌" },
+    { "en": "Train",       "id": "Kereta",              "emoji": "🚆" },
+    { "en": "Plane",       "id": "Pesawat",             "emoji": "✈️" },
+    { "en": "Bicycle",     "id": "Sepeda",              "emoji": "🚲" },
+    { "en": "Motorcycle",  "id": "Motor",               "emoji": "🏍️" },
+    { "en": "Ship",        "id": "Kapal",               "emoji": "🚢" },
+    { "en": "Boat",        "id": "Perahu",              "emoji": "⛵" },
+    { "en": "Truck",       "id": "Truk",                "emoji": "🚚" },
+    { "en": "Taxi",        "id": "Taksi",               "emoji": "🚕" },
+    { "en": "Helicopter",  "id": "Helikopter",          "emoji": "🚁" },
+    { "en": "Ambulance",   "id": "Ambulans",            "emoji": "🚑" },
+    { "en": "Fire Truck",  "id": "Mobil Pemadam",       "emoji": "🚒" },
+    { "en": "Police Car",  "id": "Mobil Polisi",        "emoji": "🚓" },
+    { "en": "Rocket",      "id": "Roket",               "emoji": "🚀" },
+    { "en": "Scooter",     "id": "Skuter",              "emoji": "🛵" },
+    { "en": "Subway",      "id": "Kereta Bawah Tanah",  "emoji": "🚇" },
+    { "en": "Tractor",     "id": "Traktor",             "emoji": "🚜" }
+  ]
+}

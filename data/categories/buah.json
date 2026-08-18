@@ -1,0 +1,30 @@
+{
+  "id": "buah",
+  "nama": "Buah-buahan",
+  "iconEmoji": "🍎",
+  "warnaTema": "#FFC93C",
+  "urutan": 2,
+  "kata": [
+    { "en": "Apple",        "id": "Apel",        "emoji": "🍎" },
+    { "en": "Banana",       "id": "Pisang",      "emoji": "🍌" },
+    { "en": "Orange",       "id": "Jeruk",       "emoji": "🍊" },
+    { "en": "Grape",        "id": "Anggur",      "emoji": "🍇" },
+    { "en": "Watermelon",   "id": "Semangka",    "emoji": "🍉" },
+    { "en": "Strawberry",   "id": "Stroberi",    "emoji": "🍓" },
+    { "en": "Mango",        "id": "Mangga",      "emoji": "🥭" },
+    { "en": "Pineapple",    "id": "Nanas",       "emoji": "🍍" },
+    { "en": "Cherry",       "id": "Ceri",        "emoji": "🍒" },
+    { "en": "Coconut",      "id": "Kelapa",      "emoji": "🥥" },
+    { "en": "Peach",        "id": "Persik",      "emoji": "🍑" },
+    { "en": "Pear",         "id": "Pir",         "emoji": "🍐" },
+    { "en": "Lemon",        "id": "Lemon",       "emoji": "🍋" },
+    { "en": "Kiwi",         "id": "Kiwi",        "emoji": "🥝" },
+    { "en": "Melon",        "id": "Melon",       "emoji": "🍈" },
+    { "en": "Blueberry",    "id": "Bluberi",     "emoji": "🫐" },
+    { "en": "Avocado",      "id": "Alpukat",     "emoji": "🥑" },
+    { "en": "Tomato",       "id": "Tomat",       "emoji": "🍅" },
+    { "en": "Olive",        "id": "Zaitun",      "emoji": "🫒" },
+    { "en": "Guava",        "id": "Jambu Biji",  "emoji": "🍈" },
+    { "en": "Pomegranate",  "id": "Delima",      "emoji": "🔴" }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "makanan-minuman",
+  "nama": "Makanan & Minuman",
+  "iconEmoji": "🍔",
+  "warnaTema": "#E8594B",
+  "urutan": 19,
+  "kata": [
+    { "en": "Bread",         "id": "Roti",            "emoji": "🍞" },
+    { "en": "Rice",          "id": "Nasi",            "emoji": "🍚" },
+    { "en": "Noodles",       "id": "Mi",              "emoji": "🍜" },
+    { "en": "Egg",           "id": "Telur",           "emoji": "🥚" },
+    { "en": "Cheese",        "id": "Keju",            "emoji": "🧀" },
+    { "en": "Milk",          "id": "Susu",            "emoji": "🥛" },
+    { "en": "Water",         "id": "Air",             "emoji": "💧" },
+    { "en": "Juice",         "id": "Jus",             "emoji": "🧃" },
+    { "en": "Tea",           "id": "Teh",             "emoji": "🍵" },
+    { "en": "Coffee",        "id": "Kopi",            "emoji": "☕" },
+    { "en": "Cake",          "id": "Kue",             "emoji": "🎂" },
+    { "en": "Ice Cream",     "id": "Es Krim",         "emoji": "🍦" },
+    { "en": "Chocolate",     "id": "Coklat",          "emoji": "🍫" },
+    { "en": "Candy",         "id": "Permen",          "emoji": "🍬" },
+    { "en": "Pizza",         "id": "Pizza",           "emoji": "🍕" },
+    { "en": "Burger",        "id": "Burger",          "emoji": "🍔" },
+    { "en": "French Fries",  "id": "Kentang Goreng",  "emoji": "🍟" },
+    { "en": "Sandwich",      "id": "Sandwic",         "emoji": "🥪" },
+    { "en": "Soup",          "id": "Sup",             "emoji": "🍲" },
+    { "en": "Honey",         "id": "Madu",            "emoji": "🍯" }
+  ]
+}

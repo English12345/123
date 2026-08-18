@@ -1,0 +1,21 @@
+{
+  "id": "peralatan-sekolah",
+  "nama": "Peralatan Sekolah",
+  "iconEmoji": "🎒",
+  "warnaTema": "#F5B700",
+  "urutan": 10,
+  "kata": [
+    { "en": "Book",        "id": "Buku",         "emoji": "📖" },
+    { "en": "Pencil",      "id": "Pensil",       "emoji": "✏️" },
+    { "en": "Pen",         "id": "Pulpen",       "emoji": "🖊️" },
+    { "en": "Ruler",       "id": "Penggaris",    "emoji": "📏" },
+    { "en": "Scissors",    "id": "Gunting",      "emoji": "✂️" },
+    { "en": "Bag",         "id": "Tas Sekolah",  "emoji": "🎒" },
+    { "en": "Notebook",    "id": "Buku Tulis",   "emoji": "📓" },
+    { "en": "Crayon",      "id": "Krayon",       "emoji": "🖍️" },
+    { "en": "Calculator",  "id": "Kalkulator",   "emoji": "🧮" },
+    { "en": "Globe",       "id": "Globe",        "emoji": "🌍" },
+    { "en": "Clock",       "id": "Jam",          "emoji": "⏰" },
+    { "en": "Calendar",    "id": "Kalender",     "emoji": "📅" }
+  ]
+}

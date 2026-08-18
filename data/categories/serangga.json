@@ -1,0 +1,21 @@
+{
+  "id": "serangga",
+  "nama": "Serangga",
+  "iconEmoji": "🐝",
+  "warnaTema": "#F5B700",
+  "urutan": 21,
+  "kata": [
+    { "en": "Butterfly",    "id": "Kupu-kupu",  "emoji": "🦋" },
+    { "en": "Bee",          "id": "Lebah",      "emoji": "🐝" },
+    { "en": "Ant",          "id": "Semut",      "emoji": "🐜" },
+    { "en": "Ladybug",      "id": "Kepik",      "emoji": "🐞" },
+    { "en": "Spider",       "id": "Laba-laba",  "emoji": "🕷️" },
+    { "en": "Mosquito",     "id": "Nyamuk",     "emoji": "🦟" },
+    { "en": "Cricket",      "id": "Jangkrik",   "emoji": "🦗" },
+    { "en": "Snail",        "id": "Siput",      "emoji": "🐌" },
+    { "en": "Worm",         "id": "Cacing",     "emoji": "🪱" },
+    { "en": "Cockroach",    "id": "Kecoa",      "emoji": "🪳" },
+    { "en": "Beetle",       "id": "Kumbang",    "emoji": "🪲" },
+    { "en": "Caterpillar",  "id": "Ulat",       "emoji": "🐛" }
+  ]
+}

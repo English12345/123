@@ -1,0 +1,30 @@
+{
+  "id": "warna",
+  "nama": "Warna",
+  "iconEmoji": "🎨",
+  "warnaTema": "#2EC4B6",
+  "urutan": 1,
+  "kata": [
+    { "en": "Red",        "id": "Merah",           "emoji": "🔴" },
+    { "en": "Blue",       "id": "Biru",            "emoji": "🔵" },
+    { "en": "Yellow",     "id": "Kuning",          "emoji": "🟡" },
+    { "en": "Green",      "id": "Hijau",           "emoji": "🟢" },
+    { "en": "Orange",     "id": "Oranye",          "emoji": "🟠" },
+    { "en": "Purple",     "id": "Ungu",            "emoji": "🟣" },
+    { "en": "Black",      "id": "Hitam",           "emoji": "⚫" },
+    { "en": "White",      "id": "Putih",           "emoji": "⚪" },
+    { "en": "Brown",      "id": "Coklat",          "emoji": "🟤" },
+    { "en": "Pink",       "id": "Merah Muda",      "emoji": "🩷" },
+    { "en": "Gray",       "id": "Abu-abu",         "emoji": "🩶" },
+    { "en": "Gold",       "id": "Emas",            "emoji": "🥇" },
+    { "en": "Silver",     "id": "Perak",           "emoji": "🥈" },
+    { "en": "Turquoise",  "id": "Toska",           "emoji": "🩵" },
+    { "en": "Navy Blue",  "id": "Biru Dongker",    "emoji": "🔷" },
+    { "en": "Maroon",     "id": "Merah Marun",     "emoji": "🟥" },
+    { "en": "Beige",      "id": "Krem",            "emoji": "🟫" },
+    { "en": "Violet",     "id": "Ungu Muda",       "emoji": "💜" },
+    { "en": "Magenta",    "id": "Merah Keunguan",  "emoji": "💗" },
+    { "en": "Lime",       "id": "Hijau Muda",      "emoji": "🟩" },
+    { "en": "Indigo",     "id": "Nila",            "emoji": "🌌" }
+  ]
+}

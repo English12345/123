@@ -1,0 +1,20 @@
+{
+  "id": "burung",
+  "nama": "Burung",
+  "iconEmoji": "🦜",
+  "warnaTema": "#2EC4B6",
+  "urutan": 22,
+  "kata": [
+    { "en": "Eagle",     "id": "Elang",         "emoji": "🦅" },
+    { "en": "Parrot",    "id": "Beo",           "emoji": "🦜" },
+    { "en": "Peacock",   "id": "Merak",         "emoji": "🦚" },
+    { "en": "Flamingo",  "id": "Flamingo",      "emoji": "🦩" },
+    { "en": "Swan",      "id": "Angsa",         "emoji": "🦢" },
+    { "en": "Dove",      "id": "Merpati",       "emoji": "🕊️" },
+    { "en": "Turkey",    "id": "Kalkun",        "emoji": "🦃" },
+    { "en": "Rooster",   "id": "Ayam Jantan",   "emoji": "🐓" },
+    { "en": "Sparrow",   "id": "Burung Pipit",  "emoji": "🐦" },
+    { "en": "Crow",      "id": "Burung Gagak",  "emoji": "🐦‍⬛" },
+    { "en": "Chick",     "id": "Anak Ayam",     "emoji": "🐤" }
+  ]
+}

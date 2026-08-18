@@ -1,0 +1,25 @@
+{
+  "id": "olahraga",
+  "nama": "Olahraga",
+  "iconEmoji": "⚽",
+  "warnaTema": "#3D9970",
+  "urutan": 17,
+  "kata": [
+    { "en": "Soccer",         "id": "Sepak Bola",    "emoji": "⚽" },
+    { "en": "Basketball",     "id": "Basket",        "emoji": "🏀" },
+    { "en": "Tennis",         "id": "Tenis",         "emoji": "🎾" },
+    { "en": "Baseball",       "id": "Bisbol",        "emoji": "⚾" },
+    { "en": "Volleyball",     "id": "Bola Voli",     "emoji": "🏐" },
+    { "en": "Badminton",      "id": "Bulu Tangkis",  "emoji": "🏸" },
+    { "en": "Table Tennis",   "id": "Tenis Meja",    "emoji": "🏓" },
+    { "en": "Swimming",       "id": "Berenang",      "emoji": "🏊" },
+    { "en": "Running",        "id": "Lari",          "emoji": "🏃" },
+    { "en": "Cycling",        "id": "Bersepeda",     "emoji": "🚴" },
+    { "en": "Boxing",         "id": "Tinju",         "emoji": "🥊" },
+    { "en": "Golf",           "id": "Golf",          "emoji": "⛳" },
+    { "en": "Bowling",        "id": "Boling",        "emoji": "🎳" },
+    { "en": "Skateboarding",  "id": "Skateboard",    "emoji": "🛹" },
+    { "en": "Archery",        "id": "Panahan",       "emoji": "🏹" },
+    { "en": "Surfing",        "id": "Selancar",      "emoji": "🏄" }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "perasaan",
+  "nama": "Perasaan",
+  "iconEmoji": "😄",
+  "warnaTema": "#FF8FB1",
+  "urutan": 24,
+  "kata": [
+    { "en": "Happy",      "id": "Senang",       "emoji": "😄" },
+    { "en": "Sad",        "id": "Sedih",        "emoji": "😢" },
+    { "en": "Angry",      "id": "Marah",        "emoji": "😠" },
+    { "en": "Scared",     "id": "Takut",        "emoji": "😱" },
+    { "en": "Surprised",  "id": "Terkejut",     "emoji": "😲" },
+    { "en": "Sleepy",     "id": "Mengantuk",    "emoji": "😴" },
+    { "en": "Excited",    "id": "Bersemangat",  "emoji": "🤩" },
+    { "en": "Bored",      "id": "Bosan",        "emoji": "😑" },
+    { "en": "Confused",   "id": "Bingung",      "emoji": "😕" },
+    { "en": "Shy",        "id": "Malu",         "emoji": "😳" },
+    { "en": "Proud",      "id": "Bangga",       "emoji": "😊" },
+    { "en": "Sick",       "id": "Sakit",        "emoji": "🤒" },
+    { "en": "Hungry",     "id": "Lapar",        "emoji": "🤤" }
+  ]
+}

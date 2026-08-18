@@ -1,0 +1,19 @@
+{
+  "id": "mainan",
+  "nama": "Mainan",
+  "iconEmoji": "🧸",
+  "warnaTema": "#FF6B6B",
+  "urutan": 25,
+  "kata": [
+    { "en": "Ball",        "id": "Bola",            "emoji": "⚽" },
+    { "en": "Doll",        "id": "Boneka",          "emoji": "🪆" },
+    { "en": "Teddy Bear",  "id": "Boneka Beruang",  "emoji": "🧸" },
+    { "en": "Kite",        "id": "Layang-layang",   "emoji": "🪁" },
+    { "en": "Balloon",     "id": "Balon",           "emoji": "🎈" },
+    { "en": "Blocks",      "id": "Balok",           "emoji": "🧱" },
+    { "en": "Puzzle",      "id": "Puzzle",          "emoji": "🧩" },
+    { "en": "Robot",       "id": "Robot",           "emoji": "🤖" },
+    { "en": "Yo-yo",       "id": "Yoyo",            "emoji": "🪀" },
+    { "en": "Toy Car",     "id": "Mobil Mainan",    "emoji": "🚗" }
+  ]
+}

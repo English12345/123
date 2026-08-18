@@ -1,0 +1,21 @@
+{
+  "id": "cuaca",
+  "nama": "Cuaca",
+  "iconEmoji": "⛅",
+  "warnaTema": "#0FA3A3",
+  "urutan": 12,
+  "kata": [
+    { "en": "Sunny",     "id": "Cerah",     "emoji": "☀️" },
+    { "en": "Cloudy",    "id": "Berawan",   "emoji": "☁️" },
+    { "en": "Rainy",     "id": "Hujan",     "emoji": "🌧️" },
+    { "en": "Stormy",    "id": "Badai",     "emoji": "⛈️" },
+    { "en": "Snowy",     "id": "Bersalju",  "emoji": "❄️" },
+    { "en": "Windy",     "id": "Berangin",  "emoji": "🌬️" },
+    { "en": "Foggy",     "id": "Berkabut",  "emoji": "🌫️" },
+    { "en": "Rainbow",   "id": "Pelangi",   "emoji": "🌈" },
+    { "en": "Hot",       "id": "Panas",     "emoji": "🥵" },
+    { "en": "Cold",      "id": "Dingin",    "emoji": "🥶" },
+    { "en": "Thunder",   "id": "Petir",     "emoji": "⚡" },
+    { "en": "Umbrella",  "id": "Payung",    "emoji": "☂️" }
+  ]
+}

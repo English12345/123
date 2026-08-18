@@ -1,0 +1,22 @@
+{
+  "id": "pakaian",
+  "nama": "Pakaian",
+  "iconEmoji": "👕",
+  "warnaTema": "#FF8FB1",
+  "urutan": 9,
+  "kata": [
+    { "en": "Shirt",       "id": "Kemeja",          "emoji": "👕" },
+    { "en": "Pants",       "id": "Celana",          "emoji": "👖" },
+    { "en": "Dress",       "id": "Gaun",            "emoji": "👗" },
+    { "en": "Shoes",       "id": "Sepatu",          "emoji": "👟" },
+    { "en": "Socks",       "id": "Kaus Kaki",       "emoji": "🧦" },
+    { "en": "Hat",         "id": "Topi",            "emoji": "🎩" },
+    { "en": "Cap",         "id": "Topi Baseball",   "emoji": "🧢" },
+    { "en": "Jacket",      "id": "Jaket",           "emoji": "🧥" },
+    { "en": "Glasses",     "id": "Kacamata",        "emoji": "👓" },
+    { "en": "Sunglasses",  "id": "Kacamata Hitam",  "emoji": "🕶️" },
+    { "en": "Glove",       "id": "Sarung Tangan",   "emoji": "🧤" },
+    { "en": "Scarf",       "id": "Syal",            "emoji": "🧣" },
+    { "en": "Tie",         "id": "Dasi",            "emoji": "👔" }
+  ]
+}

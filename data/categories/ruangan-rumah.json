@@ -1,0 +1,18 @@
+{
+  "id": "ruangan-rumah",
+  "nama": "Ruangan Rumah",
+  "iconEmoji": "🏠",
+  "warnaTema": "#C97B4A",
+  "urutan": 13,
+  "kata": [
+    { "en": "House",        "id": "Rumah",        "emoji": "🏠" },
+    { "en": "Bedroom",      "id": "Kamar Tidur",  "emoji": "🛏️" },
+    { "en": "Bathroom",     "id": "Kamar Mandi",  "emoji": "🚿" },
+    { "en": "Kitchen",      "id": "Dapur",        "emoji": "🍳" },
+    { "en": "Living Room",  "id": "Ruang Tamu",   "emoji": "🛋️" },
+    { "en": "Dining Room",  "id": "Ruang Makan",  "emoji": "🍽️" },
+    { "en": "Door",         "id": "Pintu",        "emoji": "🚪" },
+    { "en": "Window",       "id": "Jendela",      "emoji": "🪟" },
+    { "en": "Garden",       "id": "Taman",        "emoji": "🌳" }
+  ]
+}

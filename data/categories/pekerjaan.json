@@ -1,0 +1,23 @@
+{
+  "id": "pekerjaan",
+  "nama": "Pekerjaan",
+  "iconEmoji": "👩‍🏫",
+  "warnaTema": "#5B6EE1",
+  "urutan": 14,
+  "kata": [
+    { "en": "Doctor",          "id": "Dokter",             "emoji": "👨‍⚕️" },
+    { "en": "Teacher",         "id": "Guru",               "emoji": "👩‍🏫" },
+    { "en": "Police Officer",  "id": "Polisi",             "emoji": "👮" },
+    { "en": "Firefighter",     "id": "Pemadam Kebakaran",  "emoji": "👨‍🚒" },
+    { "en": "Farmer",          "id": "Petani",             "emoji": "👨‍🌾" },
+    { "en": "Chef",            "id": "Koki",               "emoji": "👨‍🍳" },
+    { "en": "Pilot",           "id": "Pilot",              "emoji": "🧑‍✈️" },
+    { "en": "Nurse",           "id": "Perawat",            "emoji": "👩‍⚕️" },
+    { "en": "Scientist",       "id": "Ilmuwan",            "emoji": "🧑‍🔬" },
+    { "en": "Artist",          "id": "Seniman",            "emoji": "🧑‍🎨" },
+    { "en": "Fisherman",       "id": "Nelayan",            "emoji": "🎣" },
+    { "en": "Astronaut",       "id": "Astronot",           "emoji": "🧑‍🚀" },
+    { "en": "Soldier",         "id": "Tentara",            "emoji": "🪖" },
+    { "en": "Builder",         "id": "Tukang Bangunan",    "emoji": "👷" }
+  ]
+}

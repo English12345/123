@@ -1,0 +1,26 @@
+{
+  "_petunjuk": "BACA INI: 1) Copy file ini, 2) Ganti nama file jadi nama-kategori.json (huruf kecil, pakai tanda hubung, contoh: alat-transportasi.json), 3) Isi data di bawah, 4) Hapus baris '_petunjuk' ini, 5) Simpan filenya ke dalam folder data/categories/. Menu baru akan otomatis muncul di aplikasi, TANPA perlu edit file lain.",
+
+  "id": "id-kategori-unik",
+  "nama": "Nama Kategori (contoh: Alat Transportasi)",
+  "iconEmoji": "🚗",
+  "warnaTema": "#2EC4B6",
+  "urutan": 99,
+
+  "kata": [
+    {
+      "en": "Car",
+      "id": "Mobil",
+      "emoji": "🚗",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Bus",
+      "id": "Bis",
+      "emoji": "🚌",
+      "gambar": "",
+      "audio": ""
+    }
+  ]
+}

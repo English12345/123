@@ -1,0 +1,24 @@
+{
+  "id": "anggota-tubuh",
+  "nama": "Anggota Tubuh",
+  "iconEmoji": "🖐️",
+  "warnaTema": "#FF6B6B",
+  "urutan": 7,
+  "kata": [
+    { "en": "Eye",     "id": "Mata",     "emoji": "👁️" },
+    { "en": "Ear",     "id": "Telinga",  "emoji": "👂" },
+    { "en": "Nose",    "id": "Hidung",   "emoji": "👃" },
+    { "en": "Mouth",   "id": "Mulut",    "emoji": "👄" },
+    { "en": "Tooth",   "id": "Gigi",     "emoji": "🦷" },
+    { "en": "Tongue",  "id": "Lidah",    "emoji": "👅" },
+    { "en": "Hand",    "id": "Tangan",   "emoji": "✋" },
+    { "en": "Foot",    "id": "Kaki",     "emoji": "🦶" },
+    { "en": "Arm",     "id": "Lengan",   "emoji": "💪" },
+    { "en": "Hair",    "id": "Rambut",   "emoji": "🦱" },
+    { "en": "Face",    "id": "Wajah",    "emoji": "🙂" },
+    { "en": "Heart",   "id": "Jantung",  "emoji": "❤️" },
+    { "en": "Brain",   "id": "Otak",     "emoji": "🧠" },
+    { "en": "Bone",    "id": "Tulang",   "emoji": "🦴" },
+    { "en": "Nail",    "id": "Kuku",     "emoji": "💅" }
+  ]
+}

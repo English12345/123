@@ -1,0 +1,24 @@
+{
+  "id": "sayuran",
+  "nama": "Sayuran",
+  "iconEmoji": "🥕",
+  "warnaTema": "#34B27B",
+  "urutan": 11,
+  "kata": [
+    { "en": "Carrot",        "id": "Wortel",         "emoji": "🥕" },
+    { "en": "Potato",        "id": "Kentang",        "emoji": "🥔" },
+    { "en": "Corn",          "id": "Jagung",         "emoji": "🌽" },
+    { "en": "Broccoli",      "id": "Brokoli",        "emoji": "🥦" },
+    { "en": "Cucumber",      "id": "Timun",          "emoji": "🥒" },
+    { "en": "Eggplant",      "id": "Terong",         "emoji": "🍆" },
+    { "en": "Onion",         "id": "Bawang Bombay",  "emoji": "🧅" },
+    { "en": "Garlic",        "id": "Bawang Putih",   "emoji": "🧄" },
+    { "en": "Chili Pepper",  "id": "Cabai",          "emoji": "🌶️" },
+    { "en": "Bell Pepper",   "id": "Paprika",        "emoji": "🫑" },
+    { "en": "Mushroom",      "id": "Jamur",          "emoji": "🍄" },
+    { "en": "Lettuce",       "id": "Selada",         "emoji": "🥬" },
+    { "en": "Green Peas",    "id": "Kacang Polong",  "emoji": "🫛" },
+    { "en": "Pumpkin",       "id": "Labu",           "emoji": "🎃" },
+    { "en": "Sweet Potato",  "id": "Ubi",            "emoji": "🍠" }
+  ]
+}

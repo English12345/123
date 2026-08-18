@@ -1,0 +1,16 @@
+{
+  "id": "hari",
+  "nama": "Hari dalam Seminggu",
+  "iconEmoji": "📅",
+  "warnaTema": "#E85D75",
+  "urutan": 15,
+  "kata": [
+    { "en": "Monday",     "id": "Senin",   "emoji": "🟥" },
+    { "en": "Tuesday",    "id": "Selasa",  "emoji": "🟧" },
+    { "en": "Wednesday",  "id": "Rabu",    "emoji": "🟨" },
+    { "en": "Thursday",   "id": "Kamis",   "emoji": "🟩" },
+    { "en": "Friday",     "id": "Jumat",   "emoji": "🟦" },
+    { "en": "Saturday",   "id": "Sabtu",   "emoji": "🟪" },
+    { "en": "Sunday",     "id": "Minggu",  "emoji": "☀️" }
+  ]
+}

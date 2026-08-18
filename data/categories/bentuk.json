@@ -1,0 +1,17 @@
+{
+  "id": "bentuk",
+  "nama": "Bentuk",
+  "iconEmoji": "🔺",
+  "warnaTema": "#F5A623",
+  "urutan": 18,
+  "kata": [
+    { "en": "Circle",    "id": "Lingkaran",  "emoji": "⚪" },
+    { "en": "Square",    "id": "Persegi",    "emoji": "⬜" },
+    { "en": "Triangle",  "id": "Segitiga",   "emoji": "🔺" },
+    { "en": "Star",      "id": "Bintang",    "emoji": "⭐" },
+    { "en": "Heart",     "id": "Hati",       "emoji": "❤️" },
+    { "en": "Diamond",   "id": "Berlian",    "emoji": "💎" },
+    { "en": "Cross",     "id": "Silang",     "emoji": "✖️" },
+    { "en": "Arrow",     "id": "Panah",      "emoji": "➡️" }
+  ]
+}

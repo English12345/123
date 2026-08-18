@@ -1,0 +1,21 @@
+{
+  "id": "bulan",
+  "nama": "Bulan dalam Setahun",
+  "iconEmoji": "📆",
+  "warnaTema": "#8B7FE8",
+  "urutan": 23,
+  "kata": [
+    { "en": "January",    "id": "Januari",    "emoji": "🎉" },
+    { "en": "February",   "id": "Februari",   "emoji": "💕" },
+    { "en": "March",      "id": "Maret",      "emoji": "🌱" },
+    { "en": "April",      "id": "April",      "emoji": "🌧️" },
+    { "en": "May",        "id": "Mei",        "emoji": "🌸" },
+    { "en": "June",       "id": "Juni",       "emoji": "☀️" },
+    { "en": "July",       "id": "Juli",       "emoji": "🏖️" },
+    { "en": "August",     "id": "Agustus",    "emoji": "🎆" },
+    { "en": "September",  "id": "September",  "emoji": "🍂" },
+    { "en": "October",    "id": "Oktober",    "emoji": "🎃" },
+    { "en": "November",   "id": "November",   "emoji": "🍁" },
+    { "en": "December",   "id": "Desember",   "emoji": "🎄" }
+  ]
+}

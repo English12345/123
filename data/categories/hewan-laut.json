@@ -1,0 +1,28 @@
+{
+  "id": "hewan-laut",
+  "nama": "Hewan Laut",
+  "iconEmoji": "🐠",
+  "warnaTema": "#0FA3A3",
+  "urutan": 4,
+  "kata": [
+    { "en": "Fish",           "id": "Ikan",            "emoji": "🐟" },
+    { "en": "Shark",          "id": "Hiu",             "emoji": "🦈" },
+    { "en": "Octopus",        "id": "Gurita",          "emoji": "🐙" },
+    { "en": "Crab",           "id": "Kepiting",        "emoji": "🦀" },
+    { "en": "Dolphin",        "id": "Lumba-lumba",     "emoji": "🐬" },
+    { "en": "Whale",          "id": "Paus",            "emoji": "🐳" },
+    { "en": "Turtle",         "id": "Kura-kura Laut",  "emoji": "🐢" },
+    { "en": "Starfish",       "id": "Bintang Laut",    "emoji": "⭐" },
+    { "en": "Jellyfish",      "id": "Ubur-ubur",       "emoji": "🪼" },
+    { "en": "Seahorse",       "id": "Kuda Laut",       "emoji": "🐴" },
+    { "en": "Squid",          "id": "Cumi-cumi",       "emoji": "🦑" },
+    { "en": "Lobster",        "id": "Lobster",         "emoji": "🦞" },
+    { "en": "Shrimp",         "id": "Udang",           "emoji": "🦐" },
+    { "en": "Seal",           "id": "Anjing Laut",     "emoji": "🦭" },
+    { "en": "Otter",          "id": "Berang-berang",   "emoji": "🦦" },
+    { "en": "Blowfish",       "id": "Ikan Buntal",     "emoji": "🐡" },
+    { "en": "Tropical Fish",  "id": "Ikan Hias",       "emoji": "🐠" },
+    { "en": "Clam",           "id": "Kerang",          "emoji": "🐚" },
+    { "en": "Coral",          "id": "Karang",          "emoji": "🪸" }
+  ]
+}

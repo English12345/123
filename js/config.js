@@ -28,6 +28,7 @@ const AKUN_VALID = [
   { username: "gas", password: "ayo" },
   { username: "ayen", password: "ayo" },
   { username: "bocil", password: "ayo" },
+  { username: "tes", password: "ayo" },
   { username: "belajar20", password: "belajar346" }
 ];
 

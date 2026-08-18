@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>Pilih Kategori — Belajar Bahasa Inggris</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="blob-decor">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+  </div>
+
+  <div class="app-shell">
+    <div class="topbar">
+      <div class="brand">
+        <div class="brand-mark">🦉</div>
+        <div class="brand-text">
+          <strong>Belajar Kata</strong>
+          <span>ENGLISH FOR KIDS</span>
+        </div>
+      </div>
+      <div class="user-chip">
+        <span id="namaPengguna">...</span>
+        <button id="logoutBtn">Keluar</button>
+      </div>
+    </div>
+
+    <h2 class="section-title">Pilih Kelompok Kata</h2>
+    <p class="section-sub">Tap salah satu kelompok untuk mulai belajar atau uji kemampuanmu.</p>
+
+    <div id="categoryGrid" class="category-grid"></div>
+    <div id="emptyState" class="empty-state" style="display:none;">
+      Belum ada kelompok kata. Tambahkan file kategori baru ke folder <strong>data/categories</strong> untuk mulai.
+    </div>
+  </div>
+
+  <script src="js/shared.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

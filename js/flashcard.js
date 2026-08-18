@@ -23,7 +23,7 @@
 
   // ==== Voice over dari file audio hasil Piper TTS (bukan API browser) ====
   // GANTI USERNAME/NAMA_REPO sesuai repo GitHub kamu sebelum dipakai.
-  const BASE_URL_AUDIO = 'https://cdn.jsdelivr.net/gh/USERNAME/NAMA_REPO@main/audio';
+  const BASE_URL_AUDIO = 'https://cdn.jsdelivr.net/gh/English123/123/audio';
 
   function slugKata(teks) {
     return teks.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');

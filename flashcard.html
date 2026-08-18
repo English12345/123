@@ -6,12 +6,11 @@
 <title>Belajar Kata</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="layar-tunggal">
   <div class="blob-decor">
     <div class="blob blob-1"></div>
     <div class="blob blob-2"></div>
   </div>
-
   <div class="app-shell">
     <div class="topbar">
       <div class="brand">
@@ -23,12 +22,9 @@
       </div>
       <div class="user-chip">
         <span id="namaPengguna">...</span>
-        <button id="logoutBtn">Keluar</button>
+        <a href="dashboard.html" id="backBtn" class="btn-kembali">← Kembali</a>
       </div>
     </div>
-
-    <a href="dashboard.html" class="back-link">← Kembali ke Kelompok Kata</a>
-
     <div class="flash-header">
       <h2 id="judulKategori" class="section-title">Memuat...</h2>
     </div>
@@ -37,7 +33,6 @@
       <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:10%"></div></div>
       <a href="#" id="quizLink" class="btn-secondary" style="text-decoration:none; padding:9px 18px; font-size:13px;">Uji Aku →</a>
     </div>
-
     <div class="card-stage">
       <div class="flip-card" id="flipCard">
         <div class="flip-card-inner" id="flipCardInner">
@@ -53,16 +48,13 @@
           </div>
         </div>
       </div>
-
       <button class="speak-btn" id="speakBtn" title="Dengarkan pengucapan" aria-label="Dengarkan pengucapan">🔊</button>
-
       <div class="nav-row">
         <button class="nav-btn" id="prevBtn" aria-label="Kata sebelumnya">←</button>
         <button class="nav-btn" id="nextBtn" aria-label="Kata berikutnya">→</button>
       </div>
     </div>
   </div>
-
   <script src="js/shared.js"></script>
   <script src="js/sound.js"></script>
   <script src="js/flashcard.js"></script>

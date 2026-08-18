@@ -4,6 +4,8 @@
 // Cocok untuk "1 akun per pembeli", bukan untuk data rahasia.
 const AKUN_VALID = [
   { username: "me", password: "go" },
+  { username: "on", password: "go" },
+  { username: "to", password: "go" },
   { username: "you", password: "go" }
 ];
 

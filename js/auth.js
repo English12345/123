@@ -8,7 +8,7 @@ form.addEventListener('submit', async (e) => {
   errorMsg.classList.remove('show');
 
   const username = document.getElementById('username').value.trim();
-  const password = document.getElementById('password').value;
+  const password = document.getElementById('password').value.trim();
 
   const akunCocok = AKUN_VALID.find(
     (a) => a.username === username && a.password === password

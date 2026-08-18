@@ -46,34 +46,32 @@
     }
   }
   function ucapkanDwiBahasa(teksId, teksEn) {
-    if (!('speechSynthesis' in window)) return;
-    window.speechSynthesis.cancel(); // langsung motong suara sebelumnya, biar responsif
-    if (typeof redupkanMusikLatar === 'function') redupkanMusikLatar();
+  if (!('speechSynthesis' in window)) return;
+  window.speechSynthesis.cancel(); // langsung motong suara sebelumnya, biar responsif
+  if (typeof redupkanMusikLatar === 'function') redupkanMusikLatar();
 
-    const utterId = new SpeechSynthesisUtterance(teksId);
-    utterId.lang = 'id-ID';
-    utterId.pitch = 1.15; // sedikit lebih tinggi = kesan ceria
-    utterId.rate = 1.0;
-    const suaraId = pilihSuara('id', ['male', 'pria', 'laki']);
-    if (suaraId) utterId.voice = suaraId;
+  const utterId = new SpeechSynthesisUtterance(teksId);
+  utterId.lang = 'id-ID';
+  utterId.pitch = 1.15;
+  utterId.rate = 1.0;
+  const suaraId = pilihSuara('id', ['male', 'pria', 'laki']);
+  if (suaraId) utterId.voice = suaraId;
 
-    utterId.onend = () => {
-      setTimeout(() => {
-        const utterEn = new SpeechSynthesisUtterance(teksEn);
-        utterEn.lang = 'en-US';
-        utterEn.pitch = 1.15;
-        utterEn.rate = 1.0;
-        const suaraEn = pilihSuara('en', ['female', 'zira', 'samantha', 'woman']);
-        if (suaraEn) utterEn.voice = suaraEn;
-        utterEn.onend = () => {
-          if (typeof pulihkanMusikLatar === 'function') pulihkanMusikLatar();
-        };
-        window.speechSynthesis.speak(utterEn);
-      }, 100); // jeda 0.7 detik antar bahasa
+  utterId.onend = () => {
+    // langsung diucapkan, tanpa jeda buatan
+    const utterEn = new SpeechSynthesisUtterance(teksEn);
+    utterEn.lang = 'en-US';
+    utterEn.pitch = 1.15;
+    utterEn.rate = 1.0;
+    const suaraEn = pilihSuara('en', ['female', 'zira', 'samantha', 'woman']);
+    if (suaraEn) utterEn.voice = suaraEn;
+    utterEn.onend = () => {
+      if (typeof pulihkanMusikLatar === 'function') pulihkanMusikLatar();
     };
-    window.speechSynthesis.speak(utterId); // dipanggil langsung di dalam handler klik = responsif
-  }
-
+    window.speechSynthesis.speak(utterEn);
+  };
+  window.speechSynthesis.speak(utterId);
+}
   function tampilkanKartu() {
     const item = kataList[index];
     flipCard.classList.remove('flipped');

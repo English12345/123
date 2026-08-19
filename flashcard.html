@@ -1,1 +1,71 @@
-
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>Belajar Kata</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0B5E58">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+</head>
+<body class="layar-tunggal">
+  <div class="blob-decor">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+  </div>
+  <div class="app-shell">
+    <div class="update-banner" id="updateBanner" style="display:none;">
+      🔄 Versi baru tersedia
+      <button type="button" id="btnUpdate">Update</button>
+    </div>
+    <div class="topbar">
+      <div class="brand">
+        <div class="brand-mark">🦉</div>
+        <div class="brand-text">
+          <strong>Belajar Kata</strong>
+          <span>ENGLISH FOR KIDS</span>
+        </div>
+      </div>
+      <div class="user-chip">
+        <span id="namaPengguna">...</span>
+        <button type="button" class="btn-install-mini" id="btnInstall" style="display:none;" title="Install Aplikasi">📲</button>
+        <a href="dashboard.html" id="backBtn" class="btn-kembali">← Kembali</a>
+      </div>
+    </div>
+    <div class="flash-header">
+      <h2 id="judulKategori" class="section-title">Memuat...</h2>
+    </div>
+    <div class="flash-header" style="margin-top:-14px;">
+      <span class="progress-label" id="progressLabel">1 / 10</span>
+      <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:10%"></div></div>
+      <a href="#" id="quizLink" class="btn-secondary" style="text-decoration:none; padding:9px 18px; font-size:13px;">Uji Aku →</a>
+    </div>
+    <div class="card-stage">
+      <div class="flip-card" id="flipCard">
+        <div class="flip-card-inner" id="flipCardInner">
+          <div class="flip-face flip-front">
+            <div class="flip-emoji" id="emojiFront">🎨</div>
+            <div class="flip-word-id" id="kataIndo">...</div>
+            <div class="flip-tap-hint">👆 Tap kartu untuk lihat jawaban</div>
+          </div>
+          <div class="flip-face flip-back">
+            <div class="flip-emoji" id="emojiBack">🎨</div>
+            <div class="flip-word-en" id="kataInggris">...</div>
+            <div class="flip-tap-hint on-back">👆 Tap lagi untuk kembali</div>
+          </div>
+        </div>
+      </div>
+      <button class="speak-btn" id="speakBtn" title="Dengarkan pengucapan" aria-label="Dengarkan pengucapan">🔊</button>
+      <div class="nav-row">
+        <button class="nav-btn" id="prevBtn" aria-label="Kata sebelumnya">←</button>
+        <button class="nav-btn" id="nextBtn" aria-label="Kata berikutnya">→</button>
+      </div>
+    </div>
+  </div>
+  <script src="js/shared.js"></script>
+  <script src="js/sound.js"></script>
+  <script src="js/flashcard.js"></script>
+  <script src="install.js"></script>
+</body>
+</html>

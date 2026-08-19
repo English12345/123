@@ -18,6 +18,8 @@
   const prevBtn = document.getElementById('prevBtn');
   const nextBtn = document.getElementById('nextBtn');
   const quizLink = document.getElementById('quizLink');
+  const masteryBadge = document.getElementById('masteryBadge');
+  const btnHafal = document.getElementById('btnHafal');
   let kataList = [];
   let index = 0;
 
@@ -89,6 +91,20 @@
     audioId.play().catch((err) => console.error('Gagal PLAY audio ID:', err));
   }
 
+  function perbaruiBadgeHafal() {
+    if (!masteryBadge) return;
+    const progres = ambilProgresKategori(kategoriId);
+    masteryBadge.textContent = `⭐ ${progres.hafal.length}/${kataList.length}`;
+  }
+
+  function perbaruiTombolHafal() {
+    if (!btnHafal) return;
+    const item = kataList[index];
+    const sudahHafal = apakahKataHafal(kategoriId, item.en);
+    btnHafal.textContent = sudahHafal ? '✅ Sudah Hafal!' : '⭐ Tandai Sudah Hafal';
+    btnHafal.classList.toggle('aktif', sudahHafal);
+  }
+
   function tampilkanKartu() {
     const item = kataList[index];
     flipCard.classList.remove('flipped');
@@ -100,6 +116,8 @@
     progressFill.style.width = `${((index + 1) / kataList.length) * 100}%`;
     prevBtn.disabled = index === 0;
     nextBtn.disabled = index === kataList.length - 1;
+    perbaruiTombolHafal();
+    perbaruiBadgeHafal();
 
     // Mulai download audio kartu ini SEKARANG (sebelum diklik),
     // plus siap-siap kartu berikutnya biar next/prev juga lebih responsif.
@@ -147,4 +165,13 @@
     if (typeof bunyiKlik === 'function') bunyiKlik();
     if (index < kataList.length - 1) { index++; tampilkanKartu(); }
   });
+
+  if (btnHafal) {
+    btnHafal.addEventListener('click', () => {
+      if (typeof bunyiKlik === 'function') bunyiKlik();
+      toggleKataHafal(kategoriId, kataList[index].en);
+      perbaruiTombolHafal();
+      perbaruiBadgeHafal();
+    });
+  }
 })();

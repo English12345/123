@@ -37,28 +37,32 @@
     }
   }
 
-  function ucapkanDwiBahasa(teksId, teksEn) {
-    const slug = slugKata(teksEn);
-    const audioId = new Audio(`${BASE_URL_AUDIO}/id/${slug}.mp3`);
-    const audioEn = new Audio(`${BASE_URL_AUDIO}/en/${slug}.mp3`);
-    audioEn.preload = 'auto';
+ function ucapkanDwiBahasa(teksId, teksEn) {
+  const slug = slugKata(teksEn);
+  const urlId = `${BASE_URL_AUDIO}/id/${slug}.mp3`;
+  const urlEn = `${BASE_URL_AUDIO}/en/${slug}.mp3`;
+  const audioId = new Audio(urlId);
+  const audioEn = new Audio(urlEn);
+  audioEn.preload = 'auto';
 
-    if (typeof redupkanMusikLatar === 'function') redupkanMusikLatar();
+  if (typeof redupkanMusikLatar === 'function') redupkanMusikLatar();
 
-    audioId.addEventListener('ended', () => {
-      audioEn.play().catch(() => {});
-    });
-    audioEn.addEventListener('ended', () => {
-      if (typeof pulihkanMusikLatar === 'function') pulihkanMusikLatar();
-    });
-    audioId.addEventListener('error', () => {
-      console.warn('File audio ID belum ada di CDN:', `${BASE_URL_AUDIO}/id/${slug}.mp3`);
-      if (typeof pulihkanMusikLatar === 'function') pulihkanMusikLatar();
-    });
+  audioId.addEventListener('ended', () => {
+    audioEn.play().catch((err) => console.error('Gagal PLAY audio EN:', urlEn, err));
+  });
+  audioEn.addEventListener('ended', () => {
+    if (typeof pulihkanMusikLatar === 'function') pulihkanMusikLatar();
+  });
+  audioId.addEventListener('error', () => {
+    console.error('Gagal LOAD audio ID:', urlId, audioId.error);
+    if (typeof pulihkanMusikLatar === 'function') pulihkanMusikLatar();
+  });
+  audioEn.addEventListener('error', () => {
+    console.error('Gagal LOAD audio EN:', urlEn, audioEn.error);
+  });
 
-    audioId.play().catch(() => {});
-  }
-
+  audioId.play().catch((err) => console.error('Gagal PLAY audio ID:', urlId, err));
+}
   function tampilkanKartu() {
     const item = kataList[index];
     flipCard.classList.remove('flipped');

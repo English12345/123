@@ -3,7 +3,7 @@
 // ============================================================
 // GANTI ANGKA INI SETIAP KALI KAMU UPDATE FILE (kosakata, kategori baru,
 // HTML/CSS/JS). Ini "kunci" yang memberitahu HP: ada versi baru, download ulang.
-const CACHE_VERSION = "v1.0.5";
+const CACHE_VERSION = "v1.0.6";
 const APP_CACHE = `belajar-kata-app-${CACHE_VERSION}`;
 const AUDIO_CACHE = "belajar-kata-audio"; // audio tidak pernah berubah, cache terpisah & permanen
 

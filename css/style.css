@@ -63,6 +63,14 @@
 
 * { box-sizing: border-box; }
 
+/* ==== Transisi halaman: fade halus, biar tidak terasa "loncat" ==== */
+body {
+  opacity: 0;
+  transition: opacity .22s ease;
+}
+body.halaman-siap { opacity: 1; }
+body.halaman-keluar { opacity: 0; transition: opacity .16s ease; }
+
 html, body {
   margin: 0;
   padding: 0;
@@ -298,6 +306,108 @@ a { color: inherit; }
 
 .section-title { margin-bottom: 4px; font-size: 24px; }
 .section-sub { color: var(--ink-soft); font-weight: 700; margin-bottom: 22px; font-size: 14.5px; }
+
+/* ==== Stats bar: streak & total kata dikuasai, tampil di atas dashboard ==== */
+.stats-bar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 26px;
+  flex-wrap: wrap;
+}
+.stat-pill {
+  flex: 1;
+  min-width: 150px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1.5px solid rgba(255, 255, 255, 0.8);
+  border-radius: var(--radius-md);
+  padding: 14px 18px;
+  box-shadow: var(--shadow-soft);
+  animation: pop-masuk .4s ease backwards;
+}
+.stat-pill:nth-child(2) { animation-delay: .05s; }
+.stat-pill:nth-child(3) { animation-delay: .1s; }
+.stat-pill-icon {
+  font-size: 26px;
+  width: 46px; height: 46px;
+  border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--tosca-100);
+  flex-shrink: 0;
+}
+.stat-pill.streak .stat-pill-icon { background: var(--kuning-100); }
+.stat-pill-value { font-family: var(--font-display); font-size: 20px; color: var(--tosca-900); line-height: 1.1; }
+.stat-pill-label { font-size: 12px; color: var(--ink-soft); font-weight: 700; }
+
+/* ==== Skeleton loading: dipakai di dashboard sambil menunggu data ==== */
+@keyframes kilau-skeleton {
+  0% { background-position: -200px 0; }
+  100% { background-position: calc(200px + 100%) 0; }
+}
+.skeleton-card {
+  height: 178px;
+  border-radius: var(--radius-md);
+  background: var(--white);
+  box-shadow: var(--shadow-soft);
+  position: relative;
+  overflow: hidden;
+}
+.skeleton-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(46, 196, 182, 0.14), transparent);
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  animation: kilau-skeleton 1.3s ease-in-out infinite;
+}
+.skeleton-pill {
+  height: 62px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.5);
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+  min-width: 150px;
+}
+.skeleton-pill::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(46, 196, 182, 0.14), transparent);
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  animation: kilau-skeleton 1.3s ease-in-out infinite;
+}
+
+/* ==== Progress bar mini di dalam kartu kategori ==== */
+.mini-progress-track {
+  height: 7px;
+  border-radius: 999px;
+  background: var(--tosca-100);
+  overflow: hidden;
+  z-index: 1;
+}
+.mini-progress-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent, var(--tosca-600)), var(--kuning-500));
+  transition: width .5s cubic-bezier(.34,1.4,.64,1);
+}
+
+/* ==== Lencana pencapaian di pojok kartu kategori ==== */
+.achievement-badge {
+  position: absolute;
+  top: 14px; right: 14px;
+  font-size: 20px;
+  z-index: 2;
+  filter: drop-shadow(0 3px 4px rgba(11, 94, 88, 0.25));
+  animation: bintang-pop .4s ease backwards;
+}
 
 .category-grid {
   display: grid;

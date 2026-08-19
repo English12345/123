@@ -7,40 +7,66 @@
         <meta name="theme-color" content="#3949AB">
    3. Sebelum tag </body>, tambahkan:
         <script src="./install.js"></script>
-   4. Tambahkan tombol di HTML kamu, contoh:
+   4. Tambahkan tombol INI HANYA DI index.html:
         <button id="btnInstall" style="display:none">📲 Install Aplikasi</button>
         <div id="updateBanner" style="display:none">
           Versi baru tersedia! <button id="btnUpdate">Update Sekarang</button>
         </div>
+      Halaman lain (dashboard/flashcard/quiz) TIDAK perlu elemen ini —
+      script ini aman dipasang di semua halaman walau elemennya tidak ada
+      (dipakai cuma untuk mendaftarkan service worker / caching offline).
    ============================================================ */
 
 // ---------- 1. DAFTARKAN SERVICE WORKER ----------
+let sedangReload = false; // jaga-jaga supaya reload cuma terjadi 1x
+
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("./sw.js").then((reg) => {
-      // Cek update setiap kali halaman dibuka
+      // Cek ke server apakah ada versi baru
       reg.update();
 
-      // Kalau ada service worker baru yang sedang menunggu, tampilkan banner update
+      // Kalau pas halaman ini dibuka sudah ada versi baru yang lagi
+      // menunggu (misal: terdeteksi waktu di halaman lain / kunjungan
+      // sebelumnya), langsung tampilkan banner-nya lagi di sini.
+      if (reg.waiting) {
+        tampilkanBannerUpdate();
+      }
+
+      // Versi baru terdeteksi & sudah selesai didownload -> tampilkan banner.
       reg.addEventListener("updatefound", () => {
         const newWorker = reg.installing;
         newWorker.addEventListener("statechange", () => {
           if (newWorker.state === "installed" && navigator.serviceWorker.controller) {
-            const banner = document.getElementById("updateBanner");
-            if (banner) banner.style.display = "block";
+            tampilkanBannerUpdate();
           }
         });
       });
-    });
-  });
 
-  // Tombol "Update Sekarang" -> reload untuk pakai versi baru
-  const btnUpdate = document.getElementById("btnUpdate");
-  if (btnUpdate) {
-    btnUpdate.addEventListener("click", () => {
+      // Tombol "Update Sekarang" -> suruh SW baru aktif, baru reload
+      // SETELAH benar-benar aktif (bukan reload buta).
+      const btnUpdate = document.getElementById("btnUpdate");
+      if (btnUpdate) {
+        btnUpdate.addEventListener("click", () => {
+          if (reg.waiting) {
+            reg.waiting.postMessage({ type: "SKIP_WAITING" });
+          }
+        });
+      }
+    });
+
+    // Begitu SW baru resmi mengambil alih, baru reload halaman sekali.
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      if (sedangReload) return;
+      sedangReload = true;
       window.location.reload();
     });
-  }
+  });
+}
+
+function tampilkanBannerUpdate() {
+  const banner = document.getElementById("updateBanner");
+  if (banner) banner.style.display = "block";
 }
 
 // ---------- 2. TOMBOL INSTALL KE HOME SCREEN (Android/Chrome) ----------

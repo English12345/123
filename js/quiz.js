@@ -28,8 +28,9 @@
   let sudahDijawab = false;
   let jawabanArray = []; // null = belum dijawab, true = benar, false = salah (satu entri per soal, untuk baris bintang)
 
+  // Emoji buat overlay hasil jawaban. SALAH sengaja pakai emoji sedih/cemberut, bukan ketawa.
   const EMOJI_BENAR = ['🎉', '⭐', '🥳', '👏', '😄'];
-  const EMOJI_SALAH = ['😅', '🙈', '💦', '🤔'];
+  const EMOJI_SALAH = ['😢', '😭', '🙁', '😞'];
 
   try {
     const data = await muatDetailKategori(kategoriId);
@@ -71,7 +72,6 @@
         <div class="options-grid" id="optionsGrid">
           ${opsi.map((o, i) => `<button class="option-btn" data-en="${o.en}" data-index="${i}">${o.en}</button>`).join('')}
         </div>
-        <div class="feedback-box" id="feedbackBox"></div>
         <div class="quiz-footer">
           <button class="btn-secondary" id="nextSoalBtn" style="display:none;">Lanjut →</button>
         </div>
@@ -103,17 +103,54 @@
     }).join('');
   }
 
-  // Tampilkan emoji + teks singkat sesuai hasil jawaban.
+  // Taburkan potongan kertas warna-warni jatuh dari atas layar (dipanggil cuma kalau jawaban benar).
+  function buatConfetti(container, jumlah = 26) {
+    const warnaList = [
+      'var(--coral)', 'var(--kuning-500)', 'var(--tosca-600)',
+      'var(--violet)', 'var(--pink-pop)', 'var(--success)'
+    ];
+    for (let i = 0; i < jumlah; i++) {
+      const potongan = document.createElement('div');
+      potongan.className = 'confetti-piece';
+      potongan.style.left = `${Math.random() * 100}%`;
+      potongan.style.background = warnaList[Math.floor(Math.random() * warnaList.length)];
+      potongan.style.animationDuration = `${1.1 + Math.random() * 0.9}s`;
+      potongan.style.animationDelay = `${Math.random() * 0.25}s`;
+      potongan.style.setProperty('--rotasi-awal', `${Math.random() * 360}deg`);
+      container.appendChild(potongan);
+    }
+  }
+
+  // Tampilkan emoji besar di TENGAH LAYAR (overlay, di luar kartu) sesuai hasil jawaban.
   function tampilkanFeedback(benar) {
-    const box = document.getElementById('feedbackBox');
-    if (!box) return;
+    // Jaga-jaga kalau overlay sebelumnya masih ada (klik cepat / ganti soal buru-buru)
+    const overlayLama = document.querySelector('.feedback-overlay');
+    if (overlayLama) overlayLama.remove();
+
+    const overlay = document.createElement('div');
+    overlay.className = 'feedback-overlay';
+
+    if (benar) {
+      buatConfetti(overlay);
+    }
+
     const daftarEmoji = benar ? EMOJI_BENAR : EMOJI_SALAH;
     const emoji = daftarEmoji[Math.floor(Math.random() * daftarEmoji.length)];
     const teks = benar ? 'Betul sekali!' : 'Belum tepat, coba lagi ya!';
-    box.innerHTML = `
-      <div class="feedback-emoji">${emoji}</div>
-      <div class="feedback-text ${benar ? 'benar' : 'salah'}">${teks}</div>
-    `;
+
+    const emojiEl = document.createElement('div');
+    emojiEl.className = `feedback-overlay-emoji ${benar ? 'benar' : 'salah'}`;
+    emojiEl.textContent = emoji;
+
+    const textEl = document.createElement('div');
+    textEl.className = `feedback-overlay-text ${benar ? 'benar' : 'salah'}`;
+    textEl.textContent = teks;
+
+    overlay.appendChild(emojiEl);
+    overlay.appendChild(textEl);
+    document.body.appendChild(overlay);
+
+    setTimeout(() => overlay.remove(), 1500);
   }
 
   function jawabSoal(btn, soalBenar) {
@@ -130,7 +167,7 @@
       else if (b === btn) b.classList.add('wrong');
     });
 
-    // Suara & emoji otomatis begitu dijawab: hore ceria kalau benar, bunyi lembut kalau salah.
+    // Suara otomatis begitu dijawab: hore ceria kalau benar, bunyi lembut kalau salah.
     if (dipilihBenar) {
       if (typeof bunyiBenar === 'function') bunyiBenar();
     } else {

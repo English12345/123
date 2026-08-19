@@ -199,11 +199,18 @@
     else if (persen >= 50) { pesan = 'Cukup baik, ayo belajar lagi ya!'; emoji = '💪'; }
     else { pesan = 'Yuk belajar kartu katanya dulu, lalu coba lagi!'; emoji = '📚'; }
 
+    const hasil = simpanHasilKuis(kategoriId, skor, soalList.length);
+    const rekorBaru = hasil.persen === persen; // true kalau ini jadi skor terbaik baru (atau menyamai)
+    const infoRekor = rekorBaru
+      ? '🏅 Ini skor terbaikmu sejauh ini!'
+      : `Skor terbaikmu: ${hasil.skor} / ${hasil.total} (${hasil.persen}%)`;
+
     quizArea.innerHTML = `
       <div class="result-card">
         <div class="result-emoji">${emoji}</div>
         <div class="result-score">${skor} / ${soalList.length}</div>
         <p class="result-sub">${pesan}</p>
+        <p class="result-rekor">${infoRekor}</p>
         <div class="result-actions">
           <a href="flashcard.html?kategori=${encodeURIComponent(kategoriId)}" class="btn-secondary" style="text-decoration:none;">📖 Belajar Lagi</a>
           <button class="btn-primary" id="ulangiBtn" style="width:auto; padding:12px 24px;">🔁 Ulangi Kuis</button>

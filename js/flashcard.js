@@ -29,6 +29,26 @@
     return teks.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   }
 
+  // ==== Cache preload: simpan objek Audio yang sudah mulai/selesai didownload ====
+  const audioCache = {}; // key: slug, value: { id: Audio, en: Audio }
+
+  function buatAudio(url) {
+    const a = new Audio(url);
+    a.preload = 'auto';
+    a.load(); // paksa mulai download dari sekarang, jangan tunggu di-play
+    return a;
+  }
+
+  function preloadKata(item) {
+    if (!item) return;
+    const slug = slugKata(item.en);
+    if (audioCache[slug]) return; // sudah pernah di-preload
+    audioCache[slug] = {
+      id: buatAudio(`${BASE_URL_AUDIO}/id/${slug}.mp3`),
+      en: buatAudio(`${BASE_URL_AUDIO}/en/${slug}.mp3`)
+    };
+  }
+
   let musikSudahDimulai = false;
   function pastikanMusikJalan() {
     if (!musikSudahDimulai && typeof mulaiMusikLatar === 'function') {
@@ -37,32 +57,38 @@
     }
   }
 
- function ucapkanDwiBahasa(teksId, teksEn) {
-  const slug = slugKata(teksEn);
-  const urlId = `${BASE_URL_AUDIO}/id/${slug}.mp3`;
-  const urlEn = `${BASE_URL_AUDIO}/en/${slug}.mp3`;
-  const audioId = new Audio(urlId);
-  const audioEn = new Audio(urlEn);
-  audioEn.preload = 'auto';
+  function ucapkanDwiBahasa(item) {
+    const slug = slugKata(item.en);
+    preloadKata(item); // jaga-jaga kalau belum sempat ke-preload
 
-  if (typeof redupkanMusikLatar === 'function') redupkanMusikLatar();
+    // Pakai audio dari cache (kalau sudah didownload = langsung bunyi tanpa loading)
+    const cached = audioCache[slug];
+    const audioId = cached.id;
+    const audioEn = cached.en;
 
-  audioId.addEventListener('ended', () => {
-    audioEn.play().catch((err) => console.error('Gagal PLAY audio EN:', urlEn, err));
-  });
-  audioEn.addEventListener('ended', () => {
-    if (typeof pulihkanMusikLatar === 'function') pulihkanMusikLatar();
-  });
-  audioId.addEventListener('error', () => {
-    console.error('Gagal LOAD audio ID:', urlId, audioId.error);
-    if (typeof pulihkanMusikLatar === 'function') pulihkanMusikLatar();
-  });
-  audioEn.addEventListener('error', () => {
-    console.error('Gagal LOAD audio EN:', urlEn, audioEn.error);
-  });
+    // reset ke awal, buat jaga-jaga kalau sebelumnya sudah pernah diputar
+    audioId.currentTime = 0;
+    audioEn.currentTime = 0;
 
-  audioId.play().catch((err) => console.error('Gagal PLAY audio ID:', urlId, err));
-}
+    if (typeof redupkanMusikLatar === 'function') redupkanMusikLatar();
+
+    audioId.onended = () => {
+      audioEn.play().catch((err) => console.error('Gagal PLAY audio EN:', err));
+    };
+    audioEn.onended = () => {
+      if (typeof pulihkanMusikLatar === 'function') pulihkanMusikLatar();
+    };
+    audioId.onerror = () => {
+      console.error('Gagal LOAD audio ID:', audioId.src, audioId.error);
+      if (typeof pulihkanMusikLatar === 'function') pulihkanMusikLatar();
+    };
+    audioEn.onerror = () => {
+      console.error('Gagal LOAD audio EN:', audioEn.src, audioEn.error);
+    };
+
+    audioId.play().catch((err) => console.error('Gagal PLAY audio ID:', err));
+  }
+
   function tampilkanKartu() {
     const item = kataList[index];
     flipCard.classList.remove('flipped');
@@ -74,6 +100,12 @@
     progressFill.style.width = `${((index + 1) / kataList.length) * 100}%`;
     prevBtn.disabled = index === 0;
     nextBtn.disabled = index === kataList.length - 1;
+
+    // Mulai download audio kartu ini SEKARANG (sebelum diklik),
+    // plus siap-siap kartu berikutnya biar next/prev juga lebih responsif.
+    preloadKata(item);
+    preloadKata(kataList[index + 1]);
+    preloadKata(kataList[index - 1]);
   }
 
   try {
@@ -95,16 +127,14 @@
     pastikanMusikJalan();
     if (typeof bunyiKlik === 'function') bunyiKlik();
     flipCard.classList.toggle('flipped');
-    const item = kataList[index];
-    ucapkanDwiBahasa(item.id, item.en);
+    ucapkanDwiBahasa(kataList[index]);
   });
 
   speakBtn.addEventListener('click', (e) => {
     e.stopPropagation();
     pastikanMusikJalan();
     if (typeof bunyiKlik === 'function') bunyiKlik();
-    const item = kataList[index];
-    ucapkanDwiBahasa(item.id, item.en);
+    ucapkanDwiBahasa(kataList[index]);
   });
 
   prevBtn.addEventListener('click', () => {

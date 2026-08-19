@@ -813,3 +813,79 @@ body.layar-tunggal #quizArea > .result-card {
   .feedback-overlay-emoji.salah { animation: pop-masuk .3s ease; }
   .confetti-piece { display: none; }
 }
+
+/* ============================================================
+   TAMBAHAN CSS UNTUK PWA (install button & update banner)
+   Tempel ini di bagian PALING BAWAH file css/style.css
+   Pakai variable warna yang sudah ada di :root (tosca/kuning/dst)
+   supaya otomatis nyambung dengan tema aplikasi.
+   ============================================================ */
+
+/* Tombol full-width, dipakai di index.html (halaman login) */
+.btn-install {
+  width: 100%;
+  margin-bottom: 14px;
+  padding: 13px 16px;
+  border: none;
+  border-radius: var(--radius-md);
+  background: linear-gradient(145deg, var(--tosca-600), var(--tosca-900));
+  color: var(--white);
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: var(--shadow-soft);
+}
+.btn-install:hover { transform: translateY(-1px); box-shadow: var(--shadow-pop); }
+.btn-install:active { transform: translateY(0); }
+
+/* Tombol kecil bulat, dipakai di topbar (dashboard/flashcard/quiz) */
+.btn-install-mini {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: none;
+  border-radius: 50%;
+  background: var(--kuning-500);
+  font-size: 16px;
+  box-shadow: var(--shadow-soft);
+}
+.btn-install-mini:hover { background: var(--kuning-600); transform: translateY(-1px); }
+
+/* Banner "versi baru tersedia" */
+.update-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  background: var(--kuning-100);
+  border: 2px solid var(--kuning-500);
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 700;
+}
+.update-banner button {
+  border: none;
+  border-radius: 999px;
+  background: var(--tosca-900);
+  color: var(--white);
+  padding: 6px 14px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Hint khusus iPhone/Safari (tidak ada tombol install otomatis) */
+.ios-hint {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--tosca-100);
+  color: var(--tosca-900);
+  font-size: 12.5px;
+  text-align: center;
+  font-weight: 600;
+}

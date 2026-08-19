@@ -1,0 +1,59 @@
+{
+  "id": "peralatan-mandi",
+  "nama": "Peralatan Mandi",
+  "iconEmoji": "🛁",
+  "warnaTema": "#4FC3F7",
+  "urutan": 28,
+  "kata": [
+    {
+      "en": "Soap",
+      "id": "Sabun",
+      "emoji": "🧼"
+    },
+    {
+      "en": "Toothbrush",
+      "id": "Sikat Gigi",
+      "emoji": "🪥"
+    },
+    {
+      "en": "Towel",
+      "id": "Handuk",
+      "emoji": "🧻"
+    },
+    {
+      "en": "Shampoo",
+      "id": "Sampo",
+      "emoji": "🧴"
+    },
+    {
+      "en": "Bathtub",
+      "id": "Bak Mandi",
+      "emoji": "🛁"
+    },
+    {
+      "en": "Bucket",
+      "id": "Gayung",
+      "emoji": "🪣"
+    },
+    {
+      "en": "Mirror",
+      "id": "Cermin",
+      "emoji": "🪞"
+    },
+    {
+      "en": "Comb",
+      "id": "Sisir",
+      "emoji": "🪮"
+    },
+    {
+      "en": "Faucet",
+      "id": "Keran",
+      "emoji": "🚰"
+    },
+    {
+      "en": "Toilet",
+      "id": "Toilet",
+      "emoji": "🚽"
+    }
+  ]
+}

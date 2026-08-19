@@ -1,0 +1,49 @@
+{
+  "id": "peralatan-medis",
+  "nama": "Peralatan Medis",
+  "iconEmoji": "🩺",
+  "warnaTema": "#EF5350",
+  "urutan": 33,
+  "kata": [
+    {
+      "en": "Stethoscope",
+      "id": "Stetoskop",
+      "emoji": "🩺"
+    },
+    {
+      "en": "Thermometer",
+      "id": "Termometer",
+      "emoji": "🌡️"
+    },
+    {
+      "en": "Band-aid",
+      "id": "Plester",
+      "emoji": "🩹"
+    },
+    {
+      "en": "Syringe",
+      "id": "Suntikan",
+      "emoji": "💉"
+    },
+    {
+      "en": "Medicine",
+      "id": "Obat",
+      "emoji": "💊"
+    },
+    {
+      "en": "Mask",
+      "id": "Masker",
+      "emoji": "😷"
+    },
+    {
+      "en": "Wheelchair",
+      "id": "Kursi Roda",
+      "emoji": "🦽"
+    },
+    {
+      "en": "Bed",
+      "id": "Tempat Tidur",
+      "emoji": "🛏️"
+    }
+  ]
+}

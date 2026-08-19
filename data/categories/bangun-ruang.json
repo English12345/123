@@ -1,0 +1,49 @@
+{
+  "id": "bangun-ruang",
+  "nama": "Bangun Ruang",
+  "iconEmoji": "📐",
+  "warnaTema": "#6C63FF",
+  "urutan": 30,
+  "kata": [
+    {
+      "en": "Cube",
+      "id": "Kubus",
+      "emoji": "🧊"
+    },
+    {
+      "en": "Sphere",
+      "id": "Bola",
+      "emoji": "⚽"
+    },
+    {
+      "en": "Cylinder",
+      "id": "Tabung",
+      "emoji": "🥫"
+    },
+    {
+      "en": "Cone",
+      "id": "Kerucut",
+      "emoji": "🍦"
+    },
+    {
+      "en": "Pyramid",
+      "id": "Piramida",
+      "emoji": "🔺"
+    },
+    {
+      "en": "Cuboid",
+      "id": "Balok",
+      "emoji": "📦"
+    },
+    {
+      "en": "Prism",
+      "id": "Prisma",
+      "emoji": "🔷"
+    },
+    {
+      "en": "Torus",
+      "id": "Donat",
+      "emoji": "🍩"
+    }
+  ]
+}

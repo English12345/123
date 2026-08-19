@@ -1,0 +1,49 @@
+{
+  "id": "kebun-tanaman",
+  "nama": "Kebun & Tanaman",
+  "iconEmoji": "🌱",
+  "warnaTema": "#66BB6A",
+  "urutan": 34,
+  "kata": [
+    {
+      "en": "Flower Pot",
+      "id": "Pot Bunga",
+      "emoji": "🪴"
+    },
+    {
+      "en": "Seed",
+      "id": "Bibit",
+      "emoji": "🌱"
+    },
+    {
+      "en": "Flower",
+      "id": "Bunga",
+      "emoji": "🌸"
+    },
+    {
+      "en": "Tree",
+      "id": "Pohon",
+      "emoji": "🌳"
+    },
+    {
+      "en": "Basket",
+      "id": "Keranjang",
+      "emoji": "🧺"
+    },
+    {
+      "en": "Gardening Gloves",
+      "id": "Sarung Tangan Kebun",
+      "emoji": "🧤"
+    },
+    {
+      "en": "Leaf",
+      "id": "Daun",
+      "emoji": "🍃"
+    },
+    {
+      "en": "Grass",
+      "id": "Rumput",
+      "emoji": "🌾"
+    }
+  ]
+}

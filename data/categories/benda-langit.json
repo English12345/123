@@ -1,0 +1,59 @@
+{
+  "id": "benda-langit",
+  "nama": "Benda Langit",
+  "iconEmoji": "🌌",
+  "warnaTema": "#2D2B6B",
+  "urutan": 26,
+  "kata": [
+    {
+      "en": "Sun",
+      "id": "Matahari",
+      "emoji": "☀️"
+    },
+    {
+      "en": "Moon",
+      "id": "Bulan",
+      "emoji": "🌙"
+    },
+    {
+      "en": "Star",
+      "id": "Bintang",
+      "emoji": "⭐"
+    },
+    {
+      "en": "Cloud",
+      "id": "Awan",
+      "emoji": "☁️"
+    },
+    {
+      "en": "Rainbow",
+      "id": "Pelangi",
+      "emoji": "🌈"
+    },
+    {
+      "en": "Planet",
+      "id": "Planet",
+      "emoji": "🪐"
+    },
+    {
+      "en": "Earth",
+      "id": "Bumi",
+      "emoji": "🌍"
+    },
+    {
+      "en": "Comet",
+      "id": "Komet",
+      "emoji": "☄️"
+    },
+    {
+      "en": "Meteor",
+      "id": "Meteor",
+      "emoji": "🌠"
+    },
+    {
+      "en": "Galaxy",
+      "id": "Galaksi",
+      "emoji": "🌌"
+    }
+  ]
+}

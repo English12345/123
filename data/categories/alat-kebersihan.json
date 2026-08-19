@@ -1,0 +1,49 @@
+{
+  "id": "alat-kebersihan",
+  "nama": "Alat Kebersihan",
+  "iconEmoji": "🧹",
+  "warnaTema": "#7CB342",
+  "urutan": 29,
+  "kata": [
+    {
+      "en": "Broom",
+      "id": "Sapu",
+      "emoji": "🧹"
+    },
+    {
+      "en": "Bucket",
+      "id": "Ember",
+      "emoji": "🪣"
+    },
+    {
+      "en": "Rag",
+      "id": "Kain Lap",
+      "emoji": "🧻"
+    },
+    {
+      "en": "Brush",
+      "id": "Sikat",
+      "emoji": "🪥"
+    },
+    {
+      "en": "Sponge",
+      "id": "Spons",
+      "emoji": "🧽"
+    },
+    {
+      "en": "Dish Soap",
+      "id": "Sabun Cuci Piring",
+      "emoji": "🧴"
+    },
+    {
+      "en": "Trash Can",
+      "id": "Tempat Sampah",
+      "emoji": "🗑️"
+    },
+    {
+      "en": "Gloves",
+      "id": "Sarung Tangan",
+      "emoji": "🧤"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "waktu-harian",
+  "nama": "Waktu dalam Sehari",
+  "iconEmoji": "⏰",
+  "warnaTema": "#FFB300",
+  "urutan": 32,
+  "kata": [
+    {
+      "en": "Morning",
+      "id": "Pagi",
+      "emoji": "🌅"
+    },
+    {
+      "en": "Noon",
+      "id": "Siang",
+      "emoji": "🌞"
+    },
+    {
+      "en": "Afternoon",
+      "id": "Sore",
+      "emoji": "🌇"
+    },
+    {
+      "en": "Night",
+      "id": "Malam",
+      "emoji": "🌃"
+    },
+    {
+      "en": "Dawn",
+      "id": "Subuh",
+      "emoji": "🌄"
+    },
+    {
+      "en": "Midnight",
+      "id": "Tengah Malam",
+      "emoji": "🌙"
+    },
+    {
+      "en": "Dusk",
+      "id": "Senja",
+      "emoji": "🌆"
+    },
+    {
+      "en": "Daybreak",
+      "id": "Fajar",
+      "emoji": "🌤️"
+    }
+  ]
+}

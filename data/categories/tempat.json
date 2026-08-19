@@ -1,0 +1,59 @@
+{
+  "id": "tempat",
+  "nama": "Tempat",
+  "iconEmoji": "🏫",
+  "warnaTema": "#26A69A",
+  "urutan": 35,
+  "kata": [
+    {
+      "en": "School",
+      "id": "Sekolah",
+      "emoji": "🏫"
+    },
+    {
+      "en": "Hospital",
+      "id": "Rumah Sakit",
+      "emoji": "🏥"
+    },
+    {
+      "en": "Park",
+      "id": "Taman",
+      "emoji": "🏞️"
+    },
+    {
+      "en": "Zoo",
+      "id": "Kebun Binatang",
+      "emoji": "🦁"
+    },
+    {
+      "en": "Museum",
+      "id": "Museum",
+      "emoji": "🏛️"
+    },
+    {
+      "en": "Library",
+      "id": "Perpustakaan",
+      "emoji": "📚"
+    },
+    {
+      "en": "Airport",
+      "id": "Bandara",
+      "emoji": "✈️"
+    },
+    {
+      "en": "Station",
+      "id": "Stasiun",
+      "emoji": "🚉"
+    },
+    {
+      "en": "Restaurant",
+      "id": "Restoran",
+      "emoji": "🍽️"
+    },
+    {
+      "en": "Mosque",
+      "id": "Masjid",
+      "emoji": "🕌"
+    }
+  ]
+}

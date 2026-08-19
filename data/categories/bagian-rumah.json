@@ -1,0 +1,59 @@
+{
+  "id": "bagian-rumah",
+  "nama": "Bagian Rumah",
+  "iconEmoji": "🏠",
+  "warnaTema": "#A0522D",
+  "urutan": 27,
+  "kata": [
+    {
+      "en": "Roof",
+      "id": "Atap",
+      "emoji": "🏠"
+    },
+    {
+      "en": "Door",
+      "id": "Pintu",
+      "emoji": "🚪"
+    },
+    {
+      "en": "Window",
+      "id": "Jendela",
+      "emoji": "🪟"
+    },
+    {
+      "en": "Wall",
+      "id": "Dinding",
+      "emoji": "🧱"
+    },
+    {
+      "en": "Fence",
+      "id": "Pagar",
+      "emoji": "🚧"
+    },
+    {
+      "en": "Stairs",
+      "id": "Tangga",
+      "emoji": "🪜"
+    },
+    {
+      "en": "Balcony",
+      "id": "Balkon",
+      "emoji": "🏡"
+    },
+    {
+      "en": "Garage",
+      "id": "Garasi",
+      "emoji": "🚙"
+    },
+    {
+      "en": "Garden",
+      "id": "Kebun",
+      "emoji": "🌷"
+    },
+    {
+      "en": "Mailbox",
+      "id": "Kotak Surat",
+      "emoji": "📬"
+    }
+  ]
+}

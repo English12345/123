@@ -1,0 +1,49 @@
+{
+  "id": "alat-olahraga",
+  "nama": "Alat Olahraga",
+  "iconEmoji": "🏸",
+  "warnaTema": "#FF7043",
+  "urutan": 31,
+  "kata": [
+    {
+      "en": "Ball",
+      "id": "Bola",
+      "emoji": "⚽"
+    },
+    {
+      "en": "Racket",
+      "id": "Raket",
+      "emoji": "🏸"
+    },
+    {
+      "en": "Sports Shoes",
+      "id": "Sepatu Olahraga",
+      "emoji": "👟"
+    },
+    {
+      "en": "Helmet",
+      "id": "Helm",
+      "emoji": "⛑️"
+    },
+    {
+      "en": "Boxing Gloves",
+      "id": "Sarung Tangan Tinju",
+      "emoji": "🥊"
+    },
+    {
+      "en": "Skateboard",
+      "id": "Papan Seluncur",
+      "emoji": "🛹"
+    },
+    {
+      "en": "Stopwatch",
+      "id": "Stopwatch",
+      "emoji": "⏱️"
+    },
+    {
+      "en": "Trophy",
+      "id": "Trofi",
+      "emoji": "🏆"
+    }
+  ]
+}

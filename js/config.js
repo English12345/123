@@ -3,12 +3,12 @@
 // yang buka file ini secara teknis bisa lihat username/password di bawah.
 // Cocok untuk "1 akun per pembeli", bukan untuk data rahasia.
 const AKUN_VALID = [
-  { username: "me", password: "go" },
-  { username: "on", password: "go" },
   { username: "to", password: "go" },
-  { username: "you", password: "go" },
-  { username: "and", password: "go" },
+  { username: "on", password: "go" },
   { username: "for", password: "go" },
+  { username: "okay", password: "go" },
+  { username: "brow", password: "go" },
+  { username: "lets", password: "go" },
   { username: "not", password: "go" },
   { username: "are", password: "go" },
   { username: "but", password: "go" },

@@ -421,6 +421,47 @@ a { color: inherit; }
 }
 .progress-label { font-weight: 800; color: var(--tosca-900); font-size: 13.5px; white-space: nowrap; }
 
+.mastery-badge {
+  font-weight: 800;
+  font-size: 13px;
+  color: var(--kuning-600);
+  white-space: nowrap;
+}
+
+.btn-hafal {
+  margin-top: 4px;
+  border: 2px solid var(--tosca-600);
+  background: var(--white);
+  color: var(--tosca-900);
+  font-weight: 800;
+  font-size: 14px;
+  padding: 10px 22px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform .15s ease, background .2s ease, color .2s ease;
+}
+.btn-hafal:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
+.btn-hafal.aktif {
+  background: linear-gradient(120deg, var(--success), var(--tosca-600));
+  border-color: transparent;
+  color: var(--white);
+}
+
+.category-progress {
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--tosca-700);
+  z-index: 1;
+}
+
+.result-rekor {
+  font-size: 13.5px;
+  font-weight: 800;
+  color: var(--kuning-600);
+  margin-top: -8px;
+  margin-bottom: 4px;
+}
+
 .card-stage {
   display: flex;
   flex-direction: column;

@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <title>Belajar Bahasa Inggris Anak — Masuk</title>
 <link rel="stylesheet" href="css/style.css">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0B5E58">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
 </head>
 <body>
   <div class="blob-decor">
@@ -14,6 +17,15 @@
   </div>
   <div class="center-shell">
     <div class="login-card">
+      <div class="update-banner" id="updateBanner" style="display:none;">
+        🔄 Versi baru tersedia
+        <button type="button" id="btnUpdate">Update</button>
+      </div>
+      <button type="button" class="btn-install" id="btnInstall" style="display:none;">
+        📲 Install Aplikasi ke HP
+      </button>
+      <p class="ios-hint" id="iosInstallHint" style="display:none;"></p>
+
       <div class="login-mascot">🦉</div>
       <h1>Belajar Kata!</h1>
       <p class="sub">Yuk masuk untuk mulai belajar Bahasa Inggris</p>
@@ -34,5 +46,6 @@
   <script src="js/config.js?v=2"></script>
   <script src="js/shared.js"></script>
   <script src="js/auth.js"></script>
+  <script src="install.js"></script>
 </body>
 </html>

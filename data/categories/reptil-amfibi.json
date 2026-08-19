@@ -1,0 +1,17 @@
+{
+  "id": "reptil-amfibi",
+  "nama": "Reptil & Amfibi",
+  "iconEmoji": "🦎",
+  "warnaTema": "#689F38",
+  "urutan": 38,
+  "kata": [
+    { "en": "Lizard", "id": "Kadal", "emoji": "🦎" },
+    { "en": "Crocodile", "id": "Buaya", "emoji": "🐊" },
+    { "en": "Tortoise", "id": "Kura-kura Darat", "emoji": "🐢" },
+    { "en": "Toad", "id": "Kodok", "emoji": "🐸" },
+    { "en": "Chameleon", "id": "Bunglon", "emoji": "🦎" },
+    { "en": "Gecko", "id": "Tokek", "emoji": "🦎" },
+    { "en": "Iguana", "id": "Iguana", "emoji": "🦎" },
+    { "en": "Komodo Dragon", "id": "Komodo", "emoji": "🐉" }
+  ]
+}

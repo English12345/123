@@ -1,0 +1,17 @@
+{
+  "id": "peralatan-renang",
+  "nama": "Peralatan Renang",
+  "iconEmoji": "🏊",
+  "warnaTema": "#00897B",
+  "urutan": 52,
+  "kata": [
+    { "en": "Swim Goggles", "id": "Kacamata Renang", "emoji": "🥽" },
+    { "en": "Swim Cap", "id": "Topi Renang", "emoji": "🧢" },
+    { "en": "Life Jacket", "id": "Pelampung", "emoji": "🦺" },
+    { "en": "Swim Fins", "id": "Kaki Katak", "emoji": "🤿" },
+    { "en": "Pool Float", "id": "Ban Renang", "emoji": "🍩" },
+    { "en": "Swimming Pool", "id": "Kolam Renang", "emoji": "🏊" },
+    { "en": "Nose Clip", "id": "Penjepit Hidung", "emoji": "👃" },
+    { "en": "Kickboard", "id": "Papan Renang", "emoji": "🏄" }
+  ]
+}

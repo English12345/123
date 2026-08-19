@@ -1,0 +1,17 @@
+{
+  "id": "pakaian-adat",
+  "nama": "Pakaian Adat",
+  "iconEmoji": "👘",
+  "warnaTema": "#C2185B",
+  "urutan": 55,
+  "kata": [
+    { "en": "Kebaya", "id": "Kebaya", "emoji": "👘" },
+    { "en": "Batik", "id": "Batik", "emoji": "🎨" },
+    { "en": "Sarong", "id": "Sarung", "emoji": "🧵" },
+    { "en": "Blangkon", "id": "Blangkon", "emoji": "🎩" },
+    { "en": "Peci", "id": "Peci", "emoji": "🧢" },
+    { "en": "Ulos", "id": "Ulos", "emoji": "🧣" },
+    { "en": "Songket", "id": "Songket", "emoji": "🪢" },
+    { "en": "Baju Bodo", "id": "Baju Bodo", "emoji": "👗" }
+  ]
+}

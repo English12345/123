@@ -1,0 +1,17 @@
+{
+  "id": "peralatan-kantor",
+  "nama": "Peralatan Kantor",
+  "iconEmoji": "🖇️",
+  "warnaTema": "#5E35B1",
+  "urutan": 50,
+  "kata": [
+    { "en": "Paperclip", "id": "Penjepit Kertas", "emoji": "📎" },
+    { "en": "Stapler", "id": "Stepler", "emoji": "🧷" },
+    { "en": "Folder", "id": "Map", "emoji": "📁" },
+    { "en": "Marker", "id": "Spidol", "emoji": "🖊️" },
+    { "en": "Envelope", "id": "Amplop", "emoji": "✉️" },
+    { "en": "Stamp", "id": "Perangko", "emoji": "🏷️" },
+    { "en": "Whiteboard", "id": "Papan Tulis", "emoji": "📋" },
+    { "en": "Paper", "id": "Kertas", "emoji": "📄" }
+  ]
+}

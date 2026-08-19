@@ -1,0 +1,17 @@
+{
+  "id": "elektronik",
+  "nama": "Elektronik",
+  "iconEmoji": "📱",
+  "warnaTema": "#3949AB",
+  "urutan": 37,
+  "kata": [
+    { "en": "Television", "id": "Televisi", "emoji": "📺" },
+    { "en": "Laptop", "id": "Laptop", "emoji": "💻" },
+    { "en": "Mobile Phone", "id": "Telepon Genggam", "emoji": "📱" },
+    { "en": "Camera", "id": "Kamera", "emoji": "📷" },
+    { "en": "Speaker", "id": "Speaker", "emoji": "🔊" },
+    { "en": "Headphones", "id": "Headphone", "emoji": "🎧" },
+    { "en": "Charger", "id": "Charger", "emoji": "🔌" },
+    { "en": "Printer", "id": "Printer", "emoji": "🖨️" }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "alat-pertukangan",
+  "nama": "Alat Pertukangan",
+  "iconEmoji": "🔨",
+  "warnaTema": "#F4511E",
+  "urutan": 41,
+  "kata": [
+    { "en": "Hammer", "id": "Palu", "emoji": "🔨" },
+    { "en": "Screwdriver", "id": "Obeng", "emoji": "🪛" },
+    { "en": "Saw", "id": "Gergaji", "emoji": "🪚" },
+    { "en": "Wrench", "id": "Kunci Inggris", "emoji": "🔧" },
+    { "en": "Pliers", "id": "Tang", "emoji": "🗜️" },
+    { "en": "Nail", "id": "Paku", "emoji": "📌" },
+    { "en": "Drill", "id": "Bor", "emoji": "🛠️" },
+    { "en": "Toolbox", "id": "Kotak Perkakas", "emoji": "🧰" }
+  ]
+}

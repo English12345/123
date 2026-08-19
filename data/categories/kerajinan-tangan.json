@@ -1,0 +1,17 @@
+{
+  "id": "kerajinan-tangan",
+  "nama": "Kerajinan Tangan",
+  "iconEmoji": "✂️",
+  "warnaTema": "#FFB300",
+  "urutan": 56,
+  "kata": [
+    { "en": "Thread", "id": "Benang", "emoji": "🧵" },
+    { "en": "Needle", "id": "Jarum", "emoji": "🪡" },
+    { "en": "Fabric", "id": "Kain", "emoji": "🧶" },
+    { "en": "Scissors", "id": "Gunting", "emoji": "✂️" },
+    { "en": "Glue", "id": "Lem", "emoji": "🧴" },
+    { "en": "Origami Paper", "id": "Kertas Origami", "emoji": "📜" },
+    { "en": "Paintbrush", "id": "Kuas", "emoji": "🖌️" },
+    { "en": "Ribbon", "id": "Pita", "emoji": "🎀" }
+  ]
+}

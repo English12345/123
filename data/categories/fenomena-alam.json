@@ -1,0 +1,17 @@
+{
+  "id": "fenomena-alam",
+  "nama": "Fenomena Alam",
+  "iconEmoji": "🌋",
+  "warnaTema": "#5D4037",
+  "urutan": 44,
+  "kata": [
+    { "en": "Volcano", "id": "Gunung Berapi", "emoji": "🌋" },
+    { "en": "Earthquake", "id": "Gempa Bumi", "emoji": "🌍" },
+    { "en": "Flood", "id": "Banjir", "emoji": "🌊" },
+    { "en": "Tsunami", "id": "Tsunami", "emoji": "🌊" },
+    { "en": "Tornado", "id": "Tornado", "emoji": "🌪️" },
+    { "en": "Landslide", "id": "Longsor", "emoji": "⛰️" },
+    { "en": "Drought", "id": "Kekeringan", "emoji": "☀️" },
+    { "en": "Forest Fire", "id": "Kebakaran Hutan", "emoji": "🔥" }
+  ]
+}

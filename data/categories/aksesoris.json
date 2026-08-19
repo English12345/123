@@ -1,0 +1,17 @@
+{
+  "id": "aksesoris",
+  "nama": "Aksesoris",
+  "iconEmoji": "💍",
+  "warnaTema": "#D81B60",
+  "urutan": 49,
+  "kata": [
+    { "en": "Necklace", "id": "Kalung", "emoji": "📿" },
+    { "en": "Bracelet", "id": "Gelang", "emoji": "🪢" },
+    { "en": "Ring", "id": "Cincin", "emoji": "💍" },
+    { "en": "Watch", "id": "Jam Tangan", "emoji": "⌚" },
+    { "en": "Earrings", "id": "Anting", "emoji": "💎" },
+    { "en": "Wallet", "id": "Dompet", "emoji": "👛" },
+    { "en": "Belt", "id": "Ikat Pinggang", "emoji": "🥋" },
+    { "en": "Handbag", "id": "Tas Tangan", "emoji": "👜" }
+  ]
+}

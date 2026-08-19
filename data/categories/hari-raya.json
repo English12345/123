@@ -1,0 +1,17 @@
+{
+  "id": "hari-raya",
+  "nama": "Hari Raya",
+  "iconEmoji": "🎉",
+  "warnaTema": "#E53935",
+  "urutan": 46,
+  "kata": [
+    { "en": "Birthday", "id": "Ulang Tahun", "emoji": "🎂" },
+    { "en": "Christmas", "id": "Natal", "emoji": "🎄" },
+    { "en": "Eid", "id": "Lebaran", "emoji": "🌙" },
+    { "en": "New Year", "id": "Tahun Baru", "emoji": "🎆" },
+    { "en": "Gift", "id": "Kado", "emoji": "🎁" },
+    { "en": "Candle", "id": "Lilin", "emoji": "🕯️" },
+    { "en": "Invitation", "id": "Undangan", "emoji": "💌" },
+    { "en": "Party Hat", "id": "Topi Pesta", "emoji": "🎉" }
+  ]
+}

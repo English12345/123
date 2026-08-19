@@ -1,0 +1,17 @@
+{
+  "id": "kendaraan-konstruksi",
+  "nama": "Kendaraan Konstruksi",
+  "iconEmoji": "🏗️",
+  "warnaTema": "#EF6C00",
+  "urutan": 51,
+  "kata": [
+    { "en": "Excavator", "id": "Ekskavator", "emoji": "🚜" },
+    { "en": "Crane", "id": "Derek", "emoji": "🏗️" },
+    { "en": "Bulldozer", "id": "Buldoser", "emoji": "🚧" },
+    { "en": "Dump Truck", "id": "Truk Pengangkut", "emoji": "🚛" },
+    { "en": "Cement Mixer", "id": "Truk Molen", "emoji": "🚚" },
+    { "en": "Forklift", "id": "Forklift", "emoji": "🏭" },
+    { "en": "Road Roller", "id": "Mesin Penggilas", "emoji": "⚙️" },
+    { "en": "Crane Truck", "id": "Mobil Crane", "emoji": "🚛" }
+  ]
+}

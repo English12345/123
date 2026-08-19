@@ -3,7 +3,7 @@
 // ============================================================
 // GANTI ANGKA INI SETIAP KALI KAMU UPDATE FILE (kosakata, kategori baru,
 // HTML/CSS/JS). Ini "kunci" yang memberitahu HP: ada versi baru, download ulang.
-const CACHE_VERSION = "v1.0.0";
+const CACHE_VERSION = "v1.0.1";
 const APP_CACHE = `belajar-kata-app-${CACHE_VERSION}`;
 const AUDIO_CACHE = "belajar-kata-audio"; // audio tidak pernah berubah, cache terpisah & permanen
 
@@ -156,15 +156,17 @@ self.addEventListener("fetch", (event) => {
           caches.open(APP_CACHE).then((cache) => cache.put(req, clone));
           return res;
         })
-        .catch(() => caches.match(req))
+        .catch(() => caches.match(req, { ignoreSearch: true }))
     );
     return;
   }
 
   // 5) Sisanya (html/css/js) — cache-first biar app kebuka instan, lalu
   //    perbarui cache di belakang layar untuk kunjungan berikutnya.
+  // ignoreSearch: true supaya "flashcard.html?kategori=buah" atau
+  // "js/config.js?v=2" tetap ketemu cache-nya yang disimpan tanpa ekor "?..."
   event.respondWith(
-    caches.match(req).then((cached) => {
+    caches.match(req, { ignoreSearch: true }).then((cached) => {
       const jaringan = fetch(req)
         .then((res) => {
           if (res.ok) caches.open(APP_CACHE).then((cache) => cache.put(req, res.clone()));

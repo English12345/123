@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <title>Pilih Kategori — Belajar Bahasa Inggris</title>
 <link rel="stylesheet" href="css/style.css">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0B5E58">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
 </head>
 <body>
   <div class="blob-decor">
@@ -13,6 +16,10 @@
   </div>
 
   <div class="app-shell">
+    <div class="update-banner" id="updateBanner" style="display:none;">
+      🔄 Versi baru tersedia
+      <button type="button" id="btnUpdate">Update</button>
+    </div>
     <div class="topbar">
       <div class="brand">
         <div class="brand-mark">🦉</div>
@@ -23,6 +30,7 @@
       </div>
       <div class="user-chip">
         <span id="namaPengguna">...</span>
+        <button type="button" class="btn-install-mini" id="btnInstall" style="display:none;" title="Install Aplikasi">📲</button>
         <button id="logoutBtn">Keluar</button>
       </div>
     </div>
@@ -38,5 +46,6 @@
 
   <script src="js/shared.js"></script>
   <script src="js/dashboard.js"></script>
+  <script src="install.js"></script>
 </body>
 </html>

@@ -205,12 +205,19 @@
       ? '🏅 Ini skor terbaikmu sejauh ini!'
       : `Skor terbaikmu: ${hasil.skor} / ${hasil.total} (${hasil.persen}%)`;
 
+    const ringkasanKategori = ambilRingkasanKategori(kategoriId, soalList.length);
+    const lencana = tentukanLencana(ringkasanKategori.persenHafal);
+    const infoLencana = lencana
+      ? `<p class="result-rekor">${lencana.emoji} Lencana kategori ini: ${lencana.label}</p>`
+      : '';
+
     quizArea.innerHTML = `
       <div class="result-card">
         <div class="result-emoji">${emoji}</div>
         <div class="result-score">${skor} / ${soalList.length}</div>
         <p class="result-sub">${pesan}</p>
         <p class="result-rekor">${infoRekor}</p>
+        ${infoLencana}
         <div class="result-actions">
           <a href="flashcard.html?kategori=${encodeURIComponent(kategoriId)}" class="btn-secondary" style="text-decoration:none;">📖 Belajar Lagi</a>
           <button class="btn-primary" id="ulangiBtn" style="width:auto; padding:12px 24px;">🔁 Ulangi Kuis</button>

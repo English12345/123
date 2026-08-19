@@ -3,7 +3,7 @@
 // ============================================================
 // GANTI ANGKA INI SETIAP KALI KAMU UPDATE FILE (kosakata, kategori baru,
 // HTML/CSS/JS). Ini "kunci" yang memberitahu HP: ada versi baru, download ulang.
-const CACHE_VERSION = "v1.0.2";
+const CACHE_VERSION = "v1.0.3";
 const APP_CACHE = `belajar-kata-app-${CACHE_VERSION}`;
 const AUDIO_CACHE = "belajar-kata-audio"; // audio tidak pernah berubah, cache terpisah & permanen
 
@@ -15,6 +15,7 @@ const CORE_ASSETS = [
   "./flashcard.html",
   "./quiz.html",
   "./manifest.json",
+  "./install.js",
   "./css/style.css",
   "./js/config.js",
   "./js/shared.js",
@@ -100,7 +101,17 @@ self.addEventListener("install", (event) => {
       )
     )
   );
-  self.skipWaiting();
+  // TIDAK skipWaiting() di sini secara otomatis — versi baru ini sengaja
+  // "menunggu" (state: waiting) supaya banner "Versi baru tersedia" tetap
+  // tampil sampai pengguna sendiri yang klik tombol Update.
+});
+
+// Diminta oleh install.js (lewat tombol "Update") untuk benar-benar
+// mengaktifkan versi baru yang sedang menunggu.
+self.addEventListener("message", (event) => {
+  if (event.data && event.data.type === "SKIP_WAITING") {
+    self.skipWaiting();
+  }
 });
 
 // ---------- ACTIVATE: buang cache app versi lama (audio tetap disimpan) ----------

@@ -255,4 +255,90 @@ async function muatDetailKategori(id) {
   return res.json();
 }
 
+// ============================================================
+// PROGRESS TRACKING — kata yang sudah dikuasai & hasil kuis.
+// Disimpan per akun (namaPengguna) supaya kalau HP dipakai ulang
+// oleh pembeli lain, progress tidak ikut kebawa/kecampur.
+// ============================================================
+function kunciProgres() {
+  const username = localStorage.getItem('namaPengguna') || 'tamu';
+  return `progresBelajarKata_${username}`;
+}
+
+function ambilSemuaProgres() {
+  try {
+    const mentah = localStorage.getItem(kunciProgres());
+    return mentah ? JSON.parse(mentah) : {};
+  } catch (err) {
+    console.error('Gagal membaca progres, mulai dari kosong:', err);
+    return {};
+  }
+}
+
+function simpanSemuaProgres(semuaProgres) {
+  localStorage.setItem(kunciProgres(), JSON.stringify(semuaProgres));
+}
+
+// Bentuk data default untuk satu kategori kalau belum pernah disentuh.
+function progresKosong() {
+  return { hafal: [], kuisTerbaik: null, kuisTerakhir: null };
+}
+
+function ambilProgresKategori(kategoriId) {
+  const semua = ambilSemuaProgres();
+  return semua[kategoriId] || progresKosong();
+}
+
+// Tandai/batalkan satu kata sebagai "sudah hafal". Dipakai di flashcard.html.
+// Mengembalikan true/false = status barunya (sudah hafal atau tidak).
+function toggleKataHafal(kategoriId, kataEn) {
+  const semua = ambilSemuaProgres();
+  const progres = semua[kategoriId] || progresKosong();
+  const sudahAda = progres.hafal.includes(kataEn);
+
+  if (sudahAda) {
+    progres.hafal = progres.hafal.filter((k) => k !== kataEn);
+  } else {
+    progres.hafal.push(kataEn);
+  }
+
+  semua[kategoriId] = progres;
+  simpanSemuaProgres(semua);
+  return !sudahAda;
+}
+
+function apakahKataHafal(kategoriId, kataEn) {
+  return ambilProgresKategori(kategoriId).hafal.includes(kataEn);
+}
+
+// Simpan hasil kuis. kuisTerakhir selalu ditimpa; kuisTerbaik cuma ditimpa
+// kalau persentase kali ini lebih tinggi dari rekor sebelumnya.
+function simpanHasilKuis(kategoriId, skor, total) {
+  const semua = ambilSemuaProgres();
+  const progres = semua[kategoriId] || progresKosong();
+  const persen = total > 0 ? Math.round((skor / total) * 100) : 0;
+  const tanggal = new Date().toISOString().slice(0, 10);
+  const hasil = { skor, total, persen, tanggal };
+
+  progres.kuisTerakhir = hasil;
+  if (!progres.kuisTerbaik || persen > progres.kuisTerbaik.persen) {
+    progres.kuisTerbaik = hasil;
+  }
+
+  semua[kategoriId] = progres;
+  simpanSemuaProgres(semua);
+  return hasil;
+}
+
+// Ringkasan progres 1 kategori, dipakai buat badge di dashboard.html.
+function ambilRingkasanKategori(kategoriId, totalKata) {
+  const progres = ambilProgresKategori(kategoriId);
+  return {
+    jumlahHafal: progres.hafal.length,
+    totalKata,
+    persenHafal: totalKata > 0 ? Math.round((progres.hafal.length / totalKata) * 100) : 0,
+    kuisTerbaik: progres.kuisTerbaik
+  };
+}
+
 document.addEventListener('DOMContentLoaded', pasangTombolLogout);

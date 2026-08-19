@@ -587,6 +587,77 @@ a { color: inherit; }
 .feedback-text.benar { color: var(--success); }
 .feedback-text.salah { color: var(--danger); }
 
+/* ==== Overlay hasil jawaban (emoji besar di tengah layar + confetti) ====
+   Sengaja ditaruh sebagai overlay fixed di luar .quiz-card supaya:
+   1) Nggak numpuk/ketiban elemen lain di layar kecil (HP)
+   2) Tetap kelihatan penuh walau kartu soal-nya sempit
+*/
+.feedback-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  overflow: hidden;
+  pointer-events: none; /* biar tombol "Lanjut" di bawahnya tetap bisa diklik */
+}
+.feedback-overlay-emoji {
+  font-size: clamp(80px, 20vh, 160px);
+  line-height: 1;
+  filter: drop-shadow(0 10px 22px rgba(11,94,88,.28));
+}
+.feedback-overlay-emoji.benar {
+  animation: overlay-emoji-pop .55s cubic-bezier(.34,1.56,.64,1);
+}
+.feedback-overlay-emoji.salah {
+  animation: overlay-emoji-sedih .6s ease;
+}
+.feedback-overlay-text {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(15px, 3.2vh, 22px);
+  padding: 10px 24px;
+  border-radius: 999px;
+  background: var(--white);
+  box-shadow: var(--shadow-pop);
+  animation: pop-masuk .35s ease .12s backwards;
+}
+.feedback-overlay-text.benar { color: var(--success); }
+.feedback-overlay-text.salah { color: var(--danger); }
+
+@keyframes overlay-emoji-pop {
+  0% { transform: scale(.2) rotate(-12deg); opacity: 0; }
+  55% { transform: scale(1.3) rotate(6deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0); opacity: 1; }
+}
+@keyframes overlay-emoji-sedih {
+  0% { transform: scale(.3) translateY(-16px); opacity: 0; }
+  45% { transform: scale(1.1) translateY(8px); opacity: 1; }
+  65% { transform: translateY(-4px) rotate(-4deg); }
+  85% { transform: translateY(2px) rotate(3deg); }
+  100% { transform: scale(1) translateY(0) rotate(0); opacity: 1; }
+}
+
+.confetti-piece {
+  position: absolute;
+  top: -30px;
+  width: 9px;
+  height: 15px;
+  border-radius: 2px;
+  opacity: .95;
+  transform: rotate(var(--rotasi-awal, 0deg));
+  animation-name: confetti-jatuh;
+  animation-timing-function: cubic-bezier(.4,.1,.6,.95);
+  animation-fill-mode: forwards;
+}
+@keyframes confetti-jatuh {
+  0%   { transform: translateY(0) rotate(var(--rotasi-awal, 0deg)); opacity: 1; }
+  100% { transform: translateY(115vh) rotate(calc(var(--rotasi-awal, 0deg) + 540deg)); opacity: 0; }
+}
+
 .options-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -717,9 +788,6 @@ body.layar-tunggal .quiz-question { margin-bottom: 0; }
 body.layar-tunggal .quiz-prompt { font-size: clamp(16px, 2.8vh, 22px); margin-bottom: clamp(6px, 1.4vh, 14px); }
 body.layar-tunggal .options-grid { width: 100%; gap: clamp(8px, 1.4vh, 12px); }
 body.layar-tunggal .option-btn { padding: clamp(9px, 1.8vh, 14px) 10px; font-size: clamp(12.5px, 1.9vh, 15px); }
-body.layar-tunggal .feedback-box { margin-top: 0; }
-body.layar-tunggal .feedback-emoji { font-size: clamp(30px, 5vh, 48px); }
-body.layar-tunggal .feedback-text { font-size: clamp(13px, 2.2vh, 16px); }
 body.layar-tunggal .quiz-footer { margin-top: clamp(4px, 1vh, 8px); }
 body.layar-tunggal .result-score { font-size: clamp(28px, 5.5vh, 38px); margin: clamp(2px,0.6vh,6px) 0; }
 body.layar-tunggal .result-sub { margin-bottom: clamp(12px, 2.2vh, 20px); }
@@ -741,4 +809,7 @@ body.layar-tunggal #quizArea > .result-card {
 
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
+  .feedback-overlay-emoji.benar,
+  .feedback-overlay-emoji.salah { animation: pop-masuk .3s ease; }
+  .confetti-piece { display: none; }
 }

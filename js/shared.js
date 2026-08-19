@@ -8,7 +8,79 @@ function pastikanLogin() {
   }
   const namaEl = document.getElementById('namaPengguna');
   if (namaEl) namaEl.textContent = localStorage.getItem('namaPengguna') || 'Pengguna';
+  perbaruiStreakHarian();
   return { nama: localStorage.getItem('namaPengguna') };
+}
+
+// ============================================================
+// TRANSISI HALAMAN — fade halus antar halaman supaya terasa
+// seperti aplikasi native, bukan reload web biasa.
+// ============================================================
+function pasangTransisiHalaman() {
+  requestAnimationFrame(() => document.body.classList.add('halaman-siap'));
+
+  document.addEventListener('click', (e) => {
+    const a = e.target.closest('a[href]');
+    if (!a) return;
+    const href = a.getAttribute('href');
+    if (!href || href.startsWith('#') || href.startsWith('http') || a.target === '_blank') return;
+    if (!href.endsWith('.html') && !href.includes('.html?')) return;
+
+    e.preventDefault();
+    document.body.classList.add('halaman-keluar');
+    setTimeout(() => { window.location.href = href; }, 170);
+  });
+}
+document.addEventListener('DOMContentLoaded', pasangTransisiHalaman);
+
+// ============================================================
+// STREAK HARIAN — hitung berapa hari berturut-turut pengguna
+// membuka aplikasi (dashboard/flashcard/quiz), per akun.
+// ============================================================
+function kunciStreak() {
+  const username = localStorage.getItem('namaPengguna') || 'tamu';
+  return `streakBelajarKata_${username}`;
+}
+
+function perbaruiStreakHarian() {
+  const kunci = kunciStreak();
+  const hariIni = new Date().toISOString().slice(0, 10);
+  let data;
+  try {
+    data = JSON.parse(localStorage.getItem(kunci)) || { jumlahHari: 0, tanggalTerakhir: null };
+  } catch (err) {
+    data = { jumlahHari: 0, tanggalTerakhir: null };
+  }
+
+  if (data.tanggalTerakhir === hariIni) return data; // sudah tercatat hari ini
+
+  const kemarin = new Date();
+  kemarin.setDate(kemarin.getDate() - 1);
+  const strKemarin = kemarin.toISOString().slice(0, 10);
+
+  data.jumlahHari = (data.tanggalTerakhir === strKemarin) ? data.jumlahHari + 1 : 1;
+  data.tanggalTerakhir = hariIni;
+  localStorage.setItem(kunci, JSON.stringify(data));
+  return data;
+}
+
+function ambilStreakSaatIni() {
+  try {
+    const data = JSON.parse(localStorage.getItem(kunciStreak()));
+    return data ? data.jumlahHari : 0;
+  } catch (err) {
+    return 0;
+  }
+}
+
+// ============================================================
+// LENCANA PENCAPAIAN — dipakai di dashboard untuk kartu kategori.
+// ============================================================
+function tentukanLencana(persenHafal) {
+  if (persenHafal >= 100) return { emoji: '🥇', label: 'Tuntas' };
+  if (persenHafal >= 70) return { emoji: '🥈', label: 'Hampir' };
+  if (persenHafal >= 30) return { emoji: '🥉', label: 'Mulai' };
+  return null;
 }
 
 // Berapa lama hasil cek device dianggap masih berlaku, supaya device yang

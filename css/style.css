@@ -61,6 +61,16 @@
   50% { transform: translateY(-6px) scale(1.02); }
 }
 
+/* ==== Badge icon kategori: kaca mengambang + kilau (Opsi A, versi colorful) ==== */
+@keyframes ikon-apung {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+@keyframes ikon-kilau {
+  0% { left: -60%; }
+  50%, 100% { left: 130%; }
+}
+
 * { box-sizing: border-box; }
 
 /* ==== Transisi halaman: fade halus, biar tidak terasa "loncat" ==== */
@@ -600,8 +610,8 @@ a { color: inherit; }
   width: 90px; height: 90px;
   border-radius: 50%;
   right: -30px; top: -30px;
-  background: var(--accent, var(--tosca-100));
-  opacity: .5;
+  background: radial-gradient(circle at 30% 30%, var(--accent, var(--tosca-100)), color-mix(in srgb, var(--accent, var(--tosca-100)) 45%, var(--kuning-300)) 85%);
+  opacity: .55;
 }
 .category-card::before {
   content: "✦";
@@ -621,15 +631,63 @@ a { color: inherit; }
 .category-card:hover .category-icon {
   transform: rotate(-6deg) scale(1.08);
 }
+
+/* ==== Badge icon kategori: kaca mengambang + kilau, warna jenuh sesuai kategori ==== */
 .category-icon {
-  font-size: 40px;
+  position: relative;
+  font-size: 34px;
   width: 64px; height: 64px;
-  border-radius: 18px;
+  border-radius: 20px;
   display: flex; align-items: center; justify-content: center;
-  background: var(--tosca-100);
+  background: radial-gradient(circle at 30% 25%, color-mix(in srgb, var(--accent, var(--tosca-600)) 30%, white), var(--accent, var(--tosca-600)) 78%);
+  box-shadow:
+    inset 0 2px 4px rgba(255,255,255,.55),
+    inset 0 -8px 12px rgba(0,0,0,.18),
+    0 8px 18px -6px color-mix(in srgb, var(--accent, var(--tosca-600)) 65%, black),
+    0 0 22px -4px color-mix(in srgb, var(--accent, var(--tosca-600)) 75%, transparent);
   z-index: 1;
+  overflow: visible;
+  animation: ikon-apung 4.5s ease-in-out infinite;
   transition: transform .25s ease;
 }
+.category-icon::before {
+  /* kilau menyapu di dalam badge */
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  overflow: hidden;
+}
+.category-icon::after {
+  content: "";
+  position: absolute;
+  top: 0; left: -60%;
+  width: 35%; height: 100%;
+  background: linear-gradient(75deg, transparent, rgba(255,255,255,.85), transparent);
+  animation: ikon-kilau 3s ease-in-out infinite;
+  mix-blend-mode: overlay;
+  border-radius: 20px;
+  pointer-events: none;
+}
+.category-card:nth-child(3n+1) .category-icon { animation-delay: 0s; }
+.category-card:nth-child(3n+1) .category-icon::after { animation-delay: 0s; }
+.category-card:nth-child(3n+2) .category-icon { animation-delay: .35s; }
+.category-card:nth-child(3n+2) .category-icon::after { animation-delay: .35s; }
+.category-card:nth-child(3n+3) .category-icon { animation-delay: .7s; }
+.category-card:nth-child(3n+3) .category-icon::after { animation-delay: .7s; }
+
+/* Percikan warna-warni di sekitar badge icon */
+.icon-spark {
+  position: absolute;
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  z-index: 2;
+  box-shadow: 0 0 6px 1.5px currentColor;
+  opacity: 0;
+  animation: kedip-lembut 3s ease-in-out infinite;
+  pointer-events: none;
+}
+
 .category-card h3 { font-size: 18px; z-index: 1; }
 .category-meta { font-size: 12.5px; color: var(--ink-soft); font-weight: 800; z-index: 1; }
 .category-cta {
@@ -1127,6 +1185,7 @@ body.layar-tunggal #quizArea > .result-card {
   .feedback-overlay-emoji.benar,
   .feedback-overlay-emoji.salah { animation: pop-masuk .3s ease; }
   .confetti-piece { display: none; }
+  .category-icon, .category-icon::after, .icon-spark { animation: none !important; }
 }
 
 /* ============================================================

@@ -1,10 +1,13 @@
 name: Generate Audio TTS
-
 on:
   push:
     paths:
       - 'kosakata.json'
   workflow_dispatch:
+
+concurrency:
+  group: tts-generate
+  cancel-in-progress: false
 
 jobs:
   generate:
@@ -13,16 +16,13 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install dependensi
         run: |
           pip install piper-tts
           sudo apt-get update && sudo apt-get install -y ffmpeg
-
       - name: Download model suara (tidak disimpan permanen di repo)
         run: |
           mkdir -p suara_model
@@ -30,14 +30,13 @@ jobs:
           curl -L -o suara_model/id_ID-news_tts-medium.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/id/id_ID/news_tts/medium/id_ID-news_tts-medium.onnx.json
           curl -L -o suara_model/en_US-amy-medium.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/amy/medium/en_US-amy-medium.onnx
           curl -L -o suara_model/en_US-amy-medium.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/amy/medium/en_US-amy-medium.onnx.json
-
       - name: Jalankan generate_audio.py
         run: python generate_audio.py
-
       - name: Commit hasil audio ke repo
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add audio/
           git diff --staged --quiet || git commit -m "Auto-generate audio TTS dari kosakata.json"
+          git pull --rebase origin main
           git push

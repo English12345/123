@@ -13,6 +13,8 @@
 
   let ringkasanPerKategori = [];
   let filterLevelAktif = 'semua';
+  const BATAS_TAMPIL_AWAL = 24; // render bertahap, bukan 124 kartu sekaligus, biar ringan
+  let batasTampilSaatIni = BATAS_TAMPIL_AWAL;
 
   function renderGrid() {
     const kataKunci = searchInput.value.trim().toLowerCase();
@@ -30,7 +32,13 @@
     }
     noResultState.style.display = 'none';
 
-    grid.innerHTML = hasilFilter.map(({ kat, ringkasan }) => {
+    // Saat sedang mencari/filter, tampilkan semua hasil (biasanya sudah sedikit).
+    // Saat tampilan "Semua" tanpa pencarian, batasi render awal biar ringan di HP.
+    const sedangMencariAtauFilter = kataKunci || filterLevelAktif !== 'semua';
+    const dipotong = sedangMencariAtauFilter ? hasilFilter : hasilFilter.slice(0, batasTampilSaatIni);
+    const masihAdaSisa = !sedangMencariAtauFilter && hasilFilter.length > dipotong.length;
+
+    grid.innerHTML = dipotong.map(({ kat, ringkasan }) => {
       const infoKuis = ringkasan.kuisTerbaik ? ` · 🧠 ${ringkasan.kuisTerbaik.persen}%` : '';
       const lencana = tentukanLencana(ringkasan.persenHafal);
       const badgeHtml = lencana ? `<div class="achievement-badge" title="${lencana.label}">${lencana.emoji}</div>` : '';
@@ -52,6 +60,19 @@
       </div>
     `;
     }).join('');
+
+    if (masihAdaSisa) {
+      grid.insertAdjacentHTML('beforeend', `
+        <button class="tampilkan-lagi-btn" id="tampilkanLagiBtn">
+          Tampilkan Lebih Banyak (${hasilFilter.length - dipotong.length} lagi)
+        </button>
+      `);
+      document.getElementById('tampilkanLagiBtn').addEventListener('click', () => {
+        if (typeof bunyiKlik === 'function') bunyiKlik();
+        batasTampilSaatIni += 24;
+        renderGrid();
+      });
+    }
   }
 
   try {

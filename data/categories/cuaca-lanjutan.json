@@ -1,0 +1,59 @@
+{
+  "id": "cuaca-lanjutan",
+  "nama": "Fenomena Langit dan Cuaca",
+  "iconEmoji": "🌅",
+  "warnaTema": "#FF6B6B",
+  "urutan": 112,
+  "kata": [
+    {
+      "en": "Sunrise",
+      "id": "Matahari Terbit",
+      "emoji": "🌅"
+    },
+    {
+      "en": "Sunset",
+      "id": "Matahari Terbenam",
+      "emoji": "🌇"
+    },
+    {
+      "en": "Twilight",
+      "id": "Senja",
+      "emoji": "🌆"
+    },
+    {
+      "en": "Eclipse",
+      "id": "Gerhana",
+      "emoji": "🌒"
+    },
+    {
+      "en": "Aurora",
+      "id": "Aurora",
+      "emoji": "🌌"
+    },
+    {
+      "en": "Mist",
+      "id": "Kabut Tipis",
+      "emoji": "🌫️"
+    },
+    {
+      "en": "Dew",
+      "id": "Embun",
+      "emoji": "💧"
+    },
+    {
+      "en": "Frost",
+      "id": "Embun Beku",
+      "emoji": "❄️"
+    },
+    {
+      "en": "Hail",
+      "id": "Hujan Es",
+      "emoji": "🧊"
+    },
+    {
+      "en": "Drizzle",
+      "id": "Gerimis",
+      "emoji": "🌦️"
+    }
+  ]
+}

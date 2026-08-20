@@ -1,0 +1,69 @@
+{
+  "id": "alat-berkebun",
+  "nama": "Alat Berkebun",
+  "iconEmoji": "🌱",
+  "warnaTema": "#34B27B",
+  "urutan": 93,
+  "kata": [
+    {
+      "en": "Shovel",
+      "id": "Sekop",
+      "emoji": "🥄"
+    },
+    {
+      "en": "Garden Hose",
+      "id": "Selang Taman",
+      "emoji": "🚿"
+    },
+    {
+      "en": "Trowel",
+      "id": "Sekop Kecil",
+      "emoji": "🥄"
+    },
+    {
+      "en": "Pruner",
+      "id": "Gunting Ranting",
+      "emoji": "✂️"
+    },
+    {
+      "en": "Greenhouse",
+      "id": "Rumah Kaca",
+      "emoji": "🏡"
+    },
+    {
+      "en": "Sprinkler",
+      "id": "Alat Penyiram Otomatis",
+      "emoji": "💦"
+    },
+    {
+      "en": "Lawn Mower",
+      "id": "Mesin Pemotong Rumput",
+      "emoji": "🌿"
+    },
+    {
+      "en": "Compost",
+      "id": "Kompos",
+      "emoji": "🍂"
+    },
+    {
+      "en": "Garden Fork",
+      "id": "Garpu Taman",
+      "emoji": "🍴"
+    },
+    {
+      "en": "Plant Stake",
+      "id": "Ajir Tanaman",
+      "emoji": "🎋"
+    },
+    {
+      "en": "Seedling",
+      "id": "Bibit Tanaman",
+      "emoji": "🌱"
+    },
+    {
+      "en": "Garden Twine",
+      "id": "Tali Taman",
+      "emoji": "🧵"
+    }
+  ]
+}

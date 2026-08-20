@@ -1,0 +1,79 @@
+{
+  "id": "perlengkapan-hewan",
+  "nama": "Perlengkapan Hewan Peliharaan",
+  "iconEmoji": "🐾",
+  "warnaTema": "#FFC93C",
+  "urutan": 74,
+  "kata": [
+    {
+      "en": "Leash",
+      "id": "Tali Anjing",
+      "emoji": "🐕"
+    },
+    {
+      "en": "Collar",
+      "id": "Kalung Hewan",
+      "emoji": "🐾"
+    },
+    {
+      "en": "Pet Bed",
+      "id": "Kasur Hewan",
+      "emoji": "🛏️"
+    },
+    {
+      "en": "Pet Food",
+      "id": "Makanan Hewan",
+      "emoji": "🥫"
+    },
+    {
+      "en": "Cage",
+      "id": "Kandang",
+      "emoji": "🦜"
+    },
+    {
+      "en": "Aquarium",
+      "id": "Akuarium",
+      "emoji": "🐠"
+    },
+    {
+      "en": "Litter Box",
+      "id": "Kotak Pasir Kucing",
+      "emoji": "🐱"
+    },
+    {
+      "en": "Pet Bowl",
+      "id": "Mangkuk Hewan",
+      "emoji": "🥣"
+    },
+    {
+      "en": "Scratching Post",
+      "id": "Tiang Cakar Kucing",
+      "emoji": "🐈"
+    },
+    {
+      "en": "Fish Tank",
+      "id": "Akuarium Ikan",
+      "emoji": "🐟"
+    },
+    {
+      "en": "Dog House",
+      "id": "Rumah Anjing",
+      "emoji": "🐕"
+    },
+    {
+      "en": "Bird Cage",
+      "id": "Sangkar Burung",
+      "emoji": "🐦"
+    },
+    {
+      "en": "Pet Carrier",
+      "id": "Tas Bawa Hewan",
+      "emoji": "🐾"
+    },
+    {
+      "en": "Grooming Brush",
+      "id": "Sikat Bulu Hewan",
+      "emoji": "🐕"
+    }
+  ]
+}

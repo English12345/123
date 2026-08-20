@@ -1,0 +1,109 @@
+{
+  "id": "kata-kerja-tambahan",
+  "nama": "Kata Kerja Tambahan",
+  "iconEmoji": "🏃",
+  "warnaTema": "#2EC4B6",
+  "urutan": 106,
+  "kata": [
+    {
+      "en": "Close",
+      "id": "Menutup",
+      "emoji": "🚪"
+    },
+    {
+      "en": "Turn",
+      "id": "Berbelok",
+      "emoji": "↩️"
+    },
+    {
+      "en": "Look",
+      "id": "Melihat",
+      "emoji": "👀"
+    },
+    {
+      "en": "Listen",
+      "id": "Mendengarkan",
+      "emoji": "👂"
+    },
+    {
+      "en": "Speak",
+      "id": "Berbicara",
+      "emoji": "🗣️"
+    },
+    {
+      "en": "Whisper",
+      "id": "Berbisik",
+      "emoji": "🤫"
+    },
+    {
+      "en": "Shout",
+      "id": "Berteriak",
+      "emoji": "📢"
+    },
+    {
+      "en": "Point",
+      "id": "Menunjuk",
+      "emoji": "👉"
+    },
+    {
+      "en": "Hold",
+      "id": "Memegang",
+      "emoji": "✊"
+    },
+    {
+      "en": "Carry",
+      "id": "Membawa",
+      "emoji": "🎒"
+    },
+    {
+      "en": "Build",
+      "id": "Membangun",
+      "emoji": "🧱"
+    },
+    {
+      "en": "Break",
+      "id": "Memecahkan",
+      "emoji": "💥"
+    },
+    {
+      "en": "Fix",
+      "id": "Memperbaiki",
+      "emoji": "🔧"
+    },
+    {
+      "en": "Draw",
+      "id": "Menggambar",
+      "emoji": "🎨"
+    },
+    {
+      "en": "Paint (verb)",
+      "id": "Melukis",
+      "emoji": "🖌️"
+    },
+    {
+      "en": "Cut",
+      "id": "Memotong",
+      "emoji": "✂️"
+    },
+    {
+      "en": "Sew",
+      "id": "Menjahit",
+      "emoji": "🧵"
+    },
+    {
+      "en": "Bake",
+      "id": "Memanggang",
+      "emoji": "🍞"
+    },
+    {
+      "en": "Fold",
+      "id": "Melipat",
+      "emoji": "📄"
+    },
+    {
+      "en": "Measure",
+      "id": "Mengukur",
+      "emoji": "📏"
+    }
+  ]
+}

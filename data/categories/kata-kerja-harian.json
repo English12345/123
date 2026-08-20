@@ -1,0 +1,89 @@
+{
+  "id": "kata-kerja-harian",
+  "nama": "Kata Kerja Sehari-hari",
+  "iconEmoji": "🧑‍🍳",
+  "warnaTema": "#8B7FE8",
+  "urutan": 102,
+  "kata": [
+    {
+      "en": "Wake Up",
+      "id": "Bangun Tidur",
+      "emoji": "⏰"
+    },
+    {
+      "en": "Take a Bath",
+      "id": "Mandi",
+      "emoji": "🛁"
+    },
+    {
+      "en": "Read",
+      "id": "Membaca",
+      "emoji": "📖"
+    },
+    {
+      "en": "Write",
+      "id": "Menulis",
+      "emoji": "✍️"
+    },
+    {
+      "en": "Study",
+      "id": "Belajar",
+      "emoji": "📚"
+    },
+    {
+      "en": "Cook",
+      "id": "Memasak",
+      "emoji": "👩‍🍳"
+    },
+    {
+      "en": "Clean",
+      "id": "Membersihkan",
+      "emoji": "🧹"
+    },
+    {
+      "en": "Wash",
+      "id": "Mencuci",
+      "emoji": "🧼"
+    },
+    {
+      "en": "Brush Teeth",
+      "id": "Menggosok Gigi",
+      "emoji": "🪥"
+    },
+    {
+      "en": "Get Dressed",
+      "id": "Berpakaian",
+      "emoji": "👕"
+    },
+    {
+      "en": "Sing",
+      "id": "Bernyanyi",
+      "emoji": "🎤"
+    },
+    {
+      "en": "Sit",
+      "id": "Duduk",
+      "emoji": "🪑"
+    },
+    {
+      "en": "Stand",
+      "id": "Berdiri",
+      "emoji": "🧍"
+    },
+    {
+      "en": "Fly",
+      "id": "Terbang",
+      "emoji": "🕊️"
+    },
+    {
+      "en": "Fall",
+      "id": "Jatuh",
+      "emoji": "⬇️"
+    },
+    {
+      "en": "Open",
+      "id": "Membuka",
+      "emoji": "🚪"
+    }
+  ]
+}

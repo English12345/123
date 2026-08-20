@@ -1,0 +1,79 @@
+{
+  "id": "makhluk-mitos",
+  "nama": "Makhluk Mitos",
+  "iconEmoji": "🐉",
+  "warnaTema": "#FF6B6B",
+  "urutan": 79,
+  "kata": [
+    {
+      "en": "Dragon",
+      "id": "Naga",
+      "emoji": "🐉"
+    },
+    {
+      "en": "Unicorn",
+      "id": "Kuda Bertanduk",
+      "emoji": "🦄"
+    },
+    {
+      "en": "Mermaid",
+      "id": "Putri Duyung",
+      "emoji": "🧜‍♀️"
+    },
+    {
+      "en": "Phoenix",
+      "id": "Burung Api",
+      "emoji": "🔥"
+    },
+    {
+      "en": "Fairy",
+      "id": "Peri",
+      "emoji": "🧚"
+    },
+    {
+      "en": "Giant",
+      "id": "Raksasa",
+      "emoji": "🗿"
+    },
+    {
+      "en": "Troll",
+      "id": "Troll",
+      "emoji": "👹"
+    },
+    {
+      "en": "Wizard",
+      "id": "Penyihir Pria",
+      "emoji": "🧙‍♂️"
+    },
+    {
+      "en": "Witch",
+      "id": "Penyihir Wanita",
+      "emoji": "🧙‍♀️"
+    },
+    {
+      "en": "Ghost",
+      "id": "Hantu",
+      "emoji": "👻"
+    },
+    {
+      "en": "Vampire",
+      "id": "Vampir",
+      "emoji": "🧛"
+    },
+    {
+      "en": "Werewolf",
+      "id": "Manusia Serigala",
+      "emoji": "🐺"
+    },
+    {
+      "en": "Elf",
+      "id": "Peri Kecil",
+      "emoji": "🧝"
+    },
+    {
+      "en": "Genie",
+      "id": "Jin Ajaib",
+      "emoji": "🧞"
+    }
+  ]
+}

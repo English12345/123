@@ -1,0 +1,79 @@
+{
+  "id": "makanan-penutup",
+  "nama": "Makanan Penutup",
+  "iconEmoji": "🍰",
+  "warnaTema": "#E8594B",
+  "urutan": 83,
+  "kata": [
+    {
+      "en": "Pudding",
+      "id": "Puding",
+      "emoji": "🍮"
+    },
+    {
+      "en": "Donut",
+      "id": "Donat",
+      "emoji": "🍩"
+    },
+    {
+      "en": "Cupcake",
+      "id": "Kue Mangkuk",
+      "emoji": "🧁"
+    },
+    {
+      "en": "Pie",
+      "id": "Pai",
+      "emoji": "🥧"
+    },
+    {
+      "en": "Cookie",
+      "id": "Biskuit",
+      "emoji": "🍪"
+    },
+    {
+      "en": "Brownie",
+      "id": "Brownies",
+      "emoji": "🍫"
+    },
+    {
+      "en": "Macaron",
+      "id": "Macaron",
+      "emoji": "🎨"
+    },
+    {
+      "en": "Tart",
+      "id": "Tart Buah",
+      "emoji": "🥧"
+    },
+    {
+      "en": "Waffle",
+      "id": "Wafel",
+      "emoji": "🧇"
+    },
+    {
+      "en": "Gelato",
+      "id": "Gelato",
+      "emoji": "🍨"
+    },
+    {
+      "en": "Meringue",
+      "id": "Meringue",
+      "emoji": "☁️"
+    },
+    {
+      "en": "Muffin",
+      "id": "Muffin",
+      "emoji": "🧁"
+    },
+    {
+      "en": "Tiramisu",
+      "id": "Tiramisu",
+      "emoji": "🍰"
+    },
+    {
+      "en": "Fudge",
+      "id": "Fudge",
+      "emoji": "🍫"
+    }
+  ]
+}

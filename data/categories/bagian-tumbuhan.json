@@ -1,0 +1,74 @@
+{
+  "id": "bagian-tumbuhan",
+  "nama": "Bagian Tumbuhan",
+  "iconEmoji": "🌿",
+  "warnaTema": "#6FDCD1",
+  "urutan": 108,
+  "kata": [
+    {
+      "en": "Root",
+      "id": "Akar",
+      "emoji": "🌱"
+    },
+    {
+      "en": "Stem",
+      "id": "Batang",
+      "emoji": "🌿"
+    },
+    {
+      "en": "Branch",
+      "id": "Cabang Pohon",
+      "emoji": "🌳"
+    },
+    {
+      "en": "Petal",
+      "id": "Kelopak Bunga",
+      "emoji": "🌸"
+    },
+    {
+      "en": "Pollen",
+      "id": "Serbuk Sari",
+      "emoji": "🌼"
+    },
+    {
+      "en": "Trunk (tree)",
+      "id": "Batang Utama Pohon",
+      "emoji": "🌳"
+    },
+    {
+      "en": "Bark",
+      "id": "Kulit Kayu",
+      "emoji": "🪵"
+    },
+    {
+      "en": "Thorn",
+      "id": "Duri",
+      "emoji": "🌵"
+    },
+    {
+      "en": "Vine",
+      "id": "Tanaman Rambat",
+      "emoji": "🌿"
+    },
+    {
+      "en": "Sprout",
+      "id": "Tunas",
+      "emoji": "🌱"
+    },
+    {
+      "en": "Bud",
+      "id": "Kuncup",
+      "emoji": "🌸"
+    },
+    {
+      "en": "Twig",
+      "id": "Ranting Kecil",
+      "emoji": "🌿"
+    },
+    {
+      "en": "Sap",
+      "id": "Getah Pohon",
+      "emoji": "🍯"
+    }
+  ]
+}

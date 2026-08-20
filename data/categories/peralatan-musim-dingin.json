@@ -1,0 +1,59 @@
+{
+  "id": "peralatan-musim-dingin",
+  "nama": "Peralatan Musim Dingin",
+  "iconEmoji": "⛷️",
+  "warnaTema": "#E8594B",
+  "urutan": 116,
+  "kata": [
+    {
+      "en": "Ski",
+      "id": "Ski Salju",
+      "emoji": "⛷️"
+    },
+    {
+      "en": "Snowboard",
+      "id": "Papan Salju",
+      "emoji": "🏂"
+    },
+    {
+      "en": "Sled",
+      "id": "Kereta Luncur",
+      "emoji": "🛷"
+    },
+    {
+      "en": "Ice Skates",
+      "id": "Sepatu Es",
+      "emoji": "⛸️"
+    },
+    {
+      "en": "Snow Globe",
+      "id": "Bola Salju",
+      "emoji": "❄️"
+    },
+    {
+      "en": "Snowman",
+      "id": "Manusia Salju",
+      "emoji": "⛄"
+    },
+    {
+      "en": "Mittens",
+      "id": "Sarung Tangan Tebal",
+      "emoji": "🧤"
+    },
+    {
+      "en": "Earmuffs",
+      "id": "Penutup Telinga",
+      "emoji": "🧣"
+    },
+    {
+      "en": "Thermos",
+      "id": "Termos",
+      "emoji": "🍵"
+    },
+    {
+      "en": "Snow Boots",
+      "id": "Sepatu Bot Salju",
+      "emoji": "👢"
+    }
+  ]
+}

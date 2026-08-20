@@ -1,0 +1,59 @@
+{
+  "id": "bagian-wajah",
+  "nama": "Bagian Wajah",
+  "iconEmoji": "😀",
+  "warnaTema": "#0B5E58",
+  "urutan": 109,
+  "kata": [
+    {
+      "en": "Forehead",
+      "id": "Dahi",
+      "emoji": "😀"
+    },
+    {
+      "en": "Eyebrow",
+      "id": "Alis",
+      "emoji": "🤨"
+    },
+    {
+      "en": "Eyelash",
+      "id": "Bulu Mata",
+      "emoji": "👁️"
+    },
+    {
+      "en": "Cheek",
+      "id": "Pipi",
+      "emoji": "😊"
+    },
+    {
+      "en": "Chin",
+      "id": "Dagu",
+      "emoji": "🧑"
+    },
+    {
+      "en": "Jaw",
+      "id": "Rahang",
+      "emoji": "🦷"
+    },
+    {
+      "en": "Lip",
+      "id": "Bibir",
+      "emoji": "👄"
+    },
+    {
+      "en": "Eyelid",
+      "id": "Kelopak Mata",
+      "emoji": "👁️"
+    },
+    {
+      "en": "Nostril",
+      "id": "Lubang Hidung",
+      "emoji": "👃"
+    },
+    {
+      "en": "Temple (head)",
+      "id": "Pelipis",
+      "emoji": "🧑"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "gerakan-tubuh",
+  "nama": "Gerakan Tubuh",
+  "iconEmoji": "🤸",
+  "warnaTema": "#8B7FE8",
+  "urutan": 91,
+  "kata": [
+    {
+      "en": "Jump",
+      "id": "Melompat",
+      "emoji": "🤸"
+    },
+    {
+      "en": "Run",
+      "id": "Berlari",
+      "emoji": "🏃"
+    },
+    {
+      "en": "Walk",
+      "id": "Berjalan",
+      "emoji": "🚶"
+    },
+    {
+      "en": "Crawl",
+      "id": "Merangkak",
+      "emoji": "🐛"
+    },
+    {
+      "en": "Climb",
+      "id": "Memanjat",
+      "emoji": "🧗"
+    },
+    {
+      "en": "Swim",
+      "id": "Berenang",
+      "emoji": "🏊"
+    },
+    {
+      "en": "Dance",
+      "id": "Menari",
+      "emoji": "💃"
+    },
+    {
+      "en": "Clap",
+      "id": "Bertepuk Tangan",
+      "emoji": "👏"
+    },
+    {
+      "en": "Wave",
+      "id": "Melambai",
+      "emoji": "👋"
+    },
+    {
+      "en": "Stretch",
+      "id": "Meregangkan Badan",
+      "emoji": "🤸"
+    },
+    {
+      "en": "Bend",
+      "id": "Membungkuk",
+      "emoji": "🙇"
+    },
+    {
+      "en": "Kick",
+      "id": "Menendang",
+      "emoji": "🦵"
+    },
+    {
+      "en": "Throw",
+      "id": "Melempar",
+      "emoji": "🤾"
+    },
+    {
+      "en": "Catch",
+      "id": "Menangkap",
+      "emoji": "🤲"
+    },
+    {
+      "en": "Push",
+      "id": "Mendorong",
+      "emoji": "👐"
+    },
+    {
+      "en": "Pull",
+      "id": "Menarik",
+      "emoji": "💪"
+    }
+  ]
+}

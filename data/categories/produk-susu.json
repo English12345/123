@@ -1,0 +1,79 @@
+{
+  "id": "produk-susu",
+  "nama": "Produk Susu",
+  "iconEmoji": "🧀",
+  "warnaTema": "#6FDCD1",
+  "urutan": 86,
+  "kata": [
+    {
+      "en": "Butter",
+      "id": "Mentega",
+      "emoji": "🧈"
+    },
+    {
+      "en": "Cream",
+      "id": "Krim",
+      "emoji": "🥛"
+    },
+    {
+      "en": "Buttermilk",
+      "id": "Susu Asam",
+      "emoji": "🥛"
+    },
+    {
+      "en": "Whipped Cream",
+      "id": "Krim Kocok",
+      "emoji": "🍦"
+    },
+    {
+      "en": "Condensed Milk",
+      "id": "Susu Kental Manis",
+      "emoji": "🥫"
+    },
+    {
+      "en": "Curd",
+      "id": "Dadih Susu",
+      "emoji": "🥣"
+    },
+    {
+      "en": "Sour Cream",
+      "id": "Krim Asam",
+      "emoji": "🥛"
+    },
+    {
+      "en": "Mozzarella",
+      "id": "Keju Mozzarella",
+      "emoji": "🧀"
+    },
+    {
+      "en": "Cottage Cheese",
+      "id": "Keju Cottage",
+      "emoji": "🧀"
+    },
+    {
+      "en": "Cheddar Cheese",
+      "id": "Keju Cheddar",
+      "emoji": "🧀"
+    },
+    {
+      "en": "Parmesan Cheese",
+      "id": "Keju Parmesan",
+      "emoji": "🧀"
+    },
+    {
+      "en": "Ghee",
+      "id": "Minyak Samin",
+      "emoji": "🧈"
+    },
+    {
+      "en": "Skim Milk",
+      "id": "Susu Rendah Lemak",
+      "emoji": "🥛"
+    },
+    {
+      "en": "Powdered Milk",
+      "id": "Susu Bubuk",
+      "emoji": "🥛"
+    }
+  ]
+}

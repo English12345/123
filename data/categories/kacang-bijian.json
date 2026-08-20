@@ -1,0 +1,89 @@
+{
+  "id": "kacang-bijian",
+  "nama": "Kacang dan Biji-bijian",
+  "iconEmoji": "🥜",
+  "warnaTema": "#0B5E58",
+  "urutan": 87,
+  "kata": [
+    {
+      "en": "Almond",
+      "id": "Almon",
+      "emoji": "🌰"
+    },
+    {
+      "en": "Peanut",
+      "id": "Kacang Tanah",
+      "emoji": "🥜"
+    },
+    {
+      "en": "Cashew",
+      "id": "Kacang Mete",
+      "emoji": "🥜"
+    },
+    {
+      "en": "Walnut",
+      "id": "Kenari",
+      "emoji": "🌰"
+    },
+    {
+      "en": "Pistachio",
+      "id": "Pistachio",
+      "emoji": "🥜"
+    },
+    {
+      "en": "Hazelnut",
+      "id": "Hazelnut",
+      "emoji": "🌰"
+    },
+    {
+      "en": "Sunflower Seed",
+      "id": "Biji Bunga Matahari",
+      "emoji": "🌻"
+    },
+    {
+      "en": "Pumpkin Seed",
+      "id": "Biji Labu",
+      "emoji": "🎃"
+    },
+    {
+      "en": "Chia Seed",
+      "id": "Biji Chia",
+      "emoji": "⚫"
+    },
+    {
+      "en": "Sesame Seed",
+      "id": "Biji Wijen",
+      "emoji": "⚪"
+    },
+    {
+      "en": "Chestnut",
+      "id": "Kastanye",
+      "emoji": "🌰"
+    },
+    {
+      "en": "Macadamia",
+      "id": "Macadamia",
+      "emoji": "🥜"
+    },
+    {
+      "en": "Pine Nut",
+      "id": "Kacang Pinus",
+      "emoji": "🌰"
+    },
+    {
+      "en": "Brazil Nut",
+      "id": "Kacang Brazil",
+      "emoji": "🌰"
+    },
+    {
+      "en": "Flaxseed",
+      "id": "Biji Rami",
+      "emoji": "⚫"
+    },
+    {
+      "en": "Poppy Seed",
+      "id": "Biji Poppy",
+      "emoji": "⚫"
+    }
+  ]
+}

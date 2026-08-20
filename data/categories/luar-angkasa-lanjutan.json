@@ -1,0 +1,89 @@
+{
+  "id": "luar-angkasa-lanjutan",
+  "nama": "Luar Angkasa Lanjutan",
+  "iconEmoji": "🛰️",
+  "warnaTema": "#FF8FB1",
+  "urutan": 103,
+  "kata": [
+    {
+      "en": "Spaceship",
+      "id": "Pesawat Luar Angkasa",
+      "emoji": "🛸"
+    },
+    {
+      "en": "Satellite",
+      "id": "Satelit",
+      "emoji": "🛰️"
+    },
+    {
+      "en": "Space Station",
+      "id": "Stasiun Luar Angkasa",
+      "emoji": "🛰️"
+    },
+    {
+      "en": "Space Suit",
+      "id": "Baju Astronot",
+      "emoji": "👨‍🚀"
+    },
+    {
+      "en": "Space Shuttle",
+      "id": "Pesawat Ulang-alik",
+      "emoji": "🚀"
+    },
+    {
+      "en": "Astronaut Helmet",
+      "id": "Helm Astronot",
+      "emoji": "👨‍🚀"
+    },
+    {
+      "en": "Space Capsule",
+      "id": "Kapsul Luar Angkasa",
+      "emoji": "🚀"
+    },
+    {
+      "en": "Alien",
+      "id": "Makhluk Luar Angkasa",
+      "emoji": "👽"
+    },
+    {
+      "en": "Black Hole",
+      "id": "Lubang Hitam",
+      "emoji": "⚫"
+    },
+    {
+      "en": "Asteroid",
+      "id": "Asteroid",
+      "emoji": "☄️"
+    },
+    {
+      "en": "Constellation",
+      "id": "Rasi Bintang",
+      "emoji": "✨"
+    },
+    {
+      "en": "Telescope",
+      "id": "Teropong Bintang",
+      "emoji": "🔭"
+    },
+    {
+      "en": "Nebula",
+      "id": "Nebula",
+      "emoji": "🌌"
+    },
+    {
+      "en": "Meteorite",
+      "id": "Meteorit",
+      "emoji": "☄️"
+    },
+    {
+      "en": "Space Rover",
+      "id": "Kendaraan Penjelajah Antariksa",
+      "emoji": "🤖"
+    },
+    {
+      "en": "Solar Panel",
+      "id": "Panel Surya",
+      "emoji": "🔆"
+    }
+  ]
+}

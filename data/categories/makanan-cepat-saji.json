@@ -1,0 +1,79 @@
+{
+  "id": "makanan-cepat-saji",
+  "nama": "Makanan Cepat Saji",
+  "iconEmoji": "🍔",
+  "warnaTema": "#2EC4B6",
+  "urutan": 84,
+  "kata": [
+    {
+      "en": "Hot Dog",
+      "id": "Hot Dog",
+      "emoji": "🌭"
+    },
+    {
+      "en": "Taco",
+      "id": "Taco",
+      "emoji": "🌮"
+    },
+    {
+      "en": "Burrito",
+      "id": "Burrito",
+      "emoji": "🌯"
+    },
+    {
+      "en": "Chicken Nugget",
+      "id": "Nugget Ayam",
+      "emoji": "🍗"
+    },
+    {
+      "en": "Fried Chicken",
+      "id": "Ayam Goreng",
+      "emoji": "🍗"
+    },
+    {
+      "en": "Kebab",
+      "id": "Kebab",
+      "emoji": "🌯"
+    },
+    {
+      "en": "Popcorn",
+      "id": "Popcorn",
+      "emoji": "🍿"
+    },
+    {
+      "en": "Onion Rings",
+      "id": "Bawang Goreng Cincin",
+      "emoji": "🧅"
+    },
+    {
+      "en": "Milkshake",
+      "id": "Milkshake",
+      "emoji": "🥤"
+    },
+    {
+      "en": "Wrap",
+      "id": "Roti Gulung",
+      "emoji": "🌯"
+    },
+    {
+      "en": "Quesadilla",
+      "id": "Quesadilla",
+      "emoji": "🫓"
+    },
+    {
+      "en": "Corn Dog",
+      "id": "Corn Dog",
+      "emoji": "🌭"
+    },
+    {
+      "en": "Pretzel",
+      "id": "Pretzel",
+      "emoji": "🥨"
+    },
+    {
+      "en": "Nachos",
+      "id": "Nachos",
+      "emoji": "🧀"
+    }
+  ]
+}

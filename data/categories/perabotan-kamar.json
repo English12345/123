@@ -1,0 +1,89 @@
+{
+  "id": "perabotan-kamar",
+  "nama": "Perabotan Kamar Tidur",
+  "iconEmoji": "🛏️",
+  "warnaTema": "#0B5E58",
+  "urutan": 65,
+  "kata": [
+    {
+      "en": "Pillow",
+      "id": "Bantal",
+      "emoji": "🛏️"
+    },
+    {
+      "en": "Blanket",
+      "id": "Selimut",
+      "emoji": "🧣"
+    },
+    {
+      "en": "Mattress",
+      "id": "Kasur",
+      "emoji": "🛏️"
+    },
+    {
+      "en": "Curtain",
+      "id": "Tirai",
+      "emoji": "🪟"
+    },
+    {
+      "en": "Lamp",
+      "id": "Lampu",
+      "emoji": "💡"
+    },
+    {
+      "en": "Rug",
+      "id": "Karpet",
+      "emoji": "🟫"
+    },
+    {
+      "en": "Alarm Clock",
+      "id": "Jam Weker",
+      "emoji": "⏰"
+    },
+    {
+      "en": "Hanger",
+      "id": "Gantungan Baju",
+      "emoji": "👔"
+    },
+    {
+      "en": "Closet",
+      "id": "Lemari Pakaian",
+      "emoji": "🚪"
+    },
+    {
+      "en": "Bedsheet",
+      "id": "Seprai",
+      "emoji": "🛏️"
+    },
+    {
+      "en": "Dresser",
+      "id": "Meja Rias",
+      "emoji": "🪞"
+    },
+    {
+      "en": "Nightlight",
+      "id": "Lampu Tidur",
+      "emoji": "🌙"
+    },
+    {
+      "en": "Bunk Bed",
+      "id": "Ranjang Tingkat",
+      "emoji": "🛏️"
+    },
+    {
+      "en": "Bed Frame",
+      "id": "Rangka Ranjang",
+      "emoji": "🛏️"
+    },
+    {
+      "en": "Vanity Mirror",
+      "id": "Cermin Rias",
+      "emoji": "🪞"
+    },
+    {
+      "en": "Bedside Table",
+      "id": "Meja Samping Ranjang",
+      "emoji": "🛏️"
+    }
+  ]
+}

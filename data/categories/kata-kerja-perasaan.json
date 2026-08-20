@@ -1,0 +1,59 @@
+{
+  "id": "kata-kerja-perasaan",
+  "nama": "Kata Kerja Perasaan",
+  "iconEmoji": "❤️",
+  "warnaTema": "#F5B700",
+  "urutan": 122,
+  "kata": [
+    {
+      "en": "Love",
+      "id": "Mencintai",
+      "emoji": "❤️"
+    },
+    {
+      "en": "Hate",
+      "id": "Membenci",
+      "emoji": "💔"
+    },
+    {
+      "en": "Miss (someone)",
+      "id": "Merindukan",
+      "emoji": "🥺"
+    },
+    {
+      "en": "Trust",
+      "id": "Mempercayai",
+      "emoji": "🤝"
+    },
+    {
+      "en": "Hope",
+      "id": "Berharap",
+      "emoji": "🌟"
+    },
+    {
+      "en": "Fear",
+      "id": "Takut Akan",
+      "emoji": "😨"
+    },
+    {
+      "en": "Enjoy",
+      "id": "Menikmati",
+      "emoji": "😄"
+    },
+    {
+      "en": "Comfort",
+      "id": "Menghibur",
+      "emoji": "🤗"
+    },
+    {
+      "en": "Encourage",
+      "id": "Menyemangati",
+      "emoji": "💪"
+    },
+    {
+      "en": "Forgive",
+      "id": "Memaafkan",
+      "emoji": "🤲"
+    }
+  ]
+}

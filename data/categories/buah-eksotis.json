@@ -1,0 +1,89 @@
+{
+  "id": "buah-eksotis",
+  "nama": "Buah Eksotis",
+  "iconEmoji": "🥭",
+  "warnaTema": "#FF8FB1",
+  "urutan": 81,
+  "kata": [
+    {
+      "en": "Dragon Fruit",
+      "id": "Buah Naga",
+      "emoji": "🐉"
+    },
+    {
+      "en": "Durian",
+      "id": "Durian",
+      "emoji": "🟢"
+    },
+    {
+      "en": "Rambutan",
+      "id": "Rambutan",
+      "emoji": "🔴"
+    },
+    {
+      "en": "Lychee",
+      "id": "Leci",
+      "emoji": "🍑"
+    },
+    {
+      "en": "Mangosteen",
+      "id": "Manggis",
+      "emoji": "🟣"
+    },
+    {
+      "en": "Papaya",
+      "id": "Pepaya",
+      "emoji": "🧡"
+    },
+    {
+      "en": "Passion Fruit",
+      "id": "Markisa",
+      "emoji": "🟡"
+    },
+    {
+      "en": "Starfruit",
+      "id": "Belimbing",
+      "emoji": "⭐"
+    },
+    {
+      "en": "Jackfruit",
+      "id": "Nangka",
+      "emoji": "🟡"
+    },
+    {
+      "en": "Fig",
+      "id": "Buah Ara",
+      "emoji": "🟤"
+    },
+    {
+      "en": "Plum",
+      "id": "Plum",
+      "emoji": "🟣"
+    },
+    {
+      "en": "Apricot",
+      "id": "Aprikot",
+      "emoji": "🟠"
+    },
+    {
+      "en": "Cranberry",
+      "id": "Cranberry",
+      "emoji": "🔴"
+    },
+    {
+      "en": "Raspberry",
+      "id": "Rasberi",
+      "emoji": "🔴"
+    },
+    {
+      "en": "Tangerine",
+      "id": "Jeruk Keprok",
+      "emoji": "🍊"
+    },
+    {
+      "en": "Persimmon",
+      "id": "Kesemek",
+      "emoji": "🟠"
+    }
+  ]
+}

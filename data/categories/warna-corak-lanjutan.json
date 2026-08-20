@@ -1,0 +1,59 @@
+{
+  "id": "warna-corak-lanjutan",
+  "nama": "Corak Warna Alam",
+  "iconEmoji": "🎨",
+  "warnaTema": "#6FDCD1",
+  "urutan": 119,
+  "kata": [
+    {
+      "en": "Sky Blue",
+      "id": "Biru Langit",
+      "emoji": "🩵"
+    },
+    {
+      "en": "Sunset Orange",
+      "id": "Oranye Senja",
+      "emoji": "🌇"
+    },
+    {
+      "en": "Forest Green",
+      "id": "Hijau Hutan",
+      "emoji": "🌲"
+    },
+    {
+      "en": "Ocean Blue",
+      "id": "Biru Laut",
+      "emoji": "🌊"
+    },
+    {
+      "en": "Sandy Brown",
+      "id": "Coklat Pasir",
+      "emoji": "🏖️"
+    },
+    {
+      "en": "Rose Pink",
+      "id": "Merah Muda Mawar",
+      "emoji": "🌹"
+    },
+    {
+      "en": "Charcoal Gray",
+      "id": "Abu-abu Arang",
+      "emoji": "⚫"
+    },
+    {
+      "en": "Ivory White",
+      "id": "Putih Gading",
+      "emoji": "🤍"
+    },
+    {
+      "en": "Lavender Purple",
+      "id": "Ungu Lavender",
+      "emoji": "💜"
+    },
+    {
+      "en": "Mint Green",
+      "id": "Hijau Mint",
+      "emoji": "🌿"
+    }
+  ]
+}

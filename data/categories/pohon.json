@@ -1,0 +1,79 @@
+{
+  "id": "pohon",
+  "nama": "Jenis Pohon",
+  "iconEmoji": "🌳",
+  "warnaTema": "#F5B700",
+  "urutan": 89,
+  "kata": [
+    {
+      "en": "Oak Tree",
+      "id": "Pohon Ek",
+      "emoji": "🌳"
+    },
+    {
+      "en": "Pine Tree",
+      "id": "Pohon Pinus",
+      "emoji": "🌲"
+    },
+    {
+      "en": "Palm Tree",
+      "id": "Pohon Palem",
+      "emoji": "🌴"
+    },
+    {
+      "en": "Maple Tree",
+      "id": "Pohon Maple",
+      "emoji": "🍁"
+    },
+    {
+      "en": "Banyan Tree",
+      "id": "Pohon Beringin",
+      "emoji": "🌳"
+    },
+    {
+      "en": "Bamboo",
+      "id": "Bambu",
+      "emoji": "🎍"
+    },
+    {
+      "en": "Willow Tree",
+      "id": "Pohon Willow",
+      "emoji": "🌳"
+    },
+    {
+      "en": "Cedar Tree",
+      "id": "Pohon Cedar",
+      "emoji": "🌲"
+    },
+    {
+      "en": "Birch Tree",
+      "id": "Pohon Birch",
+      "emoji": "🌳"
+    },
+    {
+      "en": "Mango Tree",
+      "id": "Pohon Mangga",
+      "emoji": "🌳"
+    },
+    {
+      "en": "Cherry Blossom Tree",
+      "id": "Pohon Sakura",
+      "emoji": "🌸"
+    },
+    {
+      "en": "Mahogany Tree",
+      "id": "Pohon Mahoni",
+      "emoji": "🌳"
+    },
+    {
+      "en": "Teak Tree",
+      "id": "Pohon Jati",
+      "emoji": "🌳"
+    },
+    {
+      "en": "Baobab Tree",
+      "id": "Pohon Baobab",
+      "emoji": "🌳"
+    }
+  ]
+}

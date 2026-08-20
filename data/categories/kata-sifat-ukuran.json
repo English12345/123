@@ -1,0 +1,79 @@
+{
+  "id": "kata-sifat-ukuran",
+  "nama": "Kata Sifat Ukuran",
+  "iconEmoji": "📏",
+  "warnaTema": "#F5B700",
+  "urutan": 100,
+  "kata": [
+    {
+      "en": "Big",
+      "id": "Besar",
+      "emoji": "🐘"
+    },
+    {
+      "en": "Small",
+      "id": "Kecil",
+      "emoji": "🐭"
+    },
+    {
+      "en": "Tall",
+      "id": "Tinggi",
+      "emoji": "🦒"
+    },
+    {
+      "en": "Short",
+      "id": "Pendek",
+      "emoji": "🐢"
+    },
+    {
+      "en": "Long",
+      "id": "Panjang",
+      "emoji": "🐍"
+    },
+    {
+      "en": "Wide",
+      "id": "Lebar",
+      "emoji": "↔️"
+    },
+    {
+      "en": "Narrow",
+      "id": "Sempit",
+      "emoji": "🚪"
+    },
+    {
+      "en": "Thick",
+      "id": "Tebal",
+      "emoji": "📚"
+    },
+    {
+      "en": "Thin",
+      "id": "Tipis",
+      "emoji": "📄"
+    },
+    {
+      "en": "Heavy",
+      "id": "Berat",
+      "emoji": "🏋️"
+    },
+    {
+      "en": "Light (weight)",
+      "id": "Ringan",
+      "emoji": "🪶"
+    },
+    {
+      "en": "Huge",
+      "id": "Sangat Besar",
+      "emoji": "🐋"
+    },
+    {
+      "en": "Tiny",
+      "id": "Sangat Kecil",
+      "emoji": "🐜"
+    },
+    {
+      "en": "Deep",
+      "id": "Dalam",
+      "emoji": "🕳️"
+    }
+  ]
+}

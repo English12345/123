@@ -1,0 +1,99 @@
+{
+  "id": "profesi-modern",
+  "nama": "Profesi Modern",
+  "iconEmoji": "👩‍💻",
+  "warnaTema": "#8B7FE8",
+  "urutan": 80,
+  "kata": [
+    {
+      "en": "Engineer",
+      "id": "Insinyur",
+      "emoji": "👷"
+    },
+    {
+      "en": "Lawyer",
+      "id": "Pengacara",
+      "emoji": "⚖️"
+    },
+    {
+      "en": "Dentist",
+      "id": "Dokter Gigi",
+      "emoji": "🦷"
+    },
+    {
+      "en": "Veterinarian",
+      "id": "Dokter Hewan",
+      "emoji": "🐾"
+    },
+    {
+      "en": "Journalist",
+      "id": "Wartawan",
+      "emoji": "📰"
+    },
+    {
+      "en": "Photographer",
+      "id": "Fotografer",
+      "emoji": "📷"
+    },
+    {
+      "en": "Architect",
+      "id": "Arsitek",
+      "emoji": "📐"
+    },
+    {
+      "en": "Electrician",
+      "id": "Tukang Listrik",
+      "emoji": "🔌"
+    },
+    {
+      "en": "Plumber",
+      "id": "Tukang Pipa",
+      "emoji": "🔧"
+    },
+    {
+      "en": "Mechanic",
+      "id": "Montir",
+      "emoji": "🔧"
+    },
+    {
+      "en": "Librarian",
+      "id": "Pustakawan",
+      "emoji": "📚"
+    },
+    {
+      "en": "Waiter",
+      "id": "Pelayan",
+      "emoji": "🍽️"
+    },
+    {
+      "en": "Cashier",
+      "id": "Kasir",
+      "emoji": "💳"
+    },
+    {
+      "en": "Hairdresser",
+      "id": "Penata Rambut",
+      "emoji": "💇"
+    },
+    {
+      "en": "Tailor",
+      "id": "Penjahit",
+      "emoji": "🧵"
+    },
+    {
+      "en": "Driver",
+      "id": "Sopir",
+      "emoji": "🚗"
+    },
+    {
+      "en": "Judge",
+      "id": "Hakim",
+      "emoji": "⚖️"
+    },
+    {
+      "en": "Programmer",
+      "id": "Programmer",
+      "emoji": "💻"
+    }
+  ]
+}

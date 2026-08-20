@@ -1,0 +1,89 @@
+{
+  "id": "bahan-makanan-pokok",
+  "nama": "Bahan Makanan Pokok",
+  "iconEmoji": "🌾",
+  "warnaTema": "#34B27B",
+  "urutan": 104,
+  "kata": [
+    {
+      "en": "Wheat",
+      "id": "Gandum",
+      "emoji": "🌾"
+    },
+    {
+      "en": "Oat",
+      "id": "Oat",
+      "emoji": "🌾"
+    },
+    {
+      "en": "Barley",
+      "id": "Jelai",
+      "emoji": "🌾"
+    },
+    {
+      "en": "Quinoa",
+      "id": "Quinoa",
+      "emoji": "🌾"
+    },
+    {
+      "en": "Flour",
+      "id": "Tepung",
+      "emoji": "🌾"
+    },
+    {
+      "en": "Cornmeal",
+      "id": "Tepung Jagung",
+      "emoji": "🌽"
+    },
+    {
+      "en": "Dough",
+      "id": "Adonan",
+      "emoji": "🍞"
+    },
+    {
+      "en": "Yeast",
+      "id": "Ragi",
+      "emoji": "🍞"
+    },
+    {
+      "en": "Vinegar",
+      "id": "Cuka",
+      "emoji": "🍶"
+    },
+    {
+      "en": "Soy Sauce",
+      "id": "Kecap Asin",
+      "emoji": "🍶"
+    },
+    {
+      "en": "Cornstarch",
+      "id": "Tepung Maizena",
+      "emoji": "🌽"
+    },
+    {
+      "en": "Baking Powder",
+      "id": "Baking Powder",
+      "emoji": "🧁"
+    },
+    {
+      "en": "Rye",
+      "id": "Gandum Hitam",
+      "emoji": "🌾"
+    },
+    {
+      "en": "Millet",
+      "id": "Jewawut",
+      "emoji": "🌾"
+    },
+    {
+      "en": "Sorghum",
+      "id": "Sorgum",
+      "emoji": "🌾"
+    },
+    {
+      "en": "Semolina",
+      "id": "Semolina",
+      "emoji": "🌾"
+    }
+  ]
+}

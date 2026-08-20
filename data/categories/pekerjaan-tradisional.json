@@ -1,0 +1,69 @@
+{
+  "id": "pekerjaan-tradisional",
+  "nama": "Pekerjaan Tradisional",
+  "iconEmoji": "🔨",
+  "warnaTema": "#8B7FE8",
+  "urutan": 113,
+  "kata": [
+    {
+      "en": "Blacksmith",
+      "id": "Pandai Besi",
+      "emoji": "🔨"
+    },
+    {
+      "en": "Carpenter",
+      "id": "Tukang Kayu",
+      "emoji": "🪚"
+    },
+    {
+      "en": "Weaver",
+      "id": "Penenun",
+      "emoji": "🧵"
+    },
+    {
+      "en": "Potter",
+      "id": "Pengrajin Gerabah",
+      "emoji": "🏺"
+    },
+    {
+      "en": "Barber",
+      "id": "Tukang Cukur",
+      "emoji": "💈"
+    },
+    {
+      "en": "Butcher",
+      "id": "Tukang Daging",
+      "emoji": "🥩"
+    },
+    {
+      "en": "Baker",
+      "id": "Tukang Roti",
+      "emoji": "🍞"
+    },
+    {
+      "en": "Shoemaker",
+      "id": "Pembuat Sepatu",
+      "emoji": "👞"
+    },
+    {
+      "en": "Miner",
+      "id": "Penambang",
+      "emoji": "⛏️"
+    },
+    {
+      "en": "Shepherd",
+      "id": "Penggembala",
+      "emoji": "🐑"
+    },
+    {
+      "en": "Street Vendor",
+      "id": "Pedagang Kaki Lima",
+      "emoji": "🛒"
+    },
+    {
+      "en": "Tour Guide",
+      "id": "Pemandu Wisata",
+      "emoji": "🗺️"
+    }
+  ]
+}

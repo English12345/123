@@ -1,0 +1,79 @@
+{
+  "id": "hewan-gurun",
+  "nama": "Hewan Gurun",
+  "iconEmoji": "🦂",
+  "warnaTema": "#0FA3A3",
+  "urutan": 77,
+  "kata": [
+    {
+      "en": "Scorpion",
+      "id": "Kalajengking",
+      "emoji": "🦂"
+    },
+    {
+      "en": "Desert Fox",
+      "id": "Rubah Gurun",
+      "emoji": "🦊"
+    },
+    {
+      "en": "Roadrunner",
+      "id": "Burung Pelari",
+      "emoji": "🐦"
+    },
+    {
+      "en": "Rattlesnake",
+      "id": "Ular Derik",
+      "emoji": "🐍"
+    },
+    {
+      "en": "Vulture",
+      "id": "Burung Nasar",
+      "emoji": "🦅"
+    },
+    {
+      "en": "Coyote",
+      "id": "Serigala Gurun",
+      "emoji": "🐺"
+    },
+    {
+      "en": "Jackrabbit",
+      "id": "Kelinci Gurun",
+      "emoji": "🐇"
+    },
+    {
+      "en": "Armadillo",
+      "id": "Armadillo",
+      "emoji": "🦔"
+    },
+    {
+      "en": "Hedgehog",
+      "id": "Landak Mini",
+      "emoji": "🦔"
+    },
+    {
+      "en": "Dung Beetle",
+      "id": "Kumbang Tinja",
+      "emoji": "🪲"
+    },
+    {
+      "en": "Fennec Fox",
+      "id": "Rubah Fennec",
+      "emoji": "🦊"
+    },
+    {
+      "en": "Horned Lizard",
+      "id": "Kadal Bertanduk",
+      "emoji": "🦎"
+    },
+    {
+      "en": "Sand Cat",
+      "id": "Kucing Pasir",
+      "emoji": "🐈"
+    },
+    {
+      "en": "Camel Spider",
+      "id": "Laba-laba Unta",
+      "emoji": "🕷️"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "istilah-matematika",
+  "nama": "Istilah Matematika",
+  "iconEmoji": "➕",
+  "warnaTema": "#0B5E58",
+  "urutan": 98,
+  "kata": [
+    {
+      "en": "Plus",
+      "id": "Tambah",
+      "emoji": "➕"
+    },
+    {
+      "en": "Minus",
+      "id": "Kurang",
+      "emoji": "➖"
+    },
+    {
+      "en": "Equals",
+      "id": "Sama Dengan",
+      "emoji": "🟰"
+    },
+    {
+      "en": "Half",
+      "id": "Setengah",
+      "emoji": "🌗"
+    },
+    {
+      "en": "Quarter",
+      "id": "Seperempat",
+      "emoji": "🍕"
+    },
+    {
+      "en": "Double",
+      "id": "Dua Kali Lipat",
+      "emoji": "2️⃣"
+    },
+    {
+      "en": "Triple",
+      "id": "Tiga Kali Lipat",
+      "emoji": "3️⃣"
+    },
+    {
+      "en": "Pair",
+      "id": "Sepasang",
+      "emoji": "👫"
+    },
+    {
+      "en": "Dozen",
+      "id": "Selusin",
+      "emoji": "🥚"
+    },
+    {
+      "en": "Odd Number",
+      "id": "Bilangan Ganjil",
+      "emoji": "1️⃣"
+    },
+    {
+      "en": "Even Number",
+      "id": "Bilangan Genap",
+      "emoji": "2️⃣"
+    },
+    {
+      "en": "Sum",
+      "id": "Jumlah",
+      "emoji": "🧮"
+    },
+    {
+      "en": "Add",
+      "id": "Menambahkan",
+      "emoji": "➕"
+    },
+    {
+      "en": "Subtract",
+      "id": "Mengurangkan",
+      "emoji": "➖"
+    }
+  ]
+}

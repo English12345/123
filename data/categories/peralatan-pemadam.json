@@ -1,0 +1,59 @@
+{
+  "id": "peralatan-pemadam",
+  "nama": "Peralatan Keselamatan",
+  "iconEmoji": "🧯",
+  "warnaTema": "#FF6B6B",
+  "urutan": 123,
+  "kata": [
+    {
+      "en": "Fire Extinguisher",
+      "id": "Alat Pemadam Api",
+      "emoji": "🧯"
+    },
+    {
+      "en": "Smoke Detector",
+      "id": "Detektor Asap",
+      "emoji": "🚨"
+    },
+    {
+      "en": "Safety Helmet",
+      "id": "Helm Keselamatan",
+      "emoji": "⛑️"
+    },
+    {
+      "en": "Traffic Light",
+      "id": "Lampu Lalu Lintas",
+      "emoji": "🚦"
+    },
+    {
+      "en": "Traffic Cone",
+      "id": "Kerucut Lalu Lintas",
+      "emoji": "🚧"
+    },
+    {
+      "en": "Warning Sign",
+      "id": "Rambu Peringatan",
+      "emoji": "⚠️"
+    },
+    {
+      "en": "First Aid Box",
+      "id": "Kotak P3K",
+      "emoji": "🩹"
+    },
+    {
+      "en": "Emergency Exit",
+      "id": "Pintu Darurat",
+      "emoji": "🚪"
+    },
+    {
+      "en": "Safety Vest",
+      "id": "Rompi Keselamatan",
+      "emoji": "🦺"
+    },
+    {
+      "en": "Alarm Bell",
+      "id": "Bel Alarm",
+      "emoji": "🔔"
+    }
+  ]
+}

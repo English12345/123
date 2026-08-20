@@ -1,0 +1,89 @@
+{
+  "id": "genre-musik",
+  "nama": "Genre Musik",
+  "iconEmoji": "🎵",
+  "warnaTema": "#FF8FB1",
+  "urutan": 70,
+  "kata": [
+    {
+      "en": "Pop Music",
+      "id": "Musik Pop",
+      "emoji": "🎤"
+    },
+    {
+      "en": "Rock Music",
+      "id": "Musik Rok",
+      "emoji": "🎸"
+    },
+    {
+      "en": "Jazz",
+      "id": "Jazz",
+      "emoji": "🎷"
+    },
+    {
+      "en": "Classical Music",
+      "id": "Musik Klasik",
+      "emoji": "🎻"
+    },
+    {
+      "en": "Hip Hop",
+      "id": "Hip Hop",
+      "emoji": "🎤"
+    },
+    {
+      "en": "Reggae",
+      "id": "Reggae",
+      "emoji": "🎶"
+    },
+    {
+      "en": "Blues",
+      "id": "Blues",
+      "emoji": "🎺"
+    },
+    {
+      "en": "Country Music",
+      "id": "Musik Country",
+      "emoji": "🤠"
+    },
+    {
+      "en": "Folk Music",
+      "id": "Musik Rakyat",
+      "emoji": "🪕"
+    },
+    {
+      "en": "Opera",
+      "id": "Opera",
+      "emoji": "🎭"
+    },
+    {
+      "en": "Electronic Music",
+      "id": "Musik Elektronik",
+      "emoji": "🎧"
+    },
+    {
+      "en": "Gospel Music",
+      "id": "Musik Gospel",
+      "emoji": "🎶"
+    },
+    {
+      "en": "Metal Music",
+      "id": "Musik Metal",
+      "emoji": "🎸"
+    },
+    {
+      "en": "Punk Music",
+      "id": "Musik Punk",
+      "emoji": "🎸"
+    },
+    {
+      "en": "Funk Music",
+      "id": "Musik Funk",
+      "emoji": "🎺"
+    },
+    {
+      "en": "R&B Music",
+      "id": "Musik R&B",
+      "emoji": "🎤"
+    }
+  ]
+}

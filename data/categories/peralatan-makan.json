@@ -1,0 +1,89 @@
+{
+  "id": "peralatan-makan",
+  "nama": "Peralatan Makan",
+  "iconEmoji": "🍽️",
+  "warnaTema": "#0FA3A3",
+  "urutan": 66,
+  "kata": [
+    {
+      "en": "Tablecloth",
+      "id": "Taplak Meja",
+      "emoji": "🍽️"
+    },
+    {
+      "en": "Napkin",
+      "id": "Serbet",
+      "emoji": "🧻"
+    },
+    {
+      "en": "Tray",
+      "id": "Baki",
+      "emoji": "🍽️"
+    },
+    {
+      "en": "Placemat",
+      "id": "Alas Meja Makan",
+      "emoji": "🍽️"
+    },
+    {
+      "en": "Ladle",
+      "id": "Sendok Sayur",
+      "emoji": "🥄"
+    },
+    {
+      "en": "Whisk",
+      "id": "Pengocok Telur",
+      "emoji": "🥚"
+    },
+    {
+      "en": "Spatula",
+      "id": "Spatula",
+      "emoji": "🍳"
+    },
+    {
+      "en": "Colander",
+      "id": "Saringan",
+      "emoji": "🥣"
+    },
+    {
+      "en": "Grater",
+      "id": "Parutan",
+      "emoji": "🧀"
+    },
+    {
+      "en": "Rolling Pin",
+      "id": "Rol Adonan",
+      "emoji": "🥖"
+    },
+    {
+      "en": "Cutting Board",
+      "id": "Talenan",
+      "emoji": "🔪"
+    },
+    {
+      "en": "Strainer",
+      "id": "Penyaring Teh",
+      "emoji": "🍵"
+    },
+    {
+      "en": "Serving Bowl",
+      "id": "Mangkuk Saji",
+      "emoji": "🥣"
+    },
+    {
+      "en": "Butter Knife",
+      "id": "Pisau Mentega",
+      "emoji": "🧈"
+    },
+    {
+      "en": "Salad Tongs",
+      "id": "Penjepit Salad",
+      "emoji": "🥗"
+    },
+    {
+      "en": "Cake Server",
+      "id": "Sendok Kue",
+      "emoji": "🍰"
+    }
+  ]
+}

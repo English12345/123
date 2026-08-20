@@ -1,0 +1,89 @@
+{
+  "id": "sayuran-lainnya",
+  "nama": "Sayuran Lainnya",
+  "iconEmoji": "🥬",
+  "warnaTema": "#34B27B",
+  "urutan": 82,
+  "kata": [
+    {
+      "en": "Cabbage",
+      "id": "Kubis",
+      "emoji": "🥬"
+    },
+    {
+      "en": "Spinach",
+      "id": "Bayam",
+      "emoji": "🥬"
+    },
+    {
+      "en": "Cauliflower",
+      "id": "Kembang Kol",
+      "emoji": "🥦"
+    },
+    {
+      "en": "Celery",
+      "id": "Seledri",
+      "emoji": "🥬"
+    },
+    {
+      "en": "Asparagus",
+      "id": "Asparagus",
+      "emoji": "🌱"
+    },
+    {
+      "en": "Zucchini",
+      "id": "Zukini",
+      "emoji": "🥒"
+    },
+    {
+      "en": "Radish",
+      "id": "Lobak Merah",
+      "emoji": "🔴"
+    },
+    {
+      "en": "Turnip",
+      "id": "Lobak Putih",
+      "emoji": "⚪"
+    },
+    {
+      "en": "Beetroot",
+      "id": "Bit",
+      "emoji": "🔴"
+    },
+    {
+      "en": "Artichoke",
+      "id": "Artichoke",
+      "emoji": "🌿"
+    },
+    {
+      "en": "Kale",
+      "id": "Kale",
+      "emoji": "🥬"
+    },
+    {
+      "en": "Leek",
+      "id": "Bawang Prei",
+      "emoji": "🌱"
+    },
+    {
+      "en": "Okra",
+      "id": "Okra",
+      "emoji": "🌱"
+    },
+    {
+      "en": "Bok Choy",
+      "id": "Sawi Sendok",
+      "emoji": "🥬"
+    },
+    {
+      "en": "Bean Sprout",
+      "id": "Tauge",
+      "emoji": "🌱"
+    },
+    {
+      "en": "String Bean",
+      "id": "Kacang Panjang",
+      "emoji": "🫛"
+    }
+  ]
+}

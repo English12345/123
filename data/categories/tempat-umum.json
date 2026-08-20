@@ -1,0 +1,109 @@
+{
+  "id": "tempat-umum",
+  "nama": "Tempat Umum Lainnya",
+  "iconEmoji": "🏙️",
+  "warnaTema": "#FFC93C",
+  "urutan": 63,
+  "kata": [
+    {
+      "en": "Bank",
+      "id": "Bank",
+      "emoji": "🏦"
+    },
+    {
+      "en": "Supermarket",
+      "id": "Supermarket",
+      "emoji": "🛒"
+    },
+    {
+      "en": "Shopping Mall",
+      "id": "Mal",
+      "emoji": "🏬"
+    },
+    {
+      "en": "Cinema",
+      "id": "Bioskop",
+      "emoji": "🎬"
+    },
+    {
+      "en": "Theater",
+      "id": "Teater",
+      "emoji": "🎭"
+    },
+    {
+      "en": "Bakery",
+      "id": "Toko Roti",
+      "emoji": "🥐"
+    },
+    {
+      "en": "Pharmacy",
+      "id": "Apotek",
+      "emoji": "💊"
+    },
+    {
+      "en": "Post Office",
+      "id": "Kantor Pos",
+      "emoji": "📮"
+    },
+    {
+      "en": "Gas Station",
+      "id": "Pom Bensin",
+      "emoji": "⛽"
+    },
+    {
+      "en": "Hotel",
+      "id": "Hotel",
+      "emoji": "🏨"
+    },
+    {
+      "en": "Church",
+      "id": "Gereja",
+      "emoji": "⛪"
+    },
+    {
+      "en": "Temple",
+      "id": "Kuil",
+      "emoji": "🛕"
+    },
+    {
+      "en": "Stadium",
+      "id": "Stadion",
+      "emoji": "🏟️"
+    },
+    {
+      "en": "Playground",
+      "id": "Taman Bermain",
+      "emoji": "🛝"
+    },
+    {
+      "en": "Farm",
+      "id": "Peternakan",
+      "emoji": "🚜"
+    },
+    {
+      "en": "Factory",
+      "id": "Pabrik",
+      "emoji": "🏭"
+    },
+    {
+      "en": "Bridge",
+      "id": "Jembatan",
+      "emoji": "🌉"
+    },
+    {
+      "en": "Harbor",
+      "id": "Pelabuhan",
+      "emoji": "⚓"
+    },
+    {
+      "en": "Lighthouse",
+      "id": "Mercusuar",
+      "emoji": "🗼"
+    },
+    {
+      "en": "Market",
+      "id": "Pasar",
+      "emoji": "🏪"
+    }
+  ]
+}

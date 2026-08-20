@@ -1,0 +1,89 @@
+{
+  "id": "emosi-lanjutan",
+  "nama": "Perasaan Lanjutan",
+  "iconEmoji": "🥹",
+  "warnaTema": "#E8594B",
+  "urutan": 105,
+  "kata": [
+    {
+      "en": "Nervous",
+      "id": "Gugup",
+      "emoji": "😬"
+    },
+    {
+      "en": "Curious",
+      "id": "Penasaran",
+      "emoji": "🤔"
+    },
+    {
+      "en": "Jealous",
+      "id": "Cemburu",
+      "emoji": "😒"
+    },
+    {
+      "en": "Lonely",
+      "id": "Kesepian",
+      "emoji": "🥺"
+    },
+    {
+      "en": "Grateful",
+      "id": "Bersyukur",
+      "emoji": "🙏"
+    },
+    {
+      "en": "Confident",
+      "id": "Percaya Diri",
+      "emoji": "😎"
+    },
+    {
+      "en": "Embarrassed",
+      "id": "Malu",
+      "emoji": "😳"
+    },
+    {
+      "en": "Relieved",
+      "id": "Lega",
+      "emoji": "😌"
+    },
+    {
+      "en": "Anxious",
+      "id": "Cemas",
+      "emoji": "😟"
+    },
+    {
+      "en": "Hopeful",
+      "id": "Berharap",
+      "emoji": "🤞"
+    },
+    {
+      "en": "Disappointed",
+      "id": "Kecewa",
+      "emoji": "😞"
+    },
+    {
+      "en": "Frustrated",
+      "id": "Frustrasi",
+      "emoji": "😤"
+    },
+    {
+      "en": "Calm",
+      "id": "Tenang",
+      "emoji": "😌"
+    },
+    {
+      "en": "Cheerful",
+      "id": "Ceria",
+      "emoji": "😄"
+    },
+    {
+      "en": "Worried",
+      "id": "Khawatir",
+      "emoji": "😧"
+    },
+    {
+      "en": "Brave",
+      "id": "Berani",
+      "emoji": "🦁"
+    }
+  ]
+}

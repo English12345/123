@@ -1,0 +1,79 @@
+{
+  "id": "kendaraan-air-udara",
+  "nama": "Kendaraan Air dan Udara Khusus",
+  "iconEmoji": "🚤",
+  "warnaTema": "#FFC93C",
+  "urutan": 107,
+  "kata": [
+    {
+      "en": "Yacht",
+      "id": "Kapal Pesiar",
+      "emoji": "🛥️"
+    },
+    {
+      "en": "Canoe",
+      "id": "Kano",
+      "emoji": "🛶"
+    },
+    {
+      "en": "Kayak",
+      "id": "Kayak",
+      "emoji": "🛶"
+    },
+    {
+      "en": "Submarine",
+      "id": "Kapal Selam",
+      "emoji": "🚤"
+    },
+    {
+      "en": "Ferry",
+      "id": "Kapal Feri",
+      "emoji": "⛴️"
+    },
+    {
+      "en": "Sailboat",
+      "id": "Perahu Layar",
+      "emoji": "⛵"
+    },
+    {
+      "en": "Jet Ski",
+      "id": "Jet Ski",
+      "emoji": "🚤"
+    },
+    {
+      "en": "Cargo Ship",
+      "id": "Kapal Kargo",
+      "emoji": "🚢"
+    },
+    {
+      "en": "Cruise Ship",
+      "id": "Kapal Pesiar Besar",
+      "emoji": "🚢"
+    },
+    {
+      "en": "Speedboat",
+      "id": "Perahu Cepat",
+      "emoji": "🚤"
+    },
+    {
+      "en": "Glider",
+      "id": "Pesawat Layang",
+      "emoji": "🛩️"
+    },
+    {
+      "en": "Hot Air Balloon",
+      "id": "Balon Udara",
+      "emoji": "🎈"
+    },
+    {
+      "en": "Cargo Plane",
+      "id": "Pesawat Kargo",
+      "emoji": "✈️"
+    },
+    {
+      "en": "Parachute",
+      "id": "Parasut",
+      "emoji": "🪂"
+    }
+  ]
+}

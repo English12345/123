@@ -1,0 +1,109 @@
+{
+  "id": "arah-posisi",
+  "nama": "Arah dan Posisi",
+  "iconEmoji": "🧭",
+  "warnaTema": "#34B27B",
+  "urutan": 60,
+  "kata": [
+    {
+      "en": "Up",
+      "id": "Atas",
+      "emoji": "⬆️"
+    },
+    {
+      "en": "Down",
+      "id": "Bawah",
+      "emoji": "⬇️"
+    },
+    {
+      "en": "Left",
+      "id": "Kiri",
+      "emoji": "⬅️"
+    },
+    {
+      "en": "Right",
+      "id": "Kanan",
+      "emoji": "➡️"
+    },
+    {
+      "en": "Front",
+      "id": "Depan",
+      "emoji": "👉"
+    },
+    {
+      "en": "Back",
+      "id": "Belakang",
+      "emoji": "👈"
+    },
+    {
+      "en": "Near",
+      "id": "Dekat",
+      "emoji": "📍"
+    },
+    {
+      "en": "Far",
+      "id": "Jauh",
+      "emoji": "🛤️"
+    },
+    {
+      "en": "Inside",
+      "id": "Di Dalam",
+      "emoji": "📦"
+    },
+    {
+      "en": "Outside",
+      "id": "Di Luar",
+      "emoji": "🌳"
+    },
+    {
+      "en": "Above",
+      "id": "Di Atas",
+      "emoji": "🔝"
+    },
+    {
+      "en": "Below",
+      "id": "Di Bawah",
+      "emoji": "🔻"
+    },
+    {
+      "en": "Between",
+      "id": "Di Antara",
+      "emoji": "↔️"
+    },
+    {
+      "en": "Beside",
+      "id": "Di Samping",
+      "emoji": "👥"
+    },
+    {
+      "en": "North",
+      "id": "Utara",
+      "emoji": "⬆️"
+    },
+    {
+      "en": "South",
+      "id": "Selatan",
+      "emoji": "⬇️"
+    },
+    {
+      "en": "East",
+      "id": "Timur",
+      "emoji": "➡️"
+    },
+    {
+      "en": "West",
+      "id": "Barat",
+      "emoji": "⬅️"
+    },
+    {
+      "en": "Top",
+      "id": "Puncak",
+      "emoji": "🔝"
+    },
+    {
+      "en": "Bottom",
+      "id": "Dasar",
+      "emoji": "⏬"
+    }
+  ]
+}

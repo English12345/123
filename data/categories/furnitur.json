@@ -1,0 +1,84 @@
+{
+  "id": "furnitur",
+  "nama": "Furnitur",
+  "iconEmoji": "🛋️",
+  "warnaTema": "#6FDCD1",
+  "urutan": 64,
+  "kata": [
+    {
+      "en": "Sofa",
+      "id": "Sofa",
+      "emoji": "🛋️"
+    },
+    {
+      "en": "Table",
+      "id": "Meja",
+      "emoji": "🪑"
+    },
+    {
+      "en": "Chair",
+      "id": "Kursi",
+      "emoji": "🪑"
+    },
+    {
+      "en": "Wardrobe",
+      "id": "Lemari Baju",
+      "emoji": "🚪"
+    },
+    {
+      "en": "Shelf",
+      "id": "Rak",
+      "emoji": "📚"
+    },
+    {
+      "en": "Desk",
+      "id": "Meja Kerja",
+      "emoji": "🖥️"
+    },
+    {
+      "en": "Drawer",
+      "id": "Laci",
+      "emoji": "🗄️"
+    },
+    {
+      "en": "Cabinet",
+      "id": "Lemari",
+      "emoji": "🗄️"
+    },
+    {
+      "en": "Bench",
+      "id": "Bangku",
+      "emoji": "🪑"
+    },
+    {
+      "en": "Stool",
+      "id": "Bangku Kecil",
+      "emoji": "🪑"
+    },
+    {
+      "en": "Couch",
+      "id": "Dipan",
+      "emoji": "🛋️"
+    },
+    {
+      "en": "Bookcase",
+      "id": "Rak Buku",
+      "emoji": "📚"
+    },
+    {
+      "en": "Ottoman",
+      "id": "Kursi Kaki",
+      "emoji": "🪑"
+    },
+    {
+      "en": "Recliner",
+      "id": "Kursi Santai",
+      "emoji": "🛋️"
+    },
+    {
+      "en": "Nightstand",
+      "id": "Meja Kecil",
+      "emoji": "🛏️"
+    }
+  ]
+}

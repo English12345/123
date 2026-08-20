@@ -1,0 +1,89 @@
+{
+  "id": "bunga",
+  "nama": "Jenis Bunga",
+  "iconEmoji": "🌸",
+  "warnaTema": "#0FA3A3",
+  "urutan": 88,
+  "kata": [
+    {
+      "en": "Rose",
+      "id": "Mawar",
+      "emoji": "🌹"
+    },
+    {
+      "en": "Sunflower",
+      "id": "Bunga Matahari",
+      "emoji": "🌻"
+    },
+    {
+      "en": "Tulip",
+      "id": "Tulip",
+      "emoji": "🌷"
+    },
+    {
+      "en": "Daisy",
+      "id": "Bunga Aster",
+      "emoji": "🌼"
+    },
+    {
+      "en": "Lily",
+      "id": "Bunga Lili",
+      "emoji": "🌸"
+    },
+    {
+      "en": "Orchid",
+      "id": "Anggrek",
+      "emoji": "🌺"
+    },
+    {
+      "en": "Jasmine",
+      "id": "Melati",
+      "emoji": "🤍"
+    },
+    {
+      "en": "Lotus",
+      "id": "Bunga Teratai",
+      "emoji": "🪷"
+    },
+    {
+      "en": "Hibiscus",
+      "id": "Bunga Sepatu",
+      "emoji": "🌺"
+    },
+    {
+      "en": "Marigold",
+      "id": "Bunga Tahi Kotok",
+      "emoji": "🟠"
+    },
+    {
+      "en": "Dandelion",
+      "id": "Bunga Dandelion",
+      "emoji": "🌼"
+    },
+    {
+      "en": "Carnation",
+      "id": "Bunga Anyelir",
+      "emoji": "🌸"
+    },
+    {
+      "en": "Lavender",
+      "id": "Lavender",
+      "emoji": "💜"
+    },
+    {
+      "en": "Poppy",
+      "id": "Bunga Poppy",
+      "emoji": "🌺"
+    },
+    {
+      "en": "Daffodil",
+      "id": "Bunga Bakung",
+      "emoji": "🌼"
+    },
+    {
+      "en": "Iris Flower",
+      "id": "Bunga Iris",
+      "emoji": "💠"
+    }
+  ]
+}

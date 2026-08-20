@@ -1,0 +1,84 @@
+{
+  "id": "permainan-papan",
+  "nama": "Permainan Papan",
+  "iconEmoji": "🎲",
+  "warnaTema": "#E8594B",
+  "urutan": 72,
+  "kata": [
+    {
+      "en": "Chess",
+      "id": "Catur",
+      "emoji": "♟️"
+    },
+    {
+      "en": "Checkers",
+      "id": "Dam",
+      "emoji": "⚫"
+    },
+    {
+      "en": "Monopoly",
+      "id": "Monopoli",
+      "emoji": "🏠"
+    },
+    {
+      "en": "Dominoes",
+      "id": "Domino",
+      "emoji": "🁣"
+    },
+    {
+      "en": "Card Game",
+      "id": "Permainan Kartu",
+      "emoji": "🃏"
+    },
+    {
+      "en": "Dice",
+      "id": "Dadu",
+      "emoji": "🎲"
+    },
+    {
+      "en": "Marbles",
+      "id": "Kelereng",
+      "emoji": "🔮"
+    },
+    {
+      "en": "Jigsaw Puzzle",
+      "id": "Puzel Gambar",
+      "emoji": "🧩"
+    },
+    {
+      "en": "Tic Tac Toe",
+      "id": "Tic Tac Toe",
+      "emoji": "⭕"
+    },
+    {
+      "en": "Bingo",
+      "id": "Bingo",
+      "emoji": "🎱"
+    },
+    {
+      "en": "Hopscotch",
+      "id": "Engklek",
+      "emoji": "🦶"
+    },
+    {
+      "en": "Backgammon",
+      "id": "Backgammon",
+      "emoji": "🎲"
+    },
+    {
+      "en": "Ludo",
+      "id": "Ular Tangga Papan",
+      "emoji": "🎲"
+    },
+    {
+      "en": "Snakes and Ladders",
+      "id": "Ular Tangga",
+      "emoji": "🐍"
+    },
+    {
+      "en": "Connect Four",
+      "id": "Sambung Empat",
+      "emoji": "🔴"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "hewan-hutan",
+  "nama": "Hewan Hutan Liar",
+  "iconEmoji": "🐆",
+  "warnaTema": "#6FDCD1",
+  "urutan": 75,
+  "kata": [
+    {
+      "en": "Orangutan",
+      "id": "Orangutan",
+      "emoji": "🦧"
+    },
+    {
+      "en": "Cheetah",
+      "id": "Cheetah",
+      "emoji": "🐆"
+    },
+    {
+      "en": "Gorilla",
+      "id": "Gorila",
+      "emoji": "🦍"
+    },
+    {
+      "en": "Hyena",
+      "id": "Hyena",
+      "emoji": "🐺"
+    },
+    {
+      "en": "Leopard",
+      "id": "Macan Tutul",
+      "emoji": "🐆"
+    },
+    {
+      "en": "Rhino",
+      "id": "Badak",
+      "emoji": "🦏"
+    },
+    {
+      "en": "Hippo",
+      "id": "Kuda Nil",
+      "emoji": "🦛"
+    },
+    {
+      "en": "Buffalo",
+      "id": "Kerbau",
+      "emoji": "🐃"
+    },
+    {
+      "en": "Jaguar",
+      "id": "Jaguar",
+      "emoji": "🐆"
+    },
+    {
+      "en": "Chimpanzee",
+      "id": "Simpanse",
+      "emoji": "🐵"
+    },
+    {
+      "en": "Baboon",
+      "id": "Babon",
+      "emoji": "🐒"
+    },
+    {
+      "en": "Lemur",
+      "id": "Lemur",
+      "emoji": "🐒"
+    },
+    {
+      "en": "Sloth",
+      "id": "Kungkang",
+      "emoji": "🦥"
+    },
+    {
+      "en": "Meerkat",
+      "id": "Meerkat",
+      "emoji": "🦫"
+    },
+    {
+      "en": "Antelope",
+      "id": "Antelop",
+      "emoji": "🦌"
+    },
+    {
+      "en": "Wild Boar",
+      "id": "Babi Hutan",
+      "emoji": "🐗"
+    },
+    {
+      "en": "Bison",
+      "id": "Bison",
+      "emoji": "🐃"
+    },
+    {
+      "en": "Ostrich",
+      "id": "Burung Unta",
+      "emoji": "🦩"
+    },
+    {
+      "en": "Mongoose",
+      "id": "Garangan",
+      "emoji": "🐾"
+    }
+  ]
+}

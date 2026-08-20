@@ -1,0 +1,79 @@
+{
+  "id": "ekspresi-wajah",
+  "nama": "Ekspresi Wajah",
+  "iconEmoji": "😊",
+  "warnaTema": "#FF8FB1",
+  "urutan": 92,
+  "kata": [
+    {
+      "en": "Smile",
+      "id": "Tersenyum",
+      "emoji": "😊"
+    },
+    {
+      "en": "Frown",
+      "id": "Cemberut",
+      "emoji": "☹️"
+    },
+    {
+      "en": "Laugh",
+      "id": "Tertawa",
+      "emoji": "😂"
+    },
+    {
+      "en": "Cry",
+      "id": "Menangis",
+      "emoji": "😢"
+    },
+    {
+      "en": "Wink",
+      "id": "Mengedipkan Mata",
+      "emoji": "😉"
+    },
+    {
+      "en": "Yawn",
+      "id": "Menguap",
+      "emoji": "🥱"
+    },
+    {
+      "en": "Blink",
+      "id": "Berkedip",
+      "emoji": "😑"
+    },
+    {
+      "en": "Pout",
+      "id": "Merengut",
+      "emoji": "😤"
+    },
+    {
+      "en": "Grin",
+      "id": "Menyeringai",
+      "emoji": "😁"
+    },
+    {
+      "en": "Giggle",
+      "id": "Cekikikan",
+      "emoji": "🤭"
+    },
+    {
+      "en": "Sob",
+      "id": "Terisak",
+      "emoji": "😭"
+    },
+    {
+      "en": "Chuckle",
+      "id": "Terkekeh",
+      "emoji": "😄"
+    },
+    {
+      "en": "Blush",
+      "id": "Merona",
+      "emoji": "😊"
+    },
+    {
+      "en": "Gasp",
+      "id": "Terkejut",
+      "emoji": "😮"
+    }
+  ]
+}

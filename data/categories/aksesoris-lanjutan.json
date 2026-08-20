@@ -1,0 +1,59 @@
+{
+  "id": "aksesoris-lanjutan",
+  "nama": "Aksesori Fesyen Lainnya",
+  "iconEmoji": "💍",
+  "warnaTema": "#0FA3A3",
+  "urutan": 121,
+  "kata": [
+    {
+      "en": "Brooch",
+      "id": "Bros",
+      "emoji": "💎"
+    },
+    {
+      "en": "Hairpin",
+      "id": "Jepit Rambut",
+      "emoji": "💇"
+    },
+    {
+      "en": "Headband",
+      "id": "Bando",
+      "emoji": "👑"
+    },
+    {
+      "en": "Cufflinks",
+      "id": "Kancing Manset",
+      "emoji": "💎"
+    },
+    {
+      "en": "Anklet",
+      "id": "Gelang Kaki",
+      "emoji": "💍"
+    },
+    {
+      "en": "Beanie",
+      "id": "Topi Kupluk",
+      "emoji": "🧢"
+    },
+    {
+      "en": "Bow Tie",
+      "id": "Dasi Kupu-kupu",
+      "emoji": "🎀"
+    },
+    {
+      "en": "Sash",
+      "id": "Selempang",
+      "emoji": "🎗️"
+    },
+    {
+      "en": "Purse",
+      "id": "Dompet Kecil",
+      "emoji": "👛"
+    },
+    {
+      "en": "Keychain",
+      "id": "Gantungan Kunci",
+      "emoji": "🔑"
+    }
+  ]
+}

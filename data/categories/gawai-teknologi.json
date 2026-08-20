@@ -1,0 +1,84 @@
+{
+  "id": "gawai-teknologi",
+  "nama": "Gawai Teknologi",
+  "iconEmoji": "📱",
+  "warnaTema": "#8B7FE8",
+  "urutan": 69,
+  "kata": [
+    {
+      "en": "Tablet",
+      "id": "Tablet",
+      "emoji": "📱"
+    },
+    {
+      "en": "Smartwatch",
+      "id": "Jam Tangan Pintar",
+      "emoji": "⌚"
+    },
+    {
+      "en": "Drone",
+      "id": "Drone",
+      "emoji": "🚁"
+    },
+    {
+      "en": "Projector",
+      "id": "Proyektor",
+      "emoji": "📽️"
+    },
+    {
+      "en": "Scanner",
+      "id": "Pemindai",
+      "emoji": "🖨️"
+    },
+    {
+      "en": "Router",
+      "id": "Router Wifi",
+      "emoji": "📶"
+    },
+    {
+      "en": "Modem",
+      "id": "Modem",
+      "emoji": "📶"
+    },
+    {
+      "en": "Power Bank",
+      "id": "Power Bank",
+      "emoji": "🔋"
+    },
+    {
+      "en": "VR Headset",
+      "id": "Headset VR",
+      "emoji": "🥽"
+    },
+    {
+      "en": "E-Reader",
+      "id": "Pembaca Buku Digital",
+      "emoji": "📖"
+    },
+    {
+      "en": "Smart Speaker",
+      "id": "Speaker Pintar",
+      "emoji": "🔊"
+    },
+    {
+      "en": "Gaming Console",
+      "id": "Konsol Game",
+      "emoji": "🎮"
+    },
+    {
+      "en": "Earbuds",
+      "id": "Earphone Nirkabel",
+      "emoji": "🎧"
+    },
+    {
+      "en": "Selfie Stick",
+      "id": "Tongkat Swafoto",
+      "emoji": "🤳"
+    },
+    {
+      "en": "Satellite Dish",
+      "id": "Antena Parabola",
+      "emoji": "📡"
+    }
+  ]
+}

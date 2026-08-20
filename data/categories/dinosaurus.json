@@ -1,0 +1,89 @@
+{
+  "id": "dinosaurus",
+  "nama": "Dinosaurus",
+  "iconEmoji": "🦕",
+  "warnaTema": "#F5B700",
+  "urutan": 78,
+  "kata": [
+    {
+      "en": "T-Rex",
+      "id": "T-Rex",
+      "emoji": "🦖"
+    },
+    {
+      "en": "Triceratops",
+      "id": "Triceratops",
+      "emoji": "🦕"
+    },
+    {
+      "en": "Stegosaurus",
+      "id": "Stegosaurus",
+      "emoji": "🦕"
+    },
+    {
+      "en": "Velociraptor",
+      "id": "Velociraptor",
+      "emoji": "🦖"
+    },
+    {
+      "en": "Brachiosaurus",
+      "id": "Brachiosaurus",
+      "emoji": "🦕"
+    },
+    {
+      "en": "Pterodactyl",
+      "id": "Pterodactyl",
+      "emoji": "🦅"
+    },
+    {
+      "en": "Spinosaurus",
+      "id": "Spinosaurus",
+      "emoji": "🦖"
+    },
+    {
+      "en": "Ankylosaurus",
+      "id": "Ankylosaurus",
+      "emoji": "🦕"
+    },
+    {
+      "en": "Diplodocus",
+      "id": "Diplodocus",
+      "emoji": "🦕"
+    },
+    {
+      "en": "Allosaurus",
+      "id": "Allosaurus",
+      "emoji": "🦖"
+    },
+    {
+      "en": "Fossil",
+      "id": "Fosil",
+      "emoji": "🦴"
+    },
+    {
+      "en": "Dinosaur Egg",
+      "id": "Telur Dinosaurus",
+      "emoji": "🥚"
+    },
+    {
+      "en": "Iguanodon",
+      "id": "Iguanodon",
+      "emoji": "🦕"
+    },
+    {
+      "en": "Compsognathus",
+      "id": "Compsognathus",
+      "emoji": "🦖"
+    },
+    {
+      "en": "Pachycephalosaurus",
+      "id": "Pachycephalosaurus",
+      "emoji": "🦕"
+    },
+    {
+      "en": "Parasaurolophus",
+      "id": "Parasaurolophus",
+      "emoji": "🦕"
+    }
+  ]
+}

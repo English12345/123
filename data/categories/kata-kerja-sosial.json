@@ -1,0 +1,59 @@
+{
+  "id": "kata-kerja-sosial",
+  "nama": "Kata Kerja Sosial",
+  "iconEmoji": "🤝",
+  "warnaTema": "#0FA3A3",
+  "urutan": 110,
+  "kata": [
+    {
+      "en": "Greet",
+      "id": "Menyapa",
+      "emoji": "👋"
+    },
+    {
+      "en": "Thank",
+      "id": "Berterima Kasih",
+      "emoji": "🙏"
+    },
+    {
+      "en": "Apologize",
+      "id": "Meminta Maaf",
+      "emoji": "🙇"
+    },
+    {
+      "en": "Promise",
+      "id": "Berjanji",
+      "emoji": "🤞"
+    },
+    {
+      "en": "Argue",
+      "id": "Berdebat",
+      "emoji": "🗣️"
+    },
+    {
+      "en": "Agree",
+      "id": "Setuju",
+      "emoji": "👍"
+    },
+    {
+      "en": "Disagree",
+      "id": "Tidak Setuju",
+      "emoji": "👎"
+    },
+    {
+      "en": "Compliment",
+      "id": "Memuji",
+      "emoji": "😊"
+    },
+    {
+      "en": "Invite",
+      "id": "Mengundang",
+      "emoji": "✉️"
+    },
+    {
+      "en": "Introduce",
+      "id": "Memperkenalkan",
+      "emoji": "🙋"
+    }
+  ]
+}

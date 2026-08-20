@@ -1,0 +1,74 @@
+{
+  "id": "alat-tulis",
+  "nama": "Alat Tulis Kantor",
+  "iconEmoji": "✏️",
+  "warnaTema": "#F5B700",
+  "urutan": 67,
+  "kata": [
+    {
+      "en": "Eraser",
+      "id": "Penghapus",
+      "emoji": "🧽"
+    },
+    {
+      "en": "Highlighter",
+      "id": "Stabilo",
+      "emoji": "🖊️"
+    },
+    {
+      "en": "Tape",
+      "id": "Selotip",
+      "emoji": "📏"
+    },
+    {
+      "en": "Sharpener",
+      "id": "Rautan",
+      "emoji": "✏️"
+    },
+    {
+      "en": "Sticky Note",
+      "id": "Kertas Tempel",
+      "emoji": "🗒️"
+    },
+    {
+      "en": "Chalk",
+      "id": "Kapur Tulis",
+      "emoji": "🖍️"
+    },
+    {
+      "en": "Binder Clip",
+      "id": "Klip Penjepit",
+      "emoji": "📎"
+    },
+    {
+      "en": "Rubber Band",
+      "id": "Karet Gelang",
+      "emoji": "🔗"
+    },
+    {
+      "en": "Pencil Case",
+      "id": "Tempat Pensil",
+      "emoji": "🖊️"
+    },
+    {
+      "en": "Correction Fluid",
+      "id": "Cairan Penghapus Tinta",
+      "emoji": "⚪"
+    },
+    {
+      "en": "Ink Pad",
+      "id": "Bantalan Stempel",
+      "emoji": "🔴"
+    },
+    {
+      "en": "Index Card",
+      "id": "Kartu Indeks",
+      "emoji": "🗂️"
+    },
+    {
+      "en": "Bulletin Board",
+      "id": "Papan Pengumuman",
+      "emoji": "📌"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "satuan-ukur",
+  "nama": "Satuan Ukur",
+  "iconEmoji": "📏",
+  "warnaTema": "#E8594B",
+  "urutan": 61,
+  "kata": [
+    {
+      "en": "Meter",
+      "id": "Meter",
+      "emoji": "📏"
+    },
+    {
+      "en": "Centimeter",
+      "id": "Sentimeter",
+      "emoji": "📏"
+    },
+    {
+      "en": "Kilometer",
+      "id": "Kilometer",
+      "emoji": "🛣️"
+    },
+    {
+      "en": "Kilogram",
+      "id": "Kilogram",
+      "emoji": "⚖️"
+    },
+    {
+      "en": "Gram",
+      "id": "Gram",
+      "emoji": "⚖️"
+    },
+    {
+      "en": "Liter",
+      "id": "Liter",
+      "emoji": "🧴"
+    },
+    {
+      "en": "Inch",
+      "id": "Inci",
+      "emoji": "📐"
+    },
+    {
+      "en": "Foot (unit)",
+      "id": "Kaki (satuan)",
+      "emoji": "👣"
+    },
+    {
+      "en": "Mile",
+      "id": "Mil",
+      "emoji": "🛣️"
+    },
+    {
+      "en": "Pound",
+      "id": "Pon",
+      "emoji": "⚖️"
+    },
+    {
+      "en": "Ounce",
+      "id": "Ons",
+      "emoji": "⚖️"
+    },
+    {
+      "en": "Ton",
+      "id": "Ton",
+      "emoji": "🏋️"
+    },
+    {
+      "en": "Teaspoon",
+      "id": "Sendok Teh",
+      "emoji": "🥄"
+    },
+    {
+      "en": "Tablespoon",
+      "id": "Sendok Makan",
+      "emoji": "🥄"
+    },
+    {
+      "en": "Gallon",
+      "id": "Galon",
+      "emoji": "🧴"
+    },
+    {
+      "en": "Degree",
+      "id": "Derajat",
+      "emoji": "🌡️"
+    },
+    {
+      "en": "Percent",
+      "id": "Persen",
+      "emoji": "💯"
+    },
+    {
+      "en": "Speed",
+      "id": "Kecepatan",
+      "emoji": "💨"
+    }
+  ]
+}

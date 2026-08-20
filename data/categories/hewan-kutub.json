@@ -1,0 +1,79 @@
+{
+  "id": "hewan-kutub",
+  "nama": "Hewan Kutub",
+  "iconEmoji": "🐧",
+  "warnaTema": "#0B5E58",
+  "urutan": 76,
+  "kata": [
+    {
+      "en": "Polar Bear",
+      "id": "Beruang Kutub",
+      "emoji": "🐻‍❄️"
+    },
+    {
+      "en": "Walrus",
+      "id": "Anjing Laut Gading",
+      "emoji": "🦭"
+    },
+    {
+      "en": "Arctic Fox",
+      "id": "Rubah Kutub",
+      "emoji": "🦊"
+    },
+    {
+      "en": "Orca",
+      "id": "Paus Pembunuh",
+      "emoji": "🐋"
+    },
+    {
+      "en": "Narwhal",
+      "id": "Narwhal",
+      "emoji": "🐳"
+    },
+    {
+      "en": "Reindeer",
+      "id": "Rusa Kutub",
+      "emoji": "🦌"
+    },
+    {
+      "en": "Snowy Owl",
+      "id": "Burung Hantu Salju",
+      "emoji": "🦉"
+    },
+    {
+      "en": "Puffin",
+      "id": "Puffin",
+      "emoji": "🐧"
+    },
+    {
+      "en": "Arctic Hare",
+      "id": "Kelinci Kutub",
+      "emoji": "🐇"
+    },
+    {
+      "en": "Musk Ox",
+      "id": "Sapi Kesturi",
+      "emoji": "🐂"
+    },
+    {
+      "en": "Beluga Whale",
+      "id": "Paus Beluga",
+      "emoji": "🐳"
+    },
+    {
+      "en": "Caribou",
+      "id": "Karibu",
+      "emoji": "🦌"
+    },
+    {
+      "en": "Ermine",
+      "id": "Cerpelai Salju",
+      "emoji": "🦫"
+    },
+    {
+      "en": "Snow Goose",
+      "id": "Angsa Salju",
+      "emoji": "🦢"
+    }
+  ]
+}

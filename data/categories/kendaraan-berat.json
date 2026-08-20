@@ -1,0 +1,49 @@
+{
+  "id": "kendaraan-berat",
+  "nama": "Kendaraan Berat Lainnya",
+  "iconEmoji": "🚛",
+  "warnaTema": "#34B27B",
+  "urutan": 115,
+  "kata": [
+    {
+      "en": "Tow Truck",
+      "id": "Truk Derek",
+      "emoji": "🚛"
+    },
+    {
+      "en": "Garbage Truck",
+      "id": "Truk Sampah",
+      "emoji": "🗑️"
+    },
+    {
+      "en": "Snowplow",
+      "id": "Mobil Pembersih Salju",
+      "emoji": "❄️"
+    },
+    {
+      "en": "Tanker Truck",
+      "id": "Truk Tangki",
+      "emoji": "⛽"
+    },
+    {
+      "en": "Flatbed Truck",
+      "id": "Truk Bak Datar",
+      "emoji": "🚛"
+    },
+    {
+      "en": "Backhoe Loader",
+      "id": "Traktor Pengeruk",
+      "emoji": "🚜"
+    },
+    {
+      "en": "Log Truck",
+      "id": "Truk Pengangkut Kayu",
+      "emoji": "🪵"
+    },
+    {
+      "en": "Trailer Truck",
+      "id": "Truk Trailer",
+      "emoji": "🚛"
+    }
+  ]
+}

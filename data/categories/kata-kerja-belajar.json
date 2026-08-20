@@ -1,0 +1,59 @@
+{
+  "id": "kata-kerja-belajar",
+  "nama": "Kata Kerja Belajar",
+  "iconEmoji": "🧠",
+  "warnaTema": "#FFC93C",
+  "urutan": 118,
+  "kata": [
+    {
+      "en": "Learn",
+      "id": "Belajar Hal Baru",
+      "emoji": "🧠"
+    },
+    {
+      "en": "Teach",
+      "id": "Mengajar",
+      "emoji": "👩‍🏫"
+    },
+    {
+      "en": "Remember",
+      "id": "Mengingat",
+      "emoji": "🧠"
+    },
+    {
+      "en": "Forget",
+      "id": "Melupakan",
+      "emoji": "💭"
+    },
+    {
+      "en": "Understand",
+      "id": "Memahami",
+      "emoji": "💡"
+    },
+    {
+      "en": "Explain",
+      "id": "Menjelaskan",
+      "emoji": "🗣️"
+    },
+    {
+      "en": "Practice",
+      "id": "Berlatih",
+      "emoji": "🏋️"
+    },
+    {
+      "en": "Answer",
+      "id": "Menjawab",
+      "emoji": "✋"
+    },
+    {
+      "en": "Ask",
+      "id": "Bertanya",
+      "emoji": "❓"
+    },
+    {
+      "en": "Repeat",
+      "id": "Mengulang",
+      "emoji": "🔁"
+    }
+  ]
+}

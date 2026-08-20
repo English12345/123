@@ -1,0 +1,79 @@
+{
+  "id": "gaya-tari",
+  "nama": "Gaya Tarian",
+  "iconEmoji": "💃",
+  "warnaTema": "#34B27B",
+  "urutan": 71,
+  "kata": [
+    {
+      "en": "Ballet",
+      "id": "Balet",
+      "emoji": "🩰"
+    },
+    {
+      "en": "Tap Dance",
+      "id": "Tari Tap",
+      "emoji": "💃"
+    },
+    {
+      "en": "Ballroom Dance",
+      "id": "Tari Ballroom",
+      "emoji": "🕺"
+    },
+    {
+      "en": "Salsa",
+      "id": "Salsa",
+      "emoji": "💃"
+    },
+    {
+      "en": "Tango",
+      "id": "Tango",
+      "emoji": "💃"
+    },
+    {
+      "en": "Breakdance",
+      "id": "Breakdance",
+      "emoji": "🕺"
+    },
+    {
+      "en": "Folk Dance",
+      "id": "Tari Rakyat",
+      "emoji": "💃"
+    },
+    {
+      "en": "Contemporary Dance",
+      "id": "Tari Kontemporer",
+      "emoji": "🩰"
+    },
+    {
+      "en": "Traditional Dance",
+      "id": "Tari Tradisional",
+      "emoji": "💃"
+    },
+    {
+      "en": "Line Dance",
+      "id": "Tari Berbaris",
+      "emoji": "🕺"
+    },
+    {
+      "en": "Jazz Dance",
+      "id": "Tari Jazz",
+      "emoji": "💃"
+    },
+    {
+      "en": "Belly Dance",
+      "id": "Tari Perut",
+      "emoji": "💃"
+    },
+    {
+      "en": "Square Dance",
+      "id": "Tari Persegi",
+      "emoji": "🕺"
+    },
+    {
+      "en": "Freestyle Dance",
+      "id": "Tari Bebas",
+      "emoji": "🕺"
+    }
+  ]
+}

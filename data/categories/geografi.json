@@ -1,0 +1,104 @@
+{
+  "id": "geografi",
+  "nama": "Istilah Geografi",
+  "iconEmoji": "🗺️",
+  "warnaTema": "#8B7FE8",
+  "urutan": 58,
+  "kata": [
+    {
+      "en": "Continent",
+      "id": "Benua",
+      "emoji": "🌏"
+    },
+    {
+      "en": "Ocean",
+      "id": "Samudra",
+      "emoji": "🌊"
+    },
+    {
+      "en": "Country",
+      "id": "Negara",
+      "emoji": "🗺️"
+    },
+    {
+      "en": "Capital City",
+      "id": "Ibu Kota",
+      "emoji": "🏛️"
+    },
+    {
+      "en": "Border",
+      "id": "Perbatasan",
+      "emoji": "🚧"
+    },
+    {
+      "en": "Island",
+      "id": "Pulau",
+      "emoji": "🏝️"
+    },
+    {
+      "en": "Peninsula",
+      "id": "Semenanjung",
+      "emoji": "🏞️"
+    },
+    {
+      "en": "Equator",
+      "id": "Garis Khatulistiwa",
+      "emoji": "🌐"
+    },
+    {
+      "en": "Hemisphere",
+      "id": "Belahan Bumi",
+      "emoji": "🌐"
+    },
+    {
+      "en": "World Map",
+      "id": "Peta Dunia",
+      "emoji": "🗺️"
+    },
+    {
+      "en": "Coast",
+      "id": "Pesisir",
+      "emoji": "🏖️"
+    },
+    {
+      "en": "Bay",
+      "id": "Teluk",
+      "emoji": "⛵"
+    },
+    {
+      "en": "Strait",
+      "id": "Selat",
+      "emoji": "🌊"
+    },
+    {
+      "en": "Cape",
+      "id": "Tanjung",
+      "emoji": "🧭"
+    },
+    {
+      "en": "Glacier",
+      "id": "Gletser",
+      "emoji": "🧊"
+    },
+    {
+      "en": "Delta",
+      "id": "Delta Sungai",
+      "emoji": "🌊"
+    },
+    {
+      "en": "Plateau",
+      "id": "Dataran Tinggi",
+      "emoji": "⛰️"
+    },
+    {
+      "en": "Canyon",
+      "id": "Ngarai",
+      "emoji": "🏜️"
+    },
+    {
+      "en": "Oasis",
+      "id": "Oase",
+      "emoji": "🌴"
+    }
+  ]
+}

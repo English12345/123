@@ -1,0 +1,59 @@
+{
+  "id": "hewan-air-tawar",
+  "nama": "Hewan Air Tawar",
+  "iconEmoji": "🐸",
+  "warnaTema": "#FF8FB1",
+  "urutan": 114,
+  "kata": [
+    {
+      "en": "Goldfish",
+      "id": "Ikan Mas Koki",
+      "emoji": "🐠"
+    },
+    {
+      "en": "Catfish",
+      "id": "Ikan Lele",
+      "emoji": "🐟"
+    },
+    {
+      "en": "Piranha",
+      "id": "Piranha",
+      "emoji": "🐟"
+    },
+    {
+      "en": "Duckling",
+      "id": "Anak Bebek",
+      "emoji": "🐤"
+    },
+    {
+      "en": "Beaver",
+      "id": "Berang-berang",
+      "emoji": "🦫"
+    },
+    {
+      "en": "River Dolphin",
+      "id": "Lumba-lumba Sungai",
+      "emoji": "🐬"
+    },
+    {
+      "en": "Newt",
+      "id": "Salamander Air",
+      "emoji": "🦎"
+    },
+    {
+      "en": "Tadpole",
+      "id": "Berudu",
+      "emoji": "🐸"
+    },
+    {
+      "en": "Water Snail",
+      "id": "Siput Air",
+      "emoji": "🐌"
+    },
+    {
+      "en": "Water Lily",
+      "id": "Bunga Teratai Air",
+      "emoji": "🪷"
+    }
+  ]
+}

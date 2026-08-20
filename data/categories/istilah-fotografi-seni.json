@@ -1,0 +1,149 @@
+{
+  "id": "istilah-fotografi-seni",
+  "nama": "Fotografi dan Seni",
+  "iconEmoji": "📸",
+  "warnaTema": "#FF8FB1",
+  "urutan": 125,
+  "kata": [
+    {
+      "en": "Camera Lens",
+      "id": "Lensa Kamera",
+      "emoji": "📷"
+    },
+    {
+      "en": "Tripod",
+      "id": "Tripod",
+      "emoji": "📷"
+    },
+    {
+      "en": "Photo Frame",
+      "id": "Bingkai Foto",
+      "emoji": "🖼️"
+    },
+    {
+      "en": "Canvas Painting",
+      "id": "Lukisan Kanvas",
+      "emoji": "🖼️"
+    },
+    {
+      "en": "Sculpture",
+      "id": "Patung",
+      "emoji": "🗿"
+    },
+    {
+      "en": "Pottery",
+      "id": "Kerajinan Gerabah",
+      "emoji": "🏺"
+    },
+    {
+      "en": "Sketch",
+      "id": "Sketsa",
+      "emoji": "✏️"
+    },
+    {
+      "en": "Palette",
+      "id": "Palet Warna",
+      "emoji": "🎨"
+    },
+    {
+      "en": "Easel",
+      "id": "Kuda-kuda Lukis",
+      "emoji": "🖼️"
+    },
+    {
+      "en": "Mural",
+      "id": "Lukisan Dinding",
+      "emoji": "🎨"
+    },
+    {
+      "en": "Photo Album",
+      "id": "Album Foto",
+      "emoji": "📔"
+    },
+    {
+      "en": "Filter (photo)",
+      "id": "Filter Foto",
+      "emoji": "📸"
+    },
+    {
+      "en": "Flash (camera)",
+      "id": "Lampu Kilat Kamera",
+      "emoji": "⚡"
+    },
+    {
+      "en": "Portrait",
+      "id": "Potret",
+      "emoji": "🖼️"
+    },
+    {
+      "en": "Landscape Painting",
+      "id": "Lukisan Pemandangan",
+      "emoji": "🏞️"
+    },
+    {
+      "en": "Self-Portrait",
+      "id": "Swafoto Lukisan",
+      "emoji": "🎨"
+    },
+    {
+      "en": "Watercolor",
+      "id": "Cat Air",
+      "emoji": "🎨"
+    },
+    {
+      "en": "Charcoal Drawing",
+      "id": "Gambar Arang",
+      "emoji": "⚫"
+    },
+    {
+      "en": "Collage",
+      "id": "Kolase",
+      "emoji": "🖼️"
+    },
+    {
+      "en": "Pottery Wheel",
+      "id": "Roda Gerabah",
+      "emoji": "🏺"
+    },
+    {
+      "en": "Frame (photo)",
+      "id": "Bingkai",
+      "emoji": "🖼️"
+    },
+    {
+      "en": "Gallery",
+      "id": "Galeri Seni",
+      "emoji": "🖼️"
+    },
+    {
+      "en": "Exhibition",
+      "id": "Pameran",
+      "emoji": "🖼️"
+    },
+    {
+      "en": "Sketchbook",
+      "id": "Buku Sketsa",
+      "emoji": "📓"
+    },
+    {
+      "en": "Ink",
+      "id": "Tinta",
+      "emoji": "🖋️"
+    },
+    {
+      "en": "Pastel Crayon",
+      "id": "Krayon Pastel",
+      "emoji": "🖍️"
+    },
+    {
+      "en": "Model (art)",
+      "id": "Model Lukisan",
+      "emoji": "🧑‍🎨"
+    },
+    {
+      "en": "Craft Glue",
+      "id": "Lem Kerajinan",
+      "emoji": "🧴"
+    }
+  ]
+}

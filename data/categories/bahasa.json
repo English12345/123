@@ -1,0 +1,99 @@
+{
+  "id": "bahasa",
+  "nama": "Bahasa Dunia",
+  "iconEmoji": "🗣️",
+  "warnaTema": "#FF8FB1",
+  "urutan": 59,
+  "kata": [
+    {
+      "en": "English",
+      "id": "Bahasa Inggris",
+      "emoji": "🇬🇧"
+    },
+    {
+      "en": "Indonesian",
+      "id": "Bahasa Indonesia",
+      "emoji": "🇮🇩"
+    },
+    {
+      "en": "Mandarin",
+      "id": "Bahasa Mandarin",
+      "emoji": "🇨🇳"
+    },
+    {
+      "en": "Japanese",
+      "id": "Bahasa Jepang",
+      "emoji": "🇯🇵"
+    },
+    {
+      "en": "Korean",
+      "id": "Bahasa Korea",
+      "emoji": "🇰🇷"
+    },
+    {
+      "en": "Arabic",
+      "id": "Bahasa Arab",
+      "emoji": "🇸🇦"
+    },
+    {
+      "en": "French",
+      "id": "Bahasa Prancis",
+      "emoji": "🇫🇷"
+    },
+    {
+      "en": "German",
+      "id": "Bahasa Jerman",
+      "emoji": "🇩🇪"
+    },
+    {
+      "en": "Spanish",
+      "id": "Bahasa Spanyol",
+      "emoji": "🇪🇸"
+    },
+    {
+      "en": "Hindi",
+      "id": "Bahasa Hindi",
+      "emoji": "🇮🇳"
+    },
+    {
+      "en": "Portuguese",
+      "id": "Bahasa Portugis",
+      "emoji": "🇵🇹"
+    },
+    {
+      "en": "Russian",
+      "id": "Bahasa Rusia",
+      "emoji": "🇷🇺"
+    },
+    {
+      "en": "Dutch",
+      "id": "Bahasa Belanda",
+      "emoji": "🇳🇱"
+    },
+    {
+      "en": "Thai",
+      "id": "Bahasa Thailand",
+      "emoji": "🇹🇭"
+    },
+    {
+      "en": "Vietnamese",
+      "id": "Bahasa Vietnam",
+      "emoji": "🇻🇳"
+    },
+    {
+      "en": "Turkish",
+      "id": "Bahasa Turki",
+      "emoji": "🇹🇷"
+    },
+    {
+      "en": "Swedish",
+      "id": "Bahasa Swedia",
+      "emoji": "🇸🇪"
+    },
+    {
+      "en": "Greek",
+      "id": "Bahasa Yunani",
+      "emoji": "🇬🇷"
+    }
+  ]
+}

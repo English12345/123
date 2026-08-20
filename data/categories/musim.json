@@ -1,0 +1,29 @@
+{
+  "id": "musim",
+  "nama": "Musim",
+  "iconEmoji": "🍂",
+  "warnaTema": "#2EC4B6",
+  "urutan": 62,
+  "kata": [
+    {
+      "en": "Spring",
+      "id": "Musim Semi",
+      "emoji": "🌸"
+    },
+    {
+      "en": "Summer",
+      "id": "Musim Panas",
+      "emoji": "☀️"
+    },
+    {
+      "en": "Autumn",
+      "id": "Musim Gugur",
+      "emoji": "🍂"
+    },
+    {
+      "en": "Winter",
+      "id": "Musim Dingin",
+      "emoji": "❄️"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "keterangan-waktu",
+  "nama": "Keterangan Waktu",
+  "iconEmoji": "⏰",
+  "warnaTema": "#0FA3A3",
+  "urutan": 99,
+  "kata": [
+    {
+      "en": "Today",
+      "id": "Hari Ini",
+      "emoji": "📅"
+    },
+    {
+      "en": "Tomorrow",
+      "id": "Besok",
+      "emoji": "📆"
+    },
+    {
+      "en": "Yesterday",
+      "id": "Kemarin",
+      "emoji": "🗓️"
+    },
+    {
+      "en": "Week",
+      "id": "Minggu",
+      "emoji": "📅"
+    },
+    {
+      "en": "Weekend",
+      "id": "Akhir Pekan",
+      "emoji": "🎉"
+    },
+    {
+      "en": "Month",
+      "id": "Bulan",
+      "emoji": "📆"
+    },
+    {
+      "en": "Year",
+      "id": "Tahun",
+      "emoji": "🗓️"
+    },
+    {
+      "en": "Hour",
+      "id": "Jam (Waktu)",
+      "emoji": "⏰"
+    },
+    {
+      "en": "Minute",
+      "id": "Menit",
+      "emoji": "⏱️"
+    },
+    {
+      "en": "Second (time)",
+      "id": "Detik",
+      "emoji": "⏱️"
+    },
+    {
+      "en": "Soon",
+      "id": "Sebentar Lagi",
+      "emoji": "⏳"
+    },
+    {
+      "en": "Later",
+      "id": "Nanti",
+      "emoji": "🕐"
+    },
+    {
+      "en": "Early",
+      "id": "Awal Waktu",
+      "emoji": "🌅"
+    },
+    {
+      "en": "Late",
+      "id": "Terlambat",
+      "emoji": "⏰"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "pakaian-lanjutan",
+  "nama": "Jenis Pakaian Lainnya",
+  "iconEmoji": "🧥",
+  "warnaTema": "#0B5E58",
+  "urutan": 120,
+  "kata": [
+    {
+      "en": "Sweater",
+      "id": "Sweter",
+      "emoji": "🧶"
+    },
+    {
+      "en": "Hoodie",
+      "id": "Hoodie",
+      "emoji": "🧥"
+    },
+    {
+      "en": "Vest",
+      "id": "Rompi",
+      "emoji": "🦺"
+    },
+    {
+      "en": "Shorts",
+      "id": "Celana Pendek",
+      "emoji": "🩳"
+    },
+    {
+      "en": "Skirt",
+      "id": "Rok",
+      "emoji": "👗"
+    },
+    {
+      "en": "Blouse",
+      "id": "Blus",
+      "emoji": "👚"
+    },
+    {
+      "en": "Pajamas",
+      "id": "Piyama",
+      "emoji": "🩱"
+    },
+    {
+      "en": "Raincoat",
+      "id": "Jas Hujan",
+      "emoji": "🧥"
+    },
+    {
+      "en": "Overalls",
+      "id": "Baju Terusan",
+      "emoji": "👖"
+    },
+    {
+      "en": "Bathrobe",
+      "id": "Jubah Mandi",
+      "emoji": "🥻"
+    },
+    {
+      "en": "Uniform",
+      "id": "Seragam",
+      "emoji": "👔"
+    },
+    {
+      "en": "Poncho",
+      "id": "Poncho",
+      "emoji": "🧥"
+    }
+  ]
+}

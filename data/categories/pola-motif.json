@@ -1,0 +1,89 @@
+{
+  "id": "pola-motif",
+  "nama": "Pola dan Motif",
+  "iconEmoji": "🎨",
+  "warnaTema": "#6FDCD1",
+  "urutan": 97,
+  "kata": [
+    {
+      "en": "Stripes",
+      "id": "Garis-garis",
+      "emoji": "🟦"
+    },
+    {
+      "en": "Polka Dots",
+      "id": "Motif Bintik",
+      "emoji": "🔵"
+    },
+    {
+      "en": "Checkered",
+      "id": "Kotak-kotak",
+      "emoji": "🏁"
+    },
+    {
+      "en": "Floral Pattern",
+      "id": "Motif Bunga",
+      "emoji": "🌸"
+    },
+    {
+      "en": "Plaid",
+      "id": "Motif Kotak Skotlandia",
+      "emoji": "🟥"
+    },
+    {
+      "en": "Zigzag",
+      "id": "Zigzag",
+      "emoji": "⚡"
+    },
+    {
+      "en": "Camouflage",
+      "id": "Loreng",
+      "emoji": "🟢"
+    },
+    {
+      "en": "Paisley",
+      "id": "Motif Paisley",
+      "emoji": "🎨"
+    },
+    {
+      "en": "Geometric Pattern",
+      "id": "Motif Geometris",
+      "emoji": "🔷"
+    },
+    {
+      "en": "Gradient",
+      "id": "Gradasi Warna",
+      "emoji": "🌈"
+    },
+    {
+      "en": "Tie-Dye",
+      "id": "Motif Ikat Celup",
+      "emoji": "🌀"
+    },
+    {
+      "en": "Chevron",
+      "id": "Motif Chevron",
+      "emoji": "〰️"
+    },
+    {
+      "en": "Argyle",
+      "id": "Motif Argyle",
+      "emoji": "🔶"
+    },
+    {
+      "en": "Herringbone",
+      "id": "Motif Herringbone",
+      "emoji": "🧵"
+    },
+    {
+      "en": "Houndstooth",
+      "id": "Motif Houndstooth",
+      "emoji": "⬛"
+    },
+    {
+      "en": "Tartan",
+      "id": "Motif Tartan",
+      "emoji": "🟥"
+    }
+  ]
+}

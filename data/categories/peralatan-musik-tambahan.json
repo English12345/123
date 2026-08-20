@@ -1,0 +1,59 @@
+{
+  "id": "peralatan-musik-tambahan",
+  "nama": "Aksesori Alat Musik",
+  "iconEmoji": "🎼",
+  "warnaTema": "#2EC4B6",
+  "urutan": 117,
+  "kata": [
+    {
+      "en": "Music Sheet",
+      "id": "Partitur Musik",
+      "emoji": "🎼"
+    },
+    {
+      "en": "Music Note",
+      "id": "Not Musik",
+      "emoji": "🎵"
+    },
+    {
+      "en": "Metronome",
+      "id": "Metronom",
+      "emoji": "⏱️"
+    },
+    {
+      "en": "Music Stand",
+      "id": "Penyangga Not",
+      "emoji": "🎼"
+    },
+    {
+      "en": "Guitar Pick",
+      "id": "Pick Gitar",
+      "emoji": "🎸"
+    },
+    {
+      "en": "Piano Key",
+      "id": "Tuts Piano",
+      "emoji": "🎹"
+    },
+    {
+      "en": "Drumstick",
+      "id": "Stik Drum",
+      "emoji": "🥁"
+    },
+    {
+      "en": "Tuning Fork",
+      "id": "Garpu Tala",
+      "emoji": "🎵"
+    },
+    {
+      "en": "Conductor's Baton",
+      "id": "Tongkat Dirigen",
+      "emoji": "🎼"
+    },
+    {
+      "en": "Music Box",
+      "id": "Kotak Musik",
+      "emoji": "🎶"
+    }
+  ]
+}

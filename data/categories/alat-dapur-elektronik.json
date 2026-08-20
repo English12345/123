@@ -1,0 +1,89 @@
+{
+  "id": "alat-dapur-elektronik",
+  "nama": "Alat Dapur Elektronik",
+  "iconEmoji": "🔌",
+  "warnaTema": "#E8594B",
+  "urutan": 94,
+  "kata": [
+    {
+      "en": "Blender",
+      "id": "Blender",
+      "emoji": "🥤"
+    },
+    {
+      "en": "Toaster",
+      "id": "Pemanggang Roti",
+      "emoji": "🍞"
+    },
+    {
+      "en": "Microwave",
+      "id": "Microwave",
+      "emoji": "📻"
+    },
+    {
+      "en": "Oven",
+      "id": "Oven",
+      "emoji": "🍞"
+    },
+    {
+      "en": "Refrigerator",
+      "id": "Kulkas",
+      "emoji": "🧊"
+    },
+    {
+      "en": "Electric Kettle",
+      "id": "Ketel Listrik",
+      "emoji": "🫖"
+    },
+    {
+      "en": "Mixer",
+      "id": "Mixer Kue",
+      "emoji": "🍰"
+    },
+    {
+      "en": "Rice Cooker",
+      "id": "Penanak Nasi",
+      "emoji": "🍚"
+    },
+    {
+      "en": "Coffee Maker",
+      "id": "Mesin Kopi",
+      "emoji": "☕"
+    },
+    {
+      "en": "Dishwasher",
+      "id": "Mesin Cuci Piring",
+      "emoji": "🍽️"
+    },
+    {
+      "en": "Freezer",
+      "id": "Freezer",
+      "emoji": "🧊"
+    },
+    {
+      "en": "Food Processor",
+      "id": "Penggiling Makanan",
+      "emoji": "🥗"
+    },
+    {
+      "en": "Slow Cooker",
+      "id": "Panci Masak Lambat",
+      "emoji": "🍲"
+    },
+    {
+      "en": "Air Fryer",
+      "id": "Air Fryer",
+      "emoji": "🍟"
+    },
+    {
+      "en": "Juicer",
+      "id": "Alat Peras Jus",
+      "emoji": "🧃"
+    },
+    {
+      "en": "Stove",
+      "id": "Kompor",
+      "emoji": "🔥"
+    }
+  ]
+}

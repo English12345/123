@@ -1,0 +1,69 @@
+{
+  "id": "bangunan-terkenal",
+  "nama": "Bangunan Terkenal Dunia",
+  "iconEmoji": "🗼",
+  "warnaTema": "#F5B700",
+  "urutan": 111,
+  "kata": [
+    {
+      "en": "Eiffel Tower",
+      "id": "Menara Eiffel",
+      "emoji": "🗼"
+    },
+    {
+      "en": "Great Wall",
+      "id": "Tembok Besar",
+      "emoji": "🧱"
+    },
+    {
+      "en": "Pyramid of Giza",
+      "id": "Piramida Giza",
+      "emoji": "🔺"
+    },
+    {
+      "en": "Statue of Liberty",
+      "id": "Patung Liberty",
+      "emoji": "🗽"
+    },
+    {
+      "en": "Big Ben",
+      "id": "Big Ben",
+      "emoji": "🕰️"
+    },
+    {
+      "en": "Colosseum",
+      "id": "Koloseum",
+      "emoji": "🏛️"
+    },
+    {
+      "en": "Taj Mahal",
+      "id": "Taj Mahal",
+      "emoji": "🕌"
+    },
+    {
+      "en": "Sydney Opera House",
+      "id": "Gedung Opera Sydney",
+      "emoji": "🎭"
+    },
+    {
+      "en": "Leaning Tower",
+      "id": "Menara Miring",
+      "emoji": "🗼"
+    },
+    {
+      "en": "Borobudur",
+      "id": "Candi Borobudur",
+      "emoji": "🛕"
+    },
+    {
+      "en": "Golden Gate Bridge",
+      "id": "Jembatan Golden Gate",
+      "emoji": "🌉"
+    },
+    {
+      "en": "Mount Rushmore",
+      "id": "Gunung Rushmore",
+      "emoji": "🗻"
+    }
+  ]
+}

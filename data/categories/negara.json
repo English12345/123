@@ -1,0 +1,159 @@
+{
+  "id": "negara",
+  "nama": "Negara",
+  "iconEmoji": "🌍",
+  "warnaTema": "#FF6B6B",
+  "urutan": 57,
+  "kata": [
+    {
+      "en": "Indonesia",
+      "id": "Indonesia",
+      "emoji": "🇮🇩"
+    },
+    {
+      "en": "United States",
+      "id": "Amerika Serikat",
+      "emoji": "🇺🇸"
+    },
+    {
+      "en": "Japan",
+      "id": "Jepang",
+      "emoji": "🇯🇵"
+    },
+    {
+      "en": "China",
+      "id": "Tiongkok",
+      "emoji": "🇨🇳"
+    },
+    {
+      "en": "United Kingdom",
+      "id": "Inggris",
+      "emoji": "🇬🇧"
+    },
+    {
+      "en": "France",
+      "id": "Prancis",
+      "emoji": "🇫🇷"
+    },
+    {
+      "en": "Germany",
+      "id": "Jerman",
+      "emoji": "🇩🇪"
+    },
+    {
+      "en": "Italy",
+      "id": "Italia",
+      "emoji": "🇮🇹"
+    },
+    {
+      "en": "Spain",
+      "id": "Spanyol",
+      "emoji": "🇪🇸"
+    },
+    {
+      "en": "Canada",
+      "id": "Kanada",
+      "emoji": "🇨🇦"
+    },
+    {
+      "en": "Australia",
+      "id": "Australia",
+      "emoji": "🇦🇺"
+    },
+    {
+      "en": "Brazil",
+      "id": "Brasil",
+      "emoji": "🇧🇷"
+    },
+    {
+      "en": "India",
+      "id": "India",
+      "emoji": "🇮🇳"
+    },
+    {
+      "en": "South Korea",
+      "id": "Korea Selatan",
+      "emoji": "🇰🇷"
+    },
+    {
+      "en": "Egypt",
+      "id": "Mesir",
+      "emoji": "🇪🇬"
+    },
+    {
+      "en": "Mexico",
+      "id": "Meksiko",
+      "emoji": "🇲🇽"
+    },
+    {
+      "en": "Russia",
+      "id": "Rusia",
+      "emoji": "🇷🇺"
+    },
+    {
+      "en": "Saudi Arabia",
+      "id": "Arab Saudi",
+      "emoji": "🇸🇦"
+    },
+    {
+      "en": "Malaysia",
+      "id": "Malaysia",
+      "emoji": "🇲🇾"
+    },
+    {
+      "en": "Thailand",
+      "id": "Thailand",
+      "emoji": "🇹🇭"
+    },
+    {
+      "en": "Singapore",
+      "id": "Singapura",
+      "emoji": "🇸🇬"
+    },
+    {
+      "en": "Vietnam",
+      "id": "Vietnam",
+      "emoji": "🇻🇳"
+    },
+    {
+      "en": "Philippines",
+      "id": "Filipina",
+      "emoji": "🇵🇭"
+    },
+    {
+      "en": "Turkiye",
+      "id": "Turki",
+      "emoji": "🇹🇷"
+    },
+    {
+      "en": "Netherlands",
+      "id": "Belanda",
+      "emoji": "🇳🇱"
+    },
+    {
+      "en": "Switzerland",
+      "id": "Swiss",
+      "emoji": "🇨🇭"
+    },
+    {
+      "en": "Sweden",
+      "id": "Swedia",
+      "emoji": "🇸🇪"
+    },
+    {
+      "en": "New Zealand",
+      "id": "Selandia Baru",
+      "emoji": "🇳🇿"
+    },
+    {
+      "en": "South Africa",
+      "id": "Afrika Selatan",
+      "emoji": "🇿🇦"
+    },
+    {
+      "en": "Argentina",
+      "id": "Argentina",
+      "emoji": "🇦🇷"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "kata-sifat-rasa",
+  "nama": "Kata Sifat Rasa",
+  "iconEmoji": "😋",
+  "warnaTema": "#FF6B6B",
+  "urutan": 101,
+  "kata": [
+    {
+      "en": "Sweet",
+      "id": "Manis",
+      "emoji": "🍬"
+    },
+    {
+      "en": "Sour",
+      "id": "Asam",
+      "emoji": "🍋"
+    },
+    {
+      "en": "Salty",
+      "id": "Asin",
+      "emoji": "🧂"
+    },
+    {
+      "en": "Bitter",
+      "id": "Pahit",
+      "emoji": "☕"
+    },
+    {
+      "en": "Spicy",
+      "id": "Pedas",
+      "emoji": "🌶️"
+    },
+    {
+      "en": "Savory",
+      "id": "Gurih",
+      "emoji": "🍜"
+    },
+    {
+      "en": "Bland",
+      "id": "Hambar",
+      "emoji": "🍚"
+    },
+    {
+      "en": "Fresh",
+      "id": "Segar",
+      "emoji": "🥗"
+    },
+    {
+      "en": "Ripe",
+      "id": "Matang",
+      "emoji": "🍌"
+    },
+    {
+      "en": "Delicious",
+      "id": "Lezat",
+      "emoji": "😋"
+    },
+    {
+      "en": "Crunchy",
+      "id": "Renyah",
+      "emoji": "🍪"
+    },
+    {
+      "en": "Juicy",
+      "id": "Berair",
+      "emoji": "🍉"
+    },
+    {
+      "en": "Tangy",
+      "id": "Segar Asam",
+      "emoji": "🍋"
+    },
+    {
+      "en": "Mild Taste",
+      "id": "Rasa Ringan",
+      "emoji": "🍚"
+    },
+    {
+      "en": "Stale",
+      "id": "Basi",
+      "emoji": "🍞"
+    },
+    {
+      "en": "Rich Taste",
+      "id": "Rasa Kaya",
+      "emoji": "🍫"
+    }
+  ]
+}

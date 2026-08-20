@@ -1,0 +1,79 @@
+{
+  "id": "bagian-komputer",
+  "nama": "Bagian Komputer",
+  "iconEmoji": "🖥️",
+  "warnaTema": "#FF6B6B",
+  "urutan": 68,
+  "kata": [
+    {
+      "en": "Keyboard",
+      "id": "Papan Ketik",
+      "emoji": "⌨️"
+    },
+    {
+      "en": "Computer Mouse",
+      "id": "Tetikus",
+      "emoji": "🖱️"
+    },
+    {
+      "en": "Monitor",
+      "id": "Layar Komputer",
+      "emoji": "🖥️"
+    },
+    {
+      "en": "Motherboard",
+      "id": "Papan Induk",
+      "emoji": "🖥️"
+    },
+    {
+      "en": "Hard Drive",
+      "id": "Cakram Keras",
+      "emoji": "💾"
+    },
+    {
+      "en": "Webcam",
+      "id": "Kamera Web",
+      "emoji": "📷"
+    },
+    {
+      "en": "USB Flash Drive",
+      "id": "Flashdisk",
+      "emoji": "💾"
+    },
+    {
+      "en": "Graphics Card",
+      "id": "Kartu Grafis",
+      "emoji": "🖥️"
+    },
+    {
+      "en": "Cooling Fan",
+      "id": "Kipas Pendingin",
+      "emoji": "🌀"
+    },
+    {
+      "en": "Power Supply",
+      "id": "Catu Daya",
+      "emoji": "🔌"
+    },
+    {
+      "en": "Cable",
+      "id": "Kabel",
+      "emoji": "🔌"
+    },
+    {
+      "en": "Touchpad",
+      "id": "Panel Sentuh",
+      "emoji": "🖱️"
+    },
+    {
+      "en": "Microchip",
+      "id": "Cip Komputer",
+      "emoji": "💽"
+    },
+    {
+      "en": "Circuit Board",
+      "id": "Papan Sirkuit",
+      "emoji": "🔌"
+    }
+  ]
+}

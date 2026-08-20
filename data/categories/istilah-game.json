@@ -1,0 +1,79 @@
+{
+  "id": "istilah-game",
+  "nama": "Istilah Permainan Video",
+  "iconEmoji": "🎮",
+  "warnaTema": "#2EC4B6",
+  "urutan": 73,
+  "kata": [
+    {
+      "en": "Game Controller",
+      "id": "Stik Game",
+      "emoji": "🎮"
+    },
+    {
+      "en": "Joystick",
+      "id": "Joystick",
+      "emoji": "🕹️"
+    },
+    {
+      "en": "Game Level",
+      "id": "Level Permainan",
+      "emoji": "🆙"
+    },
+    {
+      "en": "Game Score",
+      "id": "Skor Permainan",
+      "emoji": "🏆"
+    },
+    {
+      "en": "Game Player",
+      "id": "Pemain",
+      "emoji": "🎮"
+    },
+    {
+      "en": "Avatar",
+      "id": "Avatar",
+      "emoji": "🧑‍🎤"
+    },
+    {
+      "en": "Game Button",
+      "id": "Tombol Game",
+      "emoji": "🔘"
+    },
+    {
+      "en": "High Score",
+      "id": "Skor Tertinggi",
+      "emoji": "🥇"
+    },
+    {
+      "en": "Game Over",
+      "id": "Permainan Selesai",
+      "emoji": "🔚"
+    },
+    {
+      "en": "Cheat Code",
+      "id": "Kode Curang",
+      "emoji": "🔑"
+    },
+    {
+      "en": "Quest",
+      "id": "Misi Permainan",
+      "emoji": "🗺️"
+    },
+    {
+      "en": "Checkpoint",
+      "id": "Titik Simpan",
+      "emoji": "📍"
+    },
+    {
+      "en": "Boss Battle",
+      "id": "Pertarungan Bos",
+      "emoji": "👹"
+    },
+    {
+      "en": "Power-Up",
+      "id": "Peningkat Kekuatan",
+      "emoji": "⚡"
+    }
+  ]
+}

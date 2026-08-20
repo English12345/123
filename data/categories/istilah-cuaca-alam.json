@@ -1,0 +1,59 @@
+{
+  "id": "istilah-cuaca-alam",
+  "nama": "Istilah Iklim",
+  "iconEmoji": "🌡️",
+  "warnaTema": "#8B7FE8",
+  "urutan": 124,
+  "kata": [
+    {
+      "en": "Climate",
+      "id": "Iklim",
+      "emoji": "🌡️"
+    },
+    {
+      "en": "Humidity",
+      "id": "Kelembapan",
+      "emoji": "💦"
+    },
+    {
+      "en": "Temperature",
+      "id": "Suhu",
+      "emoji": "🌡️"
+    },
+    {
+      "en": "Rainy Season",
+      "id": "Musim Hujan",
+      "emoji": "🌧️"
+    },
+    {
+      "en": "Dry Season",
+      "id": "Musim Kemarau",
+      "emoji": "☀️"
+    },
+    {
+      "en": "Breeze",
+      "id": "Angin Sepoi",
+      "emoji": "🍃"
+    },
+    {
+      "en": "Gust",
+      "id": "Hembusan Angin Kencang",
+      "emoji": "💨"
+    },
+    {
+      "en": "Monsoon",
+      "id": "Musim Monsun",
+      "emoji": "🌬️"
+    },
+    {
+      "en": "Air Pressure",
+      "id": "Tekanan Udara",
+      "emoji": "🌪️"
+    },
+    {
+      "en": "Barometer",
+      "id": "Barometer",
+      "emoji": "📊"
+    }
+  ]
+}

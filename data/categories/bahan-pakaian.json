@@ -1,0 +1,79 @@
+{
+  "id": "bahan-pakaian",
+  "nama": "Bahan Kain",
+  "iconEmoji": "🧵",
+  "warnaTema": "#FFC93C",
+  "urutan": 96,
+  "kata": [
+    {
+      "en": "Cotton",
+      "id": "Katun",
+      "emoji": "🌱"
+    },
+    {
+      "en": "Silk",
+      "id": "Sutra",
+      "emoji": "🧵"
+    },
+    {
+      "en": "Wool",
+      "id": "Wol",
+      "emoji": "🐑"
+    },
+    {
+      "en": "Leather",
+      "id": "Kulit Sintetis",
+      "emoji": "🧥"
+    },
+    {
+      "en": "Denim",
+      "id": "Denim",
+      "emoji": "👖"
+    },
+    {
+      "en": "Linen",
+      "id": "Linen",
+      "emoji": "🧵"
+    },
+    {
+      "en": "Polyester",
+      "id": "Poliester",
+      "emoji": "🧵"
+    },
+    {
+      "en": "Nylon",
+      "id": "Nilon",
+      "emoji": "🧵"
+    },
+    {
+      "en": "Velvet",
+      "id": "Beludru",
+      "emoji": "🟣"
+    },
+    {
+      "en": "Satin",
+      "id": "Satin",
+      "emoji": "✨"
+    },
+    {
+      "en": "Lace",
+      "id": "Renda",
+      "emoji": "🕸️"
+    },
+    {
+      "en": "Felt",
+      "id": "Kain Flanel",
+      "emoji": "🧶"
+    },
+    {
+      "en": "Canvas",
+      "id": "Kanvas",
+      "emoji": "🖼️"
+    },
+    {
+      "en": "Fleece",
+      "id": "Kain Fleece",
+      "emoji": "🧥"
+    }
+  ]
+}

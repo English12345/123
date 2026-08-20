@@ -1,0 +1,89 @@
+{
+  "id": "organ-tubuh",
+  "nama": "Organ Dalam Tubuh",
+  "iconEmoji": "🫀",
+  "warnaTema": "#FF6B6B",
+  "urutan": 90,
+  "kata": [
+    {
+      "en": "Lung",
+      "id": "Paru-paru",
+      "emoji": "🫁"
+    },
+    {
+      "en": "Stomach (organ)",
+      "id": "Lambung",
+      "emoji": "🫃"
+    },
+    {
+      "en": "Liver",
+      "id": "Hati",
+      "emoji": "🫀"
+    },
+    {
+      "en": "Kidney",
+      "id": "Ginjal",
+      "emoji": "🫘"
+    },
+    {
+      "en": "Muscle",
+      "id": "Otot",
+      "emoji": "💪"
+    },
+    {
+      "en": "Vein",
+      "id": "Pembuluh Darah",
+      "emoji": "🩸"
+    },
+    {
+      "en": "Rib",
+      "id": "Tulang Rusuk",
+      "emoji": "🦴"
+    },
+    {
+      "en": "Spine",
+      "id": "Tulang Punggung",
+      "emoji": "🦴"
+    },
+    {
+      "en": "Intestine",
+      "id": "Usus",
+      "emoji": "🫃"
+    },
+    {
+      "en": "Nerve",
+      "id": "Saraf",
+      "emoji": "⚡"
+    },
+    {
+      "en": "Skin",
+      "id": "Kulit",
+      "emoji": "🤚"
+    },
+    {
+      "en": "Blood",
+      "id": "Darah",
+      "emoji": "🩸"
+    },
+    {
+      "en": "Tendon",
+      "id": "Tendon",
+      "emoji": "🦵"
+    },
+    {
+      "en": "Ligament",
+      "id": "Ligamen",
+      "emoji": "🦴"
+    },
+    {
+      "en": "Artery",
+      "id": "Arteri",
+      "emoji": "🩸"
+    },
+    {
+      "en": "Pancreas",
+      "id": "Pankreas",
+      "emoji": "🫀"
+    }
+  ]
+}

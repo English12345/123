@@ -1,0 +1,89 @@
+{
+  "id": "sarapan",
+  "nama": "Menu Sarapan",
+  "iconEmoji": "🥞",
+  "warnaTema": "#FFC93C",
+  "urutan": 85,
+  "kata": [
+    {
+      "en": "Oatmeal",
+      "id": "Bubur Gandum",
+      "emoji": "🥣"
+    },
+    {
+      "en": "Cereal",
+      "id": "Sereal",
+      "emoji": "🥣"
+    },
+    {
+      "en": "Toast",
+      "id": "Roti Panggang",
+      "emoji": "🍞"
+    },
+    {
+      "en": "Omelette",
+      "id": "Telur Dadar",
+      "emoji": "🍳"
+    },
+    {
+      "en": "Bacon",
+      "id": "Bacon",
+      "emoji": "🥓"
+    },
+    {
+      "en": "Sausage",
+      "id": "Sosis",
+      "emoji": "🌭"
+    },
+    {
+      "en": "Croissant",
+      "id": "Croissant",
+      "emoji": "🥐"
+    },
+    {
+      "en": "Jam",
+      "id": "Selai",
+      "emoji": "🍓"
+    },
+    {
+      "en": "Yogurt",
+      "id": "Yogurt",
+      "emoji": "🥣"
+    },
+    {
+      "en": "Granola",
+      "id": "Granola",
+      "emoji": "🥣"
+    },
+    {
+      "en": "Smoothie",
+      "id": "Jus Kental",
+      "emoji": "🥤"
+    },
+    {
+      "en": "Bagel",
+      "id": "Bagel",
+      "emoji": "🥯"
+    },
+    {
+      "en": "Hash Browns",
+      "id": "Kentang Parut Goreng",
+      "emoji": "🥔"
+    },
+    {
+      "en": "Pancake",
+      "id": "Panekuk",
+      "emoji": "🥞"
+    },
+    {
+      "en": "French Toast",
+      "id": "Roti Panggang Perancis",
+      "emoji": "🍞"
+    },
+    {
+      "en": "Porridge",
+      "id": "Bubur",
+      "emoji": "🥣"
+    }
+  ]
+}

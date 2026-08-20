@@ -7,6 +7,7 @@
     window.location.href = 'dashboard.html';
     return;
   }
+  const modeTersulit = kategoriId === '__tersulit__';
 
   const quizArea = document.getElementById('quizArea');
   quizArea.innerHTML = `<p class="section-sub">Menyiapkan soal...</p>`;
@@ -32,25 +33,85 @@
   const EMOJI_BENAR = ['🎉', '⭐', '🥳', '👏', '😄'];
   const EMOJI_SALAH = ['😢', '😭', '🙁', '😞'];
 
-  try {
+  // ============================================================
+  // Muat soal: mode biasa (1 kategori) ATAU mode "Kata Tersulit"
+  // (kumpulan kata sering-salah lintas kategori, semacam
+  // latihan ulang terfokus / spaced repetition ringan).
+  // ============================================================
+  async function siapkanSoalTersulit() {
+    const daftarTersulit = ambilDaftarKataTersulit(12);
+    if (daftarTersulit.length < 4) {
+      quizArea.innerHTML = `<div class="empty-state">Belum cukup data kata tersulit. Kerjakan beberapa kuis kategori dulu ya!</div>`;
+      return false;
+    }
+
+    const kategoriUnik = [...new Set(daftarTersulit.map(x => x.kategoriId))];
+    const detailPerKategori = {};
+    await Promise.all(kategoriUnik.map(async (id) => {
+      try {
+        detailPerKategori[id] = await muatDetailKategori(id);
+      } catch (err) {
+        detailPerKategori[id] = null;
+      }
+    }));
+
+    // Kumpulkan item asli (id, en, emoji) untuk tiap kata tersulit + pool distraktor gabungan.
+    const poolGabungan = [];
+    const kataUtama = [];
+    daftarTersulit.forEach(entri => {
+      const detail = detailPerKategori[entri.kategoriId];
+      if (!detail) return;
+      const item = (detail.kata || []).find(k => k.en === entri.en);
+      if (item) {
+        kataUtama.push({ ...item, _asalKategori: entri.kategoriId });
+      }
+    });
+    kategoriUnik.forEach(id => {
+      const detail = detailPerKategori[id];
+      if (detail) poolGabungan.push(...detail.kata.map(k => ({ ...k, _asalKategori: id })));
+    });
+
+    if (kataUtama.length < 4) {
+      quizArea.innerHTML = `<div class="empty-state">Belum cukup data kata tersulit. Kerjakan beberapa kuis kategori dulu ya!</div>`;
+      return false;
+    }
+
+    kategoriNama = 'Kata Tersulit';
+    kategoriIcon = '🔁';
+
+    const acak = acakArray(kataUtama);
+    soalList = acak.map(item => {
+      const distraktor = acakArray(poolGabungan.filter(k => k.en !== item.en)).slice(0, 3);
+      const opsi = acakArray([item, ...distraktor]);
+      return { soal: item, opsi };
+    });
+    return true;
+  }
+
+  async function siapkanSoalKategori() {
     const data = await muatDetailKategori(kategoriId);
     kategoriNama = data.nama;
     kategoriIcon = data.iconEmoji || '📚';
 
-    const kataList = data.kata || [];
-    if (kataList.length < 4) {
+    const kataListMentah = (data.kata || []).map(k => ({ ...k, _asalKategori: kategoriId }));
+    if (kataListMentah.length < 4) {
       quizArea.innerHTML = `<div class="empty-state">Kelompok kata ini butuh minimal 4 kata untuk membuat kuis.</div>`;
-      return;
+      return false;
     }
 
-    const acak = acakArray(kataList);
+    const acak = acakArray(kataListMentah);
     soalList = acak.map(item => {
-      const distraktor = acakArray(kataList.filter(k => k.en !== item.en)).slice(0, 3);
+      const distraktor = acakArray(kataListMentah.filter(k => k.en !== item.en)).slice(0, 3);
       const opsi = acakArray([item, ...distraktor]);
       return { soal: item, opsi };
     });
-    jawabanArray = new Array(soalList.length).fill(null);
+    return true;
+  }
 
+  try {
+    const siap = modeTersulit ? await siapkanSoalTersulit() : await siapkanSoalKategori();
+    if (!siap) return;
+    jawabanArray = new Array(soalList.length).fill(null);
     renderSoal();
   } catch (err) {
     quizArea.innerHTML = `<div class="empty-state">Gagal memuat kuis. Coba muat ulang halaman.</div>`;
@@ -161,6 +222,9 @@
     if (dipilihBenar) skor++;
     jawabanArray[soalIndex] = dipilihBenar;
 
+    // Catat statistik kata ini (basis latihan "Kata Tersulit" / spaced repetition ringan).
+    catatStatistikKata(soalBenar._asalKategori || kategoriId, soalBenar.en, dipilihBenar);
+
     document.querySelectorAll('.option-btn').forEach(b => {
       b.disabled = true;
       if (b.dataset.en === soalBenar.en) b.classList.add('correct');
@@ -199,27 +263,38 @@
     else if (persen >= 50) { pesan = 'Cukup baik, ayo belajar lagi ya!'; emoji = '💪'; }
     else { pesan = 'Yuk belajar kartu katanya dulu, lalu coba lagi!'; emoji = '📚'; }
 
-    const hasil = simpanHasilKuis(kategoriId, skor, soalList.length);
-    const rekorBaru = hasil.persen === persen; // true kalau ini jadi skor terbaik baru (atau menyamai)
-    const infoRekor = rekorBaru
-      ? '🏅 Ini skor terbaikmu sejauh ini!'
-      : `Skor terbaikmu: ${hasil.skor} / ${hasil.total} (${hasil.persen}%)`;
+    let infoRekor = '';
+    let infoLencana = '';
 
-    const ringkasanKategori = ambilRingkasanKategori(kategoriId, soalList.length);
-    const lencana = tentukanLencana(ringkasanKategori.persenHafal);
-    const infoLencana = lencana
-      ? `<p class="result-rekor">${lencana.emoji} Lencana kategori ini: ${lencana.label}</p>`
-      : '';
+    if (modeTersulit) {
+      infoRekor = `<p class="result-rekor">🔁 Kata-kata ini sudah kamu latih ulang!</p>`;
+    } else {
+      const hasil = simpanHasilKuis(kategoriId, skor, soalList.length);
+      const rekorBaru = hasil.persen === persen; // true kalau ini jadi skor terbaik baru (atau menyamai)
+      infoRekor = `<p class="result-rekor">${rekorBaru
+        ? '🏅 Ini skor terbaikmu sejauh ini!'
+        : `Skor terbaikmu: ${hasil.skor} / ${hasil.total} (${hasil.persen}%)`}</p>`;
+
+      const ringkasanKategori = ambilRingkasanKategori(kategoriId, soalList.length);
+      const lencana = tentukanLencana(ringkasanKategori.persenHafal);
+      infoLencana = lencana
+        ? `<p class="result-rekor">${lencana.emoji} Lencana kategori ini: ${lencana.label}</p>`
+        : '';
+    }
+
+    const tombolUlangi = modeTersulit
+      ? `<a href="dashboard.html" class="btn-secondary" style="text-decoration:none;">🏠 Ke Dashboard</a>`
+      : `<a href="flashcard.html?kategori=${encodeURIComponent(kategoriId)}" class="btn-secondary" style="text-decoration:none;">📖 Belajar Lagi</a>`;
 
     quizArea.innerHTML = `
       <div class="result-card">
         <div class="result-emoji">${emoji}</div>
         <div class="result-score">${skor} / ${soalList.length}</div>
         <p class="result-sub">${pesan}</p>
-        <p class="result-rekor">${infoRekor}</p>
+        ${infoRekor}
         ${infoLencana}
         <div class="result-actions">
-          <a href="flashcard.html?kategori=${encodeURIComponent(kategoriId)}" class="btn-secondary" style="text-decoration:none;">📖 Belajar Lagi</a>
+          ${tombolUlangi}
           <button class="btn-primary" id="ulangiBtn" style="width:auto; padding:12px 24px;">🔁 Ulangi Kuis</button>
         </div>
       </div>

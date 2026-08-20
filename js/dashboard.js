@@ -78,6 +78,7 @@
         <div class="category-meta">${kat.jumlahKata} kata</div>
         <div class="mini-progress-track">
           <div class="mini-progress-fill" style="width: ${ringkasan.persenHafal}%"></div>
+          <span class="progress-pin" style="left: ${ringkasan.persenHafal}%"></span>
         </div>
         <div class="category-progress">⭐ ${ringkasan.jumlahHafal}/${kat.jumlahKata} dikuasai${infoKuis}</div>
         <div class="category-cta">
@@ -145,14 +146,14 @@
     statsBar.innerHTML = `
       <div class="stat-pill">
         <div class="stat-pill-icon">⭐</div>
-        <div>
+        <div class="stat-pill-text">
           <div class="stat-pill-value">${totalHafal} / ${totalKata}</div>
           <div class="stat-pill-label">Kata dikuasai</div>
         </div>
       </div>
       <div class="stat-pill streak">
         <div class="stat-pill-icon">🔥</div>
-        <div>
+        <div class="stat-pill-text">
           <div class="stat-pill-value">${streak} hari</div>
           <div class="stat-pill-label">Belajar berturut-turut</div>
         </div>

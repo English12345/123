@@ -11,6 +11,13 @@ def slug(teks):
     teks = re.sub(r'[^a-z0-9]+', '-', teks)
     return teks.strip('-')
 
+def kunci_audio(item):
+    # HARUS identik dengan kunciAudio() di js/flashcard.js.
+    # slug(en) SAJA tidak cukup: ada kata Inggris yang sama tapi artinya beda
+    # tergantung kategori (mis. "Orange" = Jeruk di Buah, = Oranye di Warna).
+    # Kalau kuncinya cuma slug(en), audio ID salah satu kategori bisa ketuker.
+    return f"{slug(item['en'])}-{slug(item['id'])}"
+
 def sintesis(teks, model_onnx, output_wav):
     proc = subprocess.run(
         ["piper", "--model", str(model_onnx), "--output_file", str(output_wav)],
@@ -28,13 +35,15 @@ def wav_ke_mp3(wav_path, mp3_path):
 
 # Kumpulkan semua kata dari SEMUA kategori yang terdaftar di manifest.json
 # (satu-satunya sumber kebenaran, sama seperti yang dipakai aplikasi di browser).
-# Dedup berdasarkan slug nama Inggris, karena file audio disimpan per-slug —
-# kalau kata yang sama muncul di lebih dari satu kategori, generate cukup sekali.
+# Dedup berdasarkan kunci_audio() (en+id), bukan cuma en — supaya dua kata
+# Inggris yang sama tapi beda arti (lihat kunci_audio) tetap dapat audio ID
+# masing-masing yang benar, sementara kata yang benar-benar sama (arti sama,
+# cuma dipakai di 2 kategori) tidak digenerate dobel.
 def kumpulkan_kosakata():
     manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
     daftar_id = manifest.get("aktif", [])
 
-    kosakata = {}  # key: slug, value: item {en, id}
+    kosakata = {}  # key: kunci_audio, value: item {en, id}
     for kategori_id in daftar_id:
         path_file = DATA_DIR / f"{kategori_id}.json"
         if not path_file.exists():
@@ -42,14 +51,9 @@ def kumpulkan_kosakata():
             continue
         data = json.loads(path_file.read_text(encoding="utf-8"))
         for item in data.get("kata", []):
-            s = slug(item["en"])
-            if s not in kosakata:
-                kosakata[s] = item
-            elif kosakata[s]["id"] != item["id"]:
-                # Slug sama tapi terjemahan Indonesia beda antar kategori —
-                # kata pertama yang ketemu yang dipakai, sisanya cuma diberi tahu.
-                print(f"PERINGATAN: slug '{s}' punya terjemahan berbeda "
-                      f"('{kosakata[s]['id']}' vs '{item['id']}'), pakai yang pertama ditemukan.")
+            k = kunci_audio(item)
+            if k not in kosakata:
+                kosakata[k] = item
 
     return list(kosakata.values())
 
@@ -61,7 +65,7 @@ def main():
     dibuat = 0
     dilewati = 0
     for item in kosakata:
-        nama_file = slug(item["en"])
+        nama_file = kunci_audio(item)
         mp3_id = OUT_DIR / "id" / f"{nama_file}.mp3"
         mp3_en = OUT_DIR / "en" / f"{nama_file}.mp3"
 

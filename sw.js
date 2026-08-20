@@ -3,7 +3,7 @@
 // ============================================================
 // GANTI ANGKA INI SETIAP KALI KAMU UPDATE FILE (kosakata, kategori baru,
 // HTML/CSS/JS). Ini "kunci" yang memberitahu HP: ada versi baru, download ulang.
-const CACHE_VERSION = "v1.0.8";
+const CACHE_VERSION = "v1.0.9";
 const APP_CACHE = `belajar-kata-app-${CACHE_VERSION}`;
 const AUDIO_CACHE = "belajar-kata-audio"; // audio tidak pernah berubah, cache terpisah & permanen
 
@@ -149,6 +149,8 @@ self.addEventListener("fetch", (event) => {
         const cached = await cache.match(req);
         if (cached) return cached;
         const res = await fetch(req);
+        // clone() dipanggil SEBELUM res dikembalikan/dipakai, supaya body
+        // belum pernah dibaca saat clone terjadi.
         if (res.ok) cache.put(req, res.clone());
         return res;
       })
@@ -163,8 +165,10 @@ self.addEventListener("fetch", (event) => {
     event.respondWith(
       fetch(req)
         .then((res) => {
-          const clone = res.clone();
-          caches.open(APP_CACHE).then((cache) => cache.put(req, clone));
+          if (res.ok) {
+            const copy = res.clone(); // clone segera, sebelum res diteruskan
+            caches.open(APP_CACHE).then((cache) => cache.put(req, copy));
+          }
           return res;
         })
         .catch(() => caches.match(req, { ignoreSearch: true }))
@@ -180,7 +184,16 @@ self.addEventListener("fetch", (event) => {
     caches.match(req, { ignoreSearch: true }).then((cached) => {
       const jaringan = fetch(req)
         .then((res) => {
-          if (res.ok) caches.open(APP_CACHE).then((cache) => cache.put(req, res.clone()));
+          if (res.ok) {
+            // PERBAIKAN: clone() dipanggil di sini, LANGSUNG saat res diterima,
+            // sebelum caches.open() (yang async) sempat membuat body res mulai
+            // terbaca oleh proses lain (mis. browser merender halaman dari
+            // "return res" di bawah). Sebelumnya clone() dipanggil di dalam
+            // .then() milik caches.open(), yaitu terlambat — itu penyebab
+            // "Response body is already used".
+            const copy = res.clone();
+            caches.open(APP_CACHE).then((cache) => cache.put(req, copy));
+          }
           return res;
         })
         .catch(() => cached);

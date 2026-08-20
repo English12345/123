@@ -20,8 +20,14 @@
   const quizLink = document.getElementById('quizLink');
   const masteryBadge = document.getElementById('masteryBadge');
   const btnHafal = document.getElementById('btnHafal');
+  const autoplayBtn = document.getElementById('autoplayBtn');
+  const autoplayLabel = document.getElementById('autoplayLabel');
+  const autoplayDot = autoplayBtn ? autoplayBtn.querySelector('.autoplay-dot') : null;
   let kataList = [];
   let index = 0;
+  let sedangAutoplay = false;
+  let audioIdAktif = null; // referensi audio yang lagi diputar, buat dihentikan paksa kalau perlu
+  let audioEnAktif = null;
 
   // ==== Voice over dari file audio hasil Piper TTS (bukan API browser) ====
   // GANTI USERNAME/NAMA_REPO sesuai repo GitHub kamu sebelum dipakai.
@@ -74,21 +80,46 @@
 
     if (typeof redupkanMusikLatar === 'function') redupkanMusikLatar();
 
-    audioId.onended = () => {
-      audioEn.play().catch((err) => console.error('Gagal PLAY audio EN:', err));
-    };
-    audioEn.onended = () => {
-      if (typeof pulihkanMusikLatar === 'function') pulihkanMusikLatar();
-    };
-    audioId.onerror = () => {
-      console.error('Gagal LOAD audio ID:', audioId.src, audioId.error);
-      if (typeof pulihkanMusikLatar === 'function') pulihkanMusikLatar();
-    };
-    audioEn.onerror = () => {
-      console.error('Gagal LOAD audio EN:', audioEn.src, audioEn.error);
-    };
+    // Simpan referensi audio yang sedang aktif, supaya autoplay bisa
+    // menghentikannya paksa kalau tombol "Berhenti" ditekan di tengah ucapan.
+    audioIdAktif = audioId;
+    audioEnAktif = audioEn;
 
-    audioId.play().catch((err) => console.error('Gagal PLAY audio ID:', err));
+    // Dikembalikan sebagai Promise supaya autoplay bisa MENUNGGU sampai
+    // ucapan Indonesia + Inggris selesai, baru lanjut ke kartu berikutnya.
+    return new Promise((resolve) => {
+      let sudahSelesai = false;
+      const selesaikan = () => {
+        if (sudahSelesai) return;
+        sudahSelesai = true;
+        resolve();
+      };
+
+      audioId.onended = () => {
+        audioEn.play().catch((err) => {
+          console.error('Gagal PLAY audio EN:', err);
+          selesaikan();
+        });
+      };
+      audioEn.onended = () => {
+        if (typeof pulihkanMusikLatar === 'function') pulihkanMusikLatar();
+        selesaikan();
+      };
+      audioId.onerror = () => {
+        console.error('Gagal LOAD audio ID:', audioId.src, audioId.error);
+        if (typeof pulihkanMusikLatar === 'function') pulihkanMusikLatar();
+        selesaikan();
+      };
+      audioEn.onerror = () => {
+        console.error('Gagal LOAD audio EN:', audioEn.src, audioEn.error);
+        selesaikan();
+      };
+
+      audioId.play().catch((err) => {
+        console.error('Gagal PLAY audio ID:', err);
+        selesaikan();
+      });
+    });
   }
 
   function perbaruiBadgeHafal() {
@@ -142,6 +173,7 @@
   }
 
   flipCard.addEventListener('click', () => {
+    hentikanAutoplayJikaAktif();
     pastikanMusikJalan();
     if (typeof bunyiKlik === 'function') bunyiKlik();
     flipCard.classList.toggle('flipped');
@@ -150,21 +182,87 @@
 
   speakBtn.addEventListener('click', (e) => {
     e.stopPropagation();
+    hentikanAutoplayJikaAktif();
     pastikanMusikJalan();
     if (typeof bunyiKlik === 'function') bunyiKlik();
     ucapkanDwiBahasa(kataList[index]);
   });
 
   prevBtn.addEventListener('click', () => {
+    hentikanAutoplayJikaAktif();
     pastikanMusikJalan();
     if (typeof bunyiKlik === 'function') bunyiKlik();
     if (index > 0) { index--; tampilkanKartu(); }
   });
   nextBtn.addEventListener('click', () => {
+    hentikanAutoplayJikaAktif();
     pastikanMusikJalan();
     if (typeof bunyiKlik === 'function') bunyiKlik();
     if (index < kataList.length - 1) { index++; tampilkanKartu(); }
   });
+
+  // ============================================================
+  // PUTAR OTOMATIS — urutan tiap kartu: tab kartu (flip) → ucap
+  // Indonesia → ucap Inggris → lanjut kartu berikutnya → ulangi,
+  // sampai kartu terakhir. Ucapan WAJIB selesai dulu sebelum pindah
+  // kartu (tidak ada skip diam-diam).
+  // ============================================================
+  function tunggu(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+  function perbaruiTombolAutoplay() {
+    if (!autoplayBtn) return;
+    autoplayBtn.classList.toggle('aktif', sedangAutoplay);
+    if (autoplayDot) autoplayDot.textContent = sedangAutoplay ? '⏸️' : '▶️';
+    if (autoplayLabel) autoplayLabel.textContent = sedangAutoplay ? 'Berhenti' : 'Putar Otomatis';
+  }
+
+  function hentikanAutoplayJikaAktif() {
+    if (!sedangAutoplay) return;
+    sedangAutoplay = false;
+    if (audioIdAktif) audioIdAktif.pause();
+    if (audioEnAktif) audioEnAktif.pause();
+    perbaruiTombolAutoplay();
+  }
+
+  async function jalankanAutoplay() {
+    while (sedangAutoplay) {
+      // 1) Tab kartu — buka ke sisi jawaban (Inggris)
+      flipCard.classList.add('flipped');
+
+      // 2) Ucap Indonesia lalu Inggris — WAJIB tunggu sampai selesai
+      await ucapkanDwiBahasa(kataList[index]);
+      if (!sedangAutoplay) break; // dibatalkan tepat saat sedang diucapkan
+
+      await tunggu(500); // jeda singkat biar tidak buru-buru
+      if (!sedangAutoplay) break;
+
+      // 3) Kartu terakhir? Selesai. Kalau belum, lanjut ke kartu berikutnya.
+      if (index >= kataList.length - 1) break;
+      index++;
+      tampilkanKartu(); // otomatis reset tampilan ke sisi depan (Indonesia)
+
+      await tunggu(350); // jeda kecil sebelum "tab kartu" berikutnya
+    }
+    sedangAutoplay = false;
+    perbaruiTombolAutoplay();
+  }
+
+  if (autoplayBtn) {
+    autoplayBtn.addEventListener('click', () => {
+      pastikanMusikJalan();
+      if (typeof bunyiKlik === 'function') bunyiKlik();
+
+      if (sedangAutoplay) {
+        hentikanAutoplayJikaAktif();
+        return;
+      }
+      sedangAutoplay = true;
+      perbaruiTombolAutoplay();
+      jalankanAutoplay();
+    });
+  }
 
   // Tampilkan overlay singkat saat level naik — momen perayaan kecil
   // supaya anak sadar progres belajarnya (mirip feedback kuis).

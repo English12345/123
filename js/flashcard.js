@@ -166,12 +166,44 @@
     if (index < kataList.length - 1) { index++; tampilkanKartu(); }
   });
 
+  // Tampilkan overlay singkat saat level naik — momen perayaan kecil
+  // supaya anak sadar progres belajarnya (mirip feedback kuis).
+  function tampilkanLevelUp(lv) {
+    const overlay = document.createElement('div');
+    overlay.className = 'feedback-overlay';
+
+    const emojiEl = document.createElement('div');
+    emojiEl.className = 'feedback-overlay-emoji benar';
+    emojiEl.textContent = lv.emoji;
+
+    const textEl = document.createElement('div');
+    textEl.className = 'feedback-overlay-text benar';
+    textEl.textContent = `Naik Level! ${lv.judul}`;
+
+    overlay.appendChild(emojiEl);
+    overlay.appendChild(textEl);
+    document.body.appendChild(overlay);
+    if (typeof bunyiBenar === 'function') bunyiBenar();
+
+    setTimeout(() => overlay.remove(), 1800);
+  }
+
   if (btnHafal) {
     btnHafal.addEventListener('click', () => {
       if (typeof bunyiKlik === 'function') bunyiKlik();
+      const totalHafalSebelum = hitungTotalHafalSemuaKategori();
       toggleKataHafal(kategoriId, kataList[index].en);
+      const totalHafalSesudah = hitungTotalHafalSemuaKategori();
       perbaruiTombolHafal();
       perbaruiBadgeHafal();
+
+      if (totalHafalSesudah > totalHafalSebelum) {
+        const lvSebelum = hitungLevel(totalHafalSebelum);
+        const lvSesudah = hitungLevel(totalHafalSesudah);
+        if (lvSesudah.level > lvSebelum.level) {
+          tampilkanLevelUp(lvSesudah);
+        }
+      }
     });
   }
 })();

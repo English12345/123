@@ -30,6 +30,10 @@
       </div>
     </div>
 
+    <div id="levelCard" class="level-card">
+      <div class="skeleton-pill" style="height:88px;"></div>
+    </div>
+
     <h2 class="section-title">Pilih Kelompok Kata</h2>
     <p class="section-sub">Tap salah satu kelompok untuk mulai belajar atau uji kemampuanmu.</p>
 
@@ -38,11 +42,29 @@
       <div class="skeleton-pill"></div>
     </div>
 
+    <div id="tersulitCard" class="tersulit-card" style="display:none;"></div>
+
+    <div class="search-filter-bar">
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="Cari kelompok kata..." autocomplete="off">
+      </div>
+      <div class="filter-chips" id="filterChips">
+        <button class="filter-chip aktif" data-level="semua">Semua</button>
+        <button class="filter-chip" data-level="pemula">🌱 Pemula</button>
+        <button class="filter-chip" data-level="menengah">🌿 Menengah</button>
+        <button class="filter-chip" data-level="lanjutan">🌳 Lanjutan</button>
+      </div>
+    </div>
+
     <div id="categoryGrid" class="category-grid">
       <div class="skeleton-card"></div>
       <div class="skeleton-card"></div>
       <div class="skeleton-card"></div>
       <div class="skeleton-card"></div>
+    </div>
+    <div id="noResultState" class="empty-state" style="display:none;">
+      Tidak ada kelompok kata yang cocok. Coba kata kunci lain.
     </div>
     <div id="emptyState" class="empty-state" style="display:none;">
       Belum ada kelompok kata. Tambahkan file kategori baru ke folder <strong>data/categories</strong> untuk mulai.

@@ -1,1298 +1,1298 @@
 [
   {
-    "id": "nelayan",
-    "en": "fisherman"
+    "id": "Ibu Kota",
+    "en": "Capital City"
   },
   {
-    "id": "astronot",
-    "en": "astronaut"
+    "id": "Perbatasan",
+    "en": "Border"
   },
   {
-    "id": "tentara",
-    "en": "soldier"
+    "id": "Pulau",
+    "en": "Island"
   },
   {
-    "id": "tukang bangunan",
-    "en": "builder"
+    "id": "Semenanjung",
+    "en": "Peninsula"
   },
   {
-    "id": "sendok",
-    "en": "spoon"
+    "id": "Garis Khatulistiwa",
+    "en": "Equator"
   },
   {
-    "id": "garpu",
-    "en": "fork"
+    "id": "Belahan Bumi",
+    "en": "Hemisphere"
   },
   {
-    "id": "pisau",
-    "en": "knife"
+    "id": "Peta Dunia",
+    "en": "World Map"
   },
   {
-    "id": "piring",
-    "en": "plate"
+    "id": "Pesisir",
+    "en": "Coast"
   },
   {
-    "id": "mangkuk",
-    "en": "bowl"
+    "id": "Teluk",
+    "en": "Bay"
   },
   {
-    "id": "cangkir",
-    "en": "cup"
+    "id": "Selat",
+    "en": "Strait"
   },
   {
-    "id": "panci",
-    "en": "pot"
+    "id": "Tanjung",
+    "en": "Cape"
   },
   {
-    "id": "wajan",
-    "en": "pan"
+    "id": "Gletser",
+    "en": "Glacier"
   },
   {
-    "id": "sumpit",
-    "en": "chopsticks"
+    "id": "Delta Sungai",
+    "en": "Delta"
   },
   {
-    "id": "toples",
-    "en": "jar"
+    "id": "Dataran Tinggi",
+    "en": "Plateau"
   },
   {
-    "id": "teko",
-    "en": "teapot"
+    "id": "Ngarai",
+    "en": "Canyon"
   },
   {
-    "id": "sabun",
-    "en": "soap"
+    "id": "Oase",
+    "en": "Oasis"
   },
   {
-    "id": "sikat gigi",
-    "en": "toothbrush"
+    "id": "Bahasa Inggris",
+    "en": "English"
   },
   {
-    "id": "handuk",
-    "en": "towel"
+    "id": "Bahasa Indonesia",
+    "en": "Indonesian"
   },
   {
-    "id": "sampo",
-    "en": "shampoo"
+    "id": "Bahasa Mandarin",
+    "en": "Mandarin"
   },
   {
-    "id": "bak mandi",
-    "en": "bathtub"
+    "id": "Bahasa Jepang",
+    "en": "Japanese"
   },
   {
-    "id": "gayung",
-    "en": "bucket"
+    "id": "Bahasa Korea",
+    "en": "Korean"
   },
   {
-    "id": "cermin",
-    "en": "mirror"
+    "id": "Bahasa Arab",
+    "en": "Arabic"
   },
   {
-    "id": "sisir",
-    "en": "comb"
+    "id": "Bahasa Prancis",
+    "en": "French"
   },
   {
-    "id": "keran",
-    "en": "faucet"
+    "id": "Bahasa Jerman",
+    "en": "German"
   },
   {
-    "id": "toilet",
-    "en": "toilet"
+    "id": "Bahasa Spanyol",
+    "en": "Spanish"
   },
   {
-    "id": "stetoskop",
-    "en": "stethoscope"
+    "id": "Bahasa Hindi",
+    "en": "Hindi"
   },
   {
-    "id": "termometer",
-    "en": "thermometer"
+    "id": "Bahasa Portugis",
+    "en": "Portuguese"
   },
   {
-    "id": "plester",
-    "en": "band-aid"
+    "id": "Bahasa Rusia",
+    "en": "Russian"
   },
   {
-    "id": "suntikan",
-    "en": "syringe"
+    "id": "Bahasa Belanda",
+    "en": "Dutch"
   },
   {
-    "id": "obat",
-    "en": "medicine"
+    "id": "Bahasa Thailand",
+    "en": "Thai"
   },
   {
-    "id": "masker",
-    "en": "mask"
+    "id": "Bahasa Vietnam",
+    "en": "Vietnamese"
   },
   {
-    "id": "kursi roda",
-    "en": "wheelchair"
+    "id": "Bahasa Turki",
+    "en": "Turkish"
   },
   {
-    "id": "tempat tidur",
-    "en": "bed"
+    "id": "Bahasa Swedia",
+    "en": "Swedish"
   },
   {
-    "id": "buku",
-    "en": "book"
+    "id": "Bahasa Yunani",
+    "en": "Greek"
   },
   {
-    "id": "pensil",
-    "en": "pencil"
+    "id": "Atas",
+    "en": "Up"
   },
   {
-    "id": "pulpen",
-    "en": "pen"
+    "id": "Bawah",
+    "en": "Down"
   },
   {
-    "id": "penggaris",
-    "en": "ruler"
+    "id": "Kiri",
+    "en": "Left"
   },
   {
-    "id": "gunting",
-    "en": "scissors"
+    "id": "Kanan",
+    "en": "Right"
   },
   {
-    "id": "tas sekolah",
-    "en": "bag"
+    "id": "Depan",
+    "en": "Front"
   },
   {
-    "id": "buku tulis",
-    "en": "notebook"
+    "id": "Belakang",
+    "en": "Back"
   },
   {
-    "id": "krayon",
-    "en": "crayon"
+    "id": "Dekat",
+    "en": "Near"
   },
   {
-    "id": "kalkulator",
-    "en": "calculator"
+    "id": "Jauh",
+    "en": "Far"
   },
   {
-    "id": "globe",
-    "en": "globe"
+    "id": "Di Dalam",
+    "en": "Inside"
   },
   {
-    "id": "jam",
-    "en": "clock"
+    "id": "Di Luar",
+    "en": "Outside"
   },
   {
-    "id": "kalender",
-    "en": "calendar"
+    "id": "Di Atas",
+    "en": "Above"
   },
   {
-    "id": "senang",
-    "en": "happy"
+    "id": "Di Bawah",
+    "en": "Below"
   },
   {
-    "id": "sedih",
-    "en": "sad"
+    "id": "Di Antara",
+    "en": "Between"
   },
   {
-    "id": "marah",
-    "en": "angry"
+    "id": "Di Samping",
+    "en": "Beside"
   },
   {
-    "id": "takut",
-    "en": "scared"
+    "id": "Utara",
+    "en": "North"
   },
   {
-    "id": "terkejut",
-    "en": "surprised"
+    "id": "Selatan",
+    "en": "South"
   },
   {
-    "id": "mengantuk",
-    "en": "sleepy"
+    "id": "Timur",
+    "en": "East"
   },
   {
-    "id": "bersemangat",
-    "en": "excited"
+    "id": "Barat",
+    "en": "West"
   },
   {
-    "id": "bosan",
-    "en": "bored"
+    "id": "Puncak",
+    "en": "Top"
   },
   {
-    "id": "bingung",
-    "en": "confused"
+    "id": "Dasar",
+    "en": "Bottom"
   },
   {
-    "id": "malu",
-    "en": "shy"
+    "id": "Meter",
+    "en": "Meter"
   },
   {
-    "id": "bangga",
-    "en": "proud"
+    "id": "Sentimeter",
+    "en": "Centimeter"
   },
   {
-    "id": "sakit",
-    "en": "sick"
+    "id": "Kilometer",
+    "en": "Kilometer"
   },
   {
-    "id": "lapar",
-    "en": "hungry"
+    "id": "Kilogram",
+    "en": "Kilogram"
   },
   {
-    "id": "rumah",
-    "en": "house"
+    "id": "Gram",
+    "en": "Gram"
   },
   {
-    "id": "kamar tidur",
-    "en": "bedroom"
+    "id": "Liter",
+    "en": "Liter"
   },
   {
-    "id": "kamar mandi",
-    "en": "bathroom"
+    "id": "Inci",
+    "en": "Inch"
   },
   {
-    "id": "dapur",
-    "en": "kitchen"
+    "id": "Kaki (satuan)",
+    "en": "Foot (unit)"
   },
   {
-    "id": "ruang tamu",
-    "en": "living room"
+    "id": "Mil",
+    "en": "Mile"
   },
   {
-    "id": "ruang makan",
-    "en": "dining room"
+    "id": "Pon",
+    "en": "Pound"
   },
   {
-    "id": "taman",
-    "en": "garden"
+    "id": "Ons",
+    "en": "Ounce"
   },
   {
-    "id": "wortel",
-    "en": "carrot"
+    "id": "Ton",
+    "en": "Ton"
   },
   {
-    "id": "kentang",
-    "en": "potato"
+    "id": "Sendok Teh",
+    "en": "Teaspoon"
   },
   {
-    "id": "jagung",
-    "en": "corn"
+    "id": "Sendok Makan",
+    "en": "Tablespoon"
   },
   {
-    "id": "brokoli",
-    "en": "broccoli"
+    "id": "Galon",
+    "en": "Gallon"
   },
   {
-    "id": "timun",
-    "en": "cucumber"
+    "id": "Derajat",
+    "en": "Degree"
   },
   {
-    "id": "terong",
-    "en": "eggplant"
+    "id": "Persen",
+    "en": "Percent"
   },
   {
-    "id": "bawang bombay",
-    "en": "onion"
+    "id": "Kecepatan",
+    "en": "Speed"
   },
   {
-    "id": "bawang putih",
-    "en": "garlic"
+    "id": "Musim Semi",
+    "en": "Spring"
   },
   {
-    "id": "cabai",
-    "en": "chili pepper"
+    "id": "Musim Panas",
+    "en": "Summer"
   },
   {
-    "id": "paprika",
-    "en": "bell pepper"
+    "id": "Musim Gugur",
+    "en": "Autumn"
   },
   {
-    "id": "jamur",
-    "en": "mushroom"
+    "id": "Musim Dingin",
+    "en": "Winter"
   },
   {
-    "id": "selada",
-    "en": "lettuce"
+    "id": "Bank",
+    "en": "Bank"
   },
   {
-    "id": "kacang polong",
-    "en": "green peas"
+    "id": "Supermarket",
+    "en": "Supermarket"
   },
   {
-    "id": "labu",
-    "en": "pumpkin"
+    "id": "Mal",
+    "en": "Shopping Mall"
   },
   {
-    "id": "ubi",
-    "en": "sweet potato"
+    "id": "Bioskop",
+    "en": "Cinema"
   },
   {
-    "id": "kupu-kupu",
-    "en": "butterfly"
+    "id": "Teater",
+    "en": "Theater"
   },
   {
-    "id": "lebah",
-    "en": "bee"
+    "id": "Toko Roti",
+    "en": "Bakery"
   },
   {
-    "id": "semut",
-    "en": "ant"
+    "id": "Apotek",
+    "en": "Pharmacy"
   },
   {
-    "id": "kepik",
-    "en": "ladybug"
+    "id": "Kantor Pos",
+    "en": "Post Office"
   },
   {
-    "id": "laba-laba",
-    "en": "spider"
+    "id": "Pom Bensin",
+    "en": "Gas Station"
   },
   {
-    "id": "nyamuk",
-    "en": "mosquito"
+    "id": "Hotel",
+    "en": "Hotel"
   },
   {
-    "id": "jangkrik",
-    "en": "cricket"
+    "id": "Gereja",
+    "en": "Church"
   },
   {
-    "id": "siput",
-    "en": "snail"
+    "id": "Kuil",
+    "en": "Temple"
   },
   {
-    "id": "cacing",
-    "en": "worm"
+    "id": "Stadion",
+    "en": "Stadium"
   },
   {
-    "id": "kecoa",
-    "en": "cockroach"
+    "id": "Taman Bermain",
+    "en": "Playground"
   },
   {
-    "id": "kumbang",
-    "en": "beetle"
+    "id": "Peternakan",
+    "en": "Farm"
   },
   {
-    "id": "ulat",
-    "en": "caterpillar"
+    "id": "Pabrik",
+    "en": "Factory"
   },
   {
-    "id": "sekolah",
-    "en": "school"
+    "id": "Jembatan",
+    "en": "Bridge"
   },
   {
-    "id": "rumah sakit",
-    "en": "hospital"
+    "id": "Pelabuhan",
+    "en": "Harbor"
   },
   {
-    "id": "taman",
-    "en": "park"
+    "id": "Mercusuar",
+    "en": "Lighthouse"
   },
   {
-    "id": "kebun binatang",
-    "en": "zoo"
+    "id": "Pasar",
+    "en": "Market"
   },
   {
-    "id": "museum",
-    "en": "museum"
+    "id": "Sofa",
+    "en": "Sofa"
   },
   {
-    "id": "perpustakaan",
-    "en": "library"
+    "id": "Meja",
+    "en": "Table"
   },
   {
-    "id": "bandara",
-    "en": "airport"
+    "id": "Kursi",
+    "en": "Chair"
   },
   {
-    "id": "stasiun",
-    "en": "station"
+    "id": "Lemari Baju",
+    "en": "Wardrobe"
   },
   {
-    "id": "restoran",
-    "en": "restaurant"
+    "id": "Rak",
+    "en": "Shelf"
   },
   {
-    "id": "masjid",
-    "en": "mosque"
+    "id": "Meja Kerja",
+    "en": "Desk"
   },
   {
-    "id": "pagi",
-    "en": "morning"
+    "id": "Laci",
+    "en": "Drawer"
   },
   {
-    "id": "siang",
-    "en": "noon"
+    "id": "Lemari",
+    "en": "Cabinet"
   },
   {
-    "id": "sore",
-    "en": "afternoon"
+    "id": "Bangku",
+    "en": "Bench"
   },
   {
-    "id": "malam",
-    "en": "night"
+    "id": "Bangku Kecil",
+    "en": "Stool"
   },
   {
-    "id": "subuh",
-    "en": "dawn"
+    "id": "Dipan",
+    "en": "Couch"
   },
   {
-    "id": "tengah malam",
-    "en": "midnight"
+    "id": "Rak Buku",
+    "en": "Bookcase"
   },
   {
-    "id": "senja",
-    "en": "dusk"
+    "id": "Kursi Kaki",
+    "en": "Ottoman"
   },
   {
-    "id": "fajar",
-    "en": "daybreak"
+    "id": "Kursi Santai",
+    "en": "Recliner"
   },
   {
-    "id": "merah",
-    "en": "red"
+    "id": "Meja Kecil",
+    "en": "Nightstand"
   },
   {
-    "id": "biru",
-    "en": "blue"
+    "id": "Bantal",
+    "en": "Pillow"
   },
   {
-    "id": "kuning",
-    "en": "yellow"
+    "id": "Selimut",
+    "en": "Blanket"
   },
   {
-    "id": "hijau",
-    "en": "green"
+    "id": "Kasur",
+    "en": "Mattress"
   },
   {
-    "id": "oranye",
-    "en": "orange"
+    "id": "Tirai",
+    "en": "Curtain"
   },
   {
-    "id": "ungu",
-    "en": "purple"
+    "id": "Lampu",
+    "en": "Lamp"
   },
   {
-    "id": "hitam",
-    "en": "black"
+    "id": "Karpet",
+    "en": "Rug"
   },
   {
-    "id": "putih",
-    "en": "white"
+    "id": "Jam Weker",
+    "en": "Alarm Clock"
   },
   {
-    "id": "coklat",
-    "en": "brown"
+    "id": "Gantungan Baju",
+    "en": "Hanger"
   },
   {
-    "id": "merah muda",
-    "en": "pink"
+    "id": "Lemari Pakaian",
+    "en": "Closet"
   },
   {
-    "id": "abu-abu",
-    "en": "gray"
+    "id": "Seprai",
+    "en": "Bedsheet"
   },
   {
-    "id": "emas",
-    "en": "gold"
+    "id": "Meja Rias",
+    "en": "Dresser"
   },
   {
-    "id": "perak",
-    "en": "silver"
+    "id": "Lampu Tidur",
+    "en": "Nightlight"
   },
   {
-    "id": "toska",
-    "en": "turquoise"
+    "id": "Ranjang Tingkat",
+    "en": "Bunk Bed"
   },
   {
-    "id": "biru dongker",
-    "en": "navy blue"
+    "id": "Rangka Ranjang",
+    "en": "Bed Frame"
   },
   {
-    "id": "merah marun",
-    "en": "maroon"
+    "id": "Cermin Rias",
+    "en": "Vanity Mirror"
   },
   {
-    "id": "krem",
-    "en": "beige"
+    "id": "Meja Samping Ranjang",
+    "en": "Bedside Table"
   },
   {
-    "id": "ungu muda",
-    "en": "violet"
+    "id": "Taplak Meja",
+    "en": "Tablecloth"
   },
   {
-    "id": "merah keunguan",
-    "en": "magenta"
+    "id": "Serbet",
+    "en": "Napkin"
   },
   {
-    "id": "hijau muda",
-    "en": "lime"
+    "id": "Baki",
+    "en": "Tray"
   },
   {
-    "id": "nila",
-    "en": "indigo"
+    "id": "Alas Meja Makan",
+    "en": "Placemat"
   },
   {
-    "id": "kalung",
-    "en": "necklace"
+    "id": "Sendok Sayur",
+    "en": "Ladle"
   },
   {
-    "id": "gelang",
-    "en": "bracelet"
+    "id": "Pengocok Telur",
+    "en": "Whisk"
   },
   {
-    "id": "cincin",
-    "en": "ring"
+    "id": "Spatula",
+    "en": "Spatula"
   },
   {
-    "id": "jam tangan",
-    "en": "watch"
+    "id": "Saringan",
+    "en": "Colander"
   },
   {
-    "id": "anting",
-    "en": "earrings"
+    "id": "Parutan",
+    "en": "Grater"
   },
   {
-    "id": "dompet",
-    "en": "wallet"
+    "id": "Rol Adonan",
+    "en": "Rolling Pin"
   },
   {
-    "id": "ikat pinggang",
-    "en": "belt"
+    "id": "Talenan",
+    "en": "Cutting Board"
   },
   {
-    "id": "tas tangan",
-    "en": "handbag"
+    "id": "Penyaring Teh",
+    "en": "Strainer"
   },
   {
-    "id": "tenda",
-    "en": "tent"
+    "id": "Mangkuk Saji",
+    "en": "Serving Bowl"
   },
   {
-    "id": "kantong tidur",
-    "en": "sleeping bag"
+    "id": "Pisau Mentega",
+    "en": "Butter Knife"
   },
   {
-    "id": "senter",
-    "en": "flashlight"
+    "id": "Penjepit Salad",
+    "en": "Salad Tongs"
   },
   {
-    "id": "ransel",
-    "en": "backpack"
+    "id": "Sendok Kue",
+    "en": "Cake Server"
   },
   {
-    "id": "kompas",
-    "en": "compass"
+    "id": "Penghapus",
+    "en": "Eraser"
   },
   {
-    "id": "api unggun",
-    "en": "campfire"
+    "id": "Stabilo",
+    "en": "Highlighter"
   },
   {
-    "id": "kayu bakar",
-    "en": "firewood"
+    "id": "Selotip",
+    "en": "Tape"
   },
   {
-    "id": "peta",
-    "en": "map"
+    "id": "Rautan",
+    "en": "Sharpener"
   },
   {
-    "id": "angklung",
-    "en": "angklung"
+    "id": "Kertas Tempel",
+    "en": "Sticky Note"
   },
   {
-    "id": "gamelan",
-    "en": "gamelan"
+    "id": "Kapur Tulis",
+    "en": "Chalk"
   },
   {
-    "id": "kendang",
-    "en": "kendang"
+    "id": "Klip Penjepit",
+    "en": "Binder Clip"
   },
   {
-    "id": "gong",
-    "en": "gong"
+    "id": "Karet Gelang",
+    "en": "Rubber Band"
   },
   {
-    "id": "sasando",
-    "en": "sasando"
+    "id": "Tempat Pensil",
+    "en": "Pencil Case"
   },
   {
-    "id": "kolintang",
-    "en": "kolintang"
+    "id": "Cairan Penghapus Tinta",
+    "en": "Correction Fluid"
   },
   {
-    "id": "rebana",
-    "en": "rebana"
+    "id": "Bantalan Stempel",
+    "en": "Ink Pad"
   },
   {
-    "id": "suling bambu",
-    "en": "bamboo flute"
+    "id": "Kartu Indeks",
+    "en": "Index Card"
   },
   {
-    "id": "palu",
-    "en": "hammer"
+    "id": "Papan Pengumuman",
+    "en": "Bulletin Board"
   },
   {
-    "id": "obeng",
-    "en": "screwdriver"
+    "id": "Papan Ketik",
+    "en": "Keyboard"
   },
   {
-    "id": "gergaji",
-    "en": "saw"
+    "id": "Tetikus",
+    "en": "Computer Mouse"
   },
   {
-    "id": "kunci inggris",
-    "en": "wrench"
+    "id": "Layar Komputer",
+    "en": "Monitor"
   },
   {
-    "id": "tang",
-    "en": "pliers"
+    "id": "Papan Induk",
+    "en": "Motherboard"
   },
   {
-    "id": "paku",
-    "en": "nail"
+    "id": "Cakram Keras",
+    "en": "Hard Drive"
   },
   {
-    "id": "bor",
-    "en": "drill"
+    "id": "Kamera Web",
+    "en": "Webcam"
   },
   {
-    "id": "kotak perkakas",
-    "en": "toolbox"
+    "id": "Flashdisk",
+    "en": "USB Flash Drive"
   },
   {
-    "id": "ban",
-    "en": "tire"
+    "id": "Kartu Grafis",
+    "en": "Graphics Card"
   },
   {
-    "id": "setir",
-    "en": "steering wheel"
+    "id": "Kipas Pendingin",
+    "en": "Cooling Fan"
   },
   {
-    "id": "kaca spion",
-    "en": "side mirror"
+    "id": "Catu Daya",
+    "en": "Power Supply"
   },
   {
-    "id": "lampu mobil",
-    "en": "headlight"
+    "id": "Kabel",
+    "en": "Cable"
   },
   {
-    "id": "klakson",
-    "en": "horn"
+    "id": "Panel Sentuh",
+    "en": "Touchpad"
   },
   {
-    "id": "mesin",
-    "en": "engine"
+    "id": "Cip Komputer",
+    "en": "Microchip"
   },
   {
-    "id": "rem",
-    "en": "brake"
+    "id": "Papan Sirkuit",
+    "en": "Circuit Board"
   },
   {
-    "id": "sabuk pengaman",
-    "en": "seatbelt"
+    "id": "Tablet",
+    "en": "Tablet"
   },
   {
-    "id": "gunung",
-    "en": "mountain"
+    "id": "Jam Tangan Pintar",
+    "en": "Smartwatch"
   },
   {
-    "id": "sungai",
-    "en": "river"
+    "id": "Drone",
+    "en": "Drone"
   },
   {
-    "id": "hutan",
-    "en": "forest"
+    "id": "Proyektor",
+    "en": "Projector"
   },
   {
-    "id": "gurun",
-    "en": "desert"
+    "id": "Pemindai",
+    "en": "Scanner"
   },
   {
-    "id": "lembah",
-    "en": "valley"
+    "id": "Router Wifi",
+    "en": "Router"
   },
   {
-    "id": "air terjun",
-    "en": "waterfall"
+    "id": "Modem",
+    "en": "Modem"
   },
   {
-    "id": "gua",
-    "en": "cave"
+    "id": "Power Bank",
+    "en": "Power Bank"
   },
   {
-    "id": "pantai",
-    "en": "beach"
+    "id": "Headset VR",
+    "en": "VR Headset"
   },
   {
-    "id": "garam",
-    "en": "salt"
+    "id": "Pembaca Buku Digital",
+    "en": "E-Reader"
   },
   {
-    "id": "gula",
-    "en": "sugar"
+    "id": "Speaker Pintar",
+    "en": "Smart Speaker"
   },
   {
-    "id": "merica",
-    "en": "pepper"
+    "id": "Konsol Game",
+    "en": "Gaming Console"
   },
   {
-    "id": "jahe",
-    "en": "ginger"
+    "id": "Earphone Nirkabel",
+    "en": "Earbuds"
   },
   {
-    "id": "kayu manis",
-    "en": "cinnamon"
+    "id": "Tongkat Swafoto",
+    "en": "Selfie Stick"
   },
   {
-    "id": "cengkeh",
-    "en": "clove"
+    "id": "Antena Parabola",
+    "en": "Satellite Dish"
   },
   {
-    "id": "ketumbar",
-    "en": "coriander"
+    "id": "Musik Pop",
+    "en": "Pop Music"
   },
   {
-    "id": "minyak goreng",
-    "en": "cooking oil"
+    "id": "Musik Rok",
+    "en": "Rock Music"
   },
   {
-    "id": "televisi",
-    "en": "television"
+    "id": "Jazz",
+    "en": "Jazz"
   },
   {
-    "id": "laptop",
-    "en": "laptop"
+    "id": "Musik Klasik",
+    "en": "Classical Music"
   },
   {
-    "id": "telepon genggam",
-    "en": "mobile phone"
+    "id": "Hip Hop",
+    "en": "Hip Hop"
   },
   {
-    "id": "kamera",
-    "en": "camera"
+    "id": "Reggae",
+    "en": "Reggae"
   },
   {
-    "id": "speaker",
-    "en": "speaker"
+    "id": "Blues",
+    "en": "Blues"
   },
   {
-    "id": "headphone",
-    "en": "headphones"
+    "id": "Musik Country",
+    "en": "Country Music"
   },
   {
-    "id": "charger",
-    "en": "charger"
+    "id": "Musik Rakyat",
+    "en": "Folk Music"
   },
   {
-    "id": "printer",
-    "en": "printer"
+    "id": "Opera",
+    "en": "Opera"
   },
   {
-    "id": "gunung berapi",
-    "en": "volcano"
+    "id": "Musik Elektronik",
+    "en": "Electronic Music"
   },
   {
-    "id": "gempa bumi",
-    "en": "earthquake"
+    "id": "Musik Gospel",
+    "en": "Gospel Music"
   },
   {
-    "id": "banjir",
-    "en": "flood"
+    "id": "Musik Metal",
+    "en": "Metal Music"
   },
   {
-    "id": "tsunami",
-    "en": "tsunami"
+    "id": "Musik Punk",
+    "en": "Punk Music"
   },
   {
-    "id": "tornado",
-    "en": "tornado"
+    "id": "Musik Funk",
+    "en": "Funk Music"
   },
   {
-    "id": "longsor",
-    "en": "landslide"
+    "id": "Musik R&B",
+    "en": "R&B Music"
   },
   {
-    "id": "kekeringan",
-    "en": "drought"
+    "id": "Balet",
+    "en": "Ballet"
   },
   {
-    "id": "kebakaran hutan",
-    "en": "forest fire"
+    "id": "Tari Tap",
+    "en": "Tap Dance"
   },
   {
-    "id": "ulang tahun",
-    "en": "birthday"
+    "id": "Tari Ballroom",
+    "en": "Ballroom Dance"
   },
   {
-    "id": "natal",
-    "en": "christmas"
+    "id": "Salsa",
+    "en": "Salsa"
   },
   {
-    "id": "lebaran",
-    "en": "eid"
+    "id": "Tango",
+    "en": "Tango"
   },
   {
-    "id": "tahun baru",
-    "en": "new year"
+    "id": "Breakdance",
+    "en": "Breakdance"
   },
   {
-    "id": "kado",
-    "en": "gift"
+    "id": "Tari Rakyat",
+    "en": "Folk Dance"
   },
   {
-    "id": "lilin",
-    "en": "candle"
+    "id": "Tari Kontemporer",
+    "en": "Contemporary Dance"
   },
   {
-    "id": "undangan",
-    "en": "invitation"
+    "id": "Tari Tradisional",
+    "en": "Traditional Dance"
   },
   {
-    "id": "topi pesta",
-    "en": "party hat"
+    "id": "Tari Berbaris",
+    "en": "Line Dance"
   },
   {
-    "id": "ekskavator",
-    "en": "excavator"
+    "id": "Tari Jazz",
+    "en": "Jazz Dance"
   },
   {
-    "id": "derek",
-    "en": "crane"
+    "id": "Tari Perut",
+    "en": "Belly Dance"
   },
   {
-    "id": "buldoser",
-    "en": "bulldozer"
+    "id": "Tari Persegi",
+    "en": "Square Dance"
   },
   {
-    "id": "truk pengangkut",
-    "en": "dump truck"
+    "id": "Tari Bebas",
+    "en": "Freestyle Dance"
   },
   {
-    "id": "truk molen",
-    "en": "cement mixer"
+    "id": "Catur",
+    "en": "Chess"
   },
   {
-    "id": "forklift",
-    "en": "forklift"
+    "id": "Dam",
+    "en": "Checkers"
   },
   {
-    "id": "mesin penggilas",
-    "en": "road roller"
+    "id": "Monopoli",
+    "en": "Monopoly"
   },
   {
-    "id": "mobil crane",
-    "en": "crane truck"
+    "id": "Domino",
+    "en": "Dominoes"
   },
   {
-    "id": "becak",
-    "en": "pedicab"
+    "id": "Permainan Kartu",
+    "en": "Card Game"
   },
   {
-    "id": "delman",
-    "en": "horse carriage"
+    "id": "Dadu",
+    "en": "Dice"
   },
   {
-    "id": "andong",
-    "en": "andong"
+    "id": "Kelereng",
+    "en": "Marbles"
   },
   {
-    "id": "gerobak",
-    "en": "cart"
+    "id": "Puzel Gambar",
+    "en": "Jigsaw Puzzle"
   },
   {
-    "id": "rakit",
-    "en": "raft"
+    "id": "Tic Tac Toe",
+    "en": "Tic Tac Toe"
   },
   {
-    "id": "sampan",
-    "en": "sampan"
+    "id": "Bingo",
+    "en": "Bingo"
   },
   {
-    "id": "kereta kuda",
-    "en": "horse cart"
+    "id": "Engklek",
+    "en": "Hopscotch"
   },
   {
-    "id": "pedati",
-    "en": "ox cart"
+    "id": "Backgammon",
+    "en": "Backgammon"
   },
   {
-    "id": "benang",
-    "en": "thread"
+    "id": "Ular Tangga Papan",
+    "en": "Ludo"
   },
   {
-    "id": "jarum",
-    "en": "needle"
+    "id": "Ular Tangga",
+    "en": "Snakes and Ladders"
   },
   {
-    "id": "kain",
-    "en": "fabric"
+    "id": "Sambung Empat",
+    "en": "Connect Four"
   },
   {
-    "id": "gunting",
-    "en": "scissors"
+    "id": "Stik Game",
+    "en": "Game Controller"
   },
   {
-    "id": "lem",
-    "en": "glue"
+    "id": "Joystick",
+    "en": "Joystick"
   },
   {
-    "id": "kertas origami",
-    "en": "origami paper"
+    "id": "Level Permainan",
+    "en": "Game Level"
   },
   {
-    "id": "kuas",
-    "en": "paintbrush"
+    "id": "Skor Permainan",
+    "en": "Game Score"
   },
   {
-    "id": "pita",
-    "en": "ribbon"
+    "id": "Pemain",
+    "en": "Game Player"
   },
   {
-    "id": "kebaya",
-    "en": "kebaya"
+    "id": "Avatar",
+    "en": "Avatar"
   },
   {
-    "id": "batik",
-    "en": "batik"
+    "id": "Tombol Game",
+    "en": "Game Button"
   },
   {
-    "id": "sarung",
-    "en": "sarong"
+    "id": "Skor Tertinggi",
+    "en": "High Score"
   },
   {
-    "id": "blangkon",
-    "en": "blangkon"
+    "id": "Permainan Selesai",
+    "en": "Game Over"
   },
   {
-    "id": "peci",
-    "en": "peci"
+    "id": "Kode Curang",
+    "en": "Cheat Code"
   },
   {
-    "id": "ulos",
-    "en": "ulos"
+    "id": "Misi Permainan",
+    "en": "Quest"
   },
   {
-    "id": "songket",
-    "en": "songket"
+    "id": "Titik Simpan",
+    "en": "Checkpoint"
   },
   {
-    "id": "baju bodo",
-    "en": "baju bodo"
+    "id": "Pertarungan Bos",
+    "en": "Boss Battle"
   },
   {
-    "id": "botol susu",
-    "en": "baby bottle"
+    "id": "Peningkat Kekuatan",
+    "en": "Power-Up"
   },
   {
-    "id": "dot",
-    "en": "pacifier"
+    "id": "Tali Anjing",
+    "en": "Leash"
   },
   {
-    "id": "popok",
-    "en": "diaper"
+    "id": "Kalung Hewan",
+    "en": "Collar"
   },
   {
-    "id": "bayi",
-    "en": "baby"
+    "id": "Kasur Hewan",
+    "en": "Pet Bed"
   },
   {
-    "id": "tempat tidur bayi",
-    "en": "crib"
+    "id": "Makanan Hewan",
+    "en": "Pet Food"
   },
   {
-    "id": "mainan bayi",
-    "en": "baby toy"
+    "id": "Kandang",
+    "en": "Cage"
   },
   {
-    "id": "celemek bayi",
-    "en": "bib"
+    "id": "Akuarium",
+    "en": "Aquarium"
   },
   {
-    "id": "bedak bayi",
-    "en": "baby powder"
+    "id": "Kotak Pasir Kucing",
+    "en": "Litter Box"
   },
   {
-    "id": "penjepit kertas",
-    "en": "paperclip"
+    "id": "Mangkuk Hewan",
+    "en": "Pet Bowl"
   },
   {
-    "id": "stepler",
-    "en": "stapler"
+    "id": "Tiang Cakar Kucing",
+    "en": "Scratching Post"
   },
   {
-    "id": "map",
-    "en": "folder"
+    "id": "Akuarium Ikan",
+    "en": "Fish Tank"
   },
   {
-    "id": "spidol",
-    "en": "marker"
+    "id": "Rumah Anjing",
+    "en": "Dog House"
   },
   {
-    "id": "amplop",
-    "en": "envelope"
+    "id": "Sangkar Burung",
+    "en": "Bird Cage"
   },
   {
-    "id": "perangko",
-    "en": "stamp"
+    "id": "Tas Bawa Hewan",
+    "en": "Pet Carrier"
   },
   {
-    "id": "papan tulis",
-    "en": "whiteboard"
+    "id": "Sikat Bulu Hewan",
+    "en": "Grooming Brush"
   },
   {
-    "id": "kertas",
-    "en": "paper"
+    "id": "Orangutan",
+    "en": "Orangutan"
   },
   {
-    "id": "bola pantai",
-    "en": "beach ball"
+    "id": "Cheetah",
+    "en": "Cheetah"
   },
   {
-    "id": "baju renang",
-    "en": "swimsuit"
+    "id": "Gorila",
+    "en": "Gorilla"
   },
   {
-    "id": "payung pantai",
-    "en": "beach umbrella"
+    "id": "Hyena",
+    "en": "Hyena"
   },
   {
-    "id": "sandal jepit",
-    "en": "flip flops"
+    "id": "Macan Tutul",
+    "en": "Leopard"
   },
   {
-    "id": "snorkel",
-    "en": "snorkel"
+    "id": "Badak",
+    "en": "Rhino"
   },
   {
-    "id": "tabir surya",
-    "en": "sunscreen"
+    "id": "Kuda Nil",
+    "en": "Hippo"
   },
   {
-    "id": "papan selancar",
-    "en": "surfboard"
+    "id": "Kerbau",
+    "en": "Buffalo"
   },
   {
-    "id": "istana pasir",
-    "en": "sandcastle"
+    "id": "Jaguar",
+    "en": "Jaguar"
   },
   {
-    "id": "cangkul",
-    "en": "hoe"
+    "id": "Simpanse",
+    "en": "Chimpanzee"
   },
   {
-    "id": "sabit",
-    "en": "sickle"
+    "id": "Babon",
+    "en": "Baboon"
   },
   {
-    "id": "garu",
-    "en": "rake"
+    "id": "Lemur",
+    "en": "Lemur"
   },
   {
-    "id": "gerobak sorong",
-    "en": "wheelbarrow"
+    "id": "Kungkang",
+    "en": "Sloth"
   },
   {
-    "id": "karung",
-    "en": "sack"
+    "id": "Meerkat",
+    "en": "Meerkat"
   },
   {
-    "id": "pupuk",
-    "en": "fertilizer"
+    "id": "Antelop",
+    "en": "Antelope"
   },
   {
-    "id": "penyiram tanaman",
-    "en": "watering can"
+    "id": "Babi Hutan",
+    "en": "Wild Boar"
   },
   {
-    "id": "bajak",
-    "en": "plow"
+    "id": "Bison",
+    "en": "Bison"
   },
   {
-    "id": "kacamata renang",
-    "en": "swim goggles"
+    "id": "Burung Unta",
+    "en": "Ostrich"
   },
   {
-    "id": "topi renang",
-    "en": "swim cap"
+    "id": "Garangan",
+    "en": "Mongoose"
   },
   {
-    "id": "pelampung",
-    "en": "life jacket"
+    "id": "Beruang Kutub",
+    "en": "Polar Bear"
   },
   {
-    "id": "kaki katak",
-    "en": "swim fins"
+    "id": "Anjing Laut Gading",
+    "en": "Walrus"
   },
   {
-    "id": "ban renang",
-    "en": "pool float"
+    "id": "Rubah Kutub",
+    "en": "Arctic Fox"
   },
   {
-    "id": "kolam renang",
-    "en": "swimming pool"
+    "id": "Paus Pembunuh",
+    "en": "Orca"
   },
   {
-    "id": "penjepit hidung",
-    "en": "nose clip"
+    "id": "Narwhal",
+    "en": "Narwhal"
   },
   {
-    "id": "papan renang",
-    "en": "kickboard"
+    "id": "Rusa Kutub",
+    "en": "Reindeer"
   },
   {
-    "id": "kadal",
-    "en": "lizard"
+    "id": "Burung Hantu Salju",
+    "en": "Snowy Owl"
   },
   {
-    "id": "buaya",
-    "en": "crocodile"
+    "id": "Puffin",
+    "en": "Puffin"
   },
   {
-    "id": "kura-kura darat",
-    "en": "tortoise"
+    "id": "Kelinci Kutub",
+    "en": "Arctic Hare"
   },
   {
-    "id": "kodok",
-    "en": "toad"
+    "id": "Sapi Kesturi",
+    "en": "Musk Ox"
   },
   {
-    "id": "bunglon",
-    "en": "chameleon"
+    "id": "Paus Beluga",
+    "en": "Beluga Whale"
   },
   {
-    "id": "tokek",
-    "en": "gecko"
+    "id": "Karibu",
+    "en": "Caribou"
   },
   {
-    "id": "iguana",
-    "en": "iguana"
+    "id": "Cerpelai Salju",
+    "en": "Ermine"
   },
   {
-    "id": "komodo",
-    "en": "komodo dragon"
+    "id": "Angsa Salju",
+    "en": "Snow Goose"
   },
   {
-    "id": "Indonesia",
-    "en": "Indonesia"
+    "id": "Kalajengking",
+    "en": "Scorpion"
   },
   {
-    "id": "Amerika Serikat",
-    "en": "United States"
+    "id": "Rubah Gurun",
+    "en": "Desert Fox"
   },
   {
-    "id": "Jepang",
-    "en": "Japan"
+    "id": "Burung Pelari",
+    "en": "Roadrunner"
   },
   {
-    "id": "Tiongkok",
-    "en": "China"
+    "id": "Ular Derik",
+    "en": "Rattlesnake"
   },
   {
-    "id": "Inggris",
-    "en": "United Kingdom"
+    "id": "Burung Nasar",
+    "en": "Vulture"
   },
   {
-    "id": "Prancis",
-    "en": "France"
+    "id": "Serigala Gurun",
+    "en": "Coyote"
   },
   {
-    "id": "Jerman",
-    "en": "Germany"
+    "id": "Kelinci Gurun",
+    "en": "Jackrabbit"
   },
   {
-    "id": "Italia",
-    "en": "Italy"
+    "id": "Armadillo",
+    "en": "Armadillo"
   },
   {
-    "id": "Spanyol",
-    "en": "Spain"
+    "id": "Landak Mini",
+    "en": "Hedgehog"
   },
   {
-    "id": "Kanada",
-    "en": "Canada"
+    "id": "Kumbang Tinja",
+    "en": "Dung Beetle"
   },
   {
-    "id": "Australia",
-    "en": "Australia"
+    "id": "Rubah Fennec",
+    "en": "Fennec Fox"
   },
   {
-    "id": "Brasil",
-    "en": "Brazil"
+    "id": "Kadal Bertanduk",
+    "en": "Horned Lizard"
   },
   {
-    "id": "India",
-    "en": "India"
+    "id": "Kucing Pasir",
+    "en": "Sand Cat"
   },
   {
-    "id": "Korea Selatan",
-    "en": "South Korea"
+    "id": "Laba-laba Unta",
+    "en": "Camel Spider"
   },
   {
-    "id": "Mesir",
-    "en": "Egypt"
+    "id": "T-Rex",
+    "en": "T-Rex"
   },
   {
-    "id": "Meksiko",
-    "en": "Mexico"
+    "id": "Triceratops",
+    "en": "Triceratops"
   },
   {
-    "id": "Rusia",
-    "en": "Russia"
+    "id": "Stegosaurus",
+    "en": "Stegosaurus"
   },
   {
-    "id": "Arab Saudi",
-    "en": "Saudi Arabia"
+    "id": "Velociraptor",
+    "en": "Velociraptor"
   },
   {
-    "id": "Malaysia",
-    "en": "Malaysia"
+    "id": "Brachiosaurus",
+    "en": "Brachiosaurus"
   },
   {
-    "id": "Thailand",
-    "en": "Thailand"
+    "id": "Pterodactyl",
+    "en": "Pterodactyl"
   },
   {
-    "id": "Singapura",
-    "en": "Singapore"
+    "id": "Spinosaurus",
+    "en": "Spinosaurus"
   },
   {
-    "id": "Vietnam",
-    "en": "Vietnam"
+    "id": "Ankylosaurus",
+    "en": "Ankylosaurus"
   },
   {
-    "id": "Filipina",
-    "en": "Philippines"
+    "id": "Diplodocus",
+    "en": "Diplodocus"
   },
   {
-    "id": "Turki",
-    "en": "Turkiye"
+    "id": "Allosaurus",
+    "en": "Allosaurus"
   },
   {
-    "id": "Belanda",
-    "en": "Netherlands"
+    "id": "Fosil",
+    "en": "Fossil"
   },
   {
-    "id": "Swiss",
-    "en": "Switzerland"
+    "id": "Telur Dinosaurus",
+    "en": "Dinosaur Egg"
   },
   {
-    "id": "Swedia",
-    "en": "Sweden"
+    "id": "Iguanodon",
+    "en": "Iguanodon"
   },
   {
-    "id": "Selandia Baru",
-    "en": "New Zealand"
+    "id": "Compsognathus",
+    "en": "Compsognathus"
   },
   {
-    "id": "Afrika Selatan",
-    "en": "South Africa"
+    "id": "Pachycephalosaurus",
+    "en": "Pachycephalosaurus"
   },
   {
-    "id": "Argentina",
-    "en": "Argentina"
+    "id": "Parasaurolophus",
+    "en": "Parasaurolophus"
   },
   {
-    "id": "Benua",
-    "en": "Continent"
+    "id": "Naga",
+    "en": "Dragon"
   },
   {
-    "id": "Samudra",
-    "en": "Ocean"
+    "id": "Kuda Bertanduk",
+    "en": "Unicorn"
   },
   {
-    "id": "Negara",
-    "en": "Country"
+    "id": "Putri Duyung",
+    "en": "Mermaid"
   }
 ]

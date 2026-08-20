@@ -83,6 +83,136 @@ function tentukanLencana(persenHafal) {
   return null;
 }
 
+// ============================================================
+// LEVEL & MASKOT — burung hantu (mengikuti logo app) yang "tumbuh"
+// sesuai jumlah kata yang sudah dikuasai (hafal) di seluruh kategori.
+// ============================================================
+const LEVEL_TIERS = [
+  { min: 0,    emoji: '🥚', judul: 'Telur Ajaib',        gelar: 'Baru Mulai' },
+  { min: 15,   emoji: '🐣', judul: 'Anak Burung',        gelar: 'Pembelajar Pemula' },
+  { min: 35,   emoji: '🐤', judul: 'Burung Kecil',       gelar: 'Rajin Belajar' },
+  { min: 65,   emoji: '🦉', judul: 'Burung Hantu Muda',  gelar: 'Pintar Kata' },
+  { min: 105,  emoji: '🦜', judul: 'Burung Cerdas',      gelar: 'Jago Bahasa' },
+  { min: 165,  emoji: '🦅', judul: 'Elang Kata',         gelar: 'Master Vocabulary' },
+  { min: 250,  emoji: '👑', judul: 'Raja Kata',          gelar: 'Juara Sejati' },
+  { min: 375,  emoji: '🌟', judul: 'Bintang Belajar',    gelar: 'Bintang Kelas' },
+  { min: 550,  emoji: '🏆', judul: 'Juara Vocabulary',   gelar: 'Sang Juara' },
+  { min: 800,  emoji: '🦄', judul: 'Legenda Kata',       gelar: 'Legenda Belajar' },
+];
+
+function hitungLevel(totalHafal) {
+  let tierIndex = 0;
+  for (let i = 0; i < LEVEL_TIERS.length; i++) {
+    if (totalHafal >= LEVEL_TIERS[i].min) tierIndex = i;
+  }
+  const tier = LEVEL_TIERS[tierIndex];
+  const tierBerikut = LEVEL_TIERS[tierIndex + 1] || null;
+  const persenKeBerikut = tierBerikut
+    ? Math.round(((totalHafal - tier.min) / (tierBerikut.min - tier.min)) * 100)
+    : 100;
+
+  return {
+    level: tierIndex + 1,
+    emoji: tier.emoji,
+    judul: tier.judul,
+    gelar: tier.gelar,
+    totalHafal,
+    tierBerikut,
+    sisaKeBerikut: tierBerikut ? tierBerikut.min - totalHafal : 0,
+    persenKeBerikut: Math.max(0, Math.min(100, persenKeBerikut)),
+    levelMaks: tierIndex === LEVEL_TIERS.length - 1
+  };
+}
+
+// ============================================================
+// STATISTIK PER KATA — dasar untuk latihan "kata tersulit"
+// (semacam spaced repetition ringan): catat tiap kali kata dijawab
+// benar/salah di kuis, supaya kata yang sering salah bisa dilatih
+// ulang secara terfokus lintas kategori.
+// ============================================================
+function kunciKataStats() {
+  const username = localStorage.getItem('namaPengguna') || 'tamu';
+  return `kataStatsBelajarKata_${username}`;
+}
+
+function ambilSemuaKataStats() {
+  try {
+    const mentah = localStorage.getItem(kunciKataStats());
+    return mentah ? JSON.parse(mentah) : {};
+  } catch (err) {
+    return {};
+  }
+}
+
+function catatStatistikKata(kategoriId, kataEn, benar) {
+  const semua = ambilSemuaKataStats();
+  const kunci = `${kategoriId}::${kataEn}`;
+  const entri = semua[kunci] || { benar: 0, salah: 0 };
+  if (benar) entri.benar++; else entri.salah++;
+  entri.terakhir = Date.now();
+  semua[kunci] = entri;
+  localStorage.setItem(kunciKataStats(), JSON.stringify(semua));
+}
+
+// Ambil daftar kata paling sering salah, lintas semua kategori yang
+// pernah dikerjakan. Dipakai untuk mode kuis "Kata Tersulit".
+// skorKesulitan lebih tinggi = lebih perlu dilatih ulang.
+function ambilDaftarKataTersulit(maks = 15) {
+  const semua = ambilSemuaKataStats();
+  const daftar = Object.entries(semua)
+    .map(([kunci, stat]) => {
+      const idxPisah = kunci.indexOf('::');
+      return {
+        kategoriId: kunci.slice(0, idxPisah),
+        en: kunci.slice(idxPisah + 2),
+        benar: stat.benar || 0,
+        salah: stat.salah || 0,
+        terakhir: stat.terakhir || 0,
+        skorKesulitan: (stat.salah || 0) * 3 - (stat.benar || 0)
+      };
+    })
+    .filter(x => x.salah > 0 && x.skorKesulitan > -3)
+    .sort((a, b) => b.skorKesulitan - a.skorKesulitan || b.terakhir - a.terakhir);
+
+  return daftar.slice(0, maks);
+}
+
+// ============================================================
+// LEVEL KESULITAN KATEGORI — dipakai untuk filter di dashboard.
+// Sebagian besar kategori dianggap "Pemula" (kata benda konkret,
+// gampang dikenali anak). Kategori berisi alat/komponen yang lebih
+// spesifik masuk "Menengah". Kategori berisi kata sifat, kata kerja,
+// dan konsep abstrak masuk "Lanjutan".
+// ============================================================
+const KATEGORI_LEVEL_LANJUTAN = new Set([
+  'arah-posisi', 'istilah-matematika', 'keterangan-waktu', 'kata-sifat-ukuran',
+  'kata-sifat-rasa', 'kata-kerja-harian', 'kata-kerja-tambahan', 'kata-kerja-sosial',
+  'kata-kerja-belajar', 'kata-kerja-perasaan', 'gerakan-tubuh', 'ekspresi-wajah',
+  'emosi-lanjutan', 'perasaan', 'geografi', 'istilah-cuaca-alam', 'istilah-game',
+  'pola-motif'
+]);
+
+const KATEGORI_LEVEL_MENENGAH = new Set([
+  'alat-tulis', 'bagian-komputer', 'gawai-teknologi', 'alat-dapur-elektronik',
+  'alat-berkebun', 'bahan-bangunan', 'bahan-pakaian', 'peralatan-kantor',
+  'alat-pertukangan', 'alat-kebersihan', 'peralatan-medis', 'elektronik',
+  'bagian-mobil', 'kendaraan-konstruksi', 'kendaraan-berat', 'peralatan-pertanian',
+  'peralatan-renang', 'peralatan-pantai', 'alat-berkemah', 'peralatan-bayi',
+  'satuan-ukur', 'perlengkapan-hewan', 'peralatan-musim-dingin',
+  'luar-angkasa-lanjutan', 'kendaraan-air-udara', 'peralatan-pemadam',
+  'peralatan-musik-tambahan', 'istilah-fotografi-seni', 'permainan-papan',
+  'genre-musik', 'gaya-tari', 'bagian-wajah', 'bagian-tumbuhan', 'organ-tubuh',
+  'bahan-makanan-pokok'
+]);
+
+function ambilLevelKategori(kategoriId) {
+  if (KATEGORI_LEVEL_LANJUTAN.has(kategoriId)) return 'lanjutan';
+  if (KATEGORI_LEVEL_MENENGAH.has(kategoriId)) return 'menengah';
+  return 'pemula';
+}
+
+const LABEL_LEVEL = { pemula: '🌱 Pemula', menengah: '🌿 Menengah', lanjutan: '🌳 Lanjutan' };
+
 // Berapa lama hasil cek device dianggap masih berlaku, supaya device yang
 // sudah terdaftar TIDAK perlu menghubungi npoint.io di setiap login.
 const DEVICE_CHECK_CACHE_JAM = 24;
@@ -411,6 +541,13 @@ function ambilRingkasanKategori(kategoriId, totalKata) {
     persenHafal: totalKata > 0 ? Math.round((progres.hafal.length / totalKata) * 100) : 0,
     kuisTerbaik: progres.kuisTerbaik
   };
+}
+
+// Total kata "hafal" di SEMUA kategori sekaligus, tanpa perlu fetch tiap
+// file kategori — cukup baca localStorage. Dipakai untuk hitung level global.
+function hitungTotalHafalSemuaKategori() {
+  const semua = ambilSemuaProgres();
+  return Object.values(semua).reduce((sum, p) => sum + (p.hafal ? p.hafal.length : 0), 0);
 }
 
 document.addEventListener('DOMContentLoaded', pasangTombolLogout);

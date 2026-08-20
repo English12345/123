@@ -409,6 +409,137 @@ a { color: inherit; }
   animation: bintang-pop .4s ease backwards;
 }
 
+/* ==== Level card: maskot burung hantu yang tumbuh sesuai progres ==== */
+.level-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: linear-gradient(120deg, var(--tosca-900), var(--tosca-700));
+  border-radius: var(--radius-md);
+  padding: 18px 22px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow-pop);
+  animation: pop-masuk .4s ease backwards;
+  position: relative;
+  overflow: hidden;
+}
+.level-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 90% 10%, rgba(255,255,255,0.12), transparent 60%);
+  pointer-events: none;
+}
+.level-mascot {
+  font-size: 46px;
+  flex-shrink: 0;
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.25));
+  animation: ayun-lembut 3.5s ease-in-out infinite;
+}
+.level-info { flex: 1; min-width: 0; z-index: 1; }
+.level-title {
+  font-family: var(--font-display);
+  color: var(--white);
+  font-size: 17px;
+  line-height: 1.2;
+}
+.level-gelar {
+  color: var(--kuning-300);
+  font-weight: 800;
+  font-size: 12.5px;
+  margin-bottom: 8px;
+}
+.level-progress-track {
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.2);
+  overflow: hidden;
+}
+.level-progress-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--kuning-500), var(--kuning-300));
+  transition: width .6s cubic-bezier(.34,1.4,.64,1);
+}
+.level-progress-label {
+  color: rgba(255,255,255,0.85);
+  font-size: 11.5px;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+/* ==== Kartu ajakan latihan "Kata Tersulit" ==== */
+.tersulit-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: linear-gradient(120deg, var(--coral-100), var(--kuning-100));
+  border: 1.5px solid var(--coral);
+  border-radius: var(--radius-md);
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  animation: pop-masuk .4s ease backwards;
+}
+.tersulit-icon { font-size: 30px; flex-shrink: 0; animation: bintang-kilau 2s ease-in-out infinite; }
+.tersulit-text { flex: 1; min-width: 0; }
+.tersulit-title { font-family: var(--font-display); font-size: 15.5px; color: var(--tosca-900); }
+.tersulit-sub { font-size: 12.5px; color: var(--ink-soft); font-weight: 700; }
+
+/* ==== Search bar & filter level kategori ==== */
+.search-filter-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--white);
+  border: 1.5px solid var(--tosca-100);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  box-shadow: var(--shadow-soft);
+}
+.search-box:focus-within { border-color: var(--tosca-600); }
+.search-icon { font-size: 15px; opacity: .7; }
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ink);
+  background: transparent;
+}
+.search-box input::placeholder { color: var(--ink-soft); opacity: .7; }
+
+.filter-chips {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.filter-chip {
+  border: 1.5px solid var(--tosca-100);
+  background: var(--white);
+  color: var(--ink-soft);
+  font-family: var(--font-body);
+  font-weight: 800;
+  font-size: 12.5px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all .15s ease;
+}
+.filter-chip:hover { border-color: var(--tosca-600); transform: translateY(-1px); }
+.filter-chip.aktif {
+  background: linear-gradient(120deg, var(--tosca-600), var(--tosca-900));
+  color: var(--white);
+  border-color: transparent;
+}
+
 .category-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));

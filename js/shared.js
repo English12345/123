@@ -28,7 +28,7 @@ function pasangTransisiHalaman() {
 
     e.preventDefault();
     document.body.classList.add('halaman-keluar');
-    setTimeout(() => { window.location.href = href; }, 170);
+    setTimeout(() => { window.location.href = href; }, 120);
   });
 }
 document.addEventListener('DOMContentLoaded', pasangTransisiHalaman);
@@ -418,12 +418,33 @@ function ambilParam(nama) {
 }
 
 // Muat daftar kategori aktif dari manifest.json, lalu ambil detail tiap file kategori.
+//
+// PENTING (performa): manifest.json sekarang menyimpan "kategoriRingkas" — ringkasan
+// tiap kategori (nama, ikon, warna, jumlah kata) langsung di dalamnya. Jadi dashboard
+// TIDAK perlu lagi fetch 100+ file kategori terpisah satu-satu, cukup 1 kali fetch
+// manifest.json. Detail lengkap (daftar kata) baru di-fetch saat masuk ke satu
+// kategori spesifik lewat muatDetailKategori().
 async function muatDaftarKategori() {
   const resManifest = await fetch('data/manifest.json');
   if (!resManifest.ok) throw new Error('Gagal memuat manifest.json');
   const manifest = await resManifest.json();
-  const daftarId = manifest.aktif || [];
 
+  // Jalur cepat: manifest sudah punya ringkasan siap pakai.
+  if (Array.isArray(manifest.kategoriRingkas) && manifest.kategoriRingkas.length) {
+    return manifest.kategoriRingkas
+      .map(d => ({
+        id: d.id,
+        nama: d.nama || d.id,
+        iconEmoji: d.iconEmoji || '📚',
+        warnaTema: d.warnaTema || '#2EC4B6',
+        urutan: typeof d.urutan === 'number' ? d.urutan : 999,
+        jumlahKata: d.jumlahKata || 0
+      }))
+      .sort((a, b) => a.urutan - b.urutan || a.nama.localeCompare(b.nama));
+  }
+
+  // Jalur cadangan (manifest format lama, tanpa kategoriRingkas): fetch satu-satu.
+  const daftarId = manifest.aktif || [];
   const semuaKategori = await Promise.all(
     daftarId.map(async (id) => {
       try {

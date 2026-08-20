@@ -1,1298 +1,1282 @@
 [
   {
-    "id": "Burung Api",
-    "en": "Phoenix"
+    "id": "Dalam",
+    "en": "Deep"
   },
   {
-    "id": "Peri",
-    "en": "Fairy"
+    "id": "Manis",
+    "en": "Sweet"
   },
   {
-    "id": "Raksasa",
-    "en": "Giant"
+    "id": "Asam",
+    "en": "Sour"
   },
   {
-    "id": "Troll",
-    "en": "Troll"
+    "id": "Asin",
+    "en": "Salty"
   },
   {
-    "id": "Penyihir Pria",
-    "en": "Wizard"
+    "id": "Pahit",
+    "en": "Bitter"
   },
   {
-    "id": "Penyihir Wanita",
-    "en": "Witch"
+    "id": "Pedas",
+    "en": "Spicy"
   },
   {
-    "id": "Hantu",
-    "en": "Ghost"
+    "id": "Gurih",
+    "en": "Savory"
   },
   {
-    "id": "Vampir",
-    "en": "Vampire"
+    "id": "Hambar",
+    "en": "Bland"
   },
   {
-    "id": "Manusia Serigala",
-    "en": "Werewolf"
+    "id": "Segar",
+    "en": "Fresh"
   },
   {
-    "id": "Peri Kecil",
-    "en": "Elf"
+    "id": "Matang",
+    "en": "Ripe"
   },
   {
-    "id": "Jin Ajaib",
-    "en": "Genie"
+    "id": "Lezat",
+    "en": "Delicious"
   },
   {
-    "id": "Insinyur",
-    "en": "Engineer"
+    "id": "Renyah",
+    "en": "Crunchy"
   },
   {
-    "id": "Pengacara",
-    "en": "Lawyer"
+    "id": "Berair",
+    "en": "Juicy"
   },
   {
-    "id": "Dokter Gigi",
-    "en": "Dentist"
+    "id": "Segar Asam",
+    "en": "Tangy"
   },
   {
-    "id": "Dokter Hewan",
-    "en": "Veterinarian"
+    "id": "Rasa Ringan",
+    "en": "Mild Taste"
   },
   {
-    "id": "Wartawan",
-    "en": "Journalist"
+    "id": "Basi",
+    "en": "Stale"
   },
   {
-    "id": "Fotografer",
-    "en": "Photographer"
+    "id": "Rasa Kaya",
+    "en": "Rich Taste"
   },
   {
-    "id": "Arsitek",
-    "en": "Architect"
+    "id": "Bangun Tidur",
+    "en": "Wake Up"
   },
   {
-    "id": "Tukang Listrik",
-    "en": "Electrician"
+    "id": "Mandi",
+    "en": "Take a Bath"
   },
   {
-    "id": "Tukang Pipa",
-    "en": "Plumber"
+    "id": "Membaca",
+    "en": "Read"
   },
   {
-    "id": "Montir",
-    "en": "Mechanic"
+    "id": "Menulis",
+    "en": "Write"
   },
   {
-    "id": "Pustakawan",
-    "en": "Librarian"
+    "id": "Belajar",
+    "en": "Study"
   },
   {
-    "id": "Pelayan",
-    "en": "Waiter"
+    "id": "Memasak",
+    "en": "Cook"
   },
   {
-    "id": "Kasir",
-    "en": "Cashier"
+    "id": "Membersihkan",
+    "en": "Clean"
   },
   {
-    "id": "Penata Rambut",
-    "en": "Hairdresser"
+    "id": "Mencuci",
+    "en": "Wash"
   },
   {
-    "id": "Penjahit",
-    "en": "Tailor"
+    "id": "Menggosok Gigi",
+    "en": "Brush Teeth"
   },
   {
-    "id": "Sopir",
-    "en": "Driver"
+    "id": "Berpakaian",
+    "en": "Get Dressed"
   },
   {
-    "id": "Hakim",
-    "en": "Judge"
+    "id": "Bernyanyi",
+    "en": "Sing"
   },
   {
-    "id": "Programmer",
-    "en": "Programmer"
+    "id": "Duduk",
+    "en": "Sit"
   },
   {
-    "id": "Buah Naga",
-    "en": "Dragon Fruit"
+    "id": "Berdiri",
+    "en": "Stand"
   },
   {
-    "id": "Durian",
-    "en": "Durian"
+    "id": "Terbang",
+    "en": "Fly"
   },
   {
-    "id": "Rambutan",
-    "en": "Rambutan"
+    "id": "Jatuh",
+    "en": "Fall"
   },
   {
-    "id": "Leci",
-    "en": "Lychee"
+    "id": "Membuka",
+    "en": "Open"
   },
   {
-    "id": "Manggis",
-    "en": "Mangosteen"
+    "id": "Pesawat Luar Angkasa",
+    "en": "Spaceship"
   },
   {
-    "id": "Pepaya",
-    "en": "Papaya"
+    "id": "Satelit",
+    "en": "Satellite"
   },
   {
-    "id": "Markisa",
-    "en": "Passion Fruit"
+    "id": "Stasiun Luar Angkasa",
+    "en": "Space Station"
   },
   {
-    "id": "Belimbing",
-    "en": "Starfruit"
+    "id": "Baju Astronot",
+    "en": "Space Suit"
   },
   {
-    "id": "Nangka",
-    "en": "Jackfruit"
+    "id": "Pesawat Ulang-alik",
+    "en": "Space Shuttle"
   },
   {
-    "id": "Buah Ara",
-    "en": "Fig"
+    "id": "Helm Astronot",
+    "en": "Astronaut Helmet"
   },
   {
-    "id": "Plum",
-    "en": "Plum"
+    "id": "Kapsul Luar Angkasa",
+    "en": "Space Capsule"
   },
   {
-    "id": "Aprikot",
-    "en": "Apricot"
+    "id": "Makhluk Luar Angkasa",
+    "en": "Alien"
   },
   {
-    "id": "Cranberry",
-    "en": "Cranberry"
+    "id": "Lubang Hitam",
+    "en": "Black Hole"
   },
   {
-    "id": "Rasberi",
-    "en": "Raspberry"
+    "id": "Asteroid",
+    "en": "Asteroid"
   },
   {
-    "id": "Jeruk Keprok",
-    "en": "Tangerine"
+    "id": "Rasi Bintang",
+    "en": "Constellation"
   },
   {
-    "id": "Kesemek",
-    "en": "Persimmon"
+    "id": "Teropong Bintang",
+    "en": "Telescope"
   },
   {
-    "id": "Kubis",
-    "en": "Cabbage"
+    "id": "Nebula",
+    "en": "Nebula"
   },
   {
-    "id": "Bayam",
-    "en": "Spinach"
+    "id": "Meteorit",
+    "en": "Meteorite"
   },
   {
-    "id": "Kembang Kol",
-    "en": "Cauliflower"
+    "id": "Kendaraan Penjelajah Antariksa",
+    "en": "Space Rover"
   },
   {
-    "id": "Seledri",
-    "en": "Celery"
+    "id": "Panel Surya",
+    "en": "Solar Panel"
   },
   {
-    "id": "Asparagus",
-    "en": "Asparagus"
+    "id": "Gandum",
+    "en": "Wheat"
   },
   {
-    "id": "Zukini",
-    "en": "Zucchini"
+    "id": "Oat",
+    "en": "Oat"
   },
   {
-    "id": "Lobak Merah",
-    "en": "Radish"
+    "id": "Jelai",
+    "en": "Barley"
   },
   {
-    "id": "Lobak Putih",
-    "en": "Turnip"
+    "id": "Quinoa",
+    "en": "Quinoa"
   },
   {
-    "id": "Bit",
-    "en": "Beetroot"
+    "id": "Tepung",
+    "en": "Flour"
   },
   {
-    "id": "Artichoke",
-    "en": "Artichoke"
+    "id": "Tepung Jagung",
+    "en": "Cornmeal"
   },
   {
-    "id": "Kale",
-    "en": "Kale"
+    "id": "Adonan",
+    "en": "Dough"
   },
   {
-    "id": "Bawang Prei",
-    "en": "Leek"
+    "id": "Ragi",
+    "en": "Yeast"
   },
   {
-    "id": "Okra",
-    "en": "Okra"
+    "id": "Cuka",
+    "en": "Vinegar"
   },
   {
-    "id": "Sawi Sendok",
-    "en": "Bok Choy"
+    "id": "Kecap Asin",
+    "en": "Soy Sauce"
   },
   {
-    "id": "Tauge",
-    "en": "Bean Sprout"
+    "id": "Tepung Maizena",
+    "en": "Cornstarch"
   },
   {
-    "id": "Kacang Panjang",
-    "en": "String Bean"
+    "id": "Baking Powder",
+    "en": "Baking Powder"
   },
   {
-    "id": "Puding",
-    "en": "Pudding"
+    "id": "Gandum Hitam",
+    "en": "Rye"
   },
   {
-    "id": "Donat",
-    "en": "Donut"
+    "id": "Jewawut",
+    "en": "Millet"
   },
   {
-    "id": "Kue Mangkuk",
-    "en": "Cupcake"
+    "id": "Sorgum",
+    "en": "Sorghum"
   },
   {
-    "id": "Pai",
-    "en": "Pie"
+    "id": "Semolina",
+    "en": "Semolina"
   },
   {
-    "id": "Biskuit",
-    "en": "Cookie"
+    "id": "Gugup",
+    "en": "Nervous"
   },
   {
-    "id": "Brownies",
-    "en": "Brownie"
+    "id": "Penasaran",
+    "en": "Curious"
   },
   {
-    "id": "Macaron",
-    "en": "Macaron"
+    "id": "Cemburu",
+    "en": "Jealous"
   },
   {
-    "id": "Tart Buah",
-    "en": "Tart"
+    "id": "Kesepian",
+    "en": "Lonely"
   },
   {
-    "id": "Wafel",
-    "en": "Waffle"
+    "id": "Bersyukur",
+    "en": "Grateful"
   },
   {
-    "id": "Gelato",
-    "en": "Gelato"
+    "id": "Percaya Diri",
+    "en": "Confident"
   },
   {
-    "id": "Meringue",
-    "en": "Meringue"
+    "id": "Malu",
+    "en": "Embarrassed"
   },
   {
-    "id": "Muffin",
-    "en": "Muffin"
+    "id": "Lega",
+    "en": "Relieved"
   },
   {
-    "id": "Tiramisu",
-    "en": "Tiramisu"
+    "id": "Cemas",
+    "en": "Anxious"
   },
   {
-    "id": "Fudge",
-    "en": "Fudge"
+    "id": "Berharap",
+    "en": "Hopeful"
   },
   {
-    "id": "Hot Dog",
-    "en": "Hot Dog"
+    "id": "Kecewa",
+    "en": "Disappointed"
   },
   {
-    "id": "Taco",
-    "en": "Taco"
+    "id": "Frustrasi",
+    "en": "Frustrated"
   },
   {
-    "id": "Burrito",
-    "en": "Burrito"
+    "id": "Tenang",
+    "en": "Calm"
   },
   {
-    "id": "Nugget Ayam",
-    "en": "Chicken Nugget"
+    "id": "Ceria",
+    "en": "Cheerful"
   },
   {
-    "id": "Ayam Goreng",
-    "en": "Fried Chicken"
+    "id": "Khawatir",
+    "en": "Worried"
   },
   {
-    "id": "Kebab",
-    "en": "Kebab"
+    "id": "Berani",
+    "en": "Brave"
   },
   {
-    "id": "Popcorn",
-    "en": "Popcorn"
+    "id": "Menutup",
+    "en": "Close"
   },
   {
-    "id": "Bawang Goreng Cincin",
-    "en": "Onion Rings"
+    "id": "Berbelok",
+    "en": "Turn"
   },
   {
-    "id": "Milkshake",
-    "en": "Milkshake"
+    "id": "Melihat",
+    "en": "Look"
   },
   {
-    "id": "Roti Gulung",
-    "en": "Wrap"
+    "id": "Mendengarkan",
+    "en": "Listen"
   },
   {
-    "id": "Quesadilla",
-    "en": "Quesadilla"
+    "id": "Berbicara",
+    "en": "Speak"
   },
   {
-    "id": "Corn Dog",
-    "en": "Corn Dog"
+    "id": "Berbisik",
+    "en": "Whisper"
   },
   {
-    "id": "Pretzel",
-    "en": "Pretzel"
+    "id": "Berteriak",
+    "en": "Shout"
   },
   {
-    "id": "Nachos",
-    "en": "Nachos"
+    "id": "Menunjuk",
+    "en": "Point"
   },
   {
-    "id": "Bubur Gandum",
-    "en": "Oatmeal"
+    "id": "Memegang",
+    "en": "Hold"
   },
   {
-    "id": "Sereal",
-    "en": "Cereal"
+    "id": "Membawa",
+    "en": "Carry"
   },
   {
-    "id": "Roti Panggang",
-    "en": "Toast"
+    "id": "Membangun",
+    "en": "Build"
   },
   {
-    "id": "Telur Dadar",
-    "en": "Omelette"
+    "id": "Memecahkan",
+    "en": "Break"
   },
   {
-    "id": "Bacon",
-    "en": "Bacon"
+    "id": "Memperbaiki",
+    "en": "Fix"
   },
   {
-    "id": "Sosis",
-    "en": "Sausage"
+    "id": "Menggambar",
+    "en": "Draw"
   },
   {
-    "id": "Croissant",
-    "en": "Croissant"
+    "id": "Melukis",
+    "en": "Paint (verb)"
   },
   {
-    "id": "Selai",
-    "en": "Jam"
+    "id": "Memotong",
+    "en": "Cut"
   },
   {
-    "id": "Yogurt",
-    "en": "Yogurt"
+    "id": "Menjahit",
+    "en": "Sew"
   },
   {
-    "id": "Granola",
-    "en": "Granola"
+    "id": "Memanggang",
+    "en": "Bake"
   },
   {
-    "id": "Jus Kental",
-    "en": "Smoothie"
+    "id": "Melipat",
+    "en": "Fold"
   },
   {
-    "id": "Bagel",
-    "en": "Bagel"
+    "id": "Mengukur",
+    "en": "Measure"
   },
   {
-    "id": "Kentang Parut Goreng",
-    "en": "Hash Browns"
+    "id": "Kapal Pesiar",
+    "en": "Yacht"
   },
   {
-    "id": "Panekuk",
-    "en": "Pancake"
+    "id": "Kano",
+    "en": "Canoe"
   },
   {
-    "id": "Roti Panggang Perancis",
-    "en": "French Toast"
+    "id": "Kayak",
+    "en": "Kayak"
   },
   {
-    "id": "Bubur",
-    "en": "Porridge"
+    "id": "Kapal Selam",
+    "en": "Submarine"
   },
   {
-    "id": "Mentega",
-    "en": "Butter"
+    "id": "Kapal Feri",
+    "en": "Ferry"
   },
   {
-    "id": "Krim",
-    "en": "Cream"
+    "id": "Perahu Layar",
+    "en": "Sailboat"
   },
   {
-    "id": "Susu Asam",
-    "en": "Buttermilk"
+    "id": "Jet Ski",
+    "en": "Jet Ski"
   },
   {
-    "id": "Krim Kocok",
-    "en": "Whipped Cream"
+    "id": "Kapal Kargo",
+    "en": "Cargo Ship"
   },
   {
-    "id": "Susu Kental Manis",
-    "en": "Condensed Milk"
+    "id": "Kapal Pesiar Besar",
+    "en": "Cruise Ship"
   },
   {
-    "id": "Dadih Susu",
-    "en": "Curd"
+    "id": "Perahu Cepat",
+    "en": "Speedboat"
   },
   {
-    "id": "Krim Asam",
-    "en": "Sour Cream"
+    "id": "Pesawat Layang",
+    "en": "Glider"
   },
   {
-    "id": "Keju Mozzarella",
-    "en": "Mozzarella"
+    "id": "Balon Udara",
+    "en": "Hot Air Balloon"
   },
   {
-    "id": "Keju Cottage",
-    "en": "Cottage Cheese"
+    "id": "Pesawat Kargo",
+    "en": "Cargo Plane"
   },
   {
-    "id": "Keju Cheddar",
-    "en": "Cheddar Cheese"
+    "id": "Parasut",
+    "en": "Parachute"
   },
   {
-    "id": "Keju Parmesan",
-    "en": "Parmesan Cheese"
+    "id": "Akar",
+    "en": "Root"
   },
   {
-    "id": "Minyak Samin",
-    "en": "Ghee"
+    "id": "Batang",
+    "en": "Stem"
   },
   {
-    "id": "Susu Rendah Lemak",
-    "en": "Skim Milk"
+    "id": "Cabang Pohon",
+    "en": "Branch"
   },
   {
-    "id": "Susu Bubuk",
-    "en": "Powdered Milk"
+    "id": "Kelopak Bunga",
+    "en": "Petal"
   },
   {
-    "id": "Almon",
-    "en": "Almond"
+    "id": "Serbuk Sari",
+    "en": "Pollen"
   },
   {
-    "id": "Kacang Tanah",
-    "en": "Peanut"
+    "id": "Batang Utama Pohon",
+    "en": "Trunk (tree)"
   },
   {
-    "id": "Kacang Mete",
-    "en": "Cashew"
+    "id": "Kulit Kayu",
+    "en": "Bark"
   },
   {
-    "id": "Kenari",
-    "en": "Walnut"
+    "id": "Duri",
+    "en": "Thorn"
   },
   {
-    "id": "Pistachio",
-    "en": "Pistachio"
+    "id": "Tanaman Rambat",
+    "en": "Vine"
   },
   {
-    "id": "Hazelnut",
-    "en": "Hazelnut"
+    "id": "Tunas",
+    "en": "Sprout"
   },
   {
-    "id": "Biji Bunga Matahari",
-    "en": "Sunflower Seed"
+    "id": "Kuncup",
+    "en": "Bud"
   },
   {
-    "id": "Biji Labu",
-    "en": "Pumpkin Seed"
+    "id": "Ranting Kecil",
+    "en": "Twig"
   },
   {
-    "id": "Biji Chia",
-    "en": "Chia Seed"
+    "id": "Getah Pohon",
+    "en": "Sap"
   },
   {
-    "id": "Biji Wijen",
-    "en": "Sesame Seed"
+    "id": "Dahi",
+    "en": "Forehead"
   },
   {
-    "id": "Kastanye",
-    "en": "Chestnut"
+    "id": "Alis",
+    "en": "Eyebrow"
   },
   {
-    "id": "Macadamia",
-    "en": "Macadamia"
+    "id": "Bulu Mata",
+    "en": "Eyelash"
   },
   {
-    "id": "Kacang Pinus",
-    "en": "Pine Nut"
+    "id": "Pipi",
+    "en": "Cheek"
   },
   {
-    "id": "Kacang Brazil",
-    "en": "Brazil Nut"
+    "id": "Dagu",
+    "en": "Chin"
   },
   {
-    "id": "Biji Rami",
-    "en": "Flaxseed"
+    "id": "Rahang",
+    "en": "Jaw"
   },
   {
-    "id": "Biji Poppy",
-    "en": "Poppy Seed"
+    "id": "Bibir",
+    "en": "Lip"
   },
   {
-    "id": "Mawar",
-    "en": "Rose"
+    "id": "Kelopak Mata",
+    "en": "Eyelid"
   },
   {
-    "id": "Bunga Matahari",
-    "en": "Sunflower"
+    "id": "Lubang Hidung",
+    "en": "Nostril"
   },
   {
-    "id": "Tulip",
-    "en": "Tulip"
+    "id": "Pelipis",
+    "en": "Temple (head)"
   },
   {
-    "id": "Bunga Aster",
-    "en": "Daisy"
+    "id": "Menyapa",
+    "en": "Greet"
   },
   {
-    "id": "Bunga Lili",
-    "en": "Lily"
+    "id": "Berterima Kasih",
+    "en": "Thank"
   },
   {
-    "id": "Anggrek",
-    "en": "Orchid"
+    "id": "Meminta Maaf",
+    "en": "Apologize"
   },
   {
-    "id": "Melati",
-    "en": "Jasmine"
+    "id": "Berjanji",
+    "en": "Promise"
   },
   {
-    "id": "Bunga Teratai",
-    "en": "Lotus"
+    "id": "Berdebat",
+    "en": "Argue"
   },
   {
-    "id": "Bunga Sepatu",
-    "en": "Hibiscus"
+    "id": "Setuju",
+    "en": "Agree"
   },
   {
-    "id": "Bunga Tahi Kotok",
-    "en": "Marigold"
+    "id": "Tidak Setuju",
+    "en": "Disagree"
   },
   {
-    "id": "Bunga Dandelion",
-    "en": "Dandelion"
+    "id": "Memuji",
+    "en": "Compliment"
   },
   {
-    "id": "Bunga Anyelir",
-    "en": "Carnation"
+    "id": "Mengundang",
+    "en": "Invite"
   },
   {
-    "id": "Lavender",
-    "en": "Lavender"
+    "id": "Memperkenalkan",
+    "en": "Introduce"
   },
   {
-    "id": "Bunga Poppy",
-    "en": "Poppy"
+    "id": "Menara Eiffel",
+    "en": "Eiffel Tower"
   },
   {
-    "id": "Bunga Bakung",
-    "en": "Daffodil"
+    "id": "Tembok Besar",
+    "en": "Great Wall"
   },
   {
-    "id": "Bunga Iris",
-    "en": "Iris Flower"
+    "id": "Piramida Giza",
+    "en": "Pyramid of Giza"
   },
   {
-    "id": "Pohon Ek",
-    "en": "Oak Tree"
+    "id": "Patung Liberty",
+    "en": "Statue of Liberty"
   },
   {
-    "id": "Pohon Pinus",
-    "en": "Pine Tree"
+    "id": "Big Ben",
+    "en": "Big Ben"
   },
   {
-    "id": "Pohon Palem",
-    "en": "Palm Tree"
+    "id": "Koloseum",
+    "en": "Colosseum"
   },
   {
-    "id": "Pohon Maple",
-    "en": "Maple Tree"
+    "id": "Taj Mahal",
+    "en": "Taj Mahal"
   },
   {
-    "id": "Pohon Beringin",
-    "en": "Banyan Tree"
+    "id": "Gedung Opera Sydney",
+    "en": "Sydney Opera House"
   },
   {
-    "id": "Bambu",
-    "en": "Bamboo"
+    "id": "Menara Miring",
+    "en": "Leaning Tower"
   },
   {
-    "id": "Pohon Willow",
-    "en": "Willow Tree"
+    "id": "Candi Borobudur",
+    "en": "Borobudur"
   },
   {
-    "id": "Pohon Cedar",
-    "en": "Cedar Tree"
+    "id": "Jembatan Golden Gate",
+    "en": "Golden Gate Bridge"
   },
   {
-    "id": "Pohon Birch",
-    "en": "Birch Tree"
+    "id": "Gunung Rushmore",
+    "en": "Mount Rushmore"
   },
   {
-    "id": "Pohon Mangga",
-    "en": "Mango Tree"
+    "id": "Matahari Terbit",
+    "en": "Sunrise"
   },
   {
-    "id": "Pohon Sakura",
-    "en": "Cherry Blossom Tree"
+    "id": "Matahari Terbenam",
+    "en": "Sunset"
   },
   {
-    "id": "Pohon Mahoni",
-    "en": "Mahogany Tree"
+    "id": "Senja",
+    "en": "Twilight"
   },
   {
-    "id": "Pohon Jati",
-    "en": "Teak Tree"
+    "id": "Gerhana",
+    "en": "Eclipse"
   },
   {
-    "id": "Pohon Baobab",
-    "en": "Baobab Tree"
+    "id": "Aurora",
+    "en": "Aurora"
   },
   {
-    "id": "Paru-paru",
-    "en": "Lung"
+    "id": "Kabut Tipis",
+    "en": "Mist"
   },
   {
-    "id": "Lambung",
-    "en": "Stomach (organ)"
+    "id": "Embun",
+    "en": "Dew"
   },
   {
-    "id": "Hati",
-    "en": "Liver"
+    "id": "Embun Beku",
+    "en": "Frost"
   },
   {
-    "id": "Ginjal",
-    "en": "Kidney"
+    "id": "Hujan Es",
+    "en": "Hail"
   },
   {
-    "id": "Otot",
-    "en": "Muscle"
+    "id": "Gerimis",
+    "en": "Drizzle"
   },
   {
-    "id": "Pembuluh Darah",
-    "en": "Vein"
+    "id": "Pandai Besi",
+    "en": "Blacksmith"
   },
   {
-    "id": "Tulang Rusuk",
-    "en": "Rib"
+    "id": "Tukang Kayu",
+    "en": "Carpenter"
   },
   {
-    "id": "Tulang Punggung",
-    "en": "Spine"
+    "id": "Penenun",
+    "en": "Weaver"
   },
   {
-    "id": "Usus",
-    "en": "Intestine"
+    "id": "Pengrajin Gerabah",
+    "en": "Potter"
   },
   {
-    "id": "Saraf",
-    "en": "Nerve"
+    "id": "Tukang Cukur",
+    "en": "Barber"
   },
   {
-    "id": "Kulit",
-    "en": "Skin"
+    "id": "Tukang Daging",
+    "en": "Butcher"
   },
   {
-    "id": "Darah",
-    "en": "Blood"
+    "id": "Tukang Roti",
+    "en": "Baker"
   },
   {
-    "id": "Tendon",
-    "en": "Tendon"
+    "id": "Pembuat Sepatu",
+    "en": "Shoemaker"
   },
   {
-    "id": "Ligamen",
-    "en": "Ligament"
+    "id": "Penambang",
+    "en": "Miner"
   },
   {
-    "id": "Arteri",
-    "en": "Artery"
+    "id": "Penggembala",
+    "en": "Shepherd"
   },
   {
-    "id": "Pankreas",
-    "en": "Pancreas"
+    "id": "Pedagang Kaki Lima",
+    "en": "Street Vendor"
   },
   {
-    "id": "Melompat",
-    "en": "Jump"
+    "id": "Pemandu Wisata",
+    "en": "Tour Guide"
   },
   {
-    "id": "Berlari",
-    "en": "Run"
+    "id": "Ikan Mas Koki",
+    "en": "Goldfish"
   },
   {
-    "id": "Berjalan",
-    "en": "Walk"
+    "id": "Ikan Lele",
+    "en": "Catfish"
   },
   {
-    "id": "Merangkak",
-    "en": "Crawl"
+    "id": "Piranha",
+    "en": "Piranha"
   },
   {
-    "id": "Memanjat",
-    "en": "Climb"
+    "id": "Anak Bebek",
+    "en": "Duckling"
   },
   {
-    "id": "Berenang",
-    "en": "Swim"
+    "id": "Berang-berang",
+    "en": "Beaver"
   },
   {
-    "id": "Menari",
-    "en": "Dance"
+    "id": "Lumba-lumba Sungai",
+    "en": "River Dolphin"
   },
   {
-    "id": "Bertepuk Tangan",
-    "en": "Clap"
+    "id": "Salamander Air",
+    "en": "Newt"
   },
   {
-    "id": "Melambai",
-    "en": "Wave"
+    "id": "Berudu",
+    "en": "Tadpole"
   },
   {
-    "id": "Meregangkan Badan",
-    "en": "Stretch"
+    "id": "Siput Air",
+    "en": "Water Snail"
   },
   {
-    "id": "Membungkuk",
-    "en": "Bend"
+    "id": "Bunga Teratai Air",
+    "en": "Water Lily"
   },
   {
-    "id": "Menendang",
-    "en": "Kick"
+    "id": "Truk Derek",
+    "en": "Tow Truck"
   },
   {
-    "id": "Melempar",
-    "en": "Throw"
+    "id": "Truk Sampah",
+    "en": "Garbage Truck"
   },
   {
-    "id": "Menangkap",
-    "en": "Catch"
+    "id": "Mobil Pembersih Salju",
+    "en": "Snowplow"
   },
   {
-    "id": "Mendorong",
-    "en": "Push"
+    "id": "Truk Tangki",
+    "en": "Tanker Truck"
   },
   {
-    "id": "Menarik",
-    "en": "Pull"
+    "id": "Truk Bak Datar",
+    "en": "Flatbed Truck"
   },
   {
-    "id": "Tersenyum",
-    "en": "Smile"
+    "id": "Traktor Pengeruk",
+    "en": "Backhoe Loader"
   },
   {
-    "id": "Cemberut",
-    "en": "Frown"
+    "id": "Truk Pengangkut Kayu",
+    "en": "Log Truck"
   },
   {
-    "id": "Tertawa",
-    "en": "Laugh"
+    "id": "Truk Trailer",
+    "en": "Trailer Truck"
   },
   {
-    "id": "Menangis",
-    "en": "Cry"
+    "id": "Ski Salju",
+    "en": "Ski"
   },
   {
-    "id": "Mengedipkan Mata",
-    "en": "Wink"
+    "id": "Papan Salju",
+    "en": "Snowboard"
   },
   {
-    "id": "Menguap",
-    "en": "Yawn"
+    "id": "Kereta Luncur",
+    "en": "Sled"
   },
   {
-    "id": "Berkedip",
-    "en": "Blink"
+    "id": "Sepatu Es",
+    "en": "Ice Skates"
   },
   {
-    "id": "Merengut",
-    "en": "Pout"
+    "id": "Bola Salju",
+    "en": "Snow Globe"
   },
   {
-    "id": "Menyeringai",
-    "en": "Grin"
+    "id": "Manusia Salju",
+    "en": "Snowman"
   },
   {
-    "id": "Cekikikan",
-    "en": "Giggle"
+    "id": "Sarung Tangan Tebal",
+    "en": "Mittens"
   },
   {
-    "id": "Terisak",
-    "en": "Sob"
+    "id": "Penutup Telinga",
+    "en": "Earmuffs"
   },
   {
-    "id": "Terkekeh",
-    "en": "Chuckle"
+    "id": "Termos",
+    "en": "Thermos"
   },
   {
-    "id": "Merona",
-    "en": "Blush"
+    "id": "Sepatu Bot Salju",
+    "en": "Snow Boots"
   },
   {
-    "id": "Terkejut",
-    "en": "Gasp"
+    "id": "Partitur Musik",
+    "en": "Music Sheet"
   },
   {
-    "id": "Sekop",
-    "en": "Shovel"
+    "id": "Not Musik",
+    "en": "Music Note"
   },
   {
-    "id": "Selang Taman",
-    "en": "Garden Hose"
+    "id": "Metronom",
+    "en": "Metronome"
   },
   {
-    "id": "Sekop Kecil",
-    "en": "Trowel"
+    "id": "Penyangga Not",
+    "en": "Music Stand"
   },
   {
-    "id": "Gunting Ranting",
-    "en": "Pruner"
+    "id": "Pick Gitar",
+    "en": "Guitar Pick"
   },
   {
-    "id": "Rumah Kaca",
-    "en": "Greenhouse"
+    "id": "Tuts Piano",
+    "en": "Piano Key"
   },
   {
-    "id": "Alat Penyiram Otomatis",
-    "en": "Sprinkler"
+    "id": "Stik Drum",
+    "en": "Drumstick"
   },
   {
-    "id": "Mesin Pemotong Rumput",
-    "en": "Lawn Mower"
+    "id": "Garpu Tala",
+    "en": "Tuning Fork"
   },
   {
-    "id": "Kompos",
-    "en": "Compost"
+    "id": "Tongkat Dirigen",
+    "en": "Conductor's Baton"
   },
   {
-    "id": "Garpu Taman",
-    "en": "Garden Fork"
+    "id": "Kotak Musik",
+    "en": "Music Box"
   },
   {
-    "id": "Ajir Tanaman",
-    "en": "Plant Stake"
+    "id": "Belajar Hal Baru",
+    "en": "Learn"
   },
   {
-    "id": "Bibit Tanaman",
-    "en": "Seedling"
+    "id": "Mengajar",
+    "en": "Teach"
   },
   {
-    "id": "Tali Taman",
-    "en": "Garden Twine"
+    "id": "Mengingat",
+    "en": "Remember"
   },
   {
-    "id": "Blender",
-    "en": "Blender"
+    "id": "Melupakan",
+    "en": "Forget"
   },
   {
-    "id": "Pemanggang Roti",
-    "en": "Toaster"
+    "id": "Memahami",
+    "en": "Understand"
   },
   {
-    "id": "Microwave",
-    "en": "Microwave"
+    "id": "Menjelaskan",
+    "en": "Explain"
   },
   {
-    "id": "Oven",
-    "en": "Oven"
+    "id": "Berlatih",
+    "en": "Practice"
   },
   {
-    "id": "Kulkas",
-    "en": "Refrigerator"
+    "id": "Menjawab",
+    "en": "Answer"
   },
   {
-    "id": "Ketel Listrik",
-    "en": "Electric Kettle"
+    "id": "Bertanya",
+    "en": "Ask"
   },
   {
-    "id": "Mixer Kue",
-    "en": "Mixer"
+    "id": "Mengulang",
+    "en": "Repeat"
   },
   {
-    "id": "Penanak Nasi",
-    "en": "Rice Cooker"
+    "id": "Biru Langit",
+    "en": "Sky Blue"
   },
   {
-    "id": "Mesin Kopi",
-    "en": "Coffee Maker"
+    "id": "Oranye Senja",
+    "en": "Sunset Orange"
   },
   {
-    "id": "Mesin Cuci Piring",
-    "en": "Dishwasher"
+    "id": "Hijau Hutan",
+    "en": "Forest Green"
   },
   {
-    "id": "Freezer",
-    "en": "Freezer"
+    "id": "Biru Laut",
+    "en": "Ocean Blue"
   },
   {
-    "id": "Penggiling Makanan",
-    "en": "Food Processor"
+    "id": "Coklat Pasir",
+    "en": "Sandy Brown"
   },
   {
-    "id": "Panci Masak Lambat",
-    "en": "Slow Cooker"
+    "id": "Merah Muda Mawar",
+    "en": "Rose Pink"
   },
   {
-    "id": "Air Fryer",
-    "en": "Air Fryer"
+    "id": "Abu-abu Arang",
+    "en": "Charcoal Gray"
   },
   {
-    "id": "Alat Peras Jus",
-    "en": "Juicer"
+    "id": "Putih Gading",
+    "en": "Ivory White"
   },
   {
-    "id": "Kompor",
-    "en": "Stove"
+    "id": "Ungu Lavender",
+    "en": "Lavender Purple"
   },
   {
-    "id": "Bata",
-    "en": "Brick"
+    "id": "Hijau Mint",
+    "en": "Mint Green"
   },
   {
-    "id": "Semen",
-    "en": "Cement"
+    "id": "Sweter",
+    "en": "Sweater"
   },
   {
-    "id": "Kayu",
-    "en": "Wood"
+    "id": "Hoodie",
+    "en": "Hoodie"
   },
   {
-    "id": "Kaca",
-    "en": "Glass"
+    "id": "Rompi",
+    "en": "Vest"
   },
   {
-    "id": "Baja",
-    "en": "Steel"
+    "id": "Celana Pendek",
+    "en": "Shorts"
   },
   {
-    "id": "Pasir",
-    "en": "Sand"
+    "id": "Rok",
+    "en": "Skirt"
   },
   {
-    "id": "Beton",
-    "en": "Concrete"
+    "id": "Blus",
+    "en": "Blouse"
   },
   {
-    "id": "Ubin",
-    "en": "Tile"
+    "id": "Piyama",
+    "en": "Pajamas"
   },
   {
-    "id": "Kawat",
-    "en": "Wire"
+    "id": "Jas Hujan",
+    "en": "Raincoat"
   },
   {
-    "id": "Pipa",
-    "en": "Pipe"
+    "id": "Baju Terusan",
+    "en": "Overalls"
   },
   {
-    "id": "Cat",
-    "en": "Paint"
+    "id": "Jubah Mandi",
+    "en": "Bathrobe"
   },
   {
-    "id": "Perancah",
-    "en": "Scaffolding"
+    "id": "Seragam",
+    "en": "Uniform"
   },
   {
-    "id": "Kayu Lapis",
-    "en": "Plywood"
+    "id": "Poncho",
+    "en": "Poncho"
   },
   {
-    "id": "Marmer",
-    "en": "Marble"
+    "id": "Bros",
+    "en": "Brooch"
   },
   {
-    "id": "Katun",
-    "en": "Cotton"
+    "id": "Jepit Rambut",
+    "en": "Hairpin"
   },
   {
-    "id": "Sutra",
-    "en": "Silk"
+    "id": "Bando",
+    "en": "Headband"
   },
   {
-    "id": "Wol",
-    "en": "Wool"
+    "id": "Kancing Manset",
+    "en": "Cufflinks"
   },
   {
-    "id": "Kulit Sintetis",
-    "en": "Leather"
+    "id": "Gelang Kaki",
+    "en": "Anklet"
   },
   {
-    "id": "Denim",
-    "en": "Denim"
+    "id": "Topi Kupluk",
+    "en": "Beanie"
   },
   {
-    "id": "Linen",
-    "en": "Linen"
+    "id": "Dasi Kupu-kupu",
+    "en": "Bow Tie"
   },
   {
-    "id": "Poliester",
-    "en": "Polyester"
+    "id": "Selempang",
+    "en": "Sash"
   },
   {
-    "id": "Nilon",
-    "en": "Nylon"
+    "id": "Dompet Kecil",
+    "en": "Purse"
   },
   {
-    "id": "Beludru",
-    "en": "Velvet"
+    "id": "Gantungan Kunci",
+    "en": "Keychain"
   },
   {
-    "id": "Satin",
-    "en": "Satin"
+    "id": "Mencintai",
+    "en": "Love"
   },
   {
-    "id": "Renda",
-    "en": "Lace"
+    "id": "Membenci",
+    "en": "Hate"
   },
   {
-    "id": "Kain Flanel",
-    "en": "Felt"
+    "id": "Merindukan",
+    "en": "Miss (someone)"
   },
   {
-    "id": "Kanvas",
-    "en": "Canvas"
+    "id": "Mempercayai",
+    "en": "Trust"
   },
   {
-    "id": "Kain Fleece",
-    "en": "Fleece"
+    "id": "Berharap",
+    "en": "Hope"
   },
   {
-    "id": "Garis-garis",
-    "en": "Stripes"
+    "id": "Takut Akan",
+    "en": "Fear"
   },
   {
-    "id": "Motif Bintik",
-    "en": "Polka Dots"
+    "id": "Menikmati",
+    "en": "Enjoy"
   },
   {
-    "id": "Kotak-kotak",
-    "en": "Checkered"
+    "id": "Menghibur",
+    "en": "Comfort"
   },
   {
-    "id": "Motif Bunga",
-    "en": "Floral Pattern"
+    "id": "Menyemangati",
+    "en": "Encourage"
   },
   {
-    "id": "Motif Kotak Skotlandia",
-    "en": "Plaid"
+    "id": "Memaafkan",
+    "en": "Forgive"
   },
   {
-    "id": "Zigzag",
-    "en": "Zigzag"
+    "id": "Alat Pemadam Api",
+    "en": "Fire Extinguisher"
   },
   {
-    "id": "Loreng",
-    "en": "Camouflage"
+    "id": "Detektor Asap",
+    "en": "Smoke Detector"
   },
   {
-    "id": "Motif Paisley",
-    "en": "Paisley"
+    "id": "Helm Keselamatan",
+    "en": "Safety Helmet"
   },
   {
-    "id": "Motif Geometris",
-    "en": "Geometric Pattern"
+    "id": "Lampu Lalu Lintas",
+    "en": "Traffic Light"
   },
   {
-    "id": "Gradasi Warna",
-    "en": "Gradient"
+    "id": "Kerucut Lalu Lintas",
+    "en": "Traffic Cone"
   },
   {
-    "id": "Motif Ikat Celup",
-    "en": "Tie-Dye"
+    "id": "Rambu Peringatan",
+    "en": "Warning Sign"
   },
   {
-    "id": "Motif Chevron",
-    "en": "Chevron"
+    "id": "Kotak P3K",
+    "en": "First Aid Box"
   },
   {
-    "id": "Motif Argyle",
-    "en": "Argyle"
+    "id": "Pintu Darurat",
+    "en": "Emergency Exit"
   },
   {
-    "id": "Motif Herringbone",
-    "en": "Herringbone"
+    "id": "Rompi Keselamatan",
+    "en": "Safety Vest"
   },
   {
-    "id": "Motif Houndstooth",
-    "en": "Houndstooth"
+    "id": "Bel Alarm",
+    "en": "Alarm Bell"
   },
   {
-    "id": "Motif Tartan",
-    "en": "Tartan"
+    "id": "Iklim",
+    "en": "Climate"
   },
   {
-    "id": "Tambah",
-    "en": "Plus"
+    "id": "Kelembapan",
+    "en": "Humidity"
   },
   {
-    "id": "Kurang",
-    "en": "Minus"
+    "id": "Suhu",
+    "en": "Temperature"
   },
   {
-    "id": "Sama Dengan",
-    "en": "Equals"
+    "id": "Musim Hujan",
+    "en": "Rainy Season"
   },
   {
-    "id": "Setengah",
-    "en": "Half"
+    "id": "Musim Kemarau",
+    "en": "Dry Season"
   },
   {
-    "id": "Seperempat",
-    "en": "Quarter"
+    "id": "Angin Sepoi",
+    "en": "Breeze"
   },
   {
-    "id": "Dua Kali Lipat",
-    "en": "Double"
+    "id": "Hembusan Angin Kencang",
+    "en": "Gust"
   },
   {
-    "id": "Tiga Kali Lipat",
-    "en": "Triple"
+    "id": "Musim Monsun",
+    "en": "Monsoon"
   },
   {
-    "id": "Sepasang",
-    "en": "Pair"
+    "id": "Tekanan Udara",
+    "en": "Air Pressure"
   },
   {
-    "id": "Selusin",
-    "en": "Dozen"
+    "id": "Barometer",
+    "en": "Barometer"
   },
   {
-    "id": "Bilangan Ganjil",
-    "en": "Odd Number"
+    "id": "Lensa Kamera",
+    "en": "Camera Lens"
   },
   {
-    "id": "Bilangan Genap",
-    "en": "Even Number"
+    "id": "Tripod",
+    "en": "Tripod"
   },
   {
-    "id": "Jumlah",
-    "en": "Sum"
+    "id": "Bingkai Foto",
+    "en": "Photo Frame"
   },
   {
-    "id": "Menambahkan",
-    "en": "Add"
+    "id": "Lukisan Kanvas",
+    "en": "Canvas Painting"
   },
   {
-    "id": "Mengurangkan",
-    "en": "Subtract"
+    "id": "Patung",
+    "en": "Sculpture"
   },
   {
-    "id": "Hari Ini",
-    "en": "Today"
+    "id": "Kerajinan Gerabah",
+    "en": "Pottery"
   },
   {
-    "id": "Besok",
-    "en": "Tomorrow"
+    "id": "Sketsa",
+    "en": "Sketch"
   },
   {
-    "id": "Kemarin",
-    "en": "Yesterday"
+    "id": "Palet Warna",
+    "en": "Palette"
   },
   {
-    "id": "Minggu",
-    "en": "Week"
+    "id": "Kuda-kuda Lukis",
+    "en": "Easel"
   },
   {
-    "id": "Akhir Pekan",
-    "en": "Weekend"
+    "id": "Lukisan Dinding",
+    "en": "Mural"
   },
   {
-    "id": "Bulan",
-    "en": "Month"
+    "id": "Album Foto",
+    "en": "Photo Album"
   },
   {
-    "id": "Tahun",
-    "en": "Year"
+    "id": "Filter Foto",
+    "en": "Filter (photo)"
   },
   {
-    "id": "Jam (Waktu)",
-    "en": "Hour"
+    "id": "Lampu Kilat Kamera",
+    "en": "Flash (camera)"
   },
   {
-    "id": "Menit",
-    "en": "Minute"
+    "id": "Potret",
+    "en": "Portrait"
   },
   {
-    "id": "Detik",
-    "en": "Second (time)"
+    "id": "Lukisan Pemandangan",
+    "en": "Landscape Painting"
   },
   {
-    "id": "Sebentar Lagi",
-    "en": "Soon"
+    "id": "Swafoto Lukisan",
+    "en": "Self-Portrait"
   },
   {
-    "id": "Nanti",
-    "en": "Later"
+    "id": "Cat Air",
+    "en": "Watercolor"
   },
   {
-    "id": "Awal Waktu",
-    "en": "Early"
+    "id": "Gambar Arang",
+    "en": "Charcoal Drawing"
   },
   {
-    "id": "Terlambat",
-    "en": "Late"
+    "id": "Kolase",
+    "en": "Collage"
   },
   {
-    "id": "Besar",
-    "en": "Big"
+    "id": "Roda Gerabah",
+    "en": "Pottery Wheel"
   },
   {
-    "id": "Kecil",
-    "en": "Small"
+    "id": "Bingkai",
+    "en": "Frame (photo)"
   },
   {
-    "id": "Tinggi",
-    "en": "Tall"
+    "id": "Galeri Seni",
+    "en": "Gallery"
   },
   {
-    "id": "Pendek",
-    "en": "Short"
+    "id": "Pameran",
+    "en": "Exhibition"
   },
   {
-    "id": "Panjang",
-    "en": "Long"
+    "id": "Buku Sketsa",
+    "en": "Sketchbook"
   },
   {
-    "id": "Lebar",
-    "en": "Wide"
+    "id": "Tinta",
+    "en": "Ink"
   },
   {
-    "id": "Sempit",
-    "en": "Narrow"
+    "id": "Krayon Pastel",
+    "en": "Pastel Crayon"
   },
   {
-    "id": "Tebal",
-    "en": "Thick"
+    "id": "Model Lukisan",
+    "en": "Model (art)"
   },
   {
-    "id": "Tipis",
-    "en": "Thin"
-  },
-  {
-    "id": "Berat",
-    "en": "Heavy"
-  },
-  {
-    "id": "Ringan",
-    "en": "Light (weight)"
-  },
-  {
-    "id": "Sangat Besar",
-    "en": "Huge"
-  },
-  {
-    "id": "Sangat Kecil",
-    "en": "Tiny"
+    "id": "Lem Kerajinan",
+    "en": "Craft Glue"
   }
 ]

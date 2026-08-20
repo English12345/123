@@ -1,1298 +1,1298 @@
 [
   {
-    "id": "Burung Api",
-    "en": "Phoenix"
+    "id": "sapu",
+    "en": "broom"
   },
   {
-    "id": "Peri",
-    "en": "Fairy"
+    "id": "ember",
+    "en": "bucket"
   },
   {
-    "id": "Raksasa",
-    "en": "Giant"
+    "id": "kain lap",
+    "en": "rag"
   },
   {
-    "id": "Troll",
-    "en": "Troll"
+    "id": "sikat",
+    "en": "brush"
   },
   {
-    "id": "Penyihir Pria",
-    "en": "Wizard"
+    "id": "spons",
+    "en": "sponge"
   },
   {
-    "id": "Penyihir Wanita",
-    "en": "Witch"
+    "id": "sabun cuci piring",
+    "en": "dish soap"
   },
   {
-    "id": "Hantu",
-    "en": "Ghost"
+    "id": "tempat sampah",
+    "en": "trash can"
   },
   {
-    "id": "Vampir",
-    "en": "Vampire"
+    "id": "sarung tangan",
+    "en": "gloves"
   },
   {
-    "id": "Manusia Serigala",
-    "en": "Werewolf"
+    "id": "gitar",
+    "en": "guitar"
   },
   {
-    "id": "Peri Kecil",
-    "en": "Elf"
+    "id": "piano",
+    "en": "piano"
   },
   {
-    "id": "Jin Ajaib",
-    "en": "Genie"
+    "id": "drum",
+    "en": "drum"
   },
   {
-    "id": "Insinyur",
-    "en": "Engineer"
+    "id": "biola",
+    "en": "violin"
   },
   {
-    "id": "Pengacara",
-    "en": "Lawyer"
+    "id": "terompet",
+    "en": "trumpet"
   },
   {
-    "id": "Dokter Gigi",
-    "en": "Dentist"
+    "id": "saksofon",
+    "en": "saxophone"
   },
   {
-    "id": "Dokter Hewan",
-    "en": "Veterinarian"
+    "id": "suling",
+    "en": "flute"
   },
   {
-    "id": "Wartawan",
-    "en": "Journalist"
+    "id": "banjo",
+    "en": "banjo"
   },
   {
-    "id": "Fotografer",
-    "en": "Photographer"
+    "id": "akordeon",
+    "en": "accordion"
   },
   {
-    "id": "Arsitek",
-    "en": "Architect"
+    "id": "mikrofon",
+    "en": "microphone"
   },
   {
-    "id": "Tukang Listrik",
-    "en": "Electrician"
+    "id": "lonceng",
+    "en": "bell"
   },
   {
-    "id": "Tukang Pipa",
-    "en": "Plumber"
+    "id": "marakas",
+    "en": "maracas"
   },
   {
-    "id": "Montir",
-    "en": "Mechanic"
+    "id": "bola",
+    "en": "ball"
   },
   {
-    "id": "Pustakawan",
-    "en": "Librarian"
+    "id": "raket",
+    "en": "racket"
   },
   {
-    "id": "Pelayan",
-    "en": "Waiter"
+    "id": "sepatu olahraga",
+    "en": "sports shoes"
   },
   {
-    "id": "Kasir",
-    "en": "Cashier"
+    "id": "helm",
+    "en": "helmet"
   },
   {
-    "id": "Penata Rambut",
-    "en": "Hairdresser"
+    "id": "sarung tangan tinju",
+    "en": "boxing gloves"
   },
   {
-    "id": "Penjahit",
-    "en": "Tailor"
+    "id": "papan seluncur",
+    "en": "skateboard"
   },
   {
-    "id": "Sopir",
-    "en": "Driver"
+    "id": "stopwatch",
+    "en": "stopwatch"
   },
   {
-    "id": "Hakim",
-    "en": "Judge"
+    "id": "trofi",
+    "en": "trophy"
   },
   {
-    "id": "Programmer",
-    "en": "Programmer"
+    "id": "mobil",
+    "en": "car"
   },
   {
-    "id": "Buah Naga",
-    "en": "Dragon Fruit"
+    "id": "bis",
+    "en": "bus"
   },
   {
-    "id": "Durian",
-    "en": "Durian"
+    "id": "kereta",
+    "en": "train"
   },
   {
-    "id": "Rambutan",
-    "en": "Rambutan"
+    "id": "pesawat",
+    "en": "plane"
   },
   {
-    "id": "Leci",
-    "en": "Lychee"
+    "id": "sepeda",
+    "en": "bicycle"
   },
   {
-    "id": "Manggis",
-    "en": "Mangosteen"
+    "id": "motor",
+    "en": "motorcycle"
   },
   {
-    "id": "Pepaya",
-    "en": "Papaya"
+    "id": "kapal",
+    "en": "ship"
   },
   {
-    "id": "Markisa",
-    "en": "Passion Fruit"
+    "id": "perahu",
+    "en": "boat"
   },
   {
-    "id": "Belimbing",
-    "en": "Starfruit"
+    "id": "truk",
+    "en": "truck"
   },
   {
-    "id": "Nangka",
-    "en": "Jackfruit"
+    "id": "taksi",
+    "en": "taxi"
   },
   {
-    "id": "Buah Ara",
-    "en": "Fig"
+    "id": "helikopter",
+    "en": "helicopter"
   },
   {
-    "id": "Plum",
-    "en": "Plum"
+    "id": "ambulans",
+    "en": "ambulance"
   },
   {
-    "id": "Aprikot",
-    "en": "Apricot"
+    "id": "mobil pemadam",
+    "en": "fire truck"
   },
   {
-    "id": "Cranberry",
-    "en": "Cranberry"
+    "id": "mobil polisi",
+    "en": "police car"
   },
   {
-    "id": "Rasberi",
-    "en": "Raspberry"
+    "id": "roket",
+    "en": "rocket"
   },
   {
-    "id": "Jeruk Keprok",
-    "en": "Tangerine"
+    "id": "skuter",
+    "en": "scooter"
   },
   {
-    "id": "Kesemek",
-    "en": "Persimmon"
+    "id": "kereta bawah tanah",
+    "en": "subway"
   },
   {
-    "id": "Kubis",
-    "en": "Cabbage"
+    "id": "traktor",
+    "en": "tractor"
   },
   {
-    "id": "Bayam",
-    "en": "Spinach"
+    "id": "ayah",
+    "en": "father"
   },
   {
-    "id": "Kembang Kol",
-    "en": "Cauliflower"
+    "id": "ibu",
+    "en": "mother"
   },
   {
-    "id": "Seledri",
-    "en": "Celery"
+    "id": "kakek",
+    "en": "grandfather"
   },
   {
-    "id": "Asparagus",
-    "en": "Asparagus"
+    "id": "nenek",
+    "en": "grandmother"
   },
   {
-    "id": "Zukini",
-    "en": "Zucchini"
+    "id": "anak laki-laki",
+    "en": "son"
   },
   {
-    "id": "Lobak Merah",
-    "en": "Radish"
+    "id": "anak perempuan",
+    "en": "daughter"
   },
   {
-    "id": "Lobak Putih",
-    "en": "Turnip"
+    "id": "paman",
+    "en": "uncle"
   },
   {
-    "id": "Bit",
-    "en": "Beetroot"
+    "id": "bibi",
+    "en": "aunt"
   },
   {
-    "id": "Artichoke",
-    "en": "Artichoke"
+    "id": "sepupu",
+    "en": "cousin"
   },
   {
-    "id": "Kale",
-    "en": "Kale"
+    "id": "bayi",
+    "en": "baby"
   },
   {
-    "id": "Bawang Prei",
-    "en": "Leek"
+    "id": "keluarga",
+    "en": "family"
   },
   {
-    "id": "Okra",
-    "en": "Okra"
+    "id": "mata",
+    "en": "eye"
   },
   {
-    "id": "Sawi Sendok",
-    "en": "Bok Choy"
+    "id": "telinga",
+    "en": "ear"
   },
   {
-    "id": "Tauge",
-    "en": "Bean Sprout"
+    "id": "hidung",
+    "en": "nose"
   },
   {
-    "id": "Kacang Panjang",
-    "en": "String Bean"
+    "id": "mulut",
+    "en": "mouth"
   },
   {
-    "id": "Puding",
-    "en": "Pudding"
+    "id": "gigi",
+    "en": "tooth"
   },
   {
-    "id": "Donat",
-    "en": "Donut"
+    "id": "lidah",
+    "en": "tongue"
   },
   {
-    "id": "Kue Mangkuk",
-    "en": "Cupcake"
+    "id": "tangan",
+    "en": "hand"
   },
   {
-    "id": "Pai",
-    "en": "Pie"
+    "id": "kaki",
+    "en": "foot"
   },
   {
-    "id": "Biskuit",
-    "en": "Cookie"
+    "id": "lengan",
+    "en": "arm"
   },
   {
-    "id": "Brownies",
-    "en": "Brownie"
+    "id": "rambut",
+    "en": "hair"
   },
   {
-    "id": "Macaron",
-    "en": "Macaron"
+    "id": "wajah",
+    "en": "face"
   },
   {
-    "id": "Tart Buah",
-    "en": "Tart"
+    "id": "jantung",
+    "en": "heart"
   },
   {
-    "id": "Wafel",
-    "en": "Waffle"
+    "id": "otak",
+    "en": "brain"
   },
   {
-    "id": "Gelato",
-    "en": "Gelato"
+    "id": "tulang",
+    "en": "bone"
   },
   {
-    "id": "Meringue",
-    "en": "Meringue"
+    "id": "kuku",
+    "en": "nail"
   },
   {
-    "id": "Muffin",
-    "en": "Muffin"
+    "id": "nol",
+    "en": "zero"
   },
   {
-    "id": "Tiramisu",
-    "en": "Tiramisu"
+    "id": "satu",
+    "en": "one"
   },
   {
-    "id": "Fudge",
-    "en": "Fudge"
+    "id": "dua",
+    "en": "two"
   },
   {
-    "id": "Hot Dog",
-    "en": "Hot Dog"
+    "id": "tiga",
+    "en": "three"
   },
   {
-    "id": "Taco",
-    "en": "Taco"
+    "id": "empat",
+    "en": "four"
   },
   {
-    "id": "Burrito",
-    "en": "Burrito"
+    "id": "lima",
+    "en": "five"
   },
   {
-    "id": "Nugget Ayam",
-    "en": "Chicken Nugget"
+    "id": "enam",
+    "en": "six"
   },
   {
-    "id": "Ayam Goreng",
-    "en": "Fried Chicken"
+    "id": "tujuh",
+    "en": "seven"
   },
   {
-    "id": "Kebab",
-    "en": "Kebab"
+    "id": "delapan",
+    "en": "eight"
   },
   {
-    "id": "Popcorn",
-    "en": "Popcorn"
+    "id": "sembilan",
+    "en": "nine"
   },
   {
-    "id": "Bawang Goreng Cincin",
-    "en": "Onion Rings"
+    "id": "sepuluh",
+    "en": "ten"
   },
   {
-    "id": "Milkshake",
-    "en": "Milkshake"
+    "id": "sebelas",
+    "en": "eleven"
   },
   {
-    "id": "Roti Gulung",
-    "en": "Wrap"
+    "id": "dua belas",
+    "en": "twelve"
   },
   {
-    "id": "Quesadilla",
-    "en": "Quesadilla"
+    "id": "tiga belas",
+    "en": "thirteen"
   },
   {
-    "id": "Corn Dog",
-    "en": "Corn Dog"
+    "id": "empat belas",
+    "en": "fourteen"
   },
   {
-    "id": "Pretzel",
-    "en": "Pretzel"
+    "id": "lima belas",
+    "en": "fifteen"
   },
   {
-    "id": "Nachos",
-    "en": "Nachos"
+    "id": "enam belas",
+    "en": "sixteen"
   },
   {
-    "id": "Bubur Gandum",
-    "en": "Oatmeal"
+    "id": "tujuh belas",
+    "en": "seventeen"
   },
   {
-    "id": "Sereal",
-    "en": "Cereal"
+    "id": "delapan belas",
+    "en": "eighteen"
   },
   {
-    "id": "Roti Panggang",
-    "en": "Toast"
+    "id": "sembilan belas",
+    "en": "nineteen"
   },
   {
-    "id": "Telur Dadar",
-    "en": "Omelette"
+    "id": "dua puluh",
+    "en": "twenty"
   },
   {
-    "id": "Bacon",
-    "en": "Bacon"
+    "id": "tiga puluh",
+    "en": "thirty"
   },
   {
-    "id": "Sosis",
-    "en": "Sausage"
+    "id": "empat puluh",
+    "en": "forty"
   },
   {
-    "id": "Croissant",
-    "en": "Croissant"
+    "id": "lima puluh",
+    "en": "fifty"
   },
   {
-    "id": "Selai",
-    "en": "Jam"
+    "id": "enam puluh",
+    "en": "sixty"
   },
   {
-    "id": "Yogurt",
-    "en": "Yogurt"
+    "id": "tujuh puluh",
+    "en": "seventy"
   },
   {
-    "id": "Granola",
-    "en": "Granola"
+    "id": "delapan puluh",
+    "en": "eighty"
   },
   {
-    "id": "Jus Kental",
-    "en": "Smoothie"
+    "id": "sembilan puluh",
+    "en": "ninety"
   },
   {
-    "id": "Bagel",
-    "en": "Bagel"
+    "id": "seratus",
+    "en": "hundred"
   },
   {
-    "id": "Kentang Parut Goreng",
-    "en": "Hash Browns"
+    "id": "atap",
+    "en": "roof"
   },
   {
-    "id": "Panekuk",
-    "en": "Pancake"
+    "id": "pintu",
+    "en": "door"
   },
   {
-    "id": "Roti Panggang Perancis",
-    "en": "French Toast"
+    "id": "jendela",
+    "en": "window"
   },
   {
-    "id": "Bubur",
-    "en": "Porridge"
+    "id": "dinding",
+    "en": "wall"
   },
   {
-    "id": "Mentega",
-    "en": "Butter"
+    "id": "pagar",
+    "en": "fence"
   },
   {
-    "id": "Krim",
-    "en": "Cream"
+    "id": "tangga",
+    "en": "stairs"
   },
   {
-    "id": "Susu Asam",
-    "en": "Buttermilk"
+    "id": "balkon",
+    "en": "balcony"
   },
   {
-    "id": "Krim Kocok",
-    "en": "Whipped Cream"
+    "id": "garasi",
+    "en": "garage"
   },
   {
-    "id": "Susu Kental Manis",
-    "en": "Condensed Milk"
+    "id": "kebun",
+    "en": "garden"
   },
   {
-    "id": "Dadih Susu",
-    "en": "Curd"
+    "id": "kotak surat",
+    "en": "mailbox"
   },
   {
-    "id": "Krim Asam",
-    "en": "Sour Cream"
+    "id": "kubus",
+    "en": "cube"
   },
   {
-    "id": "Keju Mozzarella",
-    "en": "Mozzarella"
+    "id": "bola",
+    "en": "sphere"
   },
   {
-    "id": "Keju Cottage",
-    "en": "Cottage Cheese"
+    "id": "tabung",
+    "en": "cylinder"
   },
   {
-    "id": "Keju Cheddar",
-    "en": "Cheddar Cheese"
+    "id": "kerucut",
+    "en": "cone"
   },
   {
-    "id": "Keju Parmesan",
-    "en": "Parmesan Cheese"
+    "id": "piramida",
+    "en": "pyramid"
   },
   {
-    "id": "Minyak Samin",
-    "en": "Ghee"
+    "id": "balok",
+    "en": "cuboid"
   },
   {
-    "id": "Susu Rendah Lemak",
-    "en": "Skim Milk"
+    "id": "prisma",
+    "en": "prism"
   },
   {
-    "id": "Susu Bubuk",
-    "en": "Powdered Milk"
+    "id": "donat",
+    "en": "torus"
   },
   {
-    "id": "Almon",
-    "en": "Almond"
+    "id": "matahari",
+    "en": "sun"
   },
   {
-    "id": "Kacang Tanah",
-    "en": "Peanut"
+    "id": "bulan",
+    "en": "moon"
   },
   {
-    "id": "Kacang Mete",
-    "en": "Cashew"
+    "id": "bintang",
+    "en": "star"
   },
   {
-    "id": "Kenari",
-    "en": "Walnut"
+    "id": "awan",
+    "en": "cloud"
   },
   {
-    "id": "Pistachio",
-    "en": "Pistachio"
+    "id": "pelangi",
+    "en": "rainbow"
   },
   {
-    "id": "Hazelnut",
-    "en": "Hazelnut"
+    "id": "planet",
+    "en": "planet"
   },
   {
-    "id": "Biji Bunga Matahari",
-    "en": "Sunflower Seed"
+    "id": "bumi",
+    "en": "earth"
   },
   {
-    "id": "Biji Labu",
-    "en": "Pumpkin Seed"
+    "id": "komet",
+    "en": "comet"
   },
   {
-    "id": "Biji Chia",
-    "en": "Chia Seed"
+    "id": "meteor",
+    "en": "meteor"
   },
   {
-    "id": "Biji Wijen",
-    "en": "Sesame Seed"
+    "id": "galaksi",
+    "en": "galaxy"
   },
   {
-    "id": "Kastanye",
-    "en": "Chestnut"
+    "id": "lingkaran",
+    "en": "circle"
   },
   {
-    "id": "Macadamia",
-    "en": "Macadamia"
+    "id": "persegi",
+    "en": "square"
   },
   {
-    "id": "Kacang Pinus",
-    "en": "Pine Nut"
+    "id": "segitiga",
+    "en": "triangle"
   },
   {
-    "id": "Kacang Brazil",
-    "en": "Brazil Nut"
+    "id": "hati",
+    "en": "heart"
   },
   {
-    "id": "Biji Rami",
-    "en": "Flaxseed"
+    "id": "berlian",
+    "en": "diamond"
   },
   {
-    "id": "Biji Poppy",
-    "en": "Poppy Seed"
+    "id": "silang",
+    "en": "cross"
   },
   {
-    "id": "Mawar",
-    "en": "Rose"
+    "id": "panah",
+    "en": "arrow"
   },
   {
-    "id": "Bunga Matahari",
-    "en": "Sunflower"
+    "id": "apel",
+    "en": "apple"
   },
   {
-    "id": "Tulip",
-    "en": "Tulip"
+    "id": "pisang",
+    "en": "banana"
   },
   {
-    "id": "Bunga Aster",
-    "en": "Daisy"
+    "id": "jeruk",
+    "en": "orange"
   },
   {
-    "id": "Bunga Lili",
-    "en": "Lily"
+    "id": "anggur",
+    "en": "grape"
   },
   {
-    "id": "Anggrek",
-    "en": "Orchid"
+    "id": "semangka",
+    "en": "watermelon"
   },
   {
-    "id": "Melati",
-    "en": "Jasmine"
+    "id": "stroberi",
+    "en": "strawberry"
   },
   {
-    "id": "Bunga Teratai",
-    "en": "Lotus"
+    "id": "mangga",
+    "en": "mango"
   },
   {
-    "id": "Bunga Sepatu",
-    "en": "Hibiscus"
+    "id": "nanas",
+    "en": "pineapple"
   },
   {
-    "id": "Bunga Tahi Kotok",
-    "en": "Marigold"
+    "id": "ceri",
+    "en": "cherry"
   },
   {
-    "id": "Bunga Dandelion",
-    "en": "Dandelion"
+    "id": "kelapa",
+    "en": "coconut"
   },
   {
-    "id": "Bunga Anyelir",
-    "en": "Carnation"
+    "id": "persik",
+    "en": "peach"
   },
   {
-    "id": "Lavender",
-    "en": "Lavender"
+    "id": "pir",
+    "en": "pear"
   },
   {
-    "id": "Bunga Poppy",
-    "en": "Poppy"
+    "id": "lemon",
+    "en": "lemon"
   },
   {
-    "id": "Bunga Bakung",
-    "en": "Daffodil"
+    "id": "kiwi",
+    "en": "kiwi"
   },
   {
-    "id": "Bunga Iris",
-    "en": "Iris Flower"
+    "id": "melon",
+    "en": "melon"
   },
   {
-    "id": "Pohon Ek",
-    "en": "Oak Tree"
+    "id": "bluberi",
+    "en": "blueberry"
   },
   {
-    "id": "Pohon Pinus",
-    "en": "Pine Tree"
+    "id": "alpukat",
+    "en": "avocado"
   },
   {
-    "id": "Pohon Palem",
-    "en": "Palm Tree"
+    "id": "tomat",
+    "en": "tomato"
   },
   {
-    "id": "Pohon Maple",
-    "en": "Maple Tree"
+    "id": "zaitun",
+    "en": "olive"
   },
   {
-    "id": "Pohon Beringin",
-    "en": "Banyan Tree"
+    "id": "jambu biji",
+    "en": "guava"
   },
   {
-    "id": "Bambu",
-    "en": "Bamboo"
+    "id": "delima",
+    "en": "pomegranate"
   },
   {
-    "id": "Pohon Willow",
-    "en": "Willow Tree"
+    "id": "januari",
+    "en": "january"
   },
   {
-    "id": "Pohon Cedar",
-    "en": "Cedar Tree"
+    "id": "februari",
+    "en": "february"
   },
   {
-    "id": "Pohon Birch",
-    "en": "Birch Tree"
+    "id": "maret",
+    "en": "march"
   },
   {
-    "id": "Pohon Mangga",
-    "en": "Mango Tree"
+    "id": "april",
+    "en": "april"
   },
   {
-    "id": "Pohon Sakura",
-    "en": "Cherry Blossom Tree"
+    "id": "mei",
+    "en": "may"
   },
   {
-    "id": "Pohon Mahoni",
-    "en": "Mahogany Tree"
+    "id": "juni",
+    "en": "june"
   },
   {
-    "id": "Pohon Jati",
-    "en": "Teak Tree"
+    "id": "juli",
+    "en": "july"
   },
   {
-    "id": "Pohon Baobab",
-    "en": "Baobab Tree"
+    "id": "agustus",
+    "en": "august"
   },
   {
-    "id": "Paru-paru",
-    "en": "Lung"
+    "id": "september",
+    "en": "september"
   },
   {
-    "id": "Lambung",
-    "en": "Stomach (organ)"
+    "id": "oktober",
+    "en": "october"
   },
   {
-    "id": "Hati",
-    "en": "Liver"
+    "id": "november",
+    "en": "november"
   },
   {
-    "id": "Ginjal",
-    "en": "Kidney"
+    "id": "desember",
+    "en": "december"
   },
   {
-    "id": "Otot",
-    "en": "Muscle"
+    "id": "elang",
+    "en": "eagle"
   },
   {
-    "id": "Pembuluh Darah",
-    "en": "Vein"
+    "id": "beo",
+    "en": "parrot"
   },
   {
-    "id": "Tulang Rusuk",
-    "en": "Rib"
+    "id": "merak",
+    "en": "peacock"
   },
   {
-    "id": "Tulang Punggung",
-    "en": "Spine"
+    "id": "flamingo",
+    "en": "flamingo"
   },
   {
-    "id": "Usus",
-    "en": "Intestine"
+    "id": "angsa",
+    "en": "swan"
   },
   {
-    "id": "Saraf",
-    "en": "Nerve"
+    "id": "merpati",
+    "en": "dove"
   },
   {
-    "id": "Kulit",
-    "en": "Skin"
+    "id": "kalkun",
+    "en": "turkey"
   },
   {
-    "id": "Darah",
-    "en": "Blood"
+    "id": "ayam jantan",
+    "en": "rooster"
   },
   {
-    "id": "Tendon",
-    "en": "Tendon"
+    "id": "burung pipit",
+    "en": "sparrow"
   },
   {
-    "id": "Ligamen",
-    "en": "Ligament"
+    "id": "burung gagak",
+    "en": "crow"
   },
   {
-    "id": "Arteri",
-    "en": "Artery"
+    "id": "anak ayam",
+    "en": "chick"
   },
   {
-    "id": "Pankreas",
-    "en": "Pancreas"
+    "id": "cerah",
+    "en": "sunny"
   },
   {
-    "id": "Melompat",
-    "en": "Jump"
+    "id": "berawan",
+    "en": "cloudy"
   },
   {
-    "id": "Berlari",
-    "en": "Run"
+    "id": "hujan",
+    "en": "rainy"
   },
   {
-    "id": "Berjalan",
-    "en": "Walk"
+    "id": "badai",
+    "en": "stormy"
   },
   {
-    "id": "Merangkak",
-    "en": "Crawl"
+    "id": "bersalju",
+    "en": "snowy"
   },
   {
-    "id": "Memanjat",
-    "en": "Climb"
+    "id": "berangin",
+    "en": "windy"
   },
   {
-    "id": "Berenang",
-    "en": "Swim"
+    "id": "berkabut",
+    "en": "foggy"
   },
   {
-    "id": "Menari",
-    "en": "Dance"
+    "id": "panas",
+    "en": "hot"
   },
   {
-    "id": "Bertepuk Tangan",
-    "en": "Clap"
+    "id": "dingin",
+    "en": "cold"
   },
   {
-    "id": "Melambai",
-    "en": "Wave"
+    "id": "petir",
+    "en": "thunder"
   },
   {
-    "id": "Meregangkan Badan",
-    "en": "Stretch"
+    "id": "payung",
+    "en": "umbrella"
   },
   {
-    "id": "Membungkuk",
-    "en": "Bend"
+    "id": "senin",
+    "en": "monday"
   },
   {
-    "id": "Menendang",
-    "en": "Kick"
+    "id": "selasa",
+    "en": "tuesday"
   },
   {
-    "id": "Melempar",
-    "en": "Throw"
+    "id": "rabu",
+    "en": "wednesday"
   },
   {
-    "id": "Menangkap",
-    "en": "Catch"
+    "id": "kamis",
+    "en": "thursday"
   },
   {
-    "id": "Mendorong",
-    "en": "Push"
+    "id": "jumat",
+    "en": "friday"
   },
   {
-    "id": "Menarik",
-    "en": "Pull"
+    "id": "sabtu",
+    "en": "saturday"
   },
   {
-    "id": "Tersenyum",
-    "en": "Smile"
+    "id": "minggu",
+    "en": "sunday"
   },
   {
-    "id": "Cemberut",
-    "en": "Frown"
+    "id": "ikan",
+    "en": "fish"
   },
   {
-    "id": "Tertawa",
-    "en": "Laugh"
+    "id": "hiu",
+    "en": "shark"
   },
   {
-    "id": "Menangis",
-    "en": "Cry"
+    "id": "gurita",
+    "en": "octopus"
   },
   {
-    "id": "Mengedipkan Mata",
-    "en": "Wink"
+    "id": "kepiting",
+    "en": "crab"
   },
   {
-    "id": "Menguap",
-    "en": "Yawn"
+    "id": "lumba-lumba",
+    "en": "dolphin"
   },
   {
-    "id": "Berkedip",
-    "en": "Blink"
+    "id": "paus",
+    "en": "whale"
   },
   {
-    "id": "Merengut",
-    "en": "Pout"
+    "id": "kura-kura laut",
+    "en": "turtle"
   },
   {
-    "id": "Menyeringai",
-    "en": "Grin"
+    "id": "bintang laut",
+    "en": "starfish"
   },
   {
-    "id": "Cekikikan",
-    "en": "Giggle"
+    "id": "ubur-ubur",
+    "en": "jellyfish"
   },
   {
-    "id": "Terisak",
-    "en": "Sob"
+    "id": "kuda laut",
+    "en": "seahorse"
   },
   {
-    "id": "Terkekeh",
-    "en": "Chuckle"
+    "id": "cumi-cumi",
+    "en": "squid"
   },
   {
-    "id": "Merona",
-    "en": "Blush"
+    "id": "lobster",
+    "en": "lobster"
   },
   {
-    "id": "Terkejut",
-    "en": "Gasp"
+    "id": "udang",
+    "en": "shrimp"
   },
   {
-    "id": "Sekop",
-    "en": "Shovel"
+    "id": "anjing laut",
+    "en": "seal"
   },
   {
-    "id": "Selang Taman",
-    "en": "Garden Hose"
+    "id": "berang-berang",
+    "en": "otter"
   },
   {
-    "id": "Sekop Kecil",
-    "en": "Trowel"
+    "id": "ikan buntal",
+    "en": "blowfish"
   },
   {
-    "id": "Gunting Ranting",
-    "en": "Pruner"
+    "id": "ikan hias",
+    "en": "tropical fish"
   },
   {
-    "id": "Rumah Kaca",
-    "en": "Greenhouse"
+    "id": "kerang",
+    "en": "clam"
   },
   {
-    "id": "Alat Penyiram Otomatis",
-    "en": "Sprinkler"
+    "id": "karang",
+    "en": "coral"
   },
   {
-    "id": "Mesin Pemotong Rumput",
-    "en": "Lawn Mower"
+    "id": "anjing",
+    "en": "dog"
   },
   {
-    "id": "Kompos",
-    "en": "Compost"
+    "id": "kucing",
+    "en": "cat"
   },
   {
-    "id": "Garpu Taman",
-    "en": "Garden Fork"
+    "id": "kelinci",
+    "en": "rabbit"
   },
   {
-    "id": "Ajir Tanaman",
-    "en": "Plant Stake"
+    "id": "gajah",
+    "en": "elephant"
   },
   {
-    "id": "Bibit Tanaman",
-    "en": "Seedling"
+    "id": "singa",
+    "en": "lion"
   },
   {
-    "id": "Tali Taman",
-    "en": "Garden Twine"
+    "id": "harimau",
+    "en": "tiger"
   },
   {
-    "id": "Blender",
-    "en": "Blender"
+    "id": "monyet",
+    "en": "monkey"
   },
   {
-    "id": "Pemanggang Roti",
-    "en": "Toaster"
+    "id": "ayam",
+    "en": "chicken"
   },
   {
-    "id": "Microwave",
-    "en": "Microwave"
+    "id": "sapi",
+    "en": "cow"
   },
   {
-    "id": "Oven",
-    "en": "Oven"
+    "id": "kuda",
+    "en": "horse"
   },
   {
-    "id": "Kulkas",
-    "en": "Refrigerator"
+    "id": "beruang",
+    "en": "bear"
   },
   {
-    "id": "Ketel Listrik",
-    "en": "Electric Kettle"
+    "id": "rubah",
+    "en": "fox"
   },
   {
-    "id": "Mixer Kue",
-    "en": "Mixer"
+    "id": "rusa",
+    "en": "deer"
   },
   {
-    "id": "Penanak Nasi",
-    "en": "Rice Cooker"
+    "id": "serigala",
+    "en": "wolf"
   },
   {
-    "id": "Mesin Kopi",
-    "en": "Coffee Maker"
+    "id": "zebra",
+    "en": "zebra"
   },
   {
-    "id": "Mesin Cuci Piring",
-    "en": "Dishwasher"
+    "id": "jerapah",
+    "en": "giraffe"
   },
   {
-    "id": "Freezer",
-    "en": "Freezer"
+    "id": "panda",
+    "en": "panda"
   },
   {
-    "id": "Penggiling Makanan",
-    "en": "Food Processor"
+    "id": "koala",
+    "en": "koala"
   },
   {
-    "id": "Panci Masak Lambat",
-    "en": "Slow Cooker"
+    "id": "kanguru",
+    "en": "kangaroo"
   },
   {
-    "id": "Air Fryer",
-    "en": "Air Fryer"
+    "id": "tupai",
+    "en": "squirrel"
   },
   {
-    "id": "Alat Peras Jus",
-    "en": "Juicer"
+    "id": "tikus",
+    "en": "mouse"
   },
   {
-    "id": "Kompor",
-    "en": "Stove"
+    "id": "domba",
+    "en": "sheep"
   },
   {
-    "id": "Bata",
-    "en": "Brick"
+    "id": "kambing",
+    "en": "goat"
   },
   {
-    "id": "Semen",
-    "en": "Cement"
+    "id": "babi",
+    "en": "pig"
   },
   {
-    "id": "Kayu",
-    "en": "Wood"
+    "id": "bebek",
+    "en": "duck"
   },
   {
-    "id": "Kaca",
-    "en": "Glass"
+    "id": "burung hantu",
+    "en": "owl"
   },
   {
-    "id": "Baja",
-    "en": "Steel"
+    "id": "katak",
+    "en": "frog"
   },
   {
-    "id": "Pasir",
-    "en": "Sand"
+    "id": "ular",
+    "en": "snake"
   },
   {
-    "id": "Beton",
-    "en": "Concrete"
+    "id": "unta",
+    "en": "camel"
   },
   {
-    "id": "Ubin",
-    "en": "Tile"
+    "id": "pinguin",
+    "en": "penguin"
   },
   {
-    "id": "Kawat",
-    "en": "Wire"
+    "id": "kelelawar",
+    "en": "bat"
   },
   {
-    "id": "Pipa",
-    "en": "Pipe"
+    "id": "pot bunga",
+    "en": "flower pot"
   },
   {
-    "id": "Cat",
-    "en": "Paint"
+    "id": "bibit",
+    "en": "seed"
   },
   {
-    "id": "Perancah",
-    "en": "Scaffolding"
+    "id": "bunga",
+    "en": "flower"
   },
   {
-    "id": "Kayu Lapis",
-    "en": "Plywood"
+    "id": "pohon",
+    "en": "tree"
   },
   {
-    "id": "Marmer",
-    "en": "Marble"
+    "id": "keranjang",
+    "en": "basket"
   },
   {
-    "id": "Katun",
-    "en": "Cotton"
+    "id": "sarung tangan kebun",
+    "en": "gardening gloves"
   },
   {
-    "id": "Sutra",
-    "en": "Silk"
+    "id": "daun",
+    "en": "leaf"
   },
   {
-    "id": "Wol",
-    "en": "Wool"
+    "id": "rumput",
+    "en": "grass"
   },
   {
-    "id": "Kulit Sintetis",
-    "en": "Leather"
+    "id": "boneka",
+    "en": "doll"
   },
   {
-    "id": "Denim",
-    "en": "Denim"
+    "id": "boneka beruang",
+    "en": "teddy bear"
   },
   {
-    "id": "Linen",
-    "en": "Linen"
+    "id": "layang-layang",
+    "en": "kite"
   },
   {
-    "id": "Poliester",
-    "en": "Polyester"
+    "id": "balon",
+    "en": "balloon"
   },
   {
-    "id": "Nilon",
-    "en": "Nylon"
+    "id": "balok",
+    "en": "blocks"
   },
   {
-    "id": "Beludru",
-    "en": "Velvet"
+    "id": "puzzle",
+    "en": "puzzle"
   },
   {
-    "id": "Satin",
-    "en": "Satin"
+    "id": "robot",
+    "en": "robot"
   },
   {
-    "id": "Renda",
-    "en": "Lace"
+    "id": "yoyo",
+    "en": "yo-yo"
   },
   {
-    "id": "Kain Flanel",
-    "en": "Felt"
+    "id": "mobil mainan",
+    "en": "toy car"
   },
   {
-    "id": "Kanvas",
-    "en": "Canvas"
+    "id": "roti",
+    "en": "bread"
   },
   {
-    "id": "Kain Fleece",
-    "en": "Fleece"
+    "id": "nasi",
+    "en": "rice"
   },
   {
-    "id": "Garis-garis",
-    "en": "Stripes"
+    "id": "mi",
+    "en": "noodles"
   },
   {
-    "id": "Motif Bintik",
-    "en": "Polka Dots"
+    "id": "telur",
+    "en": "egg"
   },
   {
-    "id": "Kotak-kotak",
-    "en": "Checkered"
+    "id": "keju",
+    "en": "cheese"
   },
   {
-    "id": "Motif Bunga",
-    "en": "Floral Pattern"
+    "id": "susu",
+    "en": "milk"
   },
   {
-    "id": "Motif Kotak Skotlandia",
-    "en": "Plaid"
+    "id": "air",
+    "en": "water"
   },
   {
-    "id": "Zigzag",
-    "en": "Zigzag"
+    "id": "jus",
+    "en": "juice"
   },
   {
-    "id": "Loreng",
-    "en": "Camouflage"
+    "id": "teh",
+    "en": "tea"
   },
   {
-    "id": "Motif Paisley",
-    "en": "Paisley"
+    "id": "kopi",
+    "en": "coffee"
   },
   {
-    "id": "Motif Geometris",
-    "en": "Geometric Pattern"
+    "id": "kue",
+    "en": "cake"
   },
   {
-    "id": "Gradasi Warna",
-    "en": "Gradient"
+    "id": "es krim",
+    "en": "ice cream"
   },
   {
-    "id": "Motif Ikat Celup",
-    "en": "Tie-Dye"
+    "id": "coklat",
+    "en": "chocolate"
   },
   {
-    "id": "Motif Chevron",
-    "en": "Chevron"
+    "id": "permen",
+    "en": "candy"
   },
   {
-    "id": "Motif Argyle",
-    "en": "Argyle"
+    "id": "pizza",
+    "en": "pizza"
   },
   {
-    "id": "Motif Herringbone",
-    "en": "Herringbone"
+    "id": "burger",
+    "en": "burger"
   },
   {
-    "id": "Motif Houndstooth",
-    "en": "Houndstooth"
+    "id": "kentang goreng",
+    "en": "french fries"
   },
   {
-    "id": "Motif Tartan",
-    "en": "Tartan"
+    "id": "sandwic",
+    "en": "sandwich"
   },
   {
-    "id": "Tambah",
-    "en": "Plus"
+    "id": "sup",
+    "en": "soup"
   },
   {
-    "id": "Kurang",
-    "en": "Minus"
+    "id": "madu",
+    "en": "honey"
   },
   {
-    "id": "Sama Dengan",
-    "en": "Equals"
+    "id": "sepak bola",
+    "en": "soccer"
   },
   {
-    "id": "Setengah",
-    "en": "Half"
+    "id": "basket",
+    "en": "basketball"
   },
   {
-    "id": "Seperempat",
-    "en": "Quarter"
+    "id": "tenis",
+    "en": "tennis"
   },
   {
-    "id": "Dua Kali Lipat",
-    "en": "Double"
+    "id": "bisbol",
+    "en": "baseball"
   },
   {
-    "id": "Tiga Kali Lipat",
-    "en": "Triple"
+    "id": "bola voli",
+    "en": "volleyball"
   },
   {
-    "id": "Sepasang",
-    "en": "Pair"
+    "id": "bulu tangkis",
+    "en": "badminton"
   },
   {
-    "id": "Selusin",
-    "en": "Dozen"
+    "id": "tenis meja",
+    "en": "table tennis"
   },
   {
-    "id": "Bilangan Ganjil",
-    "en": "Odd Number"
+    "id": "berenang",
+    "en": "swimming"
   },
   {
-    "id": "Bilangan Genap",
-    "en": "Even Number"
+    "id": "lari",
+    "en": "running"
   },
   {
-    "id": "Jumlah",
-    "en": "Sum"
+    "id": "bersepeda",
+    "en": "cycling"
   },
   {
-    "id": "Menambahkan",
-    "en": "Add"
+    "id": "tinju",
+    "en": "boxing"
   },
   {
-    "id": "Mengurangkan",
-    "en": "Subtract"
+    "id": "golf",
+    "en": "golf"
   },
   {
-    "id": "Hari Ini",
-    "en": "Today"
+    "id": "boling",
+    "en": "bowling"
   },
   {
-    "id": "Besok",
-    "en": "Tomorrow"
+    "id": "skateboard",
+    "en": "skateboarding"
   },
   {
-    "id": "Kemarin",
-    "en": "Yesterday"
+    "id": "panahan",
+    "en": "archery"
   },
   {
-    "id": "Minggu",
-    "en": "Week"
+    "id": "selancar",
+    "en": "surfing"
   },
   {
-    "id": "Akhir Pekan",
-    "en": "Weekend"
+    "id": "kemeja",
+    "en": "shirt"
   },
   {
-    "id": "Bulan",
-    "en": "Month"
+    "id": "celana",
+    "en": "pants"
   },
   {
-    "id": "Tahun",
-    "en": "Year"
+    "id": "gaun",
+    "en": "dress"
   },
   {
-    "id": "Jam (Waktu)",
-    "en": "Hour"
+    "id": "sepatu",
+    "en": "shoes"
   },
   {
-    "id": "Menit",
-    "en": "Minute"
+    "id": "kaus kaki",
+    "en": "socks"
   },
   {
-    "id": "Detik",
-    "en": "Second (time)"
+    "id": "topi",
+    "en": "hat"
   },
   {
-    "id": "Sebentar Lagi",
-    "en": "Soon"
+    "id": "topi baseball",
+    "en": "cap"
   },
   {
-    "id": "Nanti",
-    "en": "Later"
+    "id": "jaket",
+    "en": "jacket"
   },
   {
-    "id": "Awal Waktu",
-    "en": "Early"
+    "id": "kacamata",
+    "en": "glasses"
   },
   {
-    "id": "Terlambat",
-    "en": "Late"
+    "id": "kacamata hitam",
+    "en": "sunglasses"
   },
   {
-    "id": "Besar",
-    "en": "Big"
+    "id": "sarung tangan",
+    "en": "glove"
   },
   {
-    "id": "Kecil",
-    "en": "Small"
+    "id": "syal",
+    "en": "scarf"
   },
   {
-    "id": "Tinggi",
-    "en": "Tall"
+    "id": "dasi",
+    "en": "tie"
   },
   {
-    "id": "Pendek",
-    "en": "Short"
+    "id": "dokter",
+    "en": "doctor"
   },
   {
-    "id": "Panjang",
-    "en": "Long"
+    "id": "guru",
+    "en": "teacher"
   },
   {
-    "id": "Lebar",
-    "en": "Wide"
+    "id": "polisi",
+    "en": "police officer"
   },
   {
-    "id": "Sempit",
-    "en": "Narrow"
+    "id": "pemadam kebakaran",
+    "en": "firefighter"
   },
   {
-    "id": "Tebal",
-    "en": "Thick"
+    "id": "petani",
+    "en": "farmer"
   },
   {
-    "id": "Tipis",
-    "en": "Thin"
+    "id": "koki",
+    "en": "chef"
   },
   {
-    "id": "Berat",
-    "en": "Heavy"
+    "id": "pilot",
+    "en": "pilot"
   },
   {
-    "id": "Ringan",
-    "en": "Light (weight)"
+    "id": "perawat",
+    "en": "nurse"
   },
   {
-    "id": "Sangat Besar",
-    "en": "Huge"
+    "id": "ilmuwan",
+    "en": "scientist"
   },
   {
-    "id": "Sangat Kecil",
-    "en": "Tiny"
+    "id": "seniman",
+    "en": "artist"
   }
 ]

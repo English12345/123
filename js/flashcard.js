@@ -37,8 +37,17 @@
     return teks.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   }
 
+  // Kunci audio = slug(en) + "-" + slug(id). Kenapa bukan slug(en) saja?
+  // Karena ada kata Inggris yang sama tapi artinya beda tergantung kategori
+  // (contoh: "Orange" = Jeruk di kategori Buah, tapi = Oranye di kategori Warna;
+  // "Heart" = Jantung di Anggota Tubuh, tapi = Hati di Bentuk). Kalau kuncinya
+  // cuma slug(en), audio Indonesia salah satu kategori bisa ketuker diam-diam.
+  function kunciAudio(item) {
+    return `${slugKata(item.en)}-${slugKata(item.id)}`;
+  }
+
   // ==== Cache preload: simpan objek Audio yang sudah mulai/selesai didownload ====
-  const audioCache = {}; // key: slug, value: { id: Audio, en: Audio }
+  const audioCache = {}; // key: en-slug + "-" + id-slug, value: { id: Audio, en: Audio }
 
   function buatAudio(url) {
     const a = new Audio(url);
@@ -49,11 +58,11 @@
 
   function preloadKata(item) {
     if (!item) return;
-    const slug = slugKata(item.en);
-    if (audioCache[slug]) return; // sudah pernah di-preload
-    audioCache[slug] = {
-      id: buatAudio(`${BASE_URL_AUDIO}/id/${slug}.mp3`),
-      en: buatAudio(`${BASE_URL_AUDIO}/en/${slug}.mp3`)
+    const kunci = kunciAudio(item);
+    if (audioCache[kunci]) return; // sudah pernah di-preload
+    audioCache[kunci] = {
+      id: buatAudio(`${BASE_URL_AUDIO}/id/${kunci}.mp3`),
+      en: buatAudio(`${BASE_URL_AUDIO}/en/${kunci}.mp3`)
     };
   }
 
@@ -66,11 +75,11 @@
   }
 
   function ucapkanDwiBahasa(item) {
-    const slug = slugKata(item.en);
+    const kunci = kunciAudio(item);
     preloadKata(item); // jaga-jaga kalau belum sempat ke-preload
 
     // Pakai audio dari cache (kalau sudah didownload = langsung bunyi tanpa loading)
-    const cached = audioCache[slug];
+    const cached = audioCache[kunci];
     const audioId = cached.id;
     const audioEn = cached.en;
 

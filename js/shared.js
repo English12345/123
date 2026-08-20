@@ -33,6 +33,19 @@ function pasangTransisiHalaman() {
 }
 document.addEventListener('DOMContentLoaded', pasangTransisiHalaman);
 
+// PENTING: tombol back/forward bawaan HP & browser sering me-restore
+// halaman dari "bfcache" (snapshot memori), BUKAN reload dari awal —
+// jadi event DOMContentLoaded di atas TIDAK terpicu ulang. Kalau tanpa
+// ini, halaman bisa nyangkut transparan (opacity 0, dari kelas
+// "halaman-keluar" yang sempat ditambahkan sebelum pindah halaman) dan
+// keliatan putih kosong. "pageshow" tetap terpicu di kedua kasus
+// (reload biasa maupun restore dari bfcache), jadi dipakai buat
+// memastikan halaman selalu balik terlihat.
+window.addEventListener('pageshow', () => {
+  document.body.classList.remove('halaman-keluar');
+  document.body.classList.add('halaman-siap');
+});
+
 // ============================================================
 // STREAK HARIAN — hitung berapa hari berturut-turut pengguna
 // membuka aplikasi (dashboard/flashcard/quiz), per akun.
@@ -325,13 +338,6 @@ async function cekDanKunciDevice(username) {
       });
       if (!resDaftar.ok) throw new Error('Gagal mendaftarkan device');
 
-      // npoint.io tidak punya "tulis hanya kalau masih kosong" (atomic
-      // compare-and-swap) DAN kita menimpa seluruh isi bin setiap POST,
-      // jadi ada celah kecil: device lain (untuk username sama ATAU
-      // username lain) bisa saja menulis di waktu hampir bersamaan dan
-      // sebagian tertimpa. Baca ulang untuk mempersempit celah itu
-      // (bukan menghilangkan total — itu butuh backend dengan transaksi,
-      // di luar npoint.io).
       const resVerifikasi = await fetchDenganRetry(DEVICE_LOCK.npointUrl);
       if (resVerifikasi.ok) {
         const dataVerifikasi = await resVerifikasi.json();
@@ -370,13 +376,6 @@ function pasangTombolLogout() {
 }
 
 // Ucapkan kata bahasa Inggris memakai Web Speech API (tanpa perlu file audio).
-//
-// Catatan teknis: di banyak browser (terutama Chrome), daftar suara (voices)
-// tidak langsung siap saat halaman dibuka — butuh sepersekian detik untuk
-// dimuat oleh browser. Kalau kita baru mencari suara SAAT tombol diklik,
-// klik pertama akan terasa "telat" atau bahkan tidak bersuara sama sekali.
-// Solusinya: muat & simpan (cache) suara Inggris SEJAK AWAL halaman dibuka,
-// jadi saat kartu/tombol diklik, suara sudah siap dan langsung terdengar.
 let suaraInggrisTerpilih = null;
 
 function muatCacheSuaraInggris() {
@@ -400,9 +399,6 @@ function ucapkanKata(teks) {
   if (!('speechSynthesis' in window)) return;
   const synth = window.speechSynthesis;
 
-  // Hanya batalkan ucapan sebelumnya kalau memang masih ada yang berjalan.
-  // Memanggil cancel() setiap saat (walau tidak sedang bicara) justru bisa
-  // membuat browser lambat merespons klik berikutnya.
   if (synth.speaking || synth.pending) synth.cancel();
   if (synth.paused) synth.resume();
 
@@ -419,19 +415,11 @@ function ambilParam(nama) {
   return new URLSearchParams(window.location.search).get(nama);
 }
 
-// Muat daftar kategori aktif dari manifest.json, lalu ambil detail tiap file kategori.
-//
-// PENTING (performa): manifest.json sekarang menyimpan "kategoriRingkas" — ringkasan
-// tiap kategori (nama, ikon, warna, jumlah kata) langsung di dalamnya. Jadi dashboard
-// TIDAK perlu lagi fetch 100+ file kategori terpisah satu-satu, cukup 1 kali fetch
-// manifest.json. Detail lengkap (daftar kata) baru di-fetch saat masuk ke satu
-// kategori spesifik lewat muatDetailKategori().
 async function muatDaftarKategori() {
   const resManifest = await fetch('data/manifest.json');
   if (!resManifest.ok) throw new Error('Gagal memuat manifest.json');
   const manifest = await resManifest.json();
 
-  // Jalur cepat: manifest sudah punya ringkasan siap pakai.
   if (Array.isArray(manifest.kategoriRingkas) && manifest.kategoriRingkas.length) {
     return manifest.kategoriRingkas
       .map(d => ({
@@ -445,7 +433,6 @@ async function muatDaftarKategori() {
       .sort((a, b) => a.urutan - b.urutan || a.nama.localeCompare(b.nama));
   }
 
-  // Jalur cadangan (manifest format lama, tanpa kategoriRingkas): fetch satu-satu.
   const daftarId = manifest.aktif || [];
   const semuaKategori = await Promise.all(
     daftarId.map(async (id) => {
@@ -473,18 +460,12 @@ async function muatDaftarKategori() {
     .sort((a, b) => a.urutan - b.urutan || a.nama.localeCompare(b.nama));
 }
 
-// Muat detail lengkap satu kategori (termasuk daftar katanya).
 async function muatDetailKategori(id) {
   const res = await fetch(`data/categories/${id}.json`);
   if (!res.ok) throw new Error('Kategori tidak ditemukan');
   return res.json();
 }
 
-// ============================================================
-// PROGRESS TRACKING — kata yang sudah dikuasai & hasil kuis.
-// Disimpan per akun (namaPengguna) supaya kalau HP dipakai ulang
-// oleh pembeli lain, progress tidak ikut kebawa/kecampur.
-// ============================================================
 function kunciProgres() {
   const username = localStorage.getItem('namaPengguna') || 'tamu';
   return `progresBelajarKata_${username}`;
@@ -504,7 +485,6 @@ function simpanSemuaProgres(semuaProgres) {
   localStorage.setItem(kunciProgres(), JSON.stringify(semuaProgres));
 }
 
-// Bentuk data default untuk satu kategori kalau belum pernah disentuh.
 function progresKosong() {
   return { hafal: [], kuisTerbaik: null, kuisTerakhir: null };
 }
@@ -514,8 +494,6 @@ function ambilProgresKategori(kategoriId) {
   return semua[kategoriId] || progresKosong();
 }
 
-// Tandai/batalkan satu kata sebagai "sudah hafal". Dipakai di flashcard.html.
-// Mengembalikan true/false = status barunya (sudah hafal atau tidak).
 function toggleKataHafal(kategoriId, kataEn) {
   const semua = ambilSemuaProgres();
   const progres = semua[kategoriId] || progresKosong();
@@ -536,8 +514,6 @@ function apakahKataHafal(kategoriId, kataEn) {
   return ambilProgresKategori(kategoriId).hafal.includes(kataEn);
 }
 
-// Simpan hasil kuis. kuisTerakhir selalu ditimpa; kuisTerbaik cuma ditimpa
-// kalau persentase kali ini lebih tinggi dari rekor sebelumnya.
 function simpanHasilKuis(kategoriId, skor, total) {
   const semua = ambilSemuaProgres();
   const progres = semua[kategoriId] || progresKosong();
@@ -555,7 +531,6 @@ function simpanHasilKuis(kategoriId, skor, total) {
   return hasil;
 }
 
-// Ringkasan progres 1 kategori, dipakai buat badge di dashboard.html.
 function ambilRingkasanKategori(kategoriId, totalKata) {
   const progres = ambilProgresKategori(kategoriId);
   return {
@@ -566,8 +541,6 @@ function ambilRingkasanKategori(kategoriId, totalKata) {
   };
 }
 
-// Total kata "hafal" di SEMUA kategori sekaligus, tanpa perlu fetch tiap
-// file kategori — cukup baca localStorage. Dipakai untuk hitung level global.
 function hitungTotalHafalSemuaKategori() {
   const semua = ambilSemuaProgres();
   return Object.values(semua).reduce((sum, p) => sum + (p.hafal ? p.hafal.length : 0), 0);

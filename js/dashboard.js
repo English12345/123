@@ -16,6 +16,30 @@
   const BATAS_TAMPIL_AWAL = 24; // render bertahap, bukan 124 kartu sekaligus, biar ringan
   let batasTampilSaatIni = BATAS_TAMPIL_AWAL;
 
+  // Palet sparkle warna-warni yang dipakai bergantian di sekitar tiap badge icon,
+  // supaya grid kategori terasa lebih hidup & colorful (tidak semua sparkle putih polos).
+  const PALET_SPARK = [
+    'var(--kuning-500)',
+    'var(--coral)',
+    'var(--violet)',
+    'var(--pink-pop)',
+    'var(--tosca-400)',
+  ];
+
+  function buatSparkHtml(indexKartu) {
+    const posisi = [
+      { top: '-4px', left: '-4px' },
+      { top: '-2px', right: '-6px' },
+      { bottom: '-4px', right: '-2px' },
+    ];
+    return posisi.map((pos, i) => {
+      const warna = PALET_SPARK[(indexKartu + i) % PALET_SPARK.length];
+      const styleGap = Object.entries(pos).map(([k, v]) => `${k}:${v}`).join(';');
+      const delay = (indexKartu * 0.2 + i * 0.6).toFixed(2);
+      return `<span class="icon-spark" style="${styleGap}; color:${warna}; animation-delay:${delay}s"></span>`;
+    }).join('');
+  }
+
   function renderGrid() {
     const kataKunci = searchInput.value.trim().toLowerCase();
 
@@ -38,7 +62,7 @@
     const dipotong = sedangMencariAtauFilter ? hasilFilter : hasilFilter.slice(0, batasTampilSaatIni);
     const masihAdaSisa = !sedangMencariAtauFilter && hasilFilter.length > dipotong.length;
 
-    grid.innerHTML = dipotong.map(({ kat, ringkasan }) => {
+    grid.innerHTML = dipotong.map(({ kat, ringkasan }, idx) => {
       const infoKuis = ringkasan.kuisTerbaik ? ` · 🧠 ${ringkasan.kuisTerbaik.persen}%` : '';
       const lencana = tentukanLencana(ringkasan.persenHafal);
       const badgeHtml = lencana ? `<div class="achievement-badge" title="${lencana.label}">${lencana.emoji}</div>` : '';
@@ -46,7 +70,10 @@
       return `
       <div class="category-card" style="--accent: ${kat.warnaTema}">
         ${badgeHtml}
-        <div class="category-icon">${kat.iconEmoji}</div>
+        <div class="category-icon">
+          ${kat.iconEmoji}
+          ${buatSparkHtml(idx)}
+        </div>
         <h3>${kat.nama}</h3>
         <div class="category-meta">${kat.jumlahKata} kata</div>
         <div class="mini-progress-track">

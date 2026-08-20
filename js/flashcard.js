@@ -226,28 +226,31 @@
     perbaruiTombolAutoplay();
   }
 
-  async function jalankanAutoplay() {
-    while (sedangAutoplay) {
-      // 1) Tab kartu — buka ke sisi jawaban (Inggris)
-      flipCard.classList.add('flipped');
+async function jalankanAutoplay() {
+  while (sedangAutoplay) {
+    // 1) Tab kartu — buka ke sisi jawaban (Inggris)
+    flipCard.classList.add('flipped');
 
-      // 2) Ucap Indonesia lalu Inggris — WAJIB tunggu sampai selesai
-      await ucapkanDwiBahasa(kataList[index]);
-      if (!sedangAutoplay) break; // dibatalkan tepat saat sedang diucapkan
+    // 2) Ucap Indonesia lalu Inggris — WAJIB tunggu sampai selesai
+    await ucapkanDwiBahasa(kataList[index]);
+    if (!sedangAutoplay) break; // dibatalkan tepat saat sedang diucapkan
 
-      await tunggu(500); // jeda singkat biar tidak buru-buru
-      if (!sedangAutoplay) break;
+    await tunggu(500); // jeda singkat biar tidak buru-buru
+    if (!sedangAutoplay) break;
 
-      // 3) Kartu terakhir? Selesai. Kalau belum, lanjut ke kartu berikutnya.
-      if (index >= kataList.length - 1) break;
+    // 3) Kartu terakhir? Kembali ke kartu pertama (loop). Kalau belum, lanjut biasa.
+    if (index >= kataList.length - 1) {
+      index = 0;
+    } else {
       index++;
-      tampilkanKartu(); // otomatis reset tampilan ke sisi depan (Indonesia)
-
-      await tunggu(350); // jeda kecil sebelum "tab kartu" berikutnya
     }
-    sedangAutoplay = false;
-    perbaruiTombolAutoplay();
+    tampilkanKartu(); // otomatis reset tampilan ke sisi depan (Indonesia)
+
+    await tunggu(350); // jeda kecil sebelum "tab kartu" berikutnya
   }
+  sedangAutoplay = false;
+  perbaruiTombolAutoplay();
+}
 
   if (autoplayBtn) {
     autoplayBtn.addEventListener('click', () => {

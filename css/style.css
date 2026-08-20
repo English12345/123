@@ -48,13 +48,19 @@
   50% { transform: rotate(3deg); }
 }
 @keyframes bintang-pop {
-  0% { transform: scale(.4) rotate(-15deg); }
-  60% { transform: scale(1.4) rotate(10deg); }
+  0% { transform: scale(.3) rotate(-25deg); opacity: 0; }
+  45% { transform: scale(1.4) rotate(12deg); opacity: 1; }
+  65% { transform: scale(.9) rotate(-6deg); }
+  85% { transform: scale(1.08) rotate(3deg); }
   100% { transform: scale(1) rotate(0); }
 }
 @keyframes bintang-kilau {
   0%, 100% { filter: brightness(1); }
-  50% { filter: brightness(1.35); }
+  50% { filter: brightness(1.4) drop-shadow(0 0 5px currentColor); }
+}
+@keyframes bintang-ledak {
+  0% { transform: scale(.2); opacity: .8; }
+  100% { transform: scale(2.4); opacity: 0; }
 }
 @keyframes flip-emoji-mengambang {
   0%, 100% { transform: translateY(0) scale(1); }
@@ -325,33 +331,71 @@ a { color: inherit; }
   flex-wrap: wrap;
 }
 .stat-pill {
-  flex: 1;
-  min-width: 150px;
+  position: relative;
+  flex: 1 1 150px;
+  min-width: 0;
   display: flex;
   align-items: center;
   gap: 12px;
-  background: rgba(255, 255, 255, 0.65);
+  background: linear-gradient(160deg, rgba(255,255,255,.88), rgba(255,255,255,.55));
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-  border: 1.5px solid rgba(255, 255, 255, 0.8);
+  border: 1.5px solid rgba(255, 255, 255, 0.85);
   border-radius: var(--radius-md);
-  padding: 14px 18px;
+  padding: 14px 16px;
   box-shadow: var(--shadow-soft);
+  overflow: hidden;
   animation: pop-masuk .4s ease backwards;
 }
+.stat-pill::after {
+  content: "";
+  position: absolute;
+  top: 0; left: -60%;
+  width: 35%; height: 100%;
+  background: linear-gradient(75deg, transparent, rgba(255,255,255,.55), transparent);
+  animation: ikon-kilau 4.5s ease-in-out infinite;
+  pointer-events: none;
+}
 .stat-pill:nth-child(2) { animation-delay: .05s; }
+.stat-pill:nth-child(2)::after { animation-delay: 1.2s; }
 .stat-pill:nth-child(3) { animation-delay: .1s; }
 .stat-pill-icon {
-  font-size: 26px;
+  position: relative;
+  font-size: 22px;
   width: 46px; height: 46px;
   border-radius: 14px;
   display: flex; align-items: center; justify-content: center;
-  background: var(--tosca-100);
+  background: radial-gradient(circle at 30% 25%, color-mix(in srgb, var(--tosca-600) 30%, white), var(--tosca-600) 78%);
+  box-shadow:
+    inset 0 2px 3px rgba(255,255,255,.55),
+    inset 0 -6px 9px rgba(0,0,0,.16),
+    0 6px 14px -6px color-mix(in srgb, var(--tosca-600) 65%, black),
+    0 0 16px -4px color-mix(in srgb, var(--tosca-600) 70%, transparent);
   flex-shrink: 0;
+  animation: ikon-apung 4.8s ease-in-out infinite;
 }
-.stat-pill.streak .stat-pill-icon { background: var(--kuning-100); }
-.stat-pill-value { font-family: var(--font-display); font-size: 20px; color: var(--tosca-900); line-height: 1.1; }
-.stat-pill-label { font-size: 12px; color: var(--ink-soft); font-weight: 700; }
+.stat-pill.streak .stat-pill-icon {
+  background: radial-gradient(circle at 30% 25%, color-mix(in srgb, var(--kuning-500) 35%, white), var(--coral) 85%);
+  box-shadow:
+    inset 0 2px 3px rgba(255,255,255,.55),
+    inset 0 -6px 9px rgba(0,0,0,.16),
+    0 6px 14px -6px color-mix(in srgb, var(--coral) 65%, black),
+    0 0 16px -4px color-mix(in srgb, var(--kuning-500) 75%, transparent);
+}
+.stat-pill-text { min-width: 0; }
+.stat-pill-value {
+  font-family: var(--font-display);
+  font-size: clamp(16px, 4.4vw, 20px);
+  color: var(--tosca-900);
+  line-height: 1.15;
+  white-space: nowrap;
+}
+.stat-pill-label {
+  font-size: 11.5px;
+  color: var(--ink-soft);
+  font-weight: 700;
+  white-space: nowrap;
+}
 
 /* ==== Skeleton loading: dipakai di dashboard sambil menunggu data ==== */
 @keyframes kilau-skeleton {
@@ -394,19 +438,51 @@ a { color: inherit; }
   animation: kilau-skeleton 1.3s ease-in-out infinite;
 }
 
-/* ==== Progress bar mini di dalam kartu kategori ==== */
+/* ==== Progress bar mini di dalam kartu kategori: berkilau + ada pin penanda ==== */
 .mini-progress-track {
-  height: 7px;
+  position: relative;
+  height: 8px;
   border-radius: 999px;
   background: var(--tosca-100);
-  overflow: hidden;
+  overflow: visible;
   z-index: 1;
 }
 .mini-progress-fill {
+  position: absolute;
+  inset: 0;
   height: 100%;
   border-radius: 999px;
   background: linear-gradient(90deg, var(--accent, var(--tosca-600)), var(--kuning-500));
-  transition: width .5s cubic-bezier(.34,1.4,.64,1);
+  transition: width .6s cubic-bezier(.34,1.4,.64,1);
+  overflow: hidden;
+}
+.mini-progress-fill::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.75), transparent);
+  background-size: 50px 100%;
+  background-repeat: no-repeat;
+  animation: progress-kilau 1.8s ease-in-out infinite;
+}
+@keyframes progress-kilau {
+  0% { background-position: -50px 0; }
+  100% { background-position: 220px 0; }
+}
+.progress-pin {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  background: var(--white);
+  border: 2.5px solid var(--kuning-600);
+  box-shadow:
+    0 0 0 3px color-mix(in srgb, var(--accent, var(--kuning-500)) 45%, transparent),
+    0 2px 4px rgba(0,0,0,.25);
+  z-index: 2;
+  pointer-events: none;
+  transition: left .6s cubic-bezier(.34,1.4,.64,1);
 }
 
 /* ==== Lencana pencapaian di pojok kartu kategori ==== */
@@ -480,6 +556,7 @@ a { color: inherit; }
 
 /* ==== Kartu ajakan latihan "Kata Tersulit" ==== */
 .tersulit-card {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 14px;
@@ -488,12 +565,36 @@ a { color: inherit; }
   border-radius: var(--radius-md);
   padding: 14px 18px;
   margin-bottom: 20px;
+  overflow: hidden;
   animation: pop-masuk .4s ease backwards;
 }
-.tersulit-icon { font-size: 30px; flex-shrink: 0; animation: bintang-kilau 2s ease-in-out infinite; }
-.tersulit-text { flex: 1; min-width: 0; }
+.tersulit-card::after {
+  content: "";
+  position: absolute;
+  top: 0; left: -60%;
+  width: 30%; height: 100%;
+  background: linear-gradient(75deg, transparent, rgba(255,255,255,.55), transparent);
+  animation: ikon-kilau 5s ease-in-out infinite;
+  pointer-events: none;
+}
+.tersulit-icon {
+  position: relative;
+  font-size: 24px;
+  width: 48px; height: 48px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  background: radial-gradient(circle at 30% 25%, color-mix(in srgb, var(--coral) 35%, white), var(--coral) 80%);
+  box-shadow:
+    inset 0 2px 3px rgba(255,255,255,.55),
+    inset 0 -6px 9px rgba(0,0,0,.16),
+    0 6px 14px -6px color-mix(in srgb, var(--coral) 65%, black);
+  animation: ikon-apung 3.6s ease-in-out infinite;
+}
+.tersulit-text { flex: 1; min-width: 0; z-index: 1; }
 .tersulit-title { font-family: var(--font-display); font-size: 15.5px; color: var(--tosca-900); }
 .tersulit-sub { font-size: 12.5px; color: var(--ink-soft); font-weight: 700; }
+.tersulit-card .chip-btn.quiz { flex: 0 0 auto; white-space: nowrap; z-index: 1; }
 
 /* ==== Search bar & filter level kategori ==== */
 .search-filter-bar {
@@ -529,9 +630,20 @@ a { color: inherit; }
 .filter-chips {
   display: flex;
   gap: 8px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x proximity;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding: 2px 2px 6px;
+  margin: -2px -2px -6px;
 }
+.filter-chips::-webkit-scrollbar { display: none; }
 .filter-chip {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  white-space: nowrap;
   border: 1.5px solid var(--tosca-100);
   background: var(--white);
   color: var(--ink-soft);
@@ -930,6 +1042,8 @@ a { color: inherit; }
   max-width: 480px;
 }
 .star-item {
+  position: relative;
+  display: inline-block;
   font-size: 22px;
   line-height: 1;
   color: #D9E7E4;
@@ -937,15 +1051,29 @@ a { color: inherit; }
   transition: color .2s ease, text-shadow .2s ease;
 }
 .star-item.aktif { color: var(--tosca-400); }
+.star-item.benar,
+.star-item.salah {
+  animation: bintang-pop .5s cubic-bezier(.34,1.56,.64,1), bintang-kilau 1.6s ease-in-out infinite 0.5s;
+}
 .star-item.benar {
   color: var(--kuning-600);
   text-shadow: 0 0 8px rgba(245, 183, 0, .85), 0 0 18px rgba(245, 183, 0, .55);
-  animation: bintang-pop .45s ease, bintang-kilau 1.6s ease-in-out infinite 0.45s;
 }
 .star-item.salah {
   color: var(--danger);
   text-shadow: 0 0 8px rgba(232, 89, 75, .8), 0 0 18px rgba(232, 89, 75, .5);
-  animation: bintang-pop .45s ease, bintang-kilau 1.6s ease-in-out infinite 0.45s;
+}
+.star-item.benar::after,
+.star-item.salah::after {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  background: radial-gradient(circle, currentColor, transparent 70%);
+  opacity: .6;
+  animation: bintang-ledak .55s ease-out;
+  z-index: -1;
+  pointer-events: none;
 }
 
 .feedback-box { min-height: 10px; margin-top: 4px; }
@@ -1178,6 +1306,15 @@ body.layar-tunggal #quizArea > .result-card {
   .options-grid { grid-template-columns: 1fr; }
   .nav-row { gap: 22px; }
   .nav-btn { width: 66px; height: 66px; font-size: 28px; }
+
+  /* Stat pill (Kata dikuasai / Streak): full width satu kolom biar teks tidak sempit */
+  .stats-bar { flex-direction: column; }
+  .stat-pill { width: 100%; }
+
+  /* Kartu Latihan Kata Tersulit: susun vertikal, tombol full width */
+  .tersulit-card { flex-wrap: wrap; }
+  .tersulit-text { flex: 1 1 100%; }
+  .tersulit-card .chip-btn.quiz { flex: 1 1 100%; text-align: center; padding: 10px 8px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

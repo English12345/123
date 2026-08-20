@@ -8,6 +8,43 @@
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#0B5E58">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
+<style>
+  /* Gaya khusus tombol Putar Otomatis — sengaja ditaruh di halaman ini
+     (bukan di style.css) supaya tidak bentrok dengan file CSS kamu. */
+  .autoplay-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    max-width: 320px;
+    margin: 10px auto 0;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 999px;
+    background: linear-gradient(120deg, #0FA3A3, #0B5E58);
+    color: #fff;
+    font-family: inherit;
+    font-weight: 800;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 6px 16px rgba(11, 94, 88, 0.28);
+    transition: transform .15s ease, box-shadow .15s ease, background .2s ease;
+  }
+  .autoplay-btn:hover { transform: translateY(-1px); box-shadow: 0 8px 20px rgba(11, 94, 88, 0.32); }
+  .autoplay-btn:active { transform: translateY(0); }
+  .autoplay-btn.aktif {
+    background: linear-gradient(120deg, #FF6B6B, #E8594B);
+    box-shadow: 0 6px 16px rgba(232, 89, 75, 0.3);
+  }
+  .autoplay-btn.aktif .autoplay-dot {
+    animation: autoplay-berdenyut 1s ease-in-out infinite;
+  }
+  @keyframes autoplay-berdenyut {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: .5; transform: scale(0.8); }
+  }
+</style>
 </head>
 <body class="layar-tunggal">
   <div class="blob-decor">
@@ -58,6 +95,10 @@
         <button class="nav-btn" id="nextBtn" aria-label="Kata berikutnya">→</button>
       </div>
       <button class="btn-hafal" id="btnHafal">⭐ Tandai Sudah Hafal</button>
+      <button class="autoplay-btn" id="autoplayBtn">
+        <span class="autoplay-dot">▶️</span>
+        <span id="autoplayLabel">Putar Otomatis</span>
+      </button>
     </div>
   </div>
   <script src="js/shared.js"></script>

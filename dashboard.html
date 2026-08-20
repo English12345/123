@@ -2,16 +2,18 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Preview — Pilih Kategori</title>
-<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>Pilih Kategori — Belajar Bahasa Inggris</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="
+#0B5E58">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
 </head>
-<body class="halaman-siap">
+<body>
   <div class="blob-decor">
     <div class="blob blob-1"></div>
     <div class="blob blob-2"></div>
-    <div class="blob blob-3"></div>
-    <div class="blob blob-4"></div>
   </div>
   <div class="app-shell">
     <div class="topbar">
@@ -22,60 +24,48 @@
           <span>ENGLISH FOR KIDS</span>
         </div>
       </div>
+      <div class="user-chip">
+        <span id="namaPengguna">...</span>
+        <button id="logoutBtn">Keluar</button>
+      </div>
+    </div>
+    <div id="levelCard" class="level-card">
+      <div class="skeleton-pill" style="height:88px;"></div>
     </div>
     <h2 class="section-title">Pilih Kelompok Kata</h2>
-    <p class="section-sub">Preview badge icon versi colorful — data contoh, bukan data asli app.</p>
-    <div class="category-grid" id="categoryGrid"></div>
-  </div>
-
-<script>
-const contoh = [
-  {nama:"Warna", emoji:"🎨", warna:"#2EC4B6", jumlah:21},
-  {nama:"Buah-buahan", emoji:"🍎", warna:"#FFC93C", jumlah:21},
-  {nama:"Hewan", emoji:"🐶", warna:"#2EC4B6", jumlah:31},
-  {nama:"Hewan Laut", emoji:"🐠", warna:"#0FA3A3", jumlah:19},
-  {nama:"Alat Transportasi", emoji:"🚗", warna:"#4A90D9", jumlah:18},
-  {nama:"Anggota Keluarga", emoji:"👪", warna:"#8B7FE8", jumlah:11},
-  {nama:"Olahraga", emoji:"⚽", warna:"#3D9970", jumlah:16},
-  {nama:"Benda Langit", emoji:"🌌", warna:"#2D2B6B", jumlah:10},
-  {nama:"Negara", emoji:"🌍", warna:"#FF6B6B", jumlah:30},
-  {nama:"Makhluk Mitos", emoji:"🐉", warna:"#FF6B6B", jumlah:14},
-  {nama:"Bunga", emoji:"🌸", warna:"#0FA3A3", jumlah:16},
-  {nama:"Hari Raya", emoji:"🎉", warna:"#E53935", jumlah:8},
-];
-
-const PALET_SPARK = ['var(--kuning-500)','var(--coral)','var(--violet)','var(--pink-pop)','var(--tosca-400)'];
-
-function buatSparkHtml(idx){
-  const posisi = [
-    { top:'-4px', left:'-4px' },
-    { top:'-2px', right:'-6px' },
-    { bottom:'-4px', right:'-2px' },
-  ];
-  return posisi.map((pos,i)=>{
-    const warna = PALET_SPARK[(idx+i) % PALET_SPARK.length];
-    const styleGap = Object.entries(pos).map(([k,v])=>`${k}:${v}`).join(';');
-    const delay = (idx*0.2 + i*0.6).toFixed(2);
-    return `<span class="icon-spark" style="${styleGap}; color:${warna}; animation-delay:${delay}s"></span>`;
-  }).join('');
-}
-
-document.getElementById('categoryGrid').innerHTML = contoh.map((k, idx) => `
-  <div class="category-card" style="--accent: ${k.warna}">
-    <div class="category-icon">
-      ${k.emoji}
-      ${buatSparkHtml(idx)}
+    <p class="section-sub">Tap salah satu kelompok untuk mulai belajar atau uji kemampuanmu.</p>
+    <div id="statsBar" class="stats-bar">
+      <div class="skeleton-pill"></div>
+      <div class="skeleton-pill"></div>
     </div>
-    <h3>${k.nama}</h3>
-    <div class="category-meta">${k.jumlah} kata</div>
-    <div class="mini-progress-track"><div class="mini-progress-fill" style="width: 40%"></div></div>
-    <div class="category-progress">⭐ 8/${k.jumlah} dikuasai</div>
-    <div class="category-cta">
-      <a class="chip-btn learn" href="#">Belajar</a>
-      <a class="chip-btn quiz" href="#">Kuis</a>
+    <div id="tersulitCard" class="tersulit-card" style="display:none;"></div>
+    <div class="search-filter-bar">
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="Cari kelompok kata..." autocomplete="off">
+      </div>
+      <div class="filter-chips" id="filterChips">
+        <button class="filter-chip aktif" data-level="semua">Semua</button>
+        <button class="filter-chip" data-level="pemula">🌱 Pemula</button>
+        <button class="filter-chip" data-level="menengah">🌿 Menengah</button>
+        <button class="filter-chip" data-level="lanjutan">🌳 Lanjutan</button>
+      </div>
+    </div>
+    <div id="categoryGrid" class="category-grid">
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+    </div>
+    <div id="noResultState" class="empty-state" style="display:none;">
+      Tidak ada kelompok kata yang cocok. Coba kata kunci lain.
+    </div>
+    <div id="emptyState" class="empty-state" style="display:none;">
+      Belum ada kelompok kata. Tambahkan file kategori baru ke folder <strong>data/categories</strong> untuk mulai.
     </div>
   </div>
-`).join('');
-</script>
+  <script src="js/shared.js"></script>
+  <script src="js/dashboard.js"></script>
+  <script src="install.js"></script>
 </body>
 </html>

@@ -546,6 +546,33 @@ a { color: inherit; }
   gap: 18px;
 }
 
+/* Optimasi render: browser boleh skip layout/paint untuk kartu yang belum
+   terlihat di layar (di luar viewport). Ini yang bikin scroll tetap mulus
+   walau ada banyak kategori sekaligus di grid. */
+.category-card {
+  content-visibility: auto;
+  contain-intrinsic-size: 220px;
+}
+
+.tampilkan-lagi-btn {
+  grid-column: 1 / -1;
+  background: var(--white);
+  border: 1.5px dashed var(--tosca-400);
+  color: var(--tosca-900);
+  font-family: var(--font-body);
+  font-weight: 800;
+  font-size: 13.5px;
+  padding: 14px;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all .15s ease;
+}
+.tampilkan-lagi-btn:hover {
+  background: var(--tosca-100);
+  border-style: solid;
+  transform: translateY(-1px);
+}
+
 .category-card {
   position: relative;
   background: var(--white);

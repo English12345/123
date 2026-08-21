@@ -58,6 +58,41 @@
       "emoji": "🧣",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Traditional Headdress",
+      "id": "Mahkota Adat",
+      "emoji": "👑",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Kris",
+      "id": "Keris",
+      "emoji": "🗡️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Keris Sheath",
+      "id": "Sarung Keris",
+      "emoji": "🗡️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Traditional Sash",
+      "id": "Sabuk Adat",
+      "emoji": "🎗️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Woven Fan",
+      "id": "Kipas Anyaman",
+      "emoji": "🪭",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

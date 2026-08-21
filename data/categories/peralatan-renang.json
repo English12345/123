@@ -58,6 +58,41 @@
       "emoji": "🤿",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Swim Fins",
+      "id": "Sirip Katak",
+      "emoji": "🦶",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Swim Cap Colorful",
+      "id": "Topi Renang Warna",
+      "emoji": "🩱",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Kickboard",
+      "id": "Papan Latihan Kaki",
+      "emoji": "🏊",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Swim Whistle",
+      "id": "Peluit Kolam",
+      "emoji": "📯",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Pool Ladder",
+      "id": "Tangga Kolam",
+      "emoji": "🪜",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

@@ -61,6 +61,41 @@
       "emoji": "💡",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Guitar Strap",
+      "id": "Tali Gitar",
+      "emoji": "🎸",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Music Stand Light",
+      "id": "Lampu Not Balok",
+      "emoji": "💡",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Violin Bow",
+      "id": "Busur Biola",
+      "emoji": "🎻",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Drum Sticks Case",
+      "id": "Tas Stik Drum",
+      "emoji": "🥁",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Capo",
+      "id": "Capo Gitar",
+      "emoji": "🎸",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

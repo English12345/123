@@ -58,6 +58,41 @@
       "emoji": "🧊",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Beach Chair",
+      "id": "Kursi Pantai",
+      "emoji": "🪑",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Bucket and Spade",
+      "id": "Ember dan Sekop Pantai",
+      "emoji": "🪣",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Beach Umbrella Stand",
+      "id": "Tiang Payung Pantai",
+      "emoji": "⛱️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Sunglasses Beach",
+      "id": "Kacamata Pantai",
+      "emoji": "🕶️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Beach Towel",
+      "id": "Handuk Pantai",
+      "emoji": "🏖️",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

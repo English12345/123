@@ -58,6 +58,41 @@
       "emoji": "🐍",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Frog Pond",
+      "id": "Katak Kolam",
+      "emoji": "🐸",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Turtle Shell",
+      "id": "Cangkang Kura-kura",
+      "emoji": "🐢",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Newt",
+      "id": "Kadal Air",
+      "emoji": "🦎",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Sea Turtle",
+      "id": "Penyu",
+      "emoji": "🐢",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Cobra",
+      "id": "Ular Kobra",
+      "emoji": "🐍",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

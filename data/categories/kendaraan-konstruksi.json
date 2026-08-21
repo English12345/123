@@ -58,6 +58,41 @@
       "emoji": "🚧",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Wrecking Ball Crane",
+      "id": "Derek Bola Perusak",
+      "emoji": "🏗️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Road Roller",
+      "id": "Roller Jalan",
+      "emoji": "🛣️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Pile Driver",
+      "id": "Mesin Pancang",
+      "emoji": "🏗️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Trencher",
+      "id": "Mesin Pemotong Parit",
+      "emoji": "🚧",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Skid Steer Loader",
+      "id": "Loader Kecil",
+      "emoji": "🚜",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

@@ -65,6 +65,41 @@
       "emoji": "📝",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Highlighter Pen",
+      "id": "Spidol Warna",
+      "emoji": "🖍️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Filing Cabinet",
+      "id": "Lemari Arsip",
+      "emoji": "🗄️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Whiteboard Marker",
+      "id": "Spidol Papan Tulis",
+      "emoji": "🖊️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Punch Hole Machine",
+      "id": "Pelubang Kertas",
+      "emoji": "📎",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "File Folder",
+      "id": "Folder File",
+      "emoji": "🗂️",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

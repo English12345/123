@@ -65,6 +65,41 @@
       "emoji": "🎆",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Thanksgiving",
+      "id": "Thanksgiving",
+      "emoji": "🦃",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Valentine's Day",
+      "id": "Hari Valentin",
+      "emoji": "💝",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Nyepi",
+      "id": "Hari Raya Nyepi",
+      "emoji": "🕉️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Waisak",
+      "id": "Hari Raya Waisak",
+      "emoji": "🪷",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Chinese New Year",
+      "id": "Imlek",
+      "emoji": "🧧",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

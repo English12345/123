@@ -58,6 +58,41 @@
       "emoji": "🌃",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Dawn Break",
+      "id": "Waktu Subuh",
+      "emoji": "🌅",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Sunset Time",
+      "id": "Waktu Matahari Terbenam",
+      "emoji": "🌇",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Morning Twilight",
+      "id": "Waktu Sahur",
+      "emoji": "🌌",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Midday Heat",
+      "id": "Waktu Terik",
+      "emoji": "🌞",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Early Evening",
+      "id": "Petang",
+      "emoji": "🌆",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

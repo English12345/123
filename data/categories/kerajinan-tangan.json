@@ -65,6 +65,41 @@
       "emoji": "🏺",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Knitting Needle",
+      "id": "Jarum Rajut",
+      "emoji": "🧶",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Ribbon Roll",
+      "id": "Gulungan Pita",
+      "emoji": "🎀",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Beads",
+      "id": "Manik-manik",
+      "emoji": "📿",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Felt Fabric",
+      "id": "Kain Flanel",
+      "emoji": "🧵",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Wood Carving",
+      "id": "Ukiran Kayu",
+      "emoji": "🪵",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

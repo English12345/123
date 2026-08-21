@@ -65,6 +65,41 @@
       "emoji": "🩻",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Thermometer Digital",
+      "id": "Termometer Digital",
+      "emoji": "🌡️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Medicine Bottle",
+      "id": "Botol Obat",
+      "emoji": "🧴",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Syringe Needle",
+      "id": "Jarum Suntik",
+      "emoji": "💉",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Blood Pressure Monitor",
+      "id": "Alat Tensi",
+      "emoji": "🩺",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "First Aid Kit",
+      "id": "Kotak P3K Medis",
+      "emoji": "🩹",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

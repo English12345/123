@@ -58,6 +58,41 @@
       "emoji": "🔺",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Sphere",
+      "id": "Bola Bulat",
+      "emoji": "🔮",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Cube Box",
+      "id": "Kotak Kubus",
+      "emoji": "📦",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Rectangular Box",
+      "id": "Kotak Persegi Panjang",
+      "emoji": "📦",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Triangular Pyramid",
+      "id": "Limas Segitiga",
+      "emoji": "🔺",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Hollow Tube",
+      "id": "Pipa Berongga",
+      "emoji": "🧵",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

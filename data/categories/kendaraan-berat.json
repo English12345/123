@@ -58,6 +58,41 @@
       "emoji": "🛢️",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Fire Engine",
+      "id": "Truk Pemadam",
+      "emoji": "🚒",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Container Truck",
+      "id": "Truk Kontainer",
+      "emoji": "🚛",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Log Truck",
+      "id": "Truk Kayu Gelondongan",
+      "emoji": "🪵",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Grain Truck",
+      "id": "Truk Angkut Gandum",
+      "emoji": "🌾",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Mining Truck",
+      "id": "Truk Tambang",
+      "emoji": "⛏️",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

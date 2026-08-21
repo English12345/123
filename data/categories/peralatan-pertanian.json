@@ -58,6 +58,41 @@
       "emoji": "🧑‍🌾",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Combine Harvester",
+      "id": "Mesin Panen Padi",
+      "emoji": "🌾",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Irrigation Pipe",
+      "id": "Pipa Irigasi",
+      "emoji": "🚿",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Rice Basket",
+      "id": "Bakul Padi",
+      "emoji": "🧺",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Pesticide Sprayer",
+      "id": "Alat Semprot Hama",
+      "emoji": "🧴",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Rice Mortar",
+      "id": "Lesung Padi",
+      "emoji": "🥘",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

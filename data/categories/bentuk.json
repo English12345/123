@@ -65,6 +65,41 @@
       "emoji": "⬡",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Trapezoid",
+      "id": "Trapesium",
+      "emoji": "🔷",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Cross Shape",
+      "id": "Bentuk Salib",
+      "emoji": "✝️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Pentagon",
+      "id": "Segi Lima",
+      "emoji": "⬠",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Spiral",
+      "id": "Spiral",
+      "emoji": "🌀",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Crescent Shape",
+      "id": "Bentuk Bulan Sabit",
+      "emoji": "🌙",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

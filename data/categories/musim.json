@@ -38,6 +38,27 @@
       "emoji": "☀️",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Harvest Season",
+      "id": "Musim Panen",
+      "emoji": "🌾",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Flowering Season",
+      "id": "Musim Berbunga",
+      "emoji": "🌷",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Wet Monsoon",
+      "id": "Musim Angin Muson",
+      "emoji": "🌬️",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

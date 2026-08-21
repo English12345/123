@@ -65,6 +65,41 @@
       "emoji": "📏",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Chisel",
+      "id": "Pahat",
+      "emoji": "🔨",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Measuring Tape",
+      "id": "Meteran",
+      "emoji": "📏",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Sandpaper",
+      "id": "Amplas",
+      "emoji": "🪵",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Glue Gun",
+      "id": "Pistol Lem",
+      "emoji": "🔫",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Clamp",
+      "id": "Penjepit Kayu",
+      "emoji": "🔩",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

@@ -65,6 +65,41 @@
       "emoji": "🔔",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Baby Bath Tub",
+      "id": "Bak Mandi Bayi",
+      "emoji": "🛁",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Baby Monitor",
+      "id": "Monitor Bayi",
+      "emoji": "📡",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Baby Carrier",
+      "id": "Gendongan Bayi",
+      "emoji": "🧑‍🍼",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "High Chair",
+      "id": "Kursi Makan Bayi",
+      "emoji": "🪑",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Baby Swing",
+      "id": "Ayunan Bayi",
+      "emoji": "👶",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

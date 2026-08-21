@@ -53,6 +53,34 @@
       "emoji": "💼",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Public Holiday",
+      "id": "Hari Libur",
+      "emoji": "🏖️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "School Day",
+      "id": "Hari Sekolah",
+      "emoji": "🎒",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Independence Day",
+      "id": "Hari Kemerdekaan",
+      "emoji": "🎌",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "National Holiday",
+      "id": "Hari Nasional",
+      "emoji": "🏛️",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

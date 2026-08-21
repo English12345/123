@@ -65,6 +65,41 @@
       "emoji": "🌧️",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Fuel Tank",
+      "id": "Tangki Bahan Bakar",
+      "emoji": "⛽",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Headlight",
+      "id": "Lampu Depan",
+      "emoji": "💡",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Exhaust Pipe",
+      "id": "Knalpot",
+      "emoji": "💨",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Car Battery",
+      "id": "Aki Mobil",
+      "emoji": "🔋",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "License Plate",
+      "id": "Plat Nomor",
+      "emoji": "🔢",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

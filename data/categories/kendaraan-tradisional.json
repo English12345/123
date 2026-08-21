@@ -58,6 +58,41 @@
       "emoji": "🛖",
       "gambar": "",
       "audio": ""
+    },
+    {
+      "en": "Rickshaw",
+      "id": "Becak Motor",
+      "emoji": "🛺",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Wooden Sled",
+      "id": "Kereta Luncur Kayu",
+      "emoji": "🛷",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Water Buffalo Cart",
+      "id": "Gerobak Kerbau",
+      "emoji": "🐃",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Wooden Canoe",
+      "id": "Perahu Kayu",
+      "emoji": "🛶",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Horse Sleigh",
+      "id": "Kereta Salju Kuda",
+      "emoji": "🛷",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

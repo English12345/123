@@ -44,6 +44,20 @@
       "en": "Torus",
       "id": "Donat",
       "emoji": "🍩"
+    },
+    {
+      "en": "Cylinder Can",
+      "id": "Tabung Kaleng",
+      "emoji": "🥫",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Pyramid Shape",
+      "id": "Limas",
+      "emoji": "🔺",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

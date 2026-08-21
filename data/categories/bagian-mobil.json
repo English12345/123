@@ -5,13 +5,66 @@
   "warnaTema": "#1E88E5",
   "urutan": 47,
   "kata": [
-    { "en": "Tire", "id": "Ban", "emoji": "🛞" },
-    { "en": "Steering Wheel", "id": "Setir", "emoji": "🕹️" },
-    { "en": "Side Mirror", "id": "Kaca Spion", "emoji": "🪞" },
-    { "en": "Headlight", "id": "Lampu Mobil", "emoji": "💡" },
-    { "en": "Horn", "id": "Klakson", "emoji": "📯" },
-    { "en": "Engine", "id": "Mesin", "emoji": "⚙️" },
-    { "en": "Brake", "id": "Rem", "emoji": "🛑" },
-    { "en": "Seatbelt", "id": "Sabuk Pengaman", "emoji": "🔒" }
+    {
+      "en": "Tire",
+      "id": "Ban",
+      "emoji": "🛞"
+    },
+    {
+      "en": "Steering Wheel",
+      "id": "Setir",
+      "emoji": "🕹️"
+    },
+    {
+      "en": "Side Mirror",
+      "id": "Kaca Spion",
+      "emoji": "🪞"
+    },
+    {
+      "en": "Headlight",
+      "id": "Lampu Mobil",
+      "emoji": "💡"
+    },
+    {
+      "en": "Horn",
+      "id": "Klakson",
+      "emoji": "📯"
+    },
+    {
+      "en": "Engine",
+      "id": "Mesin",
+      "emoji": "⚙️"
+    },
+    {
+      "en": "Brake",
+      "id": "Rem",
+      "emoji": "🛑"
+    },
+    {
+      "en": "Seatbelt",
+      "id": "Sabuk Pengaman",
+      "emoji": "🔒"
+    },
+    {
+      "en": "Bumper",
+      "id": "Bemper",
+      "emoji": "🚗",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Trunk",
+      "id": "Bagasi",
+      "emoji": "🧳",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Windshield Wiper",
+      "id": "Wiper",
+      "emoji": "🌧️",
+      "gambar": "",
+      "audio": ""
+    }
   ]
 }

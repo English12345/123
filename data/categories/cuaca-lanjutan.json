@@ -54,6 +54,20 @@
       "en": "Drizzle",
       "id": "Gerimis",
       "emoji": "🌦️"
+    },
+    {
+      "en": "Rainbow",
+      "id": "Pelangi Ganda",
+      "emoji": "🌈",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Shooting Star",
+      "id": "Bintang Jatuh",
+      "emoji": "🌠",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

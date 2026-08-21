@@ -5,13 +5,59 @@
   "warnaTema": "#7CB342",
   "urutan": 48,
   "kata": [
-    { "en": "Hoe", "id": "Cangkul", "emoji": "⛏️" },
-    { "en": "Sickle", "id": "Sabit", "emoji": "🌾" },
-    { "en": "Rake", "id": "Garu", "emoji": "🍂" },
-    { "en": "Wheelbarrow", "id": "Gerobak Sorong", "emoji": "🛒" },
-    { "en": "Sack", "id": "Karung", "emoji": "🛍️" },
-    { "en": "Fertilizer", "id": "Pupuk", "emoji": "🌱" },
-    { "en": "Watering Can", "id": "Penyiram Tanaman", "emoji": "🚿" },
-    { "en": "Plow", "id": "Bajak", "emoji": "🚜" }
+    {
+      "en": "Hoe",
+      "id": "Cangkul",
+      "emoji": "⛏️"
+    },
+    {
+      "en": "Sickle",
+      "id": "Sabit",
+      "emoji": "🌾"
+    },
+    {
+      "en": "Rake",
+      "id": "Garu",
+      "emoji": "🍂"
+    },
+    {
+      "en": "Wheelbarrow",
+      "id": "Gerobak Sorong",
+      "emoji": "🛒"
+    },
+    {
+      "en": "Sack",
+      "id": "Karung",
+      "emoji": "🛍️"
+    },
+    {
+      "en": "Fertilizer",
+      "id": "Pupuk",
+      "emoji": "🌱"
+    },
+    {
+      "en": "Watering Can",
+      "id": "Penyiram Tanaman",
+      "emoji": "🚿"
+    },
+    {
+      "en": "Plow",
+      "id": "Bajak",
+      "emoji": "🚜"
+    },
+    {
+      "en": "Traktor",
+      "id": "Traktor",
+      "emoji": "🚜",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Scarecrow",
+      "id": "Orang-orangan Sawah",
+      "emoji": "🧑‍🌾",
+      "gambar": "",
+      "audio": ""
+    }
   ]
 }

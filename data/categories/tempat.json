@@ -54,6 +54,20 @@
       "en": "Mosque",
       "id": "Masjid",
       "emoji": "🕌"
+    },
+    {
+      "en": "Market",
+      "id": "Pasar",
+      "emoji": "🏪",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Beach Place",
+      "id": "Pantai",
+      "emoji": "🏖️",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

@@ -5,13 +5,66 @@
   "warnaTema": "#8D6E63",
   "urutan": 53,
   "kata": [
-    { "en": "Angklung", "id": "Angklung", "emoji": "🎋" },
-    { "en": "Gamelan", "id": "Gamelan", "emoji": "🎶" },
-    { "en": "Kendang", "id": "Kendang", "emoji": "🥁" },
-    { "en": "Gong", "id": "Gong", "emoji": "🔔" },
-    { "en": "Sasando", "id": "Sasando", "emoji": "🎻" },
-    { "en": "Kolintang", "id": "Kolintang", "emoji": "🎹" },
-    { "en": "Rebana", "id": "Rebana", "emoji": "🪘" },
-    { "en": "Bamboo Flute", "id": "Suling Bambu", "emoji": "🎼" }
+    {
+      "en": "Angklung",
+      "id": "Angklung",
+      "emoji": "🎋"
+    },
+    {
+      "en": "Gamelan",
+      "id": "Gamelan",
+      "emoji": "🎶"
+    },
+    {
+      "en": "Kendang",
+      "id": "Kendang",
+      "emoji": "🥁"
+    },
+    {
+      "en": "Gong",
+      "id": "Gong",
+      "emoji": "🔔"
+    },
+    {
+      "en": "Sasando",
+      "id": "Sasando",
+      "emoji": "🎻"
+    },
+    {
+      "en": "Kolintang",
+      "id": "Kolintang",
+      "emoji": "🎹"
+    },
+    {
+      "en": "Rebana",
+      "id": "Rebana",
+      "emoji": "🪘"
+    },
+    {
+      "en": "Bamboo Flute",
+      "id": "Suling Bambu",
+      "emoji": "🎼"
+    },
+    {
+      "en": "Calung",
+      "id": "Calung",
+      "emoji": "🎋",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Bonang",
+      "id": "Bonang",
+      "emoji": "🥁",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Tifa",
+      "id": "Tifa",
+      "emoji": "🥁",
+      "gambar": "",
+      "audio": ""
+    }
   ]
 }

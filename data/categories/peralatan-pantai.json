@@ -5,13 +5,59 @@
   "warnaTema": "#00ACC1",
   "urutan": 40,
   "kata": [
-    { "en": "Beach Ball", "id": "Bola Pantai", "emoji": "🏐" },
-    { "en": "Swimsuit", "id": "Baju Renang", "emoji": "🩱" },
-    { "en": "Beach Umbrella", "id": "Payung Pantai", "emoji": "⛱️" },
-    { "en": "Flip Flops", "id": "Sandal Jepit", "emoji": "🩴" },
-    { "en": "Snorkel", "id": "Snorkel", "emoji": "🤿" },
-    { "en": "Sunscreen", "id": "Tabir Surya", "emoji": "🧴" },
-    { "en": "Surfboard", "id": "Papan Selancar", "emoji": "🏄" },
-    { "en": "Sandcastle", "id": "Istana Pasir", "emoji": "🏰" }
+    {
+      "en": "Beach Ball",
+      "id": "Bola Pantai",
+      "emoji": "🏐"
+    },
+    {
+      "en": "Swimsuit",
+      "id": "Baju Renang",
+      "emoji": "🩱"
+    },
+    {
+      "en": "Beach Umbrella",
+      "id": "Payung Pantai",
+      "emoji": "⛱️"
+    },
+    {
+      "en": "Flip Flops",
+      "id": "Sandal Jepit",
+      "emoji": "🩴"
+    },
+    {
+      "en": "Snorkel",
+      "id": "Snorkel",
+      "emoji": "🤿"
+    },
+    {
+      "en": "Sunscreen",
+      "id": "Tabir Surya",
+      "emoji": "🧴"
+    },
+    {
+      "en": "Surfboard",
+      "id": "Papan Selancar",
+      "emoji": "🏄"
+    },
+    {
+      "en": "Sandcastle",
+      "id": "Istana Pasir",
+      "emoji": "🏰"
+    },
+    {
+      "en": "Flip Flops Bag",
+      "id": "Tas Pantai",
+      "emoji": "👜",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Cooler Box",
+      "id": "Kotak Pendingin",
+      "emoji": "🧊",
+      "gambar": "",
+      "audio": ""
+    }
   ]
 }

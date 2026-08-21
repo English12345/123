@@ -24,6 +24,20 @@
       "en": "Winter",
       "id": "Musim Dingin",
       "emoji": "❄️"
+    },
+    {
+      "en": "Rainy Season",
+      "id": "Musim Hujan",
+      "emoji": "🌧️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Dry Season",
+      "id": "Musim Kemarau",
+      "emoji": "☀️",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

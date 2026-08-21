@@ -44,6 +44,20 @@
       "en": "Trailer Truck",
       "id": "Truk Trailer",
       "emoji": "🚛"
+    },
+    {
+      "en": "Bulldozer",
+      "id": "Buldoser",
+      "emoji": "🚜",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Tanker Truck",
+      "id": "Truk Tangki Minyak",
+      "emoji": "🛢️",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

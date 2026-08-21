@@ -5,13 +5,73 @@
   "warnaTema": "#43A047",
   "urutan": 45,
   "kata": [
-    { "en": "Mountain", "id": "Gunung", "emoji": "⛰️" },
-    { "en": "River", "id": "Sungai", "emoji": "🏞️" },
-    { "en": "Forest", "id": "Hutan", "emoji": "🌲" },
-    { "en": "Desert", "id": "Gurun", "emoji": "🏜️" },
-    { "en": "Valley", "id": "Lembah", "emoji": "🏔️" },
-    { "en": "Waterfall", "id": "Air Terjun", "emoji": "💦" },
-    { "en": "Cave", "id": "Gua", "emoji": "🕳️" },
-    { "en": "Beach", "id": "Pantai", "emoji": "🏖️" }
+    {
+      "en": "Mountain",
+      "id": "Gunung",
+      "emoji": "⛰️"
+    },
+    {
+      "en": "River",
+      "id": "Sungai",
+      "emoji": "🏞️"
+    },
+    {
+      "en": "Forest",
+      "id": "Hutan",
+      "emoji": "🌲"
+    },
+    {
+      "en": "Desert",
+      "id": "Gurun",
+      "emoji": "🏜️"
+    },
+    {
+      "en": "Valley",
+      "id": "Lembah",
+      "emoji": "🏔️"
+    },
+    {
+      "en": "Waterfall",
+      "id": "Air Terjun",
+      "emoji": "💦"
+    },
+    {
+      "en": "Cave",
+      "id": "Gua",
+      "emoji": "🕳️"
+    },
+    {
+      "en": "Beach",
+      "id": "Pantai",
+      "emoji": "🏖️"
+    },
+    {
+      "en": "Volcano",
+      "id": "Gunung Berapi",
+      "emoji": "🌋",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Island",
+      "id": "Pulau",
+      "emoji": "🏝️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Cliff",
+      "id": "Tebing",
+      "emoji": "⛰️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Swamp",
+      "id": "Rawa",
+      "emoji": "🌾",
+      "gambar": "",
+      "audio": ""
+    }
   ]
 }

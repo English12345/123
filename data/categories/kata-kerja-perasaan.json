@@ -54,6 +54,20 @@
       "en": "Forgive",
       "id": "Memaafkan",
       "emoji": "🤲"
+    },
+    {
+      "en": "Worry",
+      "id": "Khawatir",
+      "emoji": "😟",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Surprise",
+      "id": "Terkejut",
+      "emoji": "😲",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

@@ -54,6 +54,20 @@
       "en": "Mint Green",
       "id": "Hijau Mint",
       "emoji": "🌿"
+    },
+    {
+      "en": "Coral Pink",
+      "id": "Merah Karang",
+      "emoji": "🪸",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Golden Yellow",
+      "id": "Kuning Keemasan",
+      "emoji": "🟡",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

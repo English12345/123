@@ -54,6 +54,20 @@
       "en": "Water Lily",
       "id": "Bunga Teratai Air",
       "emoji": "🪷"
+    },
+    {
+      "en": "Frog",
+      "id": "Katak",
+      "emoji": "🐸",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Turtle",
+      "id": "Kura-kura Air",
+      "emoji": "🐢",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

@@ -54,6 +54,20 @@
       "en": "Alarm Bell",
       "id": "Bel Alarm",
       "emoji": "🔔"
+    },
+    {
+      "en": "Fire Truck",
+      "id": "Mobil Pemadam Kebakaran",
+      "emoji": "🚒",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Fire Extinguisher Cabinet",
+      "id": "Lemari APAR",
+      "emoji": "🧯",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

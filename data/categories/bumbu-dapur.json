@@ -5,13 +5,73 @@
   "warnaTema": "#FB8C00",
   "urutan": 42,
   "kata": [
-    { "en": "Salt", "id": "Garam", "emoji": "🧂" },
-    { "en": "Sugar", "id": "Gula", "emoji": "🍯" },
-    { "en": "Pepper", "id": "Merica", "emoji": "🌶️" },
-    { "en": "Ginger", "id": "Jahe", "emoji": "🫚" },
-    { "en": "Cinnamon", "id": "Kayu Manis", "emoji": "🪵" },
-    { "en": "Clove", "id": "Cengkeh", "emoji": "🌸" },
-    { "en": "Coriander", "id": "Ketumbar", "emoji": "🌿" },
-    { "en": "Cooking Oil", "id": "Minyak Goreng", "emoji": "🛢️" }
+    {
+      "en": "Salt",
+      "id": "Garam",
+      "emoji": "🧂"
+    },
+    {
+      "en": "Sugar",
+      "id": "Gula",
+      "emoji": "🍯"
+    },
+    {
+      "en": "Pepper",
+      "id": "Merica",
+      "emoji": "🌶️"
+    },
+    {
+      "en": "Ginger",
+      "id": "Jahe",
+      "emoji": "🫚"
+    },
+    {
+      "en": "Cinnamon",
+      "id": "Kayu Manis",
+      "emoji": "🪵"
+    },
+    {
+      "en": "Clove",
+      "id": "Cengkeh",
+      "emoji": "🌸"
+    },
+    {
+      "en": "Coriander",
+      "id": "Ketumbar",
+      "emoji": "🌿"
+    },
+    {
+      "en": "Cooking Oil",
+      "id": "Minyak Goreng",
+      "emoji": "🛢️"
+    },
+    {
+      "en": "Chili",
+      "id": "Cabai",
+      "emoji": "🌶️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Garlic",
+      "id": "Bawang Putih",
+      "emoji": "🧄",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Onion",
+      "id": "Bawang Merah",
+      "emoji": "🧅",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Turmeric",
+      "id": "Kunyit",
+      "emoji": "🟡",
+      "gambar": "",
+      "audio": ""
+    }
   ]
 }

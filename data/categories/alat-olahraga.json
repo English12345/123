@@ -44,6 +44,34 @@
       "en": "Trophy",
       "id": "Trofi",
       "emoji": "🏆"
+    },
+    {
+      "en": "Jump Rope",
+      "id": "Tali Lompat",
+      "emoji": "🪢",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Dumbbell",
+      "id": "Dumbel",
+      "emoji": "🏋️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Whistle",
+      "id": "Peluit",
+      "emoji": "📯",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Yoga Mat",
+      "id": "Matras Yoga",
+      "emoji": "🧘",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

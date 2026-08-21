@@ -54,6 +54,20 @@
       "en": "Keychain",
       "id": "Gantungan Kunci",
       "emoji": "🔑"
+    },
+    {
+      "en": "Sunglasses",
+      "id": "Kacamata Hitam",
+      "emoji": "🕶️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Wristband",
+      "id": "Gelang Tangan Olahraga",
+      "emoji": "⌚",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

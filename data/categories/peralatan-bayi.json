@@ -5,13 +5,66 @@
   "warnaTema": "#F06292",
   "urutan": 43,
   "kata": [
-    { "en": "Baby Bottle", "id": "Botol Susu", "emoji": "🍼" },
-    { "en": "Pacifier", "id": "Dot", "emoji": "🚼" },
-    { "en": "Diaper", "id": "Popok", "emoji": "🧷" },
-    { "en": "Baby", "id": "Bayi", "emoji": "👶" },
-    { "en": "Crib", "id": "Tempat Tidur Bayi", "emoji": "🛏️" },
-    { "en": "Baby Toy", "id": "Mainan Bayi", "emoji": "🧸" },
-    { "en": "Bib", "id": "Celemek Bayi", "emoji": "🥣" },
-    { "en": "Baby Powder", "id": "Bedak Bayi", "emoji": "🧴" }
+    {
+      "en": "Baby Bottle",
+      "id": "Botol Susu",
+      "emoji": "🍼"
+    },
+    {
+      "en": "Pacifier",
+      "id": "Dot",
+      "emoji": "🚼"
+    },
+    {
+      "en": "Diaper",
+      "id": "Popok",
+      "emoji": "🧷"
+    },
+    {
+      "en": "Baby",
+      "id": "Bayi",
+      "emoji": "👶"
+    },
+    {
+      "en": "Crib",
+      "id": "Tempat Tidur Bayi",
+      "emoji": "🛏️"
+    },
+    {
+      "en": "Baby Toy",
+      "id": "Mainan Bayi",
+      "emoji": "🧸"
+    },
+    {
+      "en": "Bib",
+      "id": "Celemek Bayi",
+      "emoji": "🥣"
+    },
+    {
+      "en": "Baby Powder",
+      "id": "Bedak Bayi",
+      "emoji": "🧴"
+    },
+    {
+      "en": "Stroller",
+      "id": "Kereta Dorong Bayi",
+      "emoji": "👶",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Bib",
+      "id": "Celemek Makan Bayi",
+      "emoji": "👕",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Baby Rattle",
+      "id": "Kerincingan",
+      "emoji": "🔔",
+      "gambar": "",
+      "audio": ""
+    }
   ]
 }

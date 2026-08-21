@@ -54,6 +54,20 @@
       "en": "Mailbox",
       "id": "Kotak Surat",
       "emoji": "📬"
+    },
+    {
+      "en": "Chimney",
+      "id": "Cerobong Asap",
+      "emoji": "🏭",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Fence Gate",
+      "id": "Gerbang",
+      "emoji": "🚪",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

@@ -44,6 +44,20 @@
       "en": "Daybreak",
       "id": "Fajar",
       "emoji": "🌤️"
+    },
+    {
+      "en": "Noon",
+      "id": "Tengah Hari",
+      "emoji": "🕛",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Late Night",
+      "id": "Larut Malam",
+      "emoji": "🌃",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

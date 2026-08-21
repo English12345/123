@@ -5,13 +5,66 @@
   "warnaTema": "#E53935",
   "urutan": 46,
   "kata": [
-    { "en": "Birthday", "id": "Ulang Tahun", "emoji": "🎂" },
-    { "en": "Christmas", "id": "Natal", "emoji": "🎄" },
-    { "en": "Eid", "id": "Lebaran", "emoji": "🌙" },
-    { "en": "New Year", "id": "Tahun Baru", "emoji": "🎆" },
-    { "en": "Gift", "id": "Kado", "emoji": "🎁" },
-    { "en": "Candle", "id": "Lilin", "emoji": "🕯️" },
-    { "en": "Invitation", "id": "Undangan", "emoji": "💌" },
-    { "en": "Party Hat", "id": "Topi Pesta", "emoji": "🎉" }
+    {
+      "en": "Birthday",
+      "id": "Ulang Tahun",
+      "emoji": "🎂"
+    },
+    {
+      "en": "Christmas",
+      "id": "Natal",
+      "emoji": "🎄"
+    },
+    {
+      "en": "Eid",
+      "id": "Lebaran",
+      "emoji": "🌙"
+    },
+    {
+      "en": "New Year",
+      "id": "Tahun Baru",
+      "emoji": "🎆"
+    },
+    {
+      "en": "Gift",
+      "id": "Kado",
+      "emoji": "🎁"
+    },
+    {
+      "en": "Candle",
+      "id": "Lilin",
+      "emoji": "🕯️"
+    },
+    {
+      "en": "Invitation",
+      "id": "Undangan",
+      "emoji": "💌"
+    },
+    {
+      "en": "Party Hat",
+      "id": "Topi Pesta",
+      "emoji": "🎉"
+    },
+    {
+      "en": "Halloween",
+      "id": "Halloween",
+      "emoji": "🎃",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Easter",
+      "id": "Paskah",
+      "emoji": "🐰",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Fireworks",
+      "id": "Kembang Api",
+      "emoji": "🎆",
+      "gambar": "",
+      "audio": ""
+    }
   ]
 }

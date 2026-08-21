@@ -54,6 +54,13 @@
       "en": "Music Box",
       "id": "Kotak Musik",
       "emoji": "🎶"
+    },
+    {
+      "en": "Sheet Stand Light",
+      "id": "Lampu Partitur",
+      "emoji": "💡",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

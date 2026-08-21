@@ -5,13 +5,66 @@
   "warnaTema": "#5E35B1",
   "urutan": 50,
   "kata": [
-    { "en": "Paperclip", "id": "Penjepit Kertas", "emoji": "📎" },
-    { "en": "Stapler", "id": "Stepler", "emoji": "🧷" },
-    { "en": "Folder", "id": "Map", "emoji": "📁" },
-    { "en": "Marker", "id": "Spidol", "emoji": "🖊️" },
-    { "en": "Envelope", "id": "Amplop", "emoji": "✉️" },
-    { "en": "Stamp", "id": "Perangko", "emoji": "🏷️" },
-    { "en": "Whiteboard", "id": "Papan Tulis", "emoji": "📋" },
-    { "en": "Paper", "id": "Kertas", "emoji": "📄" }
+    {
+      "en": "Paperclip",
+      "id": "Penjepit Kertas",
+      "emoji": "📎"
+    },
+    {
+      "en": "Stapler",
+      "id": "Stepler",
+      "emoji": "🧷"
+    },
+    {
+      "en": "Folder",
+      "id": "Map",
+      "emoji": "📁"
+    },
+    {
+      "en": "Marker",
+      "id": "Spidol",
+      "emoji": "🖊️"
+    },
+    {
+      "en": "Envelope",
+      "id": "Amplop",
+      "emoji": "✉️"
+    },
+    {
+      "en": "Stamp",
+      "id": "Perangko",
+      "emoji": "🏷️"
+    },
+    {
+      "en": "Whiteboard",
+      "id": "Papan Tulis",
+      "emoji": "📋"
+    },
+    {
+      "en": "Paper",
+      "id": "Kertas",
+      "emoji": "📄"
+    },
+    {
+      "en": "Calculator",
+      "id": "Kalkulator",
+      "emoji": "🧮",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Scissors",
+      "id": "Gunting",
+      "emoji": "✂️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Sticky Note",
+      "id": "Kertas Tempel",
+      "emoji": "📝",
+      "gambar": "",
+      "audio": ""
+    }
   ]
 }

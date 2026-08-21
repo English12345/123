@@ -44,6 +44,34 @@
       "en": "Gloves",
       "id": "Sarung Tangan",
       "emoji": "🧤"
+    },
+    {
+      "en": "Mop",
+      "id": "Pel",
+      "emoji": "🧹",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Cleaning Spray",
+      "id": "Cairan Pembersih",
+      "emoji": "🧴",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Duster",
+      "id": "Kemoceng",
+      "emoji": "🪶",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Vacuum Cleaner",
+      "id": "Penyedot Debu",
+      "emoji": "🔌",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

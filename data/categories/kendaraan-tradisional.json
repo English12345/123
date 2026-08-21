@@ -5,13 +5,59 @@
   "warnaTema": "#795548",
   "urutan": 54,
   "kata": [
-    { "en": "Pedicab", "id": "Becak", "emoji": "🛺" },
-    { "en": "Horse Carriage", "id": "Delman", "emoji": "🐎" },
-    { "en": "Andong", "id": "Andong", "emoji": "🐴" },
-    { "en": "Cart", "id": "Gerobak", "emoji": "🛒" },
-    { "en": "Raft", "id": "Rakit", "emoji": "🛶" },
-    { "en": "Sampan", "id": "Sampan", "emoji": "🚣" },
-    { "en": "Horse Cart", "id": "Kereta Kuda", "emoji": "🐴" },
-    { "en": "Ox Cart", "id": "Pedati", "emoji": "🐂" }
+    {
+      "en": "Pedicab",
+      "id": "Becak",
+      "emoji": "🛺"
+    },
+    {
+      "en": "Horse Carriage",
+      "id": "Delman",
+      "emoji": "🐎"
+    },
+    {
+      "en": "Andong",
+      "id": "Andong",
+      "emoji": "🐴"
+    },
+    {
+      "en": "Cart",
+      "id": "Gerobak",
+      "emoji": "🛒"
+    },
+    {
+      "en": "Raft",
+      "id": "Rakit",
+      "emoji": "🛶"
+    },
+    {
+      "en": "Sampan",
+      "id": "Sampan",
+      "emoji": "🚣"
+    },
+    {
+      "en": "Horse Cart",
+      "id": "Kereta Kuda",
+      "emoji": "🐴"
+    },
+    {
+      "en": "Ox Cart",
+      "id": "Pedati",
+      "emoji": "🐂"
+    },
+    {
+      "en": "Ox Cart",
+      "id": "Gerobak Sapi",
+      "emoji": "🐂",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Palanquin",
+      "id": "Tandu",
+      "emoji": "🛖",
+      "gambar": "",
+      "audio": ""
+    }
   ]
 }

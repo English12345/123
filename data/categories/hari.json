@@ -5,12 +5,54 @@
   "warnaTema": "#E85D75",
   "urutan": 15,
   "kata": [
-    { "en": "Monday",     "id": "Senin",   "emoji": "🟥" },
-    { "en": "Tuesday",    "id": "Selasa",  "emoji": "🟧" },
-    { "en": "Wednesday",  "id": "Rabu",    "emoji": "🟨" },
-    { "en": "Thursday",   "id": "Kamis",   "emoji": "🟩" },
-    { "en": "Friday",     "id": "Jumat",   "emoji": "🟦" },
-    { "en": "Saturday",   "id": "Sabtu",   "emoji": "🟪" },
-    { "en": "Sunday",     "id": "Minggu",  "emoji": "☀️" }
+    {
+      "en": "Monday",
+      "id": "Senin",
+      "emoji": "🟥"
+    },
+    {
+      "en": "Tuesday",
+      "id": "Selasa",
+      "emoji": "🟧"
+    },
+    {
+      "en": "Wednesday",
+      "id": "Rabu",
+      "emoji": "🟨"
+    },
+    {
+      "en": "Thursday",
+      "id": "Kamis",
+      "emoji": "🟩"
+    },
+    {
+      "en": "Friday",
+      "id": "Jumat",
+      "emoji": "🟦"
+    },
+    {
+      "en": "Saturday",
+      "id": "Sabtu",
+      "emoji": "🟪"
+    },
+    {
+      "en": "Sunday",
+      "id": "Minggu",
+      "emoji": "☀️"
+    },
+    {
+      "en": "Weekend",
+      "id": "Akhir Pekan",
+      "emoji": "🎉",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Weekday",
+      "id": "Hari Kerja",
+      "emoji": "💼",
+      "gambar": "",
+      "audio": ""
+    }
   ]
 }

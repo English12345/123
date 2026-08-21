@@ -44,6 +44,27 @@
       "en": "Bed",
       "id": "Tempat Tidur",
       "emoji": "🛏️"
+    },
+    {
+      "en": "Bandage",
+      "id": "Perban",
+      "emoji": "🩹",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Pill",
+      "id": "Kapsul Obat",
+      "emoji": "💊",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "X-Ray",
+      "id": "Rontgen",
+      "emoji": "🩻",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

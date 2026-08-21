@@ -5,13 +5,73 @@
   "warnaTema": "#6D4C41",
   "urutan": 39,
   "kata": [
-    { "en": "Tent", "id": "Tenda", "emoji": "⛺" },
-    { "en": "Sleeping Bag", "id": "Kantong Tidur", "emoji": "🛌" },
-    { "en": "Flashlight", "id": "Senter", "emoji": "🔦" },
-    { "en": "Backpack", "id": "Ransel", "emoji": "🎒" },
-    { "en": "Compass", "id": "Kompas", "emoji": "🧭" },
-    { "en": "Campfire", "id": "Api Unggun", "emoji": "🔥" },
-    { "en": "Firewood", "id": "Kayu Bakar", "emoji": "🪵" },
-    { "en": "Map", "id": "Peta", "emoji": "🗺️" }
+    {
+      "en": "Tent",
+      "id": "Tenda",
+      "emoji": "⛺"
+    },
+    {
+      "en": "Sleeping Bag",
+      "id": "Kantong Tidur",
+      "emoji": "🛌"
+    },
+    {
+      "en": "Flashlight",
+      "id": "Senter",
+      "emoji": "🔦"
+    },
+    {
+      "en": "Backpack",
+      "id": "Ransel",
+      "emoji": "🎒"
+    },
+    {
+      "en": "Compass",
+      "id": "Kompas",
+      "emoji": "🧭"
+    },
+    {
+      "en": "Campfire",
+      "id": "Api Unggun",
+      "emoji": "🔥"
+    },
+    {
+      "en": "Firewood",
+      "id": "Kayu Bakar",
+      "emoji": "🪵"
+    },
+    {
+      "en": "Map",
+      "id": "Peta",
+      "emoji": "🗺️"
+    },
+    {
+      "en": "Pocket Knife",
+      "id": "Pisau Lipat",
+      "emoji": "🔪",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Matches",
+      "id": "Korek Api",
+      "emoji": "🔥",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Folding Chair",
+      "id": "Kursi Lipat",
+      "emoji": "🪑",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Binoculars",
+      "id": "Teropong",
+      "emoji": "🔭",
+      "gambar": "",
+      "audio": ""
+    }
   ]
 }

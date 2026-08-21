@@ -54,6 +54,20 @@
       "en": "Snow Boots",
       "id": "Sepatu Bot Salju",
       "emoji": "👢"
+    },
+    {
+      "en": "Ice Pick",
+      "id": "Pemecah Es",
+      "emoji": "⛏️",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Scarf Winter",
+      "id": "Syal Musim Dingin",
+      "emoji": "🧣",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

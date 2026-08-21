@@ -54,6 +54,20 @@
       "en": "Galaxy",
       "id": "Galaksi",
       "emoji": "🌌"
+    },
+    {
+      "en": "Milky Way",
+      "id": "Bima Sakti",
+      "emoji": "🌌",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Full Moon",
+      "id": "Bulan Purnama",
+      "emoji": "🌕",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

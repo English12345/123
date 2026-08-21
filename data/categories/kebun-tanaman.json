@@ -44,6 +44,27 @@
       "en": "Grass",
       "id": "Rumput",
       "emoji": "🌾"
+    },
+    {
+      "en": "Watering Can",
+      "id": "Penyiram Tanaman",
+      "emoji": "🪣",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Fertilizer",
+      "id": "Pupuk",
+      "emoji": "🌱",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Greenhouse",
+      "id": "Rumah Kaca",
+      "emoji": "🏡",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

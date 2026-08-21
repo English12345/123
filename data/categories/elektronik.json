@@ -5,13 +5,66 @@
   "warnaTema": "#3949AB",
   "urutan": 37,
   "kata": [
-    { "en": "Television", "id": "Televisi", "emoji": "📺" },
-    { "en": "Laptop", "id": "Laptop", "emoji": "💻" },
-    { "en": "Mobile Phone", "id": "Telepon Genggam", "emoji": "📱" },
-    { "en": "Camera", "id": "Kamera", "emoji": "📷" },
-    { "en": "Speaker", "id": "Speaker", "emoji": "🔊" },
-    { "en": "Headphones", "id": "Headphone", "emoji": "🎧" },
-    { "en": "Charger", "id": "Charger", "emoji": "🔌" },
-    { "en": "Printer", "id": "Printer", "emoji": "🖨️" }
+    {
+      "en": "Television",
+      "id": "Televisi",
+      "emoji": "📺"
+    },
+    {
+      "en": "Laptop",
+      "id": "Laptop",
+      "emoji": "💻"
+    },
+    {
+      "en": "Mobile Phone",
+      "id": "Telepon Genggam",
+      "emoji": "📱"
+    },
+    {
+      "en": "Camera",
+      "id": "Kamera",
+      "emoji": "📷"
+    },
+    {
+      "en": "Speaker",
+      "id": "Speaker",
+      "emoji": "🔊"
+    },
+    {
+      "en": "Headphones",
+      "id": "Headphone",
+      "emoji": "🎧"
+    },
+    {
+      "en": "Charger",
+      "id": "Charger",
+      "emoji": "🔌"
+    },
+    {
+      "en": "Printer",
+      "id": "Printer",
+      "emoji": "🖨️"
+    },
+    {
+      "en": "Radio",
+      "id": "Radio",
+      "emoji": "📻",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Fan",
+      "id": "Kipas Angin",
+      "emoji": "🌀",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Microwave",
+      "id": "Microwave",
+      "emoji": "📡",
+      "gambar": "",
+      "audio": ""
+    }
   ]
 }

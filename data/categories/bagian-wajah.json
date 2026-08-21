@@ -54,6 +54,20 @@
       "en": "Temple (head)",
       "id": "Pelipis",
       "emoji": "🧑"
+    },
+    {
+      "en": "Nose",
+      "id": "Hidung",
+      "emoji": "👃",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Mouth",
+      "id": "Mulut",
+      "emoji": "👄",
+      "gambar": "",
+      "audio": ""
     }
   ]
 }

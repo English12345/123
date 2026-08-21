@@ -5,13 +5,73 @@
   "warnaTema": "#D81B60",
   "urutan": 49,
   "kata": [
-    { "en": "Necklace", "id": "Kalung", "emoji": "📿" },
-    { "en": "Bracelet", "id": "Gelang", "emoji": "🪢" },
-    { "en": "Ring", "id": "Cincin", "emoji": "💍" },
-    { "en": "Watch", "id": "Jam Tangan", "emoji": "⌚" },
-    { "en": "Earrings", "id": "Anting", "emoji": "💎" },
-    { "en": "Wallet", "id": "Dompet", "emoji": "👛" },
-    { "en": "Belt", "id": "Ikat Pinggang", "emoji": "🥋" },
-    { "en": "Handbag", "id": "Tas Tangan", "emoji": "👜" }
+    {
+      "en": "Necklace",
+      "id": "Kalung",
+      "emoji": "📿"
+    },
+    {
+      "en": "Bracelet",
+      "id": "Gelang",
+      "emoji": "🪢"
+    },
+    {
+      "en": "Ring",
+      "id": "Cincin",
+      "emoji": "💍"
+    },
+    {
+      "en": "Watch",
+      "id": "Jam Tangan",
+      "emoji": "⌚"
+    },
+    {
+      "en": "Earrings",
+      "id": "Anting",
+      "emoji": "💎"
+    },
+    {
+      "en": "Wallet",
+      "id": "Dompet",
+      "emoji": "👛"
+    },
+    {
+      "en": "Belt",
+      "id": "Ikat Pinggang",
+      "emoji": "🥋"
+    },
+    {
+      "en": "Handbag",
+      "id": "Tas Tangan",
+      "emoji": "👜"
+    },
+    {
+      "en": "Scarf",
+      "id": "Syal",
+      "emoji": "🧣",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Hat",
+      "id": "Topi",
+      "emoji": "🎩",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Glasses",
+      "id": "Kacamata",
+      "emoji": "👓",
+      "gambar": "",
+      "audio": ""
+    },
+    {
+      "en": "Bracelet Charm",
+      "id": "Gelang Liontin",
+      "emoji": "📿",
+      "gambar": "",
+      "audio": ""
+    }
   ]
 }

@@ -6,6 +6,9 @@
     window.location.href = 'dashboard.html';
     return;
   }
+  // Mode khusus dari tombol dashboard "Putar Otomatis Acak Semua Kosakata":
+  // kataList berisi gabungan kata dari SEMUA kategori, bukan satu kategori saja.
+  const modeAcak = kategoriId === '__acak__';
   const judulEl = document.getElementById('judulKategori');
   const progressLabel = document.getElementById('progressLabel');
   const progressFill = document.getElementById('progressFill');
@@ -131,8 +134,15 @@
     });
   }
 
+  // Di mode acak, tiap kata aslinya berasal dari kategori yang berbeda-beda,
+  // jadi progres "hafal" tetap dicatat ke kategori ASLI kata itu (item.kategoriId),
+  // bukan ke satu kategoriId global seperti mode biasa.
+  function kategoriUntukItem(item) {
+    return modeAcak ? item.kategoriId : kategoriId;
+  }
+
   function perbaruiBadgeHafal() {
-    if (!masteryBadge) return;
+    if (!masteryBadge || modeAcak) return; // mode acak: badge per-kategori tidak relevan
     const progres = ambilProgresKategori(kategoriId);
     masteryBadge.textContent = `⭐ ${progres.hafal.length}/${kataList.length}`;
   }
@@ -140,7 +150,7 @@
   function perbaruiTombolHafal() {
     if (!btnHafal) return;
     const item = kataList[index];
-    const sudahHafal = apakahKataHafal(kategoriId, item.en);
+    const sudahHafal = apakahKataHafal(kategoriUntukItem(item), item.en);
     btnHafal.textContent = sudahHafal ? '✅ Sudah Hafal!' : '⭐ Tandai Sudah Hafal';
     btnHafal.classList.toggle('aktif', sudahHafal);
   }
@@ -167,10 +177,40 @@
   }
 
   try {
-    const data = await muatDetailKategori(kategoriId);
-    judulEl.textContent = `${data.iconEmoji || '📚'} ${data.nama}`;
-    kataList = data.kata || [];
-    quizLink.href = `quiz.html?kategori=${encodeURIComponent(kategoriId)}`;
+    if (modeAcak) {
+      judulEl.textContent = '🔀 Menyiapkan kosakata acak...';
+      // Sembunyikan elemen yang tidak relevan untuk gabungan lintas-kategori.
+      if (quizLink) quizLink.style.display = 'none';
+      if (masteryBadge) masteryBadge.style.display = 'none';
+
+      const daftarKategori = await muatDaftarKategori();
+      const semuaKata = await Promise.all(
+        daftarKategori.map(async (kat) => {
+          try {
+            const d = await muatDetailKategori(kat.id);
+            return (d.kata || []).map((k) => ({ ...k, kategoriId: kat.id }));
+          } catch (err) {
+            console.warn('Gagal memuat kategori untuk mode acak:', kat.id, err);
+            return [];
+          }
+        })
+      );
+      kataList = semuaKata.flat();
+
+      // Acak urutan (Fisher-Yates) supaya tiap kali dibuka urutannya beda.
+      for (let i = kataList.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [kataList[i], kataList[j]] = [kataList[j], kataList[i]];
+      }
+
+      judulEl.textContent = '🔀 Acak Semua Kosakata';
+    } else {
+      const data = await muatDetailKategori(kategoriId);
+      judulEl.textContent = `${data.iconEmoji || '📚'} ${data.nama}`;
+      kataList = data.kata || [];
+      quizLink.href = `quiz.html?kategori=${encodeURIComponent(kategoriId)}`;
+    }
+
     if (!kataList.length) {
       judulEl.textContent = 'Belum ada kata di kelompok ini';
       return;
@@ -298,11 +338,20 @@ async function jalankanAutoplay() {
     setTimeout(() => overlay.remove(), 1800);
   }
 
+  // Datang dari tombol "Putar Otomatis Acak Semua Kosakata" di dashboard
+  // -> langsung mulai autoplay tanpa perlu klik lagi. Ditaruh di SINI (bukan
+  // di dalam try di atas) karena listener tombol autoplay baru terpasang
+  // di bawah ini — kalau dipanggil lebih awal, klik-nya tidak akan "ketangkap".
+  if (modeAcak && kataList.length && ambilParam('autoplay') === '1' && autoplayBtn) {
+    autoplayBtn.click();
+  }
+
   if (btnHafal) {
     btnHafal.addEventListener('click', () => {
       if (typeof bunyiKlik === 'function') bunyiKlik();
+      const item = kataList[index];
       const totalHafalSebelum = hitungTotalHafalSemuaKategori();
-      toggleKataHafal(kategoriId, kataList[index].en);
+      toggleKataHafal(kategoriUntukItem(item), item.en);
       const totalHafalSesudah = hitungTotalHafalSemuaKategori();
       perbaruiTombolHafal();
       perbaruiBadgeHafal();

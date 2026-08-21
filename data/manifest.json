@@ -245,7 +245,7 @@
       "iconEmoji": "📅",
       "warnaTema": "#E85D75",
       "urutan": 15,
-      "jumlahKata": 9
+      "jumlahKata": 13
     },
     {
       "id": "alat-musik",
@@ -269,7 +269,7 @@
       "iconEmoji": "🔺",
       "warnaTema": "#F5A623",
       "urutan": 18,
-      "jumlahKata": 11
+      "jumlahKata": 16
     },
     {
       "id": "makanan-minuman",
@@ -365,7 +365,7 @@
       "iconEmoji": "📐",
       "warnaTema": "#6C63FF",
       "urutan": 30,
-      "jumlahKata": 10
+      "jumlahKata": 15
     },
     {
       "id": "alat-olahraga",
@@ -381,7 +381,7 @@
       "iconEmoji": "⏰",
       "warnaTema": "#FFB300",
       "urutan": 32,
-      "jumlahKata": 10
+      "jumlahKata": 15
     },
     {
       "id": "peralatan-medis",
@@ -389,7 +389,7 @@
       "iconEmoji": "🩺",
       "warnaTema": "#EF5350",
       "urutan": 33,
-      "jumlahKata": 11
+      "jumlahKata": 16
     },
     {
       "id": "kebun-tanaman",
@@ -397,7 +397,7 @@
       "iconEmoji": "🌱",
       "warnaTema": "#66BB6A",
       "urutan": 34,
-      "jumlahKata": 11
+      "jumlahKata": 16
     },
     {
       "id": "tempat",
@@ -413,7 +413,7 @@
       "iconEmoji": "📱",
       "warnaTema": "#3949AB",
       "urutan": 37,
-      "jumlahKata": 11
+      "jumlahKata": 16
     },
     {
       "id": "reptil-amfibi",
@@ -421,7 +421,7 @@
       "iconEmoji": "🦎",
       "warnaTema": "#689F38",
       "urutan": 38,
-      "jumlahKata": 10
+      "jumlahKata": 15
     },
     {
       "id": "alat-berkemah",
@@ -437,7 +437,7 @@
       "iconEmoji": "🏖️",
       "warnaTema": "#00ACC1",
       "urutan": 40,
-      "jumlahKata": 10
+      "jumlahKata": 15
     },
     {
       "id": "alat-pertukangan",
@@ -445,7 +445,7 @@
       "iconEmoji": "🔨",
       "warnaTema": "#F4511E",
       "urutan": 41,
-      "jumlahKata": 11
+      "jumlahKata": 16
     },
     {
       "id": "bumbu-dapur",
@@ -461,7 +461,7 @@
       "iconEmoji": "🍼",
       "warnaTema": "#F06292",
       "urutan": 43,
-      "jumlahKata": 11
+      "jumlahKata": 16
     },
     {
       "id": "fenomena-alam",
@@ -469,7 +469,7 @@
       "iconEmoji": "🌋",
       "warnaTema": "#5D4037",
       "urutan": 44,
-      "jumlahKata": 11
+      "jumlahKata": 16
     },
     {
       "id": "bentang-alam",
@@ -485,7 +485,7 @@
       "iconEmoji": "🎉",
       "warnaTema": "#E53935",
       "urutan": 46,
-      "jumlahKata": 11
+      "jumlahKata": 16
     },
     {
       "id": "bagian-mobil",
@@ -493,7 +493,7 @@
       "iconEmoji": "🚗",
       "warnaTema": "#1E88E5",
       "urutan": 47,
-      "jumlahKata": 11
+      "jumlahKata": 16
     },
     {
       "id": "peralatan-pertanian",
@@ -501,7 +501,7 @@
       "iconEmoji": "🚜",
       "warnaTema": "#7CB342",
       "urutan": 48,
-      "jumlahKata": 10
+      "jumlahKata": 15
     },
     {
       "id": "aksesoris",
@@ -517,7 +517,7 @@
       "iconEmoji": "🖇️",
       "warnaTema": "#5E35B1",
       "urutan": 50,
-      "jumlahKata": 11
+      "jumlahKata": 16
     },
     {
       "id": "kendaraan-konstruksi",
@@ -525,7 +525,7 @@
       "iconEmoji": "🏗️",
       "warnaTema": "#EF6C00",
       "urutan": 51,
-      "jumlahKata": 10
+      "jumlahKata": 15
     },
     {
       "id": "peralatan-renang",
@@ -533,7 +533,7 @@
       "iconEmoji": "🏊",
       "warnaTema": "#00897B",
       "urutan": 52,
-      "jumlahKata": 10
+      "jumlahKata": 15
     },
     {
       "id": "alat-musik-tradisional",
@@ -541,7 +541,7 @@
       "iconEmoji": "🥁",
       "warnaTema": "#8D6E63",
       "urutan": 53,
-      "jumlahKata": 11
+      "jumlahKata": 16
     },
     {
       "id": "kendaraan-tradisional",
@@ -549,7 +549,7 @@
       "iconEmoji": "🛺",
       "warnaTema": "#795548",
       "urutan": 54,
-      "jumlahKata": 10
+      "jumlahKata": 15
     },
     {
       "id": "pakaian-adat",
@@ -557,7 +557,7 @@
       "iconEmoji": "👘",
       "warnaTema": "#C2185B",
       "urutan": 55,
-      "jumlahKata": 10
+      "jumlahKata": 15
     },
     {
       "id": "kerajinan-tangan",
@@ -565,7 +565,7 @@
       "iconEmoji": "✂️",
       "warnaTema": "#FFB300",
       "urutan": 56,
-      "jumlahKata": 11
+      "jumlahKata": 16
     },
     {
       "id": "negara",
@@ -613,7 +613,7 @@
       "iconEmoji": "🍂",
       "warnaTema": "#2EC4B6",
       "urutan": 62,
-      "jumlahKata": 6
+      "jumlahKata": 9
     },
     {
       "id": "tempat-umum",
@@ -1037,7 +1037,7 @@
       "iconEmoji": "🚛",
       "warnaTema": "#34B27B",
       "urutan": 115,
-      "jumlahKata": 10
+      "jumlahKata": 15
     },
     {
       "id": "peralatan-musim-dingin",
@@ -1053,7 +1053,7 @@
       "iconEmoji": "🎼",
       "warnaTema": "#2EC4B6",
       "urutan": 117,
-      "jumlahKata": 11
+      "jumlahKata": 16
     },
     {
       "id": "kata-kerja-belajar",

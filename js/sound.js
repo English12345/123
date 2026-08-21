@@ -40,7 +40,7 @@ function bunyiSalah() {
 // Sumber: koleksi CC0/Public Domain di Internet Archive (lisensi bebas
 // pakai komersial tanpa atribusi wajib). Kalau link ini suatu saat mati,
 // paling aman ganti dengan file yang kamu host sendiri, bukan hotlink terus.
-const URL_MUSIK_LATAR = 'https://archive.org/download/happy-background-music/upbeat-ukulele-kids.mp3';
+const URL_MUSIK_LATAR = 'audio/musik-latar.mp3';
 let elemenMusikLatar = null;
 const VOLUME_MUSIK_NORMAL = 0.12; // sengaja pelan, biar tidak menutupi voice over
 const VOLUME_MUSIK_REDUP = 0.04;

@@ -29,7 +29,15 @@ if ("serviceWorker" in navigator) {
       // Kalau pas halaman ini dibuka sudah ada versi baru yang lagi
       // menunggu (misal: terdeteksi waktu di halaman lain / kunjungan
       // sebelumnya), langsung tampilkan banner-nya lagi di sini.
-      if (reg.waiting) {
+      //
+      // PENTING: "reg.waiting" bisa saja terisi SEBENTAR walau ini baru
+      // install PERTAMA KALI (belum pernah ada versi aktif sebelumnya) —
+      // itu cuma tahap normal sebelum service worker langsung aktif sendiri.
+      // Makanya WAJIB dicek juga "navigator.serviceWorker.controller":
+      // controller hanya ada kalau HALAMAN INI sebelumnya sudah dikontrol
+      // oleh versi lama. Kalau baru install/buka web pertama kali, controller
+      // masih kosong -> jangan tampilkan banner update sama sekali.
+      if (reg.waiting && navigator.serviceWorker.controller) {
         tampilkanBannerUpdate();
       }
 

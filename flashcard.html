@@ -44,6 +44,19 @@
     0%, 100% { opacity: 1; transform: scale(1); }
     50% { opacity: .5; transform: scale(0.8); }
   }
+
+  /* Mode layar-tunggal (satu layar penuh, tanpa scroll): tombol Putar
+     Otomatis ikut dikecilkan & tidak boleh mengecil (flex-shrink:0) supaya
+     selalu ikut ketampung dan tidak ketutup/terpotong di bawah layar. */
+  body.layar-tunggal .autoplay-btn {
+    flex-shrink: 0;
+    width: auto;
+    max-width: min(280px, 80vw);
+    margin: 0;
+    padding: clamp(7px, 1.3vh, 10px) clamp(14px, 3vw, 18px);
+    font-size: clamp(11px, 1.6vh, 12.5px);
+    gap: 6px;
+  }
 </style>
 </head>
 <body class="layar-tunggal">

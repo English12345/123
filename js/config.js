@@ -38,7 +38,7 @@ const AKUN_VALID = [
   { username: "out", password: "go" },
   { username: "own", password: "go" },
   { username: "see", password: "go" },
-  { username: "she", password: "go" },
+  { username: "warm", password: "go" },
   { username: "sun", password: "go" },
   { username: "two", password: "go" },
   { username: "way", password: "go" },

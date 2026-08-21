@@ -574,6 +574,30 @@ a { color: inherit; }
 .tersulit-sub { font-size: 12.5px; color: var(--ink-soft); font-weight: 700; }
 .tersulit-card .chip-btn.quiz { flex: 0 0 auto; white-space: nowrap; z-index: 1; }
 
+/* ==== Tombol Putar Otomatis Acak Semua Kosakata (dashboard) ==== */
+.autoplay-acak-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(120deg, #0FA3A3, #0B5E58);
+  color: #fff;
+  font-family: var(--font-body);
+  font-weight: 800;
+  font-size: 13.5px;
+  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(11, 94, 88, 0.28);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.autoplay-acak-btn:hover { transform: translateY(-1px); box-shadow: 0 8px 20px rgba(11, 94, 88, 0.32); }
+.autoplay-acak-btn:active { transform: translateY(0); }
+.autoplay-acak-icon { font-size: 16px; }
+
 /* ==== Search bar & filter level kategori ==== */
 .search-filter-bar {
   display: flex;
@@ -608,19 +632,10 @@ a { color: inherit; }
 .filter-chips {
   display: flex;
   gap: 8px;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  overflow-y: hidden;
-  scroll-snap-type: x proximity;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-  padding: 2px 2px 6px;
-  margin: -2px -2px -6px;
+  flex-wrap: wrap;
 }
-.filter-chips::-webkit-scrollbar { display: none; }
 .filter-chip {
   flex: 0 0 auto;
-  scroll-snap-align: start;
   white-space: nowrap;
   border: 1.5px solid var(--tosca-100);
   background: var(--white);
@@ -1199,12 +1214,13 @@ body.layar-tunggal .flash-header .section-title { font-size: clamp(18px, 3vh, 22
 body.layar-tunggal .card-stage {
   flex: 1;
   min-height: 0;
-  justify-content: center;
-  gap: clamp(6px, 1.4vh, 14px);
+  justify-content: flex-start;
+  gap: clamp(5px, 1.2vh, 12px);
+  padding-top: clamp(2px, 0.8vh, 8px);
 }
 body.layar-tunggal .flip-card {
   width: min(320px, 78vw);
-  height: clamp(160px, 38vh, 300px);
+  height: clamp(150px, 34vh, 280px);
 }
 body.layar-tunggal .flip-emoji { font-size: clamp(46px, 8vh, 78px); }
 body.layar-tunggal .flip-word-id { font-size: clamp(16px, 2.6vh, 20px); }
@@ -1285,14 +1301,30 @@ body.layar-tunggal #quizArea > .result-card {
   .nav-row { gap: 22px; }
   .nav-btn { width: 66px; height: 66px; font-size: 28px; }
 
-  /* Stat pill (Kata dikuasai / Streak): full width satu kolom biar teks tidak sempit */
-  .stats-bar { flex-direction: column; }
-  .stat-pill { width: 100%; }
+  /* Stat pill (Kata dikuasai / Streak): tetap sebaris/bersampingan (bukan
+     ditumpuk ke bawah), tapi dibuat lebih ringkas biar tetap muat berdua */
+  .stats-bar { gap: 6px; }
+  .stat-pill { padding: 7px 8px; gap: 6px; }
+  .stat-pill-icon { width: 24px; height: 24px; font-size: 12px; border-radius: 8px; }
+  .stat-pill-value { font-size: 12.5px; }
+  .stat-pill-label { font-size: 8px; }
 
-  /* Kartu Latihan Kata Tersulit: susun vertikal, tombol full width */
-  .tersulit-card { flex-wrap: wrap; }
-  .tersulit-text { flex: 1 1 100%; }
-  .tersulit-card .chip-btn.quiz { flex: 1 1 100%; text-align: center; padding: 10px 8px; }
+  /* Kartu Latihan Kata Tersulit: dibuat minimalis, tetap satu baris ringkas
+     (tidak ditumpuk/melebar penuh) supaya tidak makan banyak tempat */
+  .tersulit-card { padding: 8px 10px; gap: 8px; margin-bottom: 14px; }
+  .tersulit-icon { width: 34px; height: 34px; font-size: 16px; border-radius: 10px; }
+  .tersulit-title { font-size: 12.5px; }
+  .tersulit-sub {
+    font-size: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .tersulit-card .chip-btn.quiz { padding: 7px 12px; font-size: 11.5px; white-space: nowrap; }
+
+  /* Filter level (Semua/Pemula/Menengah/Lanjutan): dibuat sedikit lebih
+     ringkas di layar kecil supaya lebih mudah muat tanpa geser */
+  .filter-chip { font-size: 12px; padding: 7px 12px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

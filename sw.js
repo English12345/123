@@ -3,7 +3,7 @@
 // ============================================================
 // GANTI ANGKA INI SETIAP KALI KAMU UPDATE FILE (kategori baru, kata baru,
 // HTML/CSS/JS). Ini "kunci" yang memberitahu HP: ada versi baru, download ulang.
-const CACHE_VERSION = "v1.0.9";
+const CACHE_VERSION = "v1.1.0";
 const APP_CACHE = `belajar-kata-app-${CACHE_VERSION}`;
 const AUDIO_CACHE = "belajar-kata-audio"; // audio tidak pernah berubah, cache terpisah & permanen
 
@@ -156,18 +156,34 @@ const CORE_ASSETS = [
 // pernah dijawab dari cache, walau lagi offline).
 const JANGAN_DICACHE = ["api.npoint.io"];
 
+// File audio yang isinya TIDAK PERNAH berubah (musik latar) — sengaja
+// dipisah dari CORE_ASSETS dan dicache langsung ke AUDIO_CACHE (permanen,
+// tidak pernah ikut terhapus tiap CACHE_VERSION naik). Kalau ini digabung
+// ke CORE_ASSETS/APP_CACHE, musik ini akan didownload ulang dari awal
+// SETIAP kali ada update kode, padahal isinya sama terus.
+const AUDIO_TETAP = ["./audio/musik-latar.mp3"];
+
 // ---------- INSTALL: download semua file inti ----------
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(APP_CACHE).then((cache) =>
-      // addAll akan gagal total kalau SATU saja file 404 — pakai cara aman:
-      // coba satu-satu, lewati yang gagal, supaya install tidak batal semua.
-      Promise.allSettled(
-        CORE_ASSETS.map((url) =>
-          cache.add(url).catch((err) => console.warn("Gagal cache:", url, err))
+    Promise.all([
+      caches.open(APP_CACHE).then((cache) =>
+        // addAll akan gagal total kalau SATU saja file 404 — pakai cara aman:
+        // coba satu-satu, lewati yang gagal, supaya install tidak batal semua.
+        Promise.allSettled(
+          CORE_ASSETS.map((url) =>
+            cache.add(url).catch((err) => console.warn("Gagal cache:", url, err))
+          )
+        )
+      ),
+      caches.open(AUDIO_CACHE).then((cache) =>
+        Promise.allSettled(
+          AUDIO_TETAP.map((url) =>
+            cache.add(url).catch((err) => console.warn("Gagal cache audio tetap:", url, err))
+          )
         )
       )
-    )
+    ])
   );
   // TIDAK skipWaiting() di sini secara otomatis — versi baru ini sengaja
   // "menunggu" (state: waiting) supaya banner "Versi baru tersedia" tetap

@@ -10,6 +10,17 @@
   const tersulitCard = document.getElementById('tersulitCard');
   const searchInput = document.getElementById('searchInput');
   const filterChips = document.getElementById('filterChips');
+  const autoplayAcakBtn = document.getElementById('autoplayAcakBtn');
+
+  if (autoplayAcakBtn) {
+    autoplayAcakBtn.addEventListener('click', () => {
+      if (typeof bunyiKlik === 'function') bunyiKlik();
+      // kategori=__acak__ + autoplay=1 dibaca khusus oleh flashcard.js:
+      // gabungkan kata dari SEMUA kategori, acak urutannya, lalu langsung
+      // jalankan "Putar Otomatis" tanpa perlu klik lagi di halaman flashcard.
+      window.location.href = 'flashcard.html?kategori=__acak__&autoplay=1';
+    });
+  }
 
   let ringkasanPerKategori = [];
   let filterLevelAktif = 'semua';
